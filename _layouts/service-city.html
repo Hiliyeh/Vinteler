@@ -1,0 +1,320 @@
+---
+layout: default
+---
+
+{% comment %} Emergency Banner for 24/7 services {% endcomment %}
+{% if page.is_emergency %}
+<div class="emergency-banner">
+    <div class="container emergency-banner-content">
+        <span class="emergency-pulse"></span>
+        <span class="emergency-text">URGENCE 24/7</span>
+        <span class="emergency-info">Sur place en {{ page.response_time }} à {{ page.city_name }}</span>
+        <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="emergency-phone">
+            {{ site.contact.phone }}
+        </a>
+    </div>
+</div>
+{% endif %}
+
+<section class="service-hero {% if page.is_emergency %}service-hero-emergency{% endif %}">
+    <div class="service-hero-content">
+        {% comment %} Breadcrumb for SEO {% endcomment %}
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="{{ '/' | relative_url }}">Accueil</a>
+            <span class="breadcrumb-sep">›</span>
+            <a href="{{ '/#services' | relative_url }}">{{ page.category_name }}</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="breadcrumb-current">{{ page.service_name }} {{ page.city_name }}</span>
+        </nav>
+
+        <div class="hero-badge">
+            {% if page.is_emergency %}
+            <span class="badge-icon badge-emergency">⚡</span>
+            <span>Intervention urgente 24h/24 - 7j/7</span>
+            {% else %}
+            <span class="badge-icon">★</span>
+            <span>Entreprise certifiée depuis +10 ans</span>
+            {% endif %}
+        </div>
+
+        <h1 class="service-hero-title">
+            {{ page.service_title }}<br>
+            <span class="hero-city">à {{ page.city_name }}</span>
+        </h1>
+
+        <p class="service-hero-subtitle">
+            {{ page.service_short }}
+            {% if page.is_emergency %}
+            <strong>Intervention rapide garantie en {{ page.response_time }}.</strong>
+            {% endif %}
+        </p>
+
+        <div class="hero-cta">
+            <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="btn btn-primary {% if page.is_emergency %}btn-emergency{% endif %}">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                {% if page.is_emergency %}Urgence : {% endif %}{{ site.contact.phone }}
+            </a>
+            <a href="{{ '/#contact' | relative_url }}" class="btn btn-secondary">
+                Devis gratuit {{ page.city_name }}
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        {% comment %} Trust indicators {% endcomment %}
+        <div class="hero-trust">
+            <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                <span>Certifié SPF</span>
+            </div>
+            <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span>Devis gratuit</span>
+            </div>
+            <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                </svg>
+                <span>{% if page.is_emergency %}2h max{% else %}Réponse 24h{% endif %}</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service-content">
+    <div class="container">
+        <div class="service-intro">
+            <h2>{{ page.service_name }} professionnel à {{ page.city_name }} ({{ page.region }})</h2>
+            <p>
+                <strong>VINTELER</strong> est votre entreprise spécialisée en <strong>{{ page.service_name | downcase }}</strong> à <strong>{{ page.city_name }}</strong>
+                et dans toute la région de <strong>{{ page.region }}</strong>.
+                {{ page.service_description }}
+            </p>
+            {% if page.postal_codes.size > 0 %}
+            <p class="service-coverage">
+                <strong>Zones couvertes :</strong> {{ page.city_name }} ({% for code in page.postal_codes %}{{ code }}{% unless forloop.last %}, {% endunless %}{% endfor %}) et environs.
+            </p>
+            {% endif %}
+        </div>
+
+        <div class="service-features-grid">
+            <div class="service-feature">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                </div>
+                <h3>Certifié & Agréé</h3>
+                <p>Équipe certifiée respectant toutes les normes belges de sécurité.</p>
+            </div>
+            <div class="service-feature">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                </div>
+                <h3>Intervention Rapide</h3>
+                <p>{% if page.is_emergency %}Urgence 24/7, sur place en {{ page.response_time }}{% else %}Disponibilité urgence 24/7{% endif %} à {{ page.city_name }} et environs.</p>
+            </div>
+            <div class="service-feature">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                </div>
+                <h3>Devis Gratuit</h3>
+                <p>Estimation gratuite et sans engagement pour votre projet à {{ page.city_name }}.</p>
+            </div>
+        </div>
+
+        {% if page.features %}
+        <div class="service-details">
+            <h3>Nos prestations de {{ page.service_name | downcase }} à {{ page.city_name }} :</h3>
+            <ul class="service-list">
+                {% for feature in page.features %}
+                <li>
+                    <svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    {{ feature }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="service-cta-section">
+            <h3>Besoin d'un {{ page.service_name | downcase }} à {{ page.city_name }} ?</h3>
+            <p>Contactez VINTELER pour un devis gratuit. Notre équipe intervient rapidement à {{ page.city_name }} et dans tout le {{ page.region }}.</p>
+            <div class="cta-buttons">
+                <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="btn btn-primary btn-large">
+                    {% if page.is_emergency %}Urgence : {% else %}Appeler : {% endif %}{{ site.contact.phone }}
+                </a>
+                <a href="{{ '/#contact' | relative_url }}" class="btn btn-secondary btn-large">
+                    Demander un devis
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% comment %} ═══════════════════════════════════════════════════════════════════
+    MAILLAGE INTERNE - Services liés
+═══════════════════════════════════════════════════════════════════ {% endcomment %}
+{% if page.related_services.size > 0 %}
+<section class="related-services">
+    <div class="container">
+        <h2>Services complémentaires à {{ page.city_name }}</h2>
+        <p class="section-subtitle">Découvrez nos autres prestations disponibles dans votre région</p>
+
+        <div class="related-services-grid">
+            {% for related in page.related_services %}
+            <a href="{{ '/' | relative_url }}{{ related.slug }}-{{ page.city_id }}/" class="related-service-card">
+                <h4>{{ related.name }}</h4>
+                <p>{{ related.description }}</p>
+                <span class="card-link">
+                    Voir le service
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% comment %} ═══════════════════════════════════════════════════════════════════
+    MAILLAGE INTERNE - Villes proches
+═══════════════════════════════════════════════════════════════════ {% endcomment %}
+<section class="related-cities">
+    <div class="container">
+        <h2>{{ page.service_name }} dans d'autres villes</h2>
+
+        {% comment %} Villes de la même région {% endcomment %}
+        <h3 class="cities-region-title">{{ page.region }}</h3>
+        <div class="cities-grid">
+            {% assign region_cities = site.data.cities | where: "region", page.region %}
+            {% for city in region_cities limit: 10 %}
+            {% unless city.name == page.city_name %}
+            <a href="{{ '/' | relative_url }}{{ page.service_slug }}-{{ city.id }}/" class="city-link">
+                <span class="city-name">{{ city.name }}</span>
+                <span class="city-arrow">→</span>
+            </a>
+            {% endunless %}
+            {% endfor %}
+        </div>
+
+        {% comment %} Autres régions {% endcomment %}
+        <h3 class="cities-region-title cities-region-other">Autres régions</h3>
+        <div class="cities-grid cities-grid-other">
+            {% assign other_cities = site.data.cities | where_exp: "item", "item.region != page.region" %}
+            {% for city in other_cities limit: 8 %}
+            <a href="{{ '/' | relative_url }}{{ page.service_slug }}-{{ city.id }}/" class="city-link city-link-other">
+                <span class="city-name">{{ city.name }}</span>
+                <span class="city-region-small">({{ city.region }})</span>
+            </a>
+            {% endfor %}
+        </div>
+
+        {% comment %} Link to all zones {% endcomment %}
+        <div class="cities-all-link">
+            <a href="{{ '/#zones' | relative_url }}" class="btn btn-outline">
+                Voir toutes nos zones d'intervention
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+{% comment %} ═══════════════════════════════════════════════════════════════════
+    MAILLAGE INTERNE - Autres services dans cette ville
+═══════════════════════════════════════════════════════════════════ {% endcomment %}
+<section class="other-services-city">
+    <div class="container">
+        <h2>Tous nos services à {{ page.city_name }}</h2>
+        <div class="services-category-grid">
+            {% for category in site.data.categories %}
+            <div class="services-category-block">
+                <h4 class="category-title">{{ category.name }}</h4>
+                <ul class="category-services-list">
+                    {% assign cat_services = site.data.services | where: "category", category.id %}
+                    {% for service in cat_services limit: 4 %}
+                    {% unless service.id == page.service_id %}
+                    <li>
+                        <a href="{{ '/' | relative_url }}{{ service.slug_prefix }}-{{ page.city_id }}/">
+                            {{ service.name }}
+                        </a>
+                    </li>
+                    {% endunless %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% comment %} Final CTA {% endcomment %}
+<section class="final-cta {% if page.is_emergency %}final-cta-emergency{% endif %}">
+    <div class="container">
+        <h2>Contactez VINTELER pour votre {{ page.service_name | downcase }} à {{ page.city_name }}</h2>
+        <p>Entreprise familiale avec plus de 10 ans d'expérience. Devis gratuit, intervention rapide.</p>
+        <div class="cta-buttons">
+            <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="btn btn-primary btn-large">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                {{ site.contact.phone }}
+            </a>
+            <a href="{{ '/#contact' | relative_url }}" class="btn btn-white btn-large">
+                Demander un devis gratuit
+            </a>
+        </div>
+    </div>
+</section>
+
+{% comment %} Schema.org Structured Data for SEO {% endcomment %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "{{ page.service_name }} {{ page.city_name }}",
+    "description": "{{ page.description | strip_html | strip_newlines | escape }}",
+    "provider": {
+        "@type": "LocalBusiness",
+        "name": "VINTELER",
+        "telephone": "{{ site.contact.phone }}",
+        "email": "{{ site.contact.email }}",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Brusselsesteenweg 511",
+            "addressLocality": "Overijse",
+            "postalCode": "3090",
+            "addressCountry": "BE"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "{{ page.city_name }}",
+            "containedInPlace": {
+                "@type": "AdministrativeArea",
+                "name": "{{ page.region }}"
+            }
+        }
+    },
+    "serviceType": "{{ page.service_name }}",
+    "areaServed": "{{ page.city_name }}, {{ page.region }}, Belgique"
+}
+</script>

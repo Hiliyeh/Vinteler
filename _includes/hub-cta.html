@@ -1,0 +1,15 @@
+{% comment %}
+  Hub CTA Block - DRY component for services.html and zones.html
+  Usage: {% include hub-cta.html title="Besoin d'un devis ?" subtitle="Contactez-nous..." %}
+
+  Replaces repeated CTA blocks in hub pages
+{% endcomment %}
+
+<div class="hub-cta">
+    <h2>{{ include.title | default: "Besoin d'un devis ?" }}</h2>
+    <p>{{ include.subtitle | default: "Contactez-nous pour une estimation gratuite sous 24h" }}</p>
+    <div class="hub-cta-buttons">
+        <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="btn-primary">{{ site.contact.phone }}</a>
+        <a href="/#contact" class="btn-secondary">{{ include.button_text | default: "Formulaire de contact" }}</a>
+    </div>
+</div>

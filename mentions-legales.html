@@ -1,0 +1,56 @@
+---
+layout: default
+title: "Mentions Légales - VINTELER"
+description: "Mentions légales et informations sur l'entreprise VINTELER, société de désamiantage et démolition en Belgique."
+permalink: /mentions-legales/
+---
+
+<section class="legal-page">
+    <div class="container">
+        <h1>Mentions Légales</h1>
+
+        <div class="legal-content">
+            <h2>Éditeur du site</h2>
+            <p>
+                <strong>{{ site.company.name }}</strong><br>
+                {{ site.contact.address }}<br>
+                {{ site.contact.postal_code }} {{ site.contact.city }}<br>
+                {{ site.contact.country }}
+            </p>
+            <p>
+                <strong>Numéro TVA :</strong> {{ site.contact.vat }}<br>
+                <strong>Téléphone :</strong> <a href="{{ site.contact.phone_link }}">{{ site.contact.phone }}</a><br>
+                <strong>Email :</strong> <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+            </p>
+
+            <h2>Hébergement</h2>
+            <p>
+                Ce site est hébergé par GitHub Pages.<br>
+                GitHub, Inc.<br>
+                88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis
+            </p>
+
+            <h2>Propriété intellectuelle</h2>
+            <p>
+                L'ensemble du contenu de ce site (textes, images, logos, graphismes) est la propriété exclusive de {{ site.company.name }} ou de ses partenaires. Toute reproduction, représentation ou diffusion, totale ou partielle, sans autorisation écrite préalable est interdite.
+            </p>
+
+            <h2>Responsabilité</h2>
+            <p>
+                {{ site.company.name }} s'efforce d'assurer l'exactitude des informations diffusées sur ce site. Toutefois, nous ne pouvons garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition. Les informations présentes sur le site sont données à titre indicatif et sont susceptibles d'évoluer.
+            </p>
+
+            <h2>Liens externes</h2>
+            <p>
+                Ce site peut contenir des liens vers d'autres sites. {{ site.company.name }} n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.
+            </p>
+
+            <h2>Droit applicable</h2>
+            <p>
+                Les présentes mentions légales sont soumises au droit belge. En cas de litige, les tribunaux de Bruxelles seront seuls compétents.
+            </p>
+
+            <p class="legal-update">Dernière mise à jour : Janvier 2025</p>
+        </div>
+    </div>
+</section>

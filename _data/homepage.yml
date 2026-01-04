@@ -1,0 +1,123 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# VINTELER - HOMEPAGE CONFIGURATION
+# Configuration DRY pour éviter le hardcoding dans index.html
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Services featured on homepage (order matters)
+featured_services:
+  - id: desamiantage-simple
+    badge: "Certifié SPF"
+    icon_type: warning
+    filter: desamiantage
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: waterloo, name: Waterloo }
+      - { id: ixelles, name: Ixelles }
+      - { id: uccle, name: Uccle }
+      - { id: namur, name: Namur }
+      - { id: liege, name: Liège }
+
+  - id: demolition-complete
+    icon_type: default
+    filter: demolition
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: waterloo, name: Waterloo }
+      - { id: ixelles, name: Ixelles }
+      - { id: uccle, name: Uccle }
+      - { id: schaerbeek, name: Schaerbeek }
+      - { id: wavre, name: Wavre }
+
+  - id: curage-interieur
+    icon_type: default
+    filter: demolition
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: waterloo, name: Waterloo }
+      - { id: ixelles, name: Ixelles }
+      - { id: uccle, name: Uccle }
+      - { id: anderlecht, name: Anderlecht }
+      - { id: forest, name: Forest }
+
+  - id: urgence-sinistre
+    badge: "24/7"
+    badge_type: emergency
+    icon_type: emergency
+    filter: nettoyage
+    is_emergency: true
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: namur, name: Namur }
+      - { id: liege, name: Liège }
+      - { id: charleroi, name: Charleroi }
+      - { id: anvers, name: Anvers }
+      - { id: gand, name: Gand }
+
+  - id: traitement-humidite
+    icon_type: default
+    filter: traitements
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: waterloo, name: Waterloo }
+      - { id: namur, name: Namur }
+      - { id: liege, name: Liège }
+      - { id: mons, name: Mons }
+      - { id: charleroi, name: Charleroi }
+
+  - id: protection-incendie-niveau1
+    icon_type: default
+    filter: incendie
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: waterloo, name: Waterloo }
+      - { id: namur, name: Namur }
+      - { id: liege, name: Liège }
+      - { id: anvers, name: Anvers }
+      - { id: gand, name: Gand }
+
+# Additional services shown in accordion
+other_services:
+  - { name: "Démolition d'Annexe", filter: demolition }
+  - { name: "Murs Porteurs", filter: demolition }
+  - { name: "Découpe Métallique", filter: demontage }
+  - { name: "Démontage Industriel", filter: demontage }
+  - { name: "Nettoyage Industriel", filter: nettoyage }
+  - { name: "Haute Pression", filter: nettoyage }
+  - { name: "Nettoyage Toiture", filter: nettoyage }
+  - { name: "Traitement Mérule", filter: traitements }
+  - { name: "Traitement Radon", filter: traitements }
+  - { name: "Réparation Béton", filter: traitements }
+  - { name: "Pavage & Dallage", filter: finitions }
+  - { name: "Isolation Acoustique", filter: finitions }
+
+# Trust stats
+trust_stats:
+  - { number: "500+", label: "Chantiers réalisés" }
+  - { number: "10+", label: "Années d'expérience" }
+  - { number: "SPF", label: "Agréé & Certifié" }
+  - { number: "24h", label: "Délai de réponse" }
+
+# Guarantees
+guarantees:
+  - "Devis gratuit et sans engagement"
+  - "Personnel formé (32h désamiantage)"
+  - "Assurance RC professionnelle"
+  - "Évacuation déchets conforme"
+
+# Certifications
+certifications:
+  - title: "Conformité SPF Emploi"
+    description: "Respect des normes belges pour les travaux de désamiantage et démolition"
+    icon: shield
+
+  - title: "Formation Sécurité VCA"
+    description: "Équipe formée aux normes de sécurité sur chantier"
+    icon: check-square
+
+  - title: "Inscrit BCE"
+    description: "Entreprise enregistrée à la Banque Carrefour des Entreprises"
+    icon: clock
+
+  - title: "Gestion Déchets Conforme"
+    description: "Évacuation via centres agréés (amiante, gravats, matériaux)"
+    icon: layers

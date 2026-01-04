@@ -1,0 +1,33 @@
+{% comment %}
+  CTA Buttons - DRY component for call-to-action sections
+  Usage: {% include cta-buttons.html phone=true devis=true large=true %}
+
+  Options:
+  - phone: Show phone button (default: true)
+  - devis: Show quote button (default: true)
+  - large: Use large button style (default: false)
+  - phone_text: Custom phone button text
+  - devis_text: Custom quote button text
+  - emergency: Emergency styling (default: false)
+{% endcomment %}
+
+{% assign show_phone = include.phone | default: true %}
+{% assign show_devis = include.devis | default: true %}
+{% assign btn_class = "btn" %}
+{% if include.large %}{% assign btn_class = btn_class | append: " btn-large" %}{% endif %}
+
+<div class="cta-buttons">
+    {% if show_phone %}
+    <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="{{ btn_class }} btn-primary{% if include.emergency %} btn-emergency{% endif %}">
+        {% include svg/icon-phone.html width="22" height="22" class="btn-icon" %}
+        {% if include.emergency %}Urgence : {% endif %}{{ include.phone_text | default: site.contact.phone }}
+    </a>
+    {% endif %}
+
+    {% if show_devis %}
+    <a href="{{ include.devis_link | default: '/#contact' }}" class="{{ btn_class }} btn-secondary">
+        {{ include.devis_text | default: "Demander un devis" }}
+        {% include svg/icon-arrow.html width="20" height="20" class="btn-arrow" %}
+    </a>
+    {% endif %}
+</div>

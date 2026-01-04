@@ -1,0 +1,873 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# VINTELER - CATALOGUE COMPLET DES SERVICES
+# Structure optimisée SEO avec maillage interne
+# 27 services × 45 villes = 1,215 pages SEO
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 1: DÉMOLITION & CURAGE                                        │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: demolition-complete
+  name: "Démolition Complète"
+  title: "Démolition Complète Maison & Bâtiment"
+  slug_prefix: "demolition-complete"
+  category: "demolition"
+  category_name: "Démolition & Curage"
+  description: "Démolition complète de maisons, immeubles et bâtiments industriels. Entreprise agréée, évacuation des débris incluse, devis gratuit sous 24h."
+  short_description: "Démolition totale de constructions"
+  features:
+    - "Maisons individuelles"
+    - "Bâtiments commerciaux"
+    - "Structures industrielles"
+    - "Évacuation débris incluse"
+    - "Devis gratuit 24h"
+    - "Tri sélectif des matériaux"
+  keywords:
+    - "démolition complète"
+    - "démolition maison"
+    - "démolition bâtiment"
+    - "entreprise démolition"
+    - "démolition immeuble"
+    - "démolition totale"
+  related_services:
+    - "curage-interieur"
+    - "demolition-urgente"
+    - "desamiantage-simple"
+    - "evacuation-dechets"
+  icon: "building-demolition"
+  featured: true
+  priority: 1
+
+- id: demolition-annexe
+  name: "Démolition d'Annexe"
+  title: "Démolition d'Annexe & Dépendances"
+  slug_prefix: "demolition-annexe"
+  category: "demolition"
+  category_name: "Démolition & Curage"
+  description: "Démolition d'annexes, garages, vérandas, abris de jardin et dépendances. Intervention rapide, évacuation et remise en état du terrain."
+  short_description: "Démolition garages, vérandas, abris"
+  features:
+    - "Garages et carports"
+    - "Vérandas et pergolas"
+    - "Abris de jardin"
+    - "Remises et dépendances"
+    - "Remise en état terrain"
+    - "Intervention rapide"
+  keywords:
+    - "démolition annexe"
+    - "démolition garage"
+    - "démolition véranda"
+    - "démolition abri jardin"
+    - "démolition dépendance"
+  related_services:
+    - "demolition-complete"
+    - "curage-interieur"
+    - "pavage"
+  icon: "garage"
+  featured: false
+  priority: 2
+
+- id: curage-interieur
+  name: "Curage Intérieur"
+  title: "Curage Intérieur Avant Rénovation"
+  slug_prefix: "curage-interieur"
+  category: "demolition"
+  category_name: "Démolition & Curage"
+  description: "Curage intérieur complet avant rénovation : démontage cloisons, revêtements, plafonds, sanitaires. Préparation chantier pour entrepreneurs."
+  short_description: "Vidage complet avant travaux"
+  features:
+    - "Démontage cloisons"
+    - "Retrait revêtements sols/murs"
+    - "Démontage plafonds"
+    - "Retrait sanitaires"
+    - "Évacuation gravats"
+    - "Préparation rénovation"
+  keywords:
+    - "curage intérieur"
+    - "curage avant rénovation"
+    - "démontage intérieur"
+    - "vidage chantier"
+    - "préparation rénovation"
+  related_services:
+    - "demolition-murs-porteurs"
+    - "nettoyage-haute-pression"
+    - "desamiantage-simple"
+  icon: "interior"
+  featured: false
+  priority: 3
+
+- id: demolition-murs-porteurs
+  name: "Démolition Murs Porteurs"
+  title: "Démolition Murs Porteurs & Ouverture Trémie"
+  slug_prefix: "demolition-murs-porteurs"
+  category: "demolition"
+  category_name: "Démolition & Curage"
+  description: "Ouverture dans murs porteurs, création de trémies pour escaliers ou ascenseurs. Renforcement IPN/IPE, étude structure préalable."
+  short_description: "Ouvertures structurelles sécurisées"
+  features:
+    - "Ouverture murs porteurs"
+    - "Création trémies escalier"
+    - "Trémies ascenseur"
+    - "Pose IPN/IPE"
+    - "Renforcement structure"
+    - "Étude préalable"
+  keywords:
+    - "démolition mur porteur"
+    - "ouverture mur porteur"
+    - "création trémie"
+    - "ouverture trémie"
+    - "pose IPN"
+  related_services:
+    - "curage-interieur"
+    - "reparation-beton"
+    - "demolition-complete"
+  icon: "wall-opening"
+  featured: true
+  priority: 2
+
+- id: demolition-urgente
+  name: "Démolition Urgente"
+  title: "Démolition Urgente Après Sinistre"
+  slug_prefix: "demolition-urgente"
+  category: "demolition"
+  category_name: "Démolition & Curage"
+  description: "Démolition d'urgence après sinistre : incendie, tempête, effondrement. Intervention rapide 24/7, sécurisation immédiate, rapport assurance."
+  short_description: "Intervention rapide post-sinistre"
+  features:
+    - "Disponible 24/7"
+    - "Intervention sous 2h"
+    - "Sécurisation immédiate"
+    - "Rapport pour assurance"
+    - "Coordination pompiers"
+    - "Déblaiement urgent"
+  keywords:
+    - "démolition urgente"
+    - "démolition sinistre"
+    - "démolition incendie"
+    - "démolition urgence"
+    - "démolition 24h"
+  related_services:
+    - "urgence-sinistre"
+    - "securisation-chantier"
+    - "desamiantage-simple"
+  icon: "emergency"
+  featured: true
+  priority: 1
+
+- id: securisation-chantier
+  name: "Sécurisation Chantier"
+  title: "Sécurisation Chantier Anti-Squatte"
+  slug_prefix: "securisation-chantier"
+  category: "demolition"
+  category_name: "Démolition & Curage"
+  description: "Sécurisation de bâtiments vacants contre intrusions et squats. Fermeture temporaire, panneaux métalliques, surveillance, protection du patrimoine."
+  short_description: "Protection bâtiments vacants"
+  features:
+    - "Panneaux anti-intrusion"
+    - "Fermeture portes/fenêtres"
+    - "Grillages de protection"
+    - "Signalétique chantier"
+    - "Protection temporaire"
+    - "Intervention rapide"
+  keywords:
+    - "sécurisation chantier"
+    - "anti-squatte"
+    - "protection bâtiment vacant"
+    - "fermeture chantier"
+    - "sécurisation bâtiment"
+  related_services:
+    - "demolition-urgente"
+    - "urgence-sinistre"
+    - "curage-interieur"
+  icon: "security"
+  featured: false
+  priority: 3
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 2: DÉSAMIANTAGE                                               │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: desamiantage-simple
+  name: "Désamiantage Simple"
+  title: "Désamiantage Traitement Simple"
+  slug_prefix: "desamiantage-simple"
+  category: "desamiantage"
+  category_name: "Désamiantage"
+  description: "Retrait d'amiante en traitement simple : plaques ondulées, joints, colles. Entreprise agréée SPF, évacuation conforme, certificat de conformité."
+  short_description: "Retrait amiante non friable"
+  features:
+    - "Entreprise agréée SPF"
+    - "Plaques fibro-ciment"
+    - "Joints et colles"
+    - "Revêtements vinyle-amiante"
+    - "Évacuation réglementaire"
+    - "Certificat conformité"
+  keywords:
+    - "désamiantage simple"
+    - "retrait amiante"
+    - "enlèvement amiante"
+    - "amiante non friable"
+    - "désamiantage toiture"
+    - "amiante eternit"
+  related_services:
+    - "desamiantage-confine"
+    - "demolition-complete"
+    - "nettoyage-industriel"
+  icon: "asbestos"
+  featured: true
+  priority: 1
+
+- id: desamiantage-confine
+  name: "Désamiantage Zone Confinée"
+  title: "Désamiantage en Zone Confinée"
+  slug_prefix: "desamiantage-zone-confinee"
+  category: "desamiantage"
+  category_name: "Désamiantage"
+  description: "Désamiantage en zone confinée pour amiante friable. Confinement étanche, dépression d'air, équipements spécialisés, contrôles atmosphériques."
+  short_description: "Retrait amiante friable sécurisé"
+  features:
+    - "Zone de confinement"
+    - "Amiante friable"
+    - "Extraction sous dépression"
+    - "Contrôles atmosphériques"
+    - "Équipe spécialisée"
+    - "Analyses laboratoire"
+  keywords:
+    - "désamiantage zone confinée"
+    - "amiante friable"
+    - "désamiantage flocage"
+    - "désamiantage calorifuge"
+    - "confinement amiante"
+  related_services:
+    - "desamiantage-simple"
+    - "urgence-sinistre"
+    - "nettoyage-industriel"
+  icon: "hazmat"
+  featured: true
+  priority: 1
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 3: NETTOYAGE PROFESSIONNEL                                    │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: nettoyage-industriel
+  name: "Nettoyage Industriel"
+  title: "Nettoyage Industriel Cuves & Silos"
+  slug_prefix: "nettoyage-industriel"
+  category: "nettoyage"
+  category_name: "Nettoyage Professionnel"
+  description: "Nettoyage industriel de cuves, silos, réservoirs et équipements. Décontamination, hydrocurage, intervention en espace confiné."
+  short_description: "Cuves, silos, équipements industriels"
+  features:
+    - "Cuves et réservoirs"
+    - "Silos industriels"
+    - "Dégraissage machines"
+    - "Espace confiné"
+    - "Hydrocurage"
+    - "Décontamination"
+  keywords:
+    - "nettoyage industriel"
+    - "nettoyage cuve"
+    - "nettoyage silo"
+    - "nettoyage usine"
+    - "décontamination industrielle"
+  related_services:
+    - "nettoyage-haute-pression"
+    - "decoupe-metallique"
+    - "demontage-industriel"
+  icon: "factory"
+  featured: false
+  priority: 2
+
+- id: nettoyage-haute-pression
+  name: "Nettoyage Haute Pression"
+  title: "Nettoyage Haute Pression Sols & Murs"
+  slug_prefix: "nettoyage-haute-pression"
+  category: "nettoyage"
+  category_name: "Nettoyage Professionnel"
+  description: "Nettoyage haute pression pour sols industriels, façades, parkings, béton. Élimination graisses, mousse, graffitis, taches tenaces."
+  short_description: "Décapage professionnel surfaces"
+  features:
+    - "Sols béton/carrelage"
+    - "Façades et murs"
+    - "Parkings"
+    - "Enlèvement graffitis"
+    - "Dégraissage sols"
+    - "Traitement anti-mousse"
+  keywords:
+    - "nettoyage haute pression"
+    - "nettoyage façade"
+    - "nettoyage parking"
+    - "décapage sol"
+    - "nettoyage béton"
+  related_services:
+    - "nettoyage-toiture"
+    - "nettoyage-industriel"
+    - "reparation-beton"
+  icon: "pressure-washer"
+  featured: false
+  priority: 3
+
+- id: nettoyage-toiture
+  name: "Nettoyage Toiture"
+  title: "Nettoyage & Démoussage Toiture"
+  slug_prefix: "nettoyage-toiture"
+  category: "nettoyage"
+  category_name: "Nettoyage Professionnel"
+  description: "Nettoyage et démoussage de toitures : tuiles, ardoises, toits plats. Traitement anti-mousse longue durée, nettoyage gouttières."
+  short_description: "Démoussage et entretien toitures"
+  features:
+    - "Démoussage toiture"
+    - "Traitement anti-mousse"
+    - "Nettoyage tuiles/ardoises"
+    - "Nettoyage gouttières"
+    - "Toits plats"
+    - "Traitement hydrofuge"
+  keywords:
+    - "nettoyage toiture"
+    - "démoussage toiture"
+    - "nettoyage tuiles"
+    - "traitement toiture"
+    - "entretien toiture"
+  related_services:
+    - "nettoyage-haute-pression"
+    - "traitement-humidite"
+  icon: "roof-clean"
+  featured: false
+  priority: 3
+
+- id: nettoyage-apres-deces
+  name: "Nettoyage Après Décès"
+  title: "Nettoyage Après Décès & Désinfection"
+  slug_prefix: "nettoyage-apres-deces"
+  category: "nettoyage"
+  category_name: "Nettoyage Professionnel"
+  description: "Nettoyage et désinfection après décès, syndrome de Diogène, logement insalubre. Intervention discrète, désodorisation, remise en état complète."
+  short_description: "Désinfection et remise en état"
+  features:
+    - "Intervention discrète"
+    - "Désinfection complète"
+    - "Désodorisation"
+    - "Syndrome de Diogène"
+    - "Logement insalubre"
+    - "Évacuation déchets"
+  keywords:
+    - "nettoyage après décès"
+    - "nettoyage décès"
+    - "désinfection logement"
+    - "syndrome diogène"
+    - "nettoyage extrême"
+  related_services:
+    - "curage-interieur"
+    - "traitement-humidite"
+    - "traitement-merule"
+  icon: "biohazard"
+  featured: false
+  priority: 2
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 4: URGENCES SINISTRE 24/7                                     │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: urgence-sinistre
+  name: "Urgence Sinistre 24/7"
+  title: "Intervention Urgente Sinistre 24h/24"
+  slug_prefix: "urgence-sinistre"
+  category: "urgence"
+  category_name: "Urgences 24/7"
+  description: "Intervention d'urgence 24h/24 7j/7 après sinistre : incendie, inondation, accident, tempête. Sur place en 2h max, rapport assurance, coordination experts."
+  short_description: "Intervention rapide tous sinistres"
+  features:
+    - "Disponible 24/7"
+    - "Sur place en 2h max"
+    - "Incendie & explosion"
+    - "Inondation & dégât des eaux"
+    - "Tempête & effondrement"
+    - "Rapport pour assurance"
+  sub_services:
+    - name: "Sinistre Incendie"
+      description: "Sécurisation, déblaiement, décontamination suie"
+    - name: "Sinistre Inondation"
+      description: "Pompage, assèchement, traitement moisissures"
+    - name: "Accident de la Route"
+      description: "Sécurisation, déblaiement, nettoyage voirie"
+    - name: "Urgence Amiante"
+      description: "Confinement urgent, mise en sécurité"
+  keywords:
+    - "urgence sinistre"
+    - "intervention urgente"
+    - "sinistre incendie"
+    - "sinistre inondation"
+    - "dégât des eaux"
+    - "intervention 24h"
+  related_services:
+    - "demolition-urgente"
+    - "securisation-chantier"
+    - "nettoyage-apres-deces"
+    - "desamiantage-simple"
+  icon: "emergency-24"
+  featured: true
+  priority: 1
+  is_emergency: true
+  emergency_phone: "0490 48 92 42"
+  response_time: "2h max"
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 5: DÉCOUPE MÉTALLIQUE & DÉMONTAGE INDUSTRIEL                  │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: decoupe-metallique
+  name: "Découpe Métallique"
+  title: "Découpe Métallique & Oxycoupage"
+  slug_prefix: "decoupe-metallique"
+  category: "demontage"
+  category_name: "Démontage Industriel"
+  description: "Découpe métallique professionnelle : oxycoupage, découpe plasma, cisaillage. Structures métalliques, charpentes, cuves, équipements industriels."
+  short_description: "Oxycoupage et découpe structures"
+  features:
+    - "Oxycoupage"
+    - "Découpe plasma"
+    - "Cisaillage hydraulique"
+    - "Structures métalliques"
+    - "Charpentes acier"
+    - "Cuves et réservoirs"
+  keywords:
+    - "découpe métallique"
+    - "oxycoupage"
+    - "découpe acier"
+    - "découpe structure"
+    - "ferraillage"
+  related_services:
+    - "demontage-industriel"
+    - "demontage-hangar"
+    - "demolition-complete"
+  icon: "cutting-torch"
+  featured: false
+  priority: 2
+
+- id: demontage-industriel
+  name: "Démontage Industriel"
+  title: "Démontage Lignes & Machines Industrielles"
+  slug_prefix: "demontage-industriel"
+  category: "demontage"
+  category_name: "Démontage Industriel"
+  description: "Démontage de lignes de production, machines industrielles, équipements lourds. Démantèlement usines, récupération matériaux, évacuation."
+  short_description: "Démantèlement équipements usines"
+  features:
+    - "Lignes de production"
+    - "Machines-outils"
+    - "Ponts roulants"
+    - "Convoyeurs"
+    - "Équipements lourds"
+    - "Récupération métaux"
+  keywords:
+    - "démontage industriel"
+    - "démontage usine"
+    - "démontage machines"
+    - "démantèlement industriel"
+    - "démontage équipement"
+  related_services:
+    - "decoupe-metallique"
+    - "nettoyage-industriel"
+    - "demolition-complete"
+  icon: "factory-demolition"
+  featured: false
+  priority: 2
+
+- id: demontage-hangar
+  name: "Démontage Hangar"
+  title: "Démontage Hangar & Bâtiment Métallique"
+  slug_prefix: "demontage-hangar"
+  category: "demontage"
+  category_name: "Démontage Industriel"
+  description: "Démontage de hangars, entrepôts et bâtiments à structure métallique. Récupération charpente, bardage, couverture. Remise en état terrain."
+  short_description: "Hangars et structures métalliques"
+  features:
+    - "Hangars agricoles"
+    - "Entrepôts logistiques"
+    - "Ateliers industriels"
+    - "Récupération charpente"
+    - "Démontage bardage"
+    - "Valorisation matériaux"
+  keywords:
+    - "démontage hangar"
+    - "démontage entrepôt"
+    - "démontage bâtiment métallique"
+    - "démontage charpente"
+    - "démontage agricole"
+  related_services:
+    - "decoupe-metallique"
+    - "demontage-industriel"
+    - "demolition-complete"
+  icon: "warehouse"
+  featured: false
+  priority: 3
+
+- id: demontage-modulaire
+  name: "Démontage Maison Modulaire"
+  title: "Démontage Maison Modulaire & Préfabriquée"
+  slug_prefix: "demontage-modulaire"
+  category: "demontage"
+  category_name: "Démontage Industriel"
+  description: "Démontage de maisons modulaires, préfabriquées, containers, bungalows de chantier. Évacuation complète, remise en état du terrain."
+  short_description: "Constructions préfabriquées"
+  features:
+    - "Maisons modulaires"
+    - "Constructions préfab"
+    - "Containers aménagés"
+    - "Bungalows chantier"
+    - "Algeco et similaires"
+    - "Remise en état terrain"
+  keywords:
+    - "démontage maison modulaire"
+    - "démontage préfabriqué"
+    - "démontage container"
+    - "démontage bungalow"
+    - "démontage algeco"
+  related_services:
+    - "demontage-hangar"
+    - "demolition-annexe"
+    - "curage-interieur"
+  icon: "modular"
+  featured: false
+  priority: 3
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 6: PROTECTION INCENDIE                                        │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: protection-incendie-niveau1
+  name: "Protection Incendie Niveau 1"
+  title: "Protection Incendie Niveau 1 - Calfeutrement"
+  slug_prefix: "protection-incendie-niveau1"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Travaux de protection incendie niveau 1 : calfeutrement coupe-feu des passages de câbles et tuyaux, mousse et mastic RF, rebouchage après curage."
+  short_description: "Calfeutrement et rebouchage coupe-feu"
+  features:
+    - "Calfeutrement câbles/tuyaux"
+    - "Mousse coupe-feu"
+    - "Mastic intumescent"
+    - "Rebouchage après curage"
+    - "Plaques RF EI30/EI60"
+    - "Fermeture passages techniques"
+  keywords:
+    - "protection incendie"
+    - "calfeutrement coupe-feu"
+    - "mousse coupe-feu"
+    - "mastic intumescent"
+    - "coupe-feu câbles"
+  related_services:
+    - "protection-incendie-niveau2"
+    - "protection-incendie-planchers"
+    - "curage-interieur"
+  icon: "fire-seal"
+  featured: true
+  priority: 2
+
+- id: protection-incendie-niveau2
+  name: "Protection Incendie Niveau 2"
+  title: "Protection Incendie Niveau 2 - Peinture & Habillage"
+  slug_prefix: "protection-incendie-niveau2"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Protection incendie avancée : peinture intumescente sur acier, habillage coupe-feu poutres et poteaux, colliers RF, caissons techniques EI60/EI90."
+  short_description: "Peinture intumescente et habillage RF"
+  features:
+    - "Peinture intumescente acier"
+    - "Habillage poutres/poteaux"
+    - "Colliers coupe-feu"
+    - "Caissons EI60/EI90"
+    - "Protection gaines"
+    - "Cloisons coupe-feu certifiées"
+  keywords:
+    - "peinture intumescente"
+    - "habillage coupe-feu"
+    - "protection acier incendie"
+    - "caisson coupe-feu"
+    - "EI60 EI90"
+  related_services:
+    - "protection-incendie-niveau1"
+    - "protection-incendie-planchers"
+    - "protection-incendie-locaux"
+  icon: "fire-coat"
+  featured: true
+  priority: 2
+
+- id: protection-incendie-planchers
+  name: "Protection Planchers & Plafonds"
+  title: "Protection Coupe-Feu Planchers & Plafonds"
+  slug_prefix: "protection-incendie-planchers"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Renforcement coupe-feu de planchers et plafonds : habillage EI plafonds techniques, traitement sous-faces, protection planchers bois existants."
+  short_description: "Renforcement EI planchers/plafonds"
+  features:
+    - "Renforcement planchers"
+    - "Habillage plafonds EI"
+    - "Traitement sous-faces"
+    - "Planchers bois anciens"
+    - "Plafonds techniques"
+    - "Certification EI"
+  keywords:
+    - "protection plancher incendie"
+    - "plafond coupe-feu"
+    - "renforcement EI"
+    - "sous-face coupe-feu"
+    - "plancher bois incendie"
+  related_services:
+    - "protection-incendie-niveau2"
+    - "protection-incendie-locaux"
+    - "protection-acoustique"
+  icon: "floor-ceiling"
+  featured: false
+  priority: 3
+
+- id: protection-incendie-locaux
+  name: "Protection Locaux à Risque"
+  title: "Protection Incendie Locaux à Risque"
+  slug_prefix: "protection-incendie-locaux"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Mise en conformité incendie des locaux à risque : locaux poubelles, chaufferie, compteurs, parkings, caves communes. Solutions certifiées."
+  short_description: "Locaux techniques et zones sensibles"
+  features:
+    - "Locaux poubelles"
+    - "Locaux compteurs"
+    - "Chaufferies"
+    - "Locaux techniques"
+    - "Parkings souterrains"
+    - "Caves communes"
+  keywords:
+    - "protection locaux risque"
+    - "local poubelle coupe-feu"
+    - "chaufferie incendie"
+    - "parking coupe-feu"
+    - "cave coupe-feu"
+  related_services:
+    - "protection-incendie-niveau1"
+    - "protection-incendie-niveau2"
+    - "traitement-humidite"
+  icon: "risk-room"
+  featured: false
+  priority: 2
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 7: TRAITEMENTS SPÉCIALISÉS                                    │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: traitement-humidite
+  name: "Traitement Humidité"
+  title: "Traitement Humidité & Salpêtre"
+  slug_prefix: "traitement-humidite"
+  category: "traitements"
+  category_name: "Traitements Spécialisés"
+  description: "Traitement de l'humidité ascensionnelle et du salpêtre : injection de résine, barrière étanche, enduits anti-humidité, drainage, ventilation."
+  short_description: "Injection et assèchement murs"
+  features:
+    - "Injection résine/crème"
+    - "Barrière étanche"
+    - "Enduits anti-humidité"
+    - "Reprises de murs"
+    - "Ventilation complémentaire"
+    - "Traitement fissures"
+  keywords:
+    - "traitement humidité"
+    - "traitement salpêtre"
+    - "injection mur humide"
+    - "humidité ascensionnelle"
+    - "mur humide"
+    - "remontées capillaires"
+  related_services:
+    - "traitement-merule"
+    - "reparation-beton"
+    - "nettoyage-haute-pression"
+  icon: "humidity"
+  featured: true
+  priority: 2
+
+- id: traitement-merule
+  name: "Traitement Mérule"
+  title: "Traitement Mérule & Champignons du Bâti"
+  slug_prefix: "traitement-merule"
+  category: "traitements"
+  category_name: "Traitements Spécialisés"
+  description: "Traitement de la mérule et champignons lignivores. Diagnostic, élimination, traitement curatif du bois et de la maçonnerie, prévention récidive."
+  short_description: "Éradication champignons destructeurs"
+  features:
+    - "Diagnostic mérule"
+    - "Champignons lignivores"
+    - "Traitement curatif"
+    - "Assainissement maçonnerie"
+    - "Traitement bois"
+    - "Prévention récidive"
+  keywords:
+    - "traitement mérule"
+    - "mérule belgique"
+    - "champignon maison"
+    - "champignon bois"
+    - "mérule pleureuse"
+  related_services:
+    - "traitement-humidite"
+    - "nettoyage-apres-deces"
+    - "curage-interieur"
+  icon: "fungus"
+  featured: true
+  priority: 2
+
+- id: traitement-radon
+  name: "Traitement Radon"
+  title: "Traitement & Diagnostic Radon"
+  slug_prefix: "traitement-radon"
+  category: "traitements"
+  category_name: "Traitements Spécialisés"
+  description: "Diagnostic et traitement du radon en Belgique. Pose de détecteurs, ventilation sous dalle, étanchéité des passages, solutions conformes SPF."
+  short_description: "Diagnostic et réduction radon"
+  features:
+    - "Diagnostic radon"
+    - "Pose détecteurs"
+    - "Ventilation sous dalle"
+    - "Étanchéité passages"
+    - "Puisard radon"
+    - "Conformité SPF"
+  keywords:
+    - "traitement radon"
+    - "radon belgique"
+    - "diagnostic radon"
+    - "ventilation radon"
+    - "gaz radon maison"
+  related_services:
+    - "traitement-humidite"
+    - "protection-incendie-locaux"
+  icon: "radon"
+  featured: false
+  priority: 3
+
+- id: reparation-beton
+  name: "Réparation Béton"
+  title: "Réparation & Protection Béton"
+  slug_prefix: "reparation-beton"
+  category: "traitements"
+  category_name: "Traitements Spécialisés"
+  description: "Réparation de béton dégradé : passivation des armatures, reprises localisées, ragréage, protection anticorrosion, étanchéité."
+  short_description: "Restauration structures béton"
+  features:
+    - "Réparation béton dégradé"
+    - "Passivation armatures"
+    - "Reprises localisées"
+    - "Ragréage"
+    - "Protection anticorrosion"
+    - "Étanchéité béton"
+  keywords:
+    - "réparation béton"
+    - "béton dégradé"
+    - "passivation armature"
+    - "ragréage béton"
+    - "restauration béton"
+  related_services:
+    - "traitement-humidite"
+    - "nettoyage-haute-pression"
+    - "demolition-murs-porteurs"
+  icon: "concrete"
+  featured: false
+  priority: 3
+
+# ┌─────────────────────────────────────────────────────────────────────────┐
+# │ CATÉGORIE 8: ACOUSTIQUE & SOLS EXTÉRIEURS                               │
+# └─────────────────────────────────────────────────────────────────────────┘
+
+- id: protection-acoustique
+  name: "Protection Acoustique"
+  title: "Protection & Isolation Acoustique"
+  slug_prefix: "protection-acoustique"
+  category: "finitions"
+  category_name: "Acoustique & Sols"
+  description: "Solutions d'isolation acoustique : panneaux muraux absorbants, dalles plafond acoustiques, habillage phonique, traitement localisé du bruit."
+  short_description: "Isolation phonique professionnelle"
+  features:
+    - "Panneaux muraux"
+    - "Dalles plafond acoustiques"
+    - "Habillage absorbant"
+    - "Traitement localisé"
+    - "Bureaux et salles"
+    - "Locaux techniques"
+  keywords:
+    - "isolation acoustique"
+    - "protection acoustique"
+    - "panneaux acoustiques"
+    - "isolation phonique"
+    - "insonorisation"
+  related_services:
+    - "protection-incendie-planchers"
+    - "curage-interieur"
+  icon: "sound"
+  featured: false
+  priority: 3
+
+- id: pavage
+  name: "Pavage & Dallage"
+  title: "Pavage, Dallage & Klinkers"
+  slug_prefix: "pavage"
+  category: "finitions"
+  category_name: "Acoustique & Sols"
+  description: "Pose de pavés, dalles et klinkers pour allées, terrasses, cours et parkings. Aménagements extérieurs durables, drainage intégré."
+  short_description: "Aménagements extérieurs pavés"
+  features:
+    - "Pavés béton"
+    - "Klinkers"
+    - "Dalles naturelles"
+    - "Allées et entrées"
+    - "Terrasses"
+    - "Parkings"
+  keywords:
+    - "pavage"
+    - "dallage"
+    - "klinkers"
+    - "pose pavés"
+    - "terrasse pavée"
+    - "allée pavée"
+  related_services:
+    - "demolition-annexe"
+    - "nettoyage-haute-pression"
+  icon: "paving"
+  featured: false
+  priority: 3
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MÉTADONNÉES CATÉGORIES (pour navigation)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# categories:
+#   - id: demolition
+#     name: "Démolition & Curage"
+#     icon: "demolition"
+#     order: 1
+#   - id: desamiantage
+#     name: "Désamiantage"
+#     icon: "asbestos"
+#     order: 2
+#   - id: nettoyage
+#     name: "Nettoyage Professionnel"
+#     icon: "cleaning"
+#     order: 3
+#   - id: urgence
+#     name: "Urgences 24/7"
+#     icon: "emergency"
+#     order: 4
+#   - id: demontage
+#     name: "Démontage Industriel"
+#     icon: "factory"
+#     order: 5
+#   - id: incendie
+#     name: "Protection Incendie"
+#     icon: "fire"
+#     order: 6
+#   - id: traitements
+#     name: "Traitements Spécialisés"
+#     icon: "treatment"
+#     order: 7
+#   - id: finitions
+#     name: "Acoustique & Sols"
+#     icon: "finish"
+#     order: 8

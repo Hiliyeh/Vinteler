@@ -1,0 +1,82 @@
+---
+layout: service-city
+title: "Démontage Lignes & Machines Industrielles Wezembeek-Oppem"
+description: "Démontage Industriel à Wezembeek-Oppem (Brabant Flamand). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "demontage-industriel Wezembeek-Oppem"
+  - "entreprise demontage-industriel Wezembeek-Oppem"
+  - "demontage-industriel Brabant Flamand"
+  - "prix demontage-industriel Wezembeek-Oppem"
+  - "démontage industriel Wezembeek-Oppem"
+  - "démontage usine Wezembeek-Oppem"
+  - "démontage machines Wezembeek-Oppem"
+  - "démantèlement industriel Wezembeek-Oppem"
+  - "démontage équipement Wezembeek-Oppem"
+
+# URL
+slug: "demontage-industriel-wezembeek-oppem"
+permalink: "/demontage-industriel-wezembeek-oppem/"
+
+# Service Info
+service_id: "demontage-industriel"
+service_name: "Démontage Industriel"
+service_title: "Démontage Lignes & Machines Industrielles"
+service_slug: "demontage-industriel"
+service_description: "Démontage de lignes de production, machines industrielles, équipements lourds. Démantèlement usines, récupération matériaux, évacuation."
+service_short: "Démantèlement équipements usines"
+
+# Catégorie
+category: "demontage"
+category_name: "Démontage Industriel"
+
+# Ville Info
+city_name: "Wezembeek-Oppem"
+city_id: "wezembeek-oppem"
+region: "Brabant Flamand"
+postal_codes: ["1970"]
+
+
+# Features
+features:
+  - "Lignes de production"
+  - "Machines-outils"
+  - "Ponts roulants"
+  - "Convoyeurs"
+  - "Équipements lourds"
+  - "Récupération métaux"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "decoupe-metallique"
+    name: "Découpe Métallique"
+    slug: "decoupe-metallique"
+    description: "Oxycoupage et découpe structures"
+  - id: "nettoyage-industriel"
+    name: "Nettoyage Industriel"
+    slug: "nettoyage-industriel"
+    description: "Cuves, silos, équipements industriels"
+  - id: "demolition-complete"
+    name: "Démolition Complète"
+    slug: "demolition-complete"
+    description: "Démolition totale de constructions"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "overijse"
+    name: "Overijse"
+  - id: "tervuren"
+    name: "Tervuren"
+  - id: "leuven"
+    name: "Leuven"
+  - id: "zaventem"
+    name: "Zaventem"
+  - id: "vilvoorde"
+    name: "Vilvorde"
+
+# Flags spéciaux
+
+featured: false
+priority: 2
+---

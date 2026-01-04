@@ -1,0 +1,71 @@
+{% comment %}
+  Trust Section - DRY component
+  Usage: {% include sections/trust-home.html %}
+
+  Replaces 120+ lines in index.html with data-driven approach
+{% endcomment %}
+
+<section class="trust">
+    <div class="section-header">
+        <span class="section-tag">Entreprise certifiée</span>
+        <h2 class="section-title">Pourquoi choisir VINTELER pour votre désamiantage ?</h2>
+        <p class="section-desc">Une entreprise belge de confiance pour vos travaux de démolition et retrait d'amiante</p>
+    </div>
+
+    <div class="trust-grid">
+        {% for stat in site.data.homepage.trust_stats %}
+        <div class="trust-card">
+            <div class="trust-stat">
+                <span class="stat-number">{{ stat.number }}</span>
+                <span class="stat-label">{{ stat.label }}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="guarantees">
+        {% for guarantee in site.data.homepage.guarantees %}
+        <div class="guarantee-item">
+            {% include svg/icon-check.html width="24" height="24" %}
+            <span>{{ guarantee }}</span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Certifications Section -->
+    <div class="certifications-section">
+        <h3>Nos certifications & conformités</h3>
+        <div class="certifications-grid">
+            {% for cert in site.data.homepage.certifications %}
+            <div class="certification-card">
+                <div class="cert-icon">
+                    {% if cert.icon == "shield" %}
+                    {% include svg/icon-shield.html width="24" height="24" checked=true %}
+                    {% elsif cert.icon == "check-square" %}
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                    {% elsif cert.icon == "clock" %}
+                    {% include svg/icon-clock.html width="24" height="24" %}
+                    {% elsif cert.icon == "layers" %}
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                    {% endif %}
+                </div>
+                <div class="cert-content">
+                    <h4>{{ cert.title }}</h4>
+                    <p>{{ cert.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="cert-notice">
+            <strong>TVA:</strong> {{ site.contact.vat }} |
+            <strong>Siège:</strong> {{ site.contact.address }}, {{ site.contact.postal_code }} {{ site.contact.city }}
+        </p>
+    </div>
+</section>

@@ -1,0 +1,113 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# VINTELER - RÉGIONS D'INTERVENTION
+# Structure pour éviter la duplication dans zones.html (DRY)
+# ═══════════════════════════════════════════════════════════════════════════
+
+- id: bruxelles
+  name: "Bruxelles-Capitale"
+  count_label: "11 communes"
+  filter_type: exact
+  filter_values:
+    - "Bruxelles-Capitale"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "traitement-humidite"
+      name: "Humidité"
+    - slug: "protection-incendie-niveau1"
+      name: "Protection incendie"
+
+- id: brabant-wallon
+  name: "Brabant Wallon"
+  count_label: "12 villes"
+  filter_type: exact
+  filter_values:
+    - "Brabant Wallon"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "traitement-humidite"
+      name: "Humidité"
+    - slug: "traitement-merule"
+      name: "Mérule"
+
+- id: brabant-flamand
+  name: "Brabant Flamand"
+  count_label: "11 villes"
+  filter_type: exact
+  filter_values:
+    - "Brabant Flamand"
+  has_hq: true
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "nettoyage-industriel"
+      name: "Nettoyage industriel"
+    - slug: "demontage-industriel"
+      name: "Démontage industriel"
+
+- id: wallonie
+  name: "Wallonie"
+  count_label: "Namur, Liège, Hainaut, Luxembourg"
+  filter_type: multiple
+  filter_values:
+    - "Namur"
+    - "Liège"
+    - "Hainaut"
+    - "Luxembourg"
+  show_region_in_postal: true
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "traitement-humidite"
+      name: "Humidité"
+    - slug: "traitement-merule"
+      name: "Mérule"
+    - slug: "traitement-radon"
+      name: "Radon"
+
+- id: flandre
+  name: "Flandre"
+  count_label: "Anvers, Flandre-Orientale, Flandre-Occidentale, Limbourg"
+  filter_type: multiple
+  filter_values:
+    - "Anvers"
+    - "Flandre-Orientale"
+    - "Flandre-Occidentale"
+    - "Limbourg"
+  show_region_in_postal: true
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "demontage-industriel"
+      name: "Démontage industriel"
+    - slug: "nettoyage-industriel"
+      name: "Nettoyage industriel"
+    - slug: "decoupe-metallique"
+      name: "Découpe métallique"

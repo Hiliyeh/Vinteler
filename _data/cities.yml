@@ -1,0 +1,1008 @@
+# Villes et communes - SEO Local Belgique
+# Couverture nationale complète
+
+# ================================
+# BRUXELLES-CAPITALE (19 communes)
+# ================================
+- id: bruxelles
+  name: "Bruxelles"
+  region: "Bruxelles"
+  postal_codes: ["1000", "1020", "1120", "1130"]
+  priority: 1
+
+- id: ixelles
+  name: "Ixelles"
+  region: "Bruxelles"
+  postal_codes: ["1050"]
+  priority: 1
+
+- id: uccle
+  name: "Uccle"
+  region: "Bruxelles"
+  postal_codes: ["1180"]
+  priority: 1
+
+- id: schaerbeek
+  name: "Schaerbeek"
+  region: "Bruxelles"
+  postal_codes: ["1030"]
+  priority: 1
+
+- id: anderlecht
+  name: "Anderlecht"
+  region: "Bruxelles"
+  postal_codes: ["1070"]
+  priority: 1
+
+- id: forest
+  name: "Forest"
+  region: "Bruxelles"
+  postal_codes: ["1190"]
+  priority: 2
+
+- id: etterbeek
+  name: "Etterbeek"
+  region: "Bruxelles"
+  postal_codes: ["1040"]
+  priority: 2
+
+- id: woluwe-saint-lambert
+  name: "Woluwe-Saint-Lambert"
+  region: "Bruxelles"
+  postal_codes: ["1200"]
+  priority: 2
+
+- id: woluwe-saint-pierre
+  name: "Woluwe-Saint-Pierre"
+  region: "Bruxelles"
+  postal_codes: ["1150"]
+  priority: 2
+
+- id: auderghem
+  name: "Auderghem"
+  region: "Bruxelles"
+  postal_codes: ["1160"]
+  priority: 2
+
+- id: watermael-boitsfort
+  name: "Watermael-Boitsfort"
+  region: "Bruxelles"
+  postal_codes: ["1170"]
+  priority: 2
+
+- id: jette
+  name: "Jette"
+  region: "Bruxelles"
+  postal_codes: ["1090"]
+  priority: 2
+
+- id: molenbeek
+  name: "Molenbeek-Saint-Jean"
+  region: "Bruxelles"
+  postal_codes: ["1080"]
+  priority: 2
+
+- id: saint-gilles
+  name: "Saint-Gilles"
+  region: "Bruxelles"
+  postal_codes: ["1060"]
+  priority: 2
+
+- id: saint-josse
+  name: "Saint-Josse-ten-Noode"
+  region: "Bruxelles"
+  postal_codes: ["1210"]
+  priority: 2
+
+- id: koekelberg
+  name: "Koekelberg"
+  region: "Bruxelles"
+  postal_codes: ["1081"]
+  priority: 3
+
+- id: ganshoren
+  name: "Ganshoren"
+  region: "Bruxelles"
+  postal_codes: ["1083"]
+  priority: 3
+
+- id: berchem-sainte-agathe
+  name: "Berchem-Sainte-Agathe"
+  region: "Bruxelles"
+  postal_codes: ["1082"]
+  priority: 3
+
+- id: evere
+  name: "Evere"
+  region: "Bruxelles"
+  postal_codes: ["1140"]
+  priority: 2
+
+# ================================
+# BRABANT WALLON
+# ================================
+- id: waterloo
+  name: "Waterloo"
+  region: "Brabant Wallon"
+  postal_codes: ["1410"]
+  priority: 1
+
+- id: wavre
+  name: "Wavre"
+  region: "Brabant Wallon"
+  postal_codes: ["1300", "1301"]
+  priority: 1
+
+- id: ottignies-louvain-la-neuve
+  name: "Ottignies-Louvain-la-Neuve"
+  region: "Brabant Wallon"
+  postal_codes: ["1340", "1341", "1348"]
+  priority: 1
+
+- id: braine-lalleud
+  name: "Braine-l'Alleud"
+  region: "Brabant Wallon"
+  postal_codes: ["1420", "1421"]
+  priority: 1
+
+- id: nivelles
+  name: "Nivelles"
+  region: "Brabant Wallon"
+  postal_codes: ["1400", "1401", "1402"]
+  priority: 1
+
+- id: rixensart
+  name: "Rixensart"
+  region: "Brabant Wallon"
+  postal_codes: ["1330", "1331", "1332"]
+  priority: 2
+
+- id: lasne
+  name: "Lasne"
+  region: "Brabant Wallon"
+  postal_codes: ["1380", "1381", "1382"]
+  priority: 2
+
+- id: genappe
+  name: "Genappe"
+  region: "Brabant Wallon"
+  postal_codes: ["1470", "1471", "1472", "1473"]
+  priority: 2
+
+- id: court-saint-etienne
+  name: "Court-Saint-Étienne"
+  region: "Brabant Wallon"
+  postal_codes: ["1490"]
+  priority: 2
+
+- id: la-hulpe
+  name: "La Hulpe"
+  region: "Brabant Wallon"
+  postal_codes: ["1310"]
+  priority: 2
+
+- id: tubize
+  name: "Tubize"
+  region: "Brabant Wallon"
+  postal_codes: ["1480", "1481"]
+  priority: 2
+
+- id: jodoigne
+  name: "Jodoigne"
+  region: "Brabant Wallon"
+  postal_codes: ["1370", "1377"]
+  priority: 2
+
+- id: braine-le-chateau
+  name: "Braine-le-Château"
+  region: "Brabant Wallon"
+  postal_codes: ["1440"]
+  priority: 3
+
+- id: chaumont-gistoux
+  name: "Chaumont-Gistoux"
+  region: "Brabant Wallon"
+  postal_codes: ["1325", "1326"]
+  priority: 3
+
+- id: mont-saint-guibert
+  name: "Mont-Saint-Guibert"
+  region: "Brabant Wallon"
+  postal_codes: ["1435"]
+  priority: 3
+
+- id: perwez
+  name: "Perwez"
+  region: "Brabant Wallon"
+  postal_codes: ["1360", "1367"]
+  priority: 3
+
+- id: villers-la-ville
+  name: "Villers-la-Ville"
+  region: "Brabant Wallon"
+  postal_codes: ["1495"]
+  priority: 3
+
+- id: walhain
+  name: "Walhain"
+  region: "Brabant Wallon"
+  postal_codes: ["1457"]
+  priority: 3
+
+# ================================
+# BRABANT FLAMAND
+# ================================
+- id: overijse
+  name: "Overijse"
+  region: "Brabant Flamand"
+  postal_codes: ["3090"]
+  priority: 1
+  is_hq: true
+
+- id: tervuren
+  name: "Tervuren"
+  region: "Brabant Flamand"
+  postal_codes: ["3080"]
+  priority: 1
+
+- id: leuven
+  name: "Leuven"
+  region: "Brabant Flamand"
+  postal_codes: ["3000", "3001", "3010", "3012", "3018"]
+  priority: 1
+
+- id: zaventem
+  name: "Zaventem"
+  region: "Brabant Flamand"
+  postal_codes: ["1930", "1931", "1932", "1933"]
+  priority: 1
+
+- id: vilvoorde
+  name: "Vilvorde"
+  region: "Brabant Flamand"
+  postal_codes: ["1800"]
+  priority: 1
+
+- id: hoeilaart
+  name: "Hoeilaart"
+  region: "Brabant Flamand"
+  postal_codes: ["1560"]
+  priority: 2
+
+- id: kraainem
+  name: "Kraainem"
+  region: "Brabant Flamand"
+  postal_codes: ["1950"]
+  priority: 2
+
+- id: wezembeek-oppem
+  name: "Wezembeek-Oppem"
+  region: "Brabant Flamand"
+  postal_codes: ["1970"]
+  priority: 2
+
+- id: rhode-saint-genese
+  name: "Rhode-Saint-Genèse"
+  region: "Brabant Flamand"
+  postal_codes: ["1640"]
+  priority: 2
+
+- id: drogenbos
+  name: "Drogenbos"
+  region: "Brabant Flamand"
+  postal_codes: ["1620"]
+  priority: 3
+
+- id: linkebeek
+  name: "Linkebeek"
+  region: "Brabant Flamand"
+  postal_codes: ["1630"]
+  priority: 3
+
+- id: halle
+  name: "Halle"
+  region: "Brabant Flamand"
+  postal_codes: ["1500", "1501", "1502"]
+  priority: 2
+
+- id: dilbeek
+  name: "Dilbeek"
+  region: "Brabant Flamand"
+  postal_codes: ["1700", "1701", "1702", "1703"]
+  priority: 2
+
+- id: grimbergen
+  name: "Grimbergen"
+  region: "Brabant Flamand"
+  postal_codes: ["1850", "1851", "1852", "1853"]
+  priority: 2
+
+- id: machelen
+  name: "Machelen"
+  region: "Brabant Flamand"
+  postal_codes: ["1830", "1831"]
+  priority: 2
+
+- id: strombeek-bever
+  name: "Strombeek-Bever"
+  region: "Brabant Flamand"
+  postal_codes: ["1853"]
+  priority: 3
+
+- id: tienen
+  name: "Tirlemont"
+  region: "Brabant Flamand"
+  postal_codes: ["3300", "3384", "3390", "3391"]
+  priority: 2
+
+- id: aarschot
+  name: "Aarschot"
+  region: "Brabant Flamand"
+  postal_codes: ["3200", "3201", "3202"]
+  priority: 2
+
+- id: diest
+  name: "Diest"
+  region: "Brabant Flamand"
+  postal_codes: ["3290", "3293", "3294"]
+  priority: 2
+
+- id: sint-pieters-leeuw
+  name: "Sint-Pieters-Leeuw"
+  region: "Brabant Flamand"
+  postal_codes: ["1600", "1601", "1602"]
+  priority: 2
+
+- id: beersel
+  name: "Beersel"
+  region: "Brabant Flamand"
+  postal_codes: ["1650", "1651", "1652", "1653", "1654"]
+  priority: 2
+
+# ================================
+# HAINAUT
+# ================================
+- id: charleroi
+  name: "Charleroi"
+  region: "Hainaut"
+  postal_codes: ["6000", "6001", "6010", "6020", "6030", "6040", "6041", "6042", "6043", "6044"]
+  priority: 1
+
+- id: mons
+  name: "Mons"
+  region: "Hainaut"
+  postal_codes: ["7000", "7010", "7011", "7012", "7020", "7021", "7022", "7024", "7030", "7031", "7032", "7033", "7034"]
+  priority: 1
+
+- id: tournai
+  name: "Tournai"
+  region: "Hainaut"
+  postal_codes: ["7500", "7501", "7502", "7503", "7504", "7506", "7510"]
+  priority: 1
+
+- id: la-louviere
+  name: "La Louvière"
+  region: "Hainaut"
+  postal_codes: ["7100", "7110"]
+  priority: 1
+
+- id: mouscron
+  name: "Mouscron"
+  region: "Hainaut"
+  postal_codes: ["7700", "7711", "7712"]
+  priority: 2
+
+- id: soignies
+  name: "Soignies"
+  region: "Hainaut"
+  postal_codes: ["7060", "7061", "7062", "7063"]
+  priority: 2
+
+- id: binche
+  name: "Binche"
+  region: "Hainaut"
+  postal_codes: ["7130", "7131", "7133", "7134"]
+  priority: 2
+
+- id: ath
+  name: "Ath"
+  region: "Hainaut"
+  postal_codes: ["7800", "7801", "7802", "7803"]
+  priority: 2
+
+- id: enghien
+  name: "Enghien"
+  region: "Hainaut"
+  postal_codes: ["7850"]
+  priority: 2
+
+- id: braine-le-comte
+  name: "Braine-le-Comte"
+  region: "Hainaut"
+  postal_codes: ["7090", "7091"]
+  priority: 2
+
+- id: lessines
+  name: "Lessines"
+  region: "Hainaut"
+  postal_codes: ["7860", "7861", "7862", "7863", "7864", "7866"]
+  priority: 3
+
+- id: peruwelz
+  name: "Péruwelz"
+  region: "Hainaut"
+  postal_codes: ["7600", "7601", "7602", "7603", "7604"]
+  priority: 3
+
+- id: fleurus
+  name: "Fleurus"
+  region: "Hainaut"
+  postal_codes: ["6220", "6221", "6222", "6223", "6224"]
+  priority: 2
+
+- id: chatelet
+  name: "Châtelet"
+  region: "Hainaut"
+  postal_codes: ["6200"]
+  priority: 2
+
+- id: courcelles
+  name: "Courcelles"
+  region: "Hainaut"
+  postal_codes: ["6180", "6181", "6182", "6183"]
+  priority: 2
+
+- id: fontaine-leveque
+  name: "Fontaine-l'Évêque"
+  region: "Hainaut"
+  postal_codes: ["6140", "6141", "6142"]
+  priority: 3
+
+- id: manage
+  name: "Manage"
+  region: "Hainaut"
+  postal_codes: ["7170"]
+  priority: 3
+
+- id: seneffe
+  name: "Seneffe"
+  region: "Hainaut"
+  postal_codes: ["7180", "7181"]
+  priority: 3
+
+# ================================
+# LIÈGE
+# ================================
+- id: liege
+  name: "Liège"
+  region: "Liège"
+  postal_codes: ["4000", "4020", "4030", "4031", "4032"]
+  priority: 1
+
+- id: seraing
+  name: "Seraing"
+  region: "Liège"
+  postal_codes: ["4100", "4101", "4102"]
+  priority: 1
+
+- id: verviers
+  name: "Verviers"
+  region: "Liège"
+  postal_codes: ["4800", "4801", "4802"]
+  priority: 1
+
+- id: herstal
+  name: "Herstal"
+  region: "Liège"
+  postal_codes: ["4040", "4041", "4042"]
+  priority: 2
+
+- id: ans
+  name: "Ans"
+  region: "Liège"
+  postal_codes: ["4430", "4431", "4432"]
+  priority: 2
+
+- id: flemalle
+  name: "Flémalle"
+  region: "Liège"
+  postal_codes: ["4400"]
+  priority: 2
+
+- id: grace-hollogne
+  name: "Grâce-Hollogne"
+  region: "Liège"
+  postal_codes: ["4460", "4461", "4462", "4463"]
+  priority: 2
+
+- id: waremme
+  name: "Waremme"
+  region: "Liège"
+  postal_codes: ["4300"]
+  priority: 2
+
+- id: vise
+  name: "Visé"
+  region: "Liège"
+  postal_codes: ["4600", "4601", "4602", "4607"]
+  priority: 2
+
+- id: huy
+  name: "Huy"
+  region: "Liège"
+  postal_codes: ["4500", "4520"]
+  priority: 2
+
+- id: eupen
+  name: "Eupen"
+  region: "Liège"
+  postal_codes: ["4700", "4701"]
+  priority: 2
+
+- id: spa
+  name: "Spa"
+  region: "Liège"
+  postal_codes: ["4900"]
+  priority: 3
+
+- id: malmedy
+  name: "Malmedy"
+  region: "Liège"
+  postal_codes: ["4960"]
+  priority: 3
+
+- id: stavelot
+  name: "Stavelot"
+  region: "Liège"
+  postal_codes: ["4970"]
+  priority: 3
+
+- id: saint-nicolas
+  name: "Saint-Nicolas"
+  region: "Liège"
+  postal_codes: ["4420", "4421"]
+  priority: 2
+
+- id: chaudfontaine
+  name: "Chaudfontaine"
+  region: "Liège"
+  postal_codes: ["4050", "4051", "4052", "4053"]
+  priority: 2
+
+# ================================
+# NAMUR
+# ================================
+- id: namur
+  name: "Namur"
+  region: "Namur"
+  postal_codes: ["5000", "5001", "5002", "5003", "5004", "5020", "5021", "5022", "5024"]
+  priority: 1
+
+- id: sambreville
+  name: "Sambreville"
+  region: "Namur"
+  postal_codes: ["5060"]
+  priority: 2
+
+- id: andenne
+  name: "Andenne"
+  region: "Namur"
+  postal_codes: ["5300"]
+  priority: 2
+
+- id: gembloux
+  name: "Gembloux"
+  region: "Namur"
+  postal_codes: ["5030"]
+  priority: 2
+
+- id: dinant
+  name: "Dinant"
+  region: "Namur"
+  postal_codes: ["5500", "5501", "5502", "5503", "5504"]
+  priority: 2
+
+- id: ciney
+  name: "Ciney"
+  region: "Namur"
+  postal_codes: ["5590"]
+  priority: 2
+
+- id: philippeville
+  name: "Philippeville"
+  region: "Namur"
+  postal_codes: ["5600"]
+  priority: 3
+
+- id: rochefort
+  name: "Rochefort"
+  region: "Namur"
+  postal_codes: ["5580"]
+  priority: 3
+
+- id: couvin
+  name: "Couvin"
+  region: "Namur"
+  postal_codes: ["5660"]
+  priority: 3
+
+- id: florennes
+  name: "Florennes"
+  region: "Namur"
+  postal_codes: ["5620"]
+  priority: 3
+
+- id: jemeppe-sur-sambre
+  name: "Jemeppe-sur-Sambre"
+  region: "Namur"
+  postal_codes: ["5190"]
+  priority: 2
+
+- id: profondeville
+  name: "Profondeville"
+  region: "Namur"
+  postal_codes: ["5170"]
+  priority: 3
+
+# ================================
+# LUXEMBOURG
+# ================================
+- id: arlon
+  name: "Arlon"
+  region: "Luxembourg"
+  postal_codes: ["6700"]
+  priority: 1
+
+- id: bastogne
+  name: "Bastogne"
+  region: "Luxembourg"
+  postal_codes: ["6600"]
+  priority: 2
+
+- id: marche-en-famenne
+  name: "Marche-en-Famenne"
+  region: "Luxembourg"
+  postal_codes: ["6900"]
+  priority: 2
+
+- id: virton
+  name: "Virton"
+  region: "Luxembourg"
+  postal_codes: ["6760", "6761", "6762"]
+  priority: 2
+
+- id: libramont
+  name: "Libramont"
+  region: "Luxembourg"
+  postal_codes: ["6800"]
+  priority: 2
+
+- id: durbuy
+  name: "Durbuy"
+  region: "Luxembourg"
+  postal_codes: ["6940"]
+  priority: 3
+
+- id: bouillon
+  name: "Bouillon"
+  region: "Luxembourg"
+  postal_codes: ["6830"]
+  priority: 3
+
+- id: neufchateau
+  name: "Neufchâteau"
+  region: "Luxembourg"
+  postal_codes: ["6840"]
+  priority: 3
+
+- id: aubange
+  name: "Aubange"
+  region: "Luxembourg"
+  postal_codes: ["6790", "6791", "6792"]
+  priority: 2
+
+- id: habay
+  name: "Habay"
+  region: "Luxembourg"
+  postal_codes: ["6720"]
+  priority: 3
+
+# ================================
+# ANVERS
+# ================================
+- id: anvers
+  name: "Anvers"
+  region: "Anvers"
+  postal_codes: ["2000", "2018", "2020", "2030", "2040", "2050", "2060"]
+  priority: 1
+
+- id: malines
+  name: "Malines"
+  region: "Anvers"
+  postal_codes: ["2800", "2801", "2811", "2812"]
+  priority: 1
+
+- id: turnhout
+  name: "Turnhout"
+  region: "Anvers"
+  postal_codes: ["2300", "2310"]
+  priority: 2
+
+- id: mol
+  name: "Mol"
+  region: "Anvers"
+  postal_codes: ["2400"]
+  priority: 2
+
+- id: lier
+  name: "Lier"
+  region: "Anvers"
+  postal_codes: ["2500"]
+  priority: 2
+
+- id: boom
+  name: "Boom"
+  region: "Anvers"
+  postal_codes: ["2850"]
+  priority: 2
+
+- id: mortsel
+  name: "Mortsel"
+  region: "Anvers"
+  postal_codes: ["2640"]
+  priority: 2
+
+- id: brasschaat
+  name: "Brasschaat"
+  region: "Anvers"
+  postal_codes: ["2930"]
+  priority: 2
+
+- id: schoten
+  name: "Schoten"
+  region: "Anvers"
+  postal_codes: ["2900"]
+  priority: 2
+
+- id: kapellen
+  name: "Kapellen"
+  region: "Anvers"
+  postal_codes: ["2950"]
+  priority: 3
+
+- id: kontich
+  name: "Kontich"
+  region: "Anvers"
+  postal_codes: ["2550"]
+  priority: 2
+
+- id: heist-op-den-berg
+  name: "Heist-op-den-Berg"
+  region: "Anvers"
+  postal_codes: ["2220"]
+  priority: 2
+
+# ================================
+# FLANDRE-ORIENTALE
+# ================================
+- id: gand
+  name: "Gand"
+  region: "Flandre-Orientale"
+  postal_codes: ["9000", "9030", "9031", "9032", "9040", "9041", "9042", "9050", "9051", "9052"]
+  priority: 1
+
+- id: alost
+  name: "Alost"
+  region: "Flandre-Orientale"
+  postal_codes: ["9300", "9308", "9310", "9320"]
+  priority: 1
+
+- id: sint-niklaas
+  name: "Saint-Nicolas"
+  region: "Flandre-Orientale"
+  postal_codes: ["9100", "9111", "9112"]
+  priority: 1
+
+- id: dendermonde
+  name: "Termonde"
+  region: "Flandre-Orientale"
+  postal_codes: ["9200"]
+  priority: 2
+
+- id: lokeren
+  name: "Lokeren"
+  region: "Flandre-Orientale"
+  postal_codes: ["9160"]
+  priority: 2
+
+- id: beveren
+  name: "Beveren"
+  region: "Flandre-Orientale"
+  postal_codes: ["9120"]
+  priority: 2
+
+- id: temse
+  name: "Temse"
+  region: "Flandre-Orientale"
+  postal_codes: ["9140"]
+  priority: 2
+
+- id: wetteren
+  name: "Wetteren"
+  region: "Flandre-Orientale"
+  postal_codes: ["9230"]
+  priority: 2
+
+- id: ninove
+  name: "Ninove"
+  region: "Flandre-Orientale"
+  postal_codes: ["9400", "9401", "9402", "9403", "9404", "9406"]
+  priority: 2
+
+- id: geraardsbergen
+  name: "Grammont"
+  region: "Flandre-Orientale"
+  postal_codes: ["9500"]
+  priority: 2
+
+- id: ronse
+  name: "Renaix"
+  region: "Flandre-Orientale"
+  postal_codes: ["9600"]
+  priority: 2
+
+- id: zele
+  name: "Zele"
+  region: "Flandre-Orientale"
+  postal_codes: ["9240"]
+  priority: 3
+
+# ================================
+# FLANDRE-OCCIDENTALE
+# ================================
+- id: bruges
+  name: "Bruges"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8000", "8200", "8310", "8380"]
+  priority: 1
+
+- id: courtrai
+  name: "Courtrai"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8500", "8501", "8510", "8511"]
+  priority: 1
+
+- id: ostende
+  name: "Ostende"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8400", "8420"]
+  priority: 1
+
+- id: roulers
+  name: "Roulers"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8800"]
+  priority: 2
+
+- id: ypres
+  name: "Ypres"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8900", "8902", "8904"]
+  priority: 2
+
+- id: knokke-heist
+  name: "Knokke-Heist"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8300", "8301"]
+  priority: 2
+
+- id: blankenberge
+  name: "Blankenberge"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8370"]
+  priority: 2
+
+- id: waregem
+  name: "Waregem"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8790", "8791", "8792", "8793"]
+  priority: 2
+
+- id: izegem
+  name: "Izegem"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8870"]
+  priority: 2
+
+- id: torhout
+  name: "Torhout"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8820"]
+  priority: 3
+
+- id: menen
+  name: "Menin"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8930"]
+  priority: 2
+
+- id: poperinge
+  name: "Poperinge"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8970", "8972", "8978"]
+  priority: 3
+
+- id: diksmuide
+  name: "Dixmude"
+  region: "Flandre-Occidentale"
+  postal_codes: ["8600"]
+  priority: 3
+
+# ================================
+# LIMBOURG
+# ================================
+- id: hasselt
+  name: "Hasselt"
+  region: "Limbourg"
+  postal_codes: ["3500", "3501", "3510", "3511", "3512"]
+  priority: 1
+
+- id: genk
+  name: "Genk"
+  region: "Limbourg"
+  postal_codes: ["3600"]
+  priority: 1
+
+- id: beringen
+  name: "Beringen"
+  region: "Limbourg"
+  postal_codes: ["3580", "3581", "3582", "3583"]
+  priority: 2
+
+- id: sint-truiden
+  name: "Saint-Trond"
+  region: "Limbourg"
+  postal_codes: ["3800", "3803", "3806"]
+  priority: 2
+
+- id: tongeren
+  name: "Tongres"
+  region: "Limbourg"
+  postal_codes: ["3700", "3717"]
+  priority: 2
+
+- id: lommel
+  name: "Lommel"
+  region: "Limbourg"
+  postal_codes: ["3920"]
+  priority: 2
+
+- id: maasmechelen
+  name: "Maasmechelen"
+  region: "Limbourg"
+  postal_codes: ["3630", "3631"]
+  priority: 2
+
+- id: bilzen
+  name: "Bilzen"
+  region: "Limbourg"
+  postal_codes: ["3740"]
+  priority: 2
+
+- id: lanaken
+  name: "Lanaken"
+  region: "Limbourg"
+  postal_codes: ["3620", "3621"]
+  priority: 2
+
+- id: maaseik
+  name: "Maaseik"
+  region: "Limbourg"
+  postal_codes: ["3680"]
+  priority: 3
+
+- id: leopoldsburg
+  name: "Leopoldsburg"
+  region: "Limbourg"
+  postal_codes: ["3970"]
+  priority: 3

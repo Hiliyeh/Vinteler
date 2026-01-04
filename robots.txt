@@ -1,0 +1,22 @@
+# Robots.txt for VINTELER - Désamiantage & Démolition Belgique
+# https://vinteler.be
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vinteler.be/sitemap.xml
+
+# Block access to documentation folders
+Disallow: /doc/
+Disallow: /docs/
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

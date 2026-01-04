@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <!-- Gradient for depth -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f7a7a"/>
+      <stop offset="100%" style="stop-color:#095555"/>
+    </linearGradient>
+    <!-- Gold gradient for V -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4c45a"/>
+      <stop offset="50%" style="stop-color:#e8a838"/>
+      <stop offset="100%" style="stop-color:#d4922a"/>
+    </linearGradient>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="32" height="32" rx="7" fill="url(#bgGrad)"/>
+
+  <!-- Subtle inner border -->
+  <rect x="1" y="1" width="30" height="30" rx="6" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+
+  <!-- Debris particles (demolition effect) -->
+  <circle cx="6" cy="12" r="1" fill="#e8a838" opacity="0.6"/>
+  <circle cx="26" cy="10" r="0.8" fill="#e8a838" opacity="0.5"/>
+  <circle cx="8" cy="7" r="0.6" fill="#fff" opacity="0.4"/>
+  <circle cx="25" cy="14" r="0.5" fill="#fff" opacity="0.3"/>
+  <rect x="5" y="9" width="2" height="1" rx="0.5" fill="#e8a838" opacity="0.4" transform="rotate(-30 6 9.5)"/>
+  <rect x="24" cy="7" width="1.5" height="0.8" rx="0.4" fill="#fff" opacity="0.3" transform="rotate(25 24.75 7.4)"/>
+
+  <!-- Main V shape with shadow -->
+  <g filter="url(#shadow)">
+    <!-- V outer stroke for depth -->
+    <path d="M7 7 L16 25 L25 7"
+          stroke="#095555"
+          stroke-width="5.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+    <!-- V main shape -->
+    <path d="M7 7 L16 25 L25 7"
+          stroke="url(#goldGrad)"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+  </g>
+
+  <!-- Highlight on V -->
+  <path d="M9 9 L16 22 L23 9"
+        stroke="rgba(255,255,255,0.3)"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <!-- Small accent marks (construction/industrial feel) -->
+  <rect x="14.5" y="26" width="3" height="1.5" rx="0.75" fill="#e8a838" opacity="0.8"/>
+
+  <!-- Corner accent -->
+  <path d="M28 4 L28 7 L25 7" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-linecap="round" fill="none"/>
+</svg>

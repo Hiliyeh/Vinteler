@@ -1,0 +1,65 @@
+{% comment %}
+  Hub Category Card - DRY component for services.html
+  Usage: {% include cards/hub-category.html category=category %}
+
+  Replaces 8 repeated blocks in services.html (225 lines → 1 include)
+{% endcomment %}
+
+{% assign cat = include.category %}
+{% assign cat_services = site.data.services | where: "category", cat.id %}
+
+<div class="hub-category{% if cat.is_emergency %} emergency{% endif %}" id="{{ cat.id }}">
+    <div class="hub-category-header">
+        <h2>{{ cat.name }}</h2>
+        <p>{{ cat.description }}</p>
+    </div>
+    <div class="hub-services-grid">
+        {% for service in cat_services %}
+        <div class="hub-service-card{% if service.featured %} featured{% endif %}{% if service.is_emergency %} emergency{% endif %}">
+            {% if service.is_emergency %}
+            <div class="emergency-badge">24/7</div>
+            {% endif %}
+
+            <h3>{{ service.name }}</h3>
+            <p>{{ service.short_description }}</p>
+
+            {% if cat.id == "desamiantage" and service.features %}
+            <div class="hub-service-features">
+                <ul>
+                {% for feature in service.features limit:4 %}
+                    <li>{{ feature }}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% if service.is_emergency and service.emergency_phone %}
+            <div class="emergency-phone">
+                <a href="tel:{{ service.emergency_phone | remove: ' ' }}">{{ service.emergency_phone }}</a>
+                <span>Sur place en {{ service.response_time }}</span>
+            </div>
+            {% endif %}
+
+            <div class="hub-service-links">
+                <strong>{% if service.is_emergency %}Couverture Belgique :{% elsif cat.id == "desamiantage" %}Zones d'intervention :{% else %}Disponible à :{% endif %}</strong>
+                <div class="hub-city-chips">
+                    {% assign city_limit = 6 %}
+                    {% if cat.id == "desamiantage" %}{% assign city_limit = 10 %}{% endif %}
+                    {% if service.is_emergency %}{% assign city_limit = 100 %}{% endif %}
+
+                    {% for city in site.data.cities limit: city_limit %}
+                    <a href="/{{ service.slug_prefix }}-{{ city.id }}/">{{ city.name }}</a>
+                    {% endfor %}
+
+                    {% unless service.is_emergency %}
+                    {% assign remaining = site.data.cities.size | minus: city_limit %}
+                    {% if remaining > 0 %}
+                    <a href="/zones/" class="more-link">+ {{ remaining }} villes</a>
+                    {% endif %}
+                    {% endunless %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

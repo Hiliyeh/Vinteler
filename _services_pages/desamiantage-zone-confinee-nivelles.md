@@ -1,0 +1,82 @@
+---
+layout: service-city
+title: "Désamiantage en Zone Confinée Nivelles"
+description: "Désamiantage Zone Confinée à Nivelles (Brabant Wallon). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "desamiantage-zone-confinee Nivelles"
+  - "entreprise desamiantage-zone-confinee Nivelles"
+  - "desamiantage-zone-confinee Brabant Wallon"
+  - "prix desamiantage-zone-confinee Nivelles"
+  - "désamiantage zone confinée Nivelles"
+  - "amiante friable Nivelles"
+  - "désamiantage flocage Nivelles"
+  - "désamiantage calorifuge Nivelles"
+  - "confinement amiante Nivelles"
+
+# URL
+slug: "desamiantage-zone-confinee-nivelles"
+permalink: "/desamiantage-zone-confinee-nivelles/"
+
+# Service Info
+service_id: "desamiantage-confine"
+service_name: "Désamiantage Zone Confinée"
+service_title: "Désamiantage en Zone Confinée"
+service_slug: "desamiantage-zone-confinee"
+service_description: "Désamiantage en zone confinée pour amiante friable. Confinement étanche, dépression d'air, équipements spécialisés, contrôles atmosphériques."
+service_short: "Retrait amiante friable sécurisé"
+
+# Catégorie
+category: "desamiantage"
+category_name: "Désamiantage"
+
+# Ville Info
+city_name: "Nivelles"
+city_id: "nivelles"
+region: "Brabant Wallon"
+postal_codes: ["1400", "1401", "1402", "1404"]
+
+
+# Features
+features:
+  - "Zone de confinement"
+  - "Amiante friable"
+  - "Extraction sous dépression"
+  - "Contrôles atmosphériques"
+  - "Équipe spécialisée"
+  - "Analyses laboratoire"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "desamiantage-simple"
+    name: "Désamiantage Simple"
+    slug: "desamiantage-simple"
+    description: "Retrait amiante non friable"
+  - id: "urgence-sinistre"
+    name: "Urgence Sinistre 24/7"
+    slug: "urgence-sinistre"
+    description: "Intervention rapide tous sinistres"
+  - id: "nettoyage-industriel"
+    name: "Nettoyage Industriel"
+    slug: "nettoyage-industriel"
+    description: "Cuves, silos, équipements industriels"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "waterloo"
+    name: "Waterloo"
+  - id: "wavre"
+    name: "Wavre"
+  - id: "ottignies-louvain-la-neuve"
+    name: "Ottignies-Louvain-la-Neuve"
+  - id: "braine-lalleud"
+    name: "Braine-l'Alleud"
+  - id: "rixensart"
+    name: "Rixensart"
+
+# Flags spéciaux
+
+featured: true
+priority: 1
+---

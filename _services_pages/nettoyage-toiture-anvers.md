@@ -1,0 +1,70 @@
+---
+layout: service-city
+title: "Nettoyage & Démoussage Toiture Anvers"
+description: "Nettoyage Toiture à Anvers (Anvers). Démoussage et entretien toitures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "nettoyage-toiture Anvers"
+  - "entreprise nettoyage-toiture Anvers"
+  - "nettoyage-toiture Anvers"
+  - "prix nettoyage-toiture Anvers"
+  - "nettoyage toiture Anvers"
+  - "démoussage toiture Anvers"
+  - "nettoyage tuiles Anvers"
+  - "traitement toiture Anvers"
+  - "entretien toiture Anvers"
+
+# URL
+slug: "nettoyage-toiture-anvers"
+permalink: "/nettoyage-toiture-anvers/"
+
+# Service Info
+service_id: "nettoyage-toiture"
+service_name: "Nettoyage Toiture"
+service_title: "Nettoyage & Démoussage Toiture"
+service_slug: "nettoyage-toiture"
+service_description: "Nettoyage et démoussage de toitures : tuiles, ardoises, toits plats. Traitement anti-mousse longue durée, nettoyage gouttières."
+service_short: "Démoussage et entretien toitures"
+
+# Catégorie
+category: "nettoyage"
+category_name: "Nettoyage Professionnel"
+
+# Ville Info
+city_name: "Anvers"
+city_id: "anvers"
+region: "Anvers"
+postal_codes: ["2000", "2018", "2020", "2030", "2040", "2050", "2060"]
+
+
+# Features
+features:
+  - "Démoussage toiture"
+  - "Traitement anti-mousse"
+  - "Nettoyage tuiles/ardoises"
+  - "Nettoyage gouttières"
+  - "Toits plats"
+  - "Traitement hydrofuge"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "nettoyage-haute-pression"
+    name: "Nettoyage Haute Pression"
+    slug: "nettoyage-haute-pression"
+    description: "Décapage professionnel surfaces"
+  - id: "traitement-humidite"
+    name: "Traitement Humidité"
+    slug: "traitement-humidite"
+    description: "Injection et assèchement murs"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "malines"
+    name: "Malines"
+
+# Flags spéciaux
+
+featured: false
+priority: 3
+---

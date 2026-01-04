@@ -1,0 +1,73 @@
+---
+layout: service-city
+title: "Désamiantage en Zone Confinée Hasselt"
+description: "Désamiantage Zone Confinée à Hasselt (Limbourg). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "desamiantage-zone-confinee Hasselt"
+  - "entreprise desamiantage-zone-confinee Hasselt"
+  - "desamiantage-zone-confinee Limbourg"
+  - "prix desamiantage-zone-confinee Hasselt"
+  - "désamiantage zone confinée Hasselt"
+  - "amiante friable Hasselt"
+  - "désamiantage flocage Hasselt"
+  - "désamiantage calorifuge Hasselt"
+  - "confinement amiante Hasselt"
+
+# URL
+slug: "desamiantage-zone-confinee-hasselt"
+permalink: "/desamiantage-zone-confinee-hasselt/"
+
+# Service Info
+service_id: "desamiantage-confine"
+service_name: "Désamiantage Zone Confinée"
+service_title: "Désamiantage en Zone Confinée"
+service_slug: "desamiantage-zone-confinee"
+service_description: "Désamiantage en zone confinée pour amiante friable. Confinement étanche, dépression d'air, équipements spécialisés, contrôles atmosphériques."
+service_short: "Retrait amiante friable sécurisé"
+
+# Catégorie
+category: "desamiantage"
+category_name: "Désamiantage"
+
+# Ville Info
+city_name: "Hasselt"
+city_id: "hasselt"
+region: "Limbourg"
+postal_codes: ["3500", "3501", "3510", "3511", "3512"]
+
+
+# Features
+features:
+  - "Zone de confinement"
+  - "Amiante friable"
+  - "Extraction sous dépression"
+  - "Contrôles atmosphériques"
+  - "Équipe spécialisée"
+  - "Analyses laboratoire"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "desamiantage-simple"
+    name: "Désamiantage Simple"
+    slug: "desamiantage-simple"
+    description: "Retrait amiante non friable"
+  - id: "urgence-sinistre"
+    name: "Urgence Sinistre 24/7"
+    slug: "urgence-sinistre"
+    description: "Intervention rapide tous sinistres"
+  - id: "nettoyage-industriel"
+    name: "Nettoyage Industriel"
+    slug: "nettoyage-industriel"
+    description: "Cuves, silos, équipements industriels"
+
+# Villes proches (même région)
+nearby_cities:
+
+
+# Flags spéciaux
+
+featured: true
+priority: 1
+---

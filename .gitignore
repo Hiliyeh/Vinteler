@@ -1,0 +1,16 @@
+# Documentation interne (ne pas commiter)
+/doc/
+/docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log

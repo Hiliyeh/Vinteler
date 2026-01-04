@@ -1,0 +1,85 @@
+# VINTELER - Configuration Jekyll
+# Site de désamiantage et démolition en Belgique
+
+# Site Settings
+title: "VINTELER"
+tagline: "Désamiantage & Démolition en Belgique"
+description: "Entreprise certifiée de désamiantage et démolition à Bruxelles, Brabant Wallon et toute la Belgique. Retrait amiante sécurisé, démolition urgente 24/7."
+url: "https://vinteler.be"
+baseurl: ""
+lang: "fr-BE"
+
+# Contact Info (utilisé partout dans le site)
+contact:
+  phone: "0490 48 92 42"
+  phone_link: "tel:0490489242"
+  email: "jonathan@vinteler.be"
+  address: "Brusselsesteenweg 511"
+  city: "Overijse"
+  postal_code: "3090"
+  country: "Belgique"
+  vat: "BE 0783.397.239"
+  hours: "Lun-Ven: 8h-18h"
+  emergency: "24/7"
+
+# Company Info
+company:
+  name: "VINTELER"
+  founded: 2014
+  experience: "10+"
+  type: "Entreprise familiale"
+
+# SEO
+author: "VINTELER"
+social:
+  facebook: ""
+  instagram: ""
+  linkedin: ""
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections for SEO pages
+collections:
+  services_pages:
+    output: true
+    permalink: /:slug/
+  city_pages:
+    output: true
+    permalink: /:slug/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "services_pages"
+    values:
+      layout: "service-city"
+  - scope:
+      path: ""
+      type: "city_pages"
+    values:
+      layout: "city"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - doc
+  - docs
+  - README.md
+  - generate_pages.rb

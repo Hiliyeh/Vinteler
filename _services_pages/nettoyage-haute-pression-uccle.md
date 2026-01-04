@@ -1,0 +1,82 @@
+---
+layout: service-city
+title: "Nettoyage Haute Pression Sols & Murs Uccle"
+description: "Nettoyage Haute Pression à Uccle (Bruxelles-Capitale). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "nettoyage-haute-pression Uccle"
+  - "entreprise nettoyage-haute-pression Uccle"
+  - "nettoyage-haute-pression Bruxelles-Capitale"
+  - "prix nettoyage-haute-pression Uccle"
+  - "nettoyage haute pression Uccle"
+  - "nettoyage façade Uccle"
+  - "nettoyage parking Uccle"
+  - "décapage sol Uccle"
+  - "nettoyage béton Uccle"
+
+# URL
+slug: "nettoyage-haute-pression-uccle"
+permalink: "/nettoyage-haute-pression-uccle/"
+
+# Service Info
+service_id: "nettoyage-haute-pression"
+service_name: "Nettoyage Haute Pression"
+service_title: "Nettoyage Haute Pression Sols & Murs"
+service_slug: "nettoyage-haute-pression"
+service_description: "Nettoyage haute pression pour sols industriels, façades, parkings, béton. Élimination graisses, mousse, graffitis, taches tenaces."
+service_short: "Décapage professionnel surfaces"
+
+# Catégorie
+category: "nettoyage"
+category_name: "Nettoyage Professionnel"
+
+# Ville Info
+city_name: "Uccle"
+city_id: "uccle"
+region: "Bruxelles-Capitale"
+postal_codes: ["1180"]
+
+
+# Features
+features:
+  - "Sols béton/carrelage"
+  - "Façades et murs"
+  - "Parkings"
+  - "Enlèvement graffitis"
+  - "Dégraissage sols"
+  - "Traitement anti-mousse"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "nettoyage-toiture"
+    name: "Nettoyage Toiture"
+    slug: "nettoyage-toiture"
+    description: "Démoussage et entretien toitures"
+  - id: "nettoyage-industriel"
+    name: "Nettoyage Industriel"
+    slug: "nettoyage-industriel"
+    description: "Cuves, silos, équipements industriels"
+  - id: "reparation-beton"
+    name: "Réparation Béton"
+    slug: "reparation-beton"
+    description: "Restauration structures béton"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "bruxelles"
+    name: "Bruxelles"
+  - id: "ixelles"
+    name: "Ixelles"
+  - id: "schaerbeek"
+    name: "Schaerbeek"
+  - id: "anderlecht"
+    name: "Anderlecht"
+  - id: "forest"
+    name: "Forest"
+
+# Flags spéciaux
+
+featured: false
+priority: 3
+---

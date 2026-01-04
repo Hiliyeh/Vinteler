@@ -1,0 +1,51 @@
+{% comment %}
+  Services Home Section - DRY component
+  Usage: {% include sections/services-home.html %}
+
+  Replaces 240+ lines in index.html with data-driven approach
+{% endcomment %}
+
+<section class="services" id="services">
+    <div class="section-header">
+        <span class="section-tag">Entreprise agréée SPF</span>
+        <h2 class="section-title">Nos Services</h2>
+        <p class="section-desc">Désamiantage & démolition certifiés + 25 services spécialisés</p>
+    </div>
+
+    <div class="services-grid-v2">
+        {% for config in site.data.homepage.featured_services %}
+            {% assign service = site.data.services | where: "id", config.id | first %}
+            {% if service %}
+                {% include cards/service-card-home.html config=config service=service %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <!-- All Services Link -->
+    <div class="services-all-link">
+        <a href="/services/" class="btn-all-services">
+            <span>Voir nos 27 services</span>
+            {% include svg/icon-arrow.html width="20" height="20" %}
+        </a>
+    </div>
+
+    <!-- More Services Accordion -->
+    <div class="services-more" id="servicesMore">
+        <button class="services-more-header" aria-expanded="false">
+            <h4>Autres services spécialisés</h4>
+            <span class="services-more-count">{{ site.data.homepage.other_services | size }} services</span>
+            <svg class="services-more-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="services-more-content">
+            <div class="services-tags-v2">
+                {% for svc in site.data.homepage.other_services %}
+                <a href="/services/#{{ svc.filter }}" class="service-tag-link">
+                    <span class="tag-name">{{ svc.name }}</span>
+                    <span class="tag-arrow">&#8594;</span>
+                </a>
+                {% endfor %}
+            </div>
+            <a href="/services/" class="services-more-cta">Voir tous les 27 services &#8594;</a>
+        </div>
+    </div>
+</section>

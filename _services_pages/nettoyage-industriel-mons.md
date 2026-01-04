@@ -1,0 +1,76 @@
+---
+layout: service-city
+title: "Nettoyage Industriel Cuves & Silos Mons"
+description: "Nettoyage Industriel à Mons (Hainaut). Cuves, silos, équipements industriels Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "nettoyage-industriel Mons"
+  - "entreprise nettoyage-industriel Mons"
+  - "nettoyage-industriel Hainaut"
+  - "prix nettoyage-industriel Mons"
+  - "nettoyage industriel Mons"
+  - "nettoyage cuve Mons"
+  - "nettoyage silo Mons"
+  - "nettoyage usine Mons"
+  - "décontamination industrielle Mons"
+
+# URL
+slug: "nettoyage-industriel-mons"
+permalink: "/nettoyage-industriel-mons/"
+
+# Service Info
+service_id: "nettoyage-industriel"
+service_name: "Nettoyage Industriel"
+service_title: "Nettoyage Industriel Cuves & Silos"
+service_slug: "nettoyage-industriel"
+service_description: "Nettoyage industriel de cuves, silos, réservoirs et équipements. Décontamination, hydrocurage, intervention en espace confiné."
+service_short: "Cuves, silos, équipements industriels"
+
+# Catégorie
+category: "nettoyage"
+category_name: "Nettoyage Professionnel"
+
+# Ville Info
+city_name: "Mons"
+city_id: "mons"
+region: "Hainaut"
+postal_codes: ["7000", "7010", "7011", "7012", "7020", "7021", "7022", "7024", "7030", "7031", "7032", "7033", "7034"]
+
+
+# Features
+features:
+  - "Cuves et réservoirs"
+  - "Silos industriels"
+  - "Dégraissage machines"
+  - "Espace confiné"
+  - "Hydrocurage"
+  - "Décontamination"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "nettoyage-haute-pression"
+    name: "Nettoyage Haute Pression"
+    slug: "nettoyage-haute-pression"
+    description: "Décapage professionnel surfaces"
+  - id: "decoupe-metallique"
+    name: "Découpe Métallique"
+    slug: "decoupe-metallique"
+    description: "Oxycoupage et découpe structures"
+  - id: "demontage-industriel"
+    name: "Démontage Industriel"
+    slug: "demontage-industriel"
+    description: "Démantèlement équipements usines"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "charleroi"
+    name: "Charleroi"
+  - id: "tournai"
+    name: "Tournai"
+
+# Flags spéciaux
+
+featured: false
+priority: 2
+---

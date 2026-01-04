@@ -1,0 +1,55 @@
+{% comment %}
+  Hub City Card - DRY component for zones.html
+  Usage: {% include cards/hub-city.html city=city region=region %}
+
+  Replaces 5 repeated blocks in zones.html (195 lines → 1 include)
+{% endcomment %}
+
+{% assign city = include.city %}
+{% assign region = include.region %}
+
+<div class="hub-city-card{% if city.is_hq %} hq{% endif %}">
+    {% if city.is_hq %}<span class="hq-badge">Siège</span>{% endif %}
+
+    <h3>{{ city.name }}</h3>
+
+    {% if region.show_region_in_postal %}
+    <span class="postal-codes">{{ city.region }} - {{ city.postal_codes | first }}</span>
+    {% else %}
+    <span class="postal-codes">{{ city.postal_codes | join: ", " }}</span>
+    {% endif %}
+
+    <div class="hub-city-services">
+        <strong>Services disponibles :</strong>
+        <div class="hub-service-chips">
+            {% for service in region.featured_services %}
+            <a href="/{{ service.slug }}-{{ city.id }}/">{{ service.name }}</a>
+            {% endfor %}
+        </div>
+
+        {% comment %} Expandable section for remaining services {% endcomment %}
+        {% assign featured_count = region.featured_services | size %}
+        {% assign total_services = site.data.services | size %}
+        {% assign remaining = total_services | minus: featured_count %}
+
+        {% if remaining > 0 %}
+        <details class="more-services">
+            <summary>+ {{ remaining }} autres services</summary>
+            <div class="hub-service-chips expanded">
+                {% comment %} Get featured slugs for exclusion {% endcomment %}
+                {% assign featured_slugs = "" %}
+                {% for fs in region.featured_services %}
+                    {% assign featured_slugs = featured_slugs | append: fs.slug | append: "," %}
+                {% endfor %}
+
+                {% for service in site.data.services %}
+                    {% assign slug_check = service.slug_prefix | append: "," %}
+                    {% unless featured_slugs contains slug_check %}
+                    <a href="/{{ service.slug_prefix }}-{{ city.id }}/">{{ service.name }}</a>
+                    {% endunless %}
+                {% endfor %}
+            </div>
+        </details>
+        {% endif %}
+    </div>
+</div>

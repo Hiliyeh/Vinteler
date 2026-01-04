@@ -1,0 +1,62 @@
+---
+layout: default
+title: "Zones d'Intervention - Désamiantage & Démolition en Belgique - VINTELER"
+description: "VINTELER intervient dans toute la Belgique : Bruxelles, Brabant Wallon, Brabant Flamand, Wallonie et Flandre. Désamiantage et démolition près de chez vous."
+permalink: /zones/
+---
+
+<section class="hub-hero">
+    <div class="container">
+        <h1>Zones d'Intervention</h1>
+        <p class="hub-subtitle">Nous intervenons dans plus de 45 villes en Belgique</p>
+    </div>
+</section>
+
+<section class="hub-content">
+    <div class="container">
+
+        {% comment %}
+        ═══════════════════════════════════════════════════════════════════
+        DRY REFACTORING: Boucle sur les régions
+        Avant: 5 blocs répétés (195 lignes) → Après: 1 boucle (~20 lignes)
+        ═══════════════════════════════════════════════════════════════════
+        {% endcomment %}
+
+        {% for region in site.data.regions %}
+        <div class="hub-region" id="{{ region.id }}">
+            <div class="hub-region-header">
+                <h2>{{ region.name }}</h2>
+                <span class="region-count">{{ region.count_label }}</span>
+            </div>
+            <div class="hub-cities-grid">
+                {% comment %} Filter cities based on region configuration {% endcomment %}
+                {% for city in site.data.cities %}
+                    {% assign city_matches = false %}
+
+                    {% if region.filter_type == "exact" %}
+                        {% if region.filter_values contains city.region %}
+                            {% assign city_matches = true %}
+                        {% endif %}
+                    {% elsif region.filter_type == "multiple" %}
+                        {% if region.filter_values contains city.region %}
+                            {% assign city_matches = true %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if city_matches %}
+                        {% include cards/hub-city.html city=city region=region %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        {% comment %} CTA Section {% endcomment %}
+        {% include hub-cta.html
+            title="Votre ville n'est pas listée ?"
+            subtitle="Nous intervenons dans toute la Belgique. Contactez-nous pour vérifier notre disponibilité."
+            button_text="Demander un devis"
+        %}
+
+    </div>
+</section>

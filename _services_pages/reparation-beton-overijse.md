@@ -1,0 +1,82 @@
+---
+layout: service-city
+title: "Réparation & Protection Béton Overijse"
+description: "Réparation Béton à Overijse (Brabant Flamand). Restauration structures béton Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "reparation-beton Overijse"
+  - "entreprise reparation-beton Overijse"
+  - "reparation-beton Brabant Flamand"
+  - "prix reparation-beton Overijse"
+  - "réparation béton Overijse"
+  - "béton dégradé Overijse"
+  - "passivation armature Overijse"
+  - "ragréage béton Overijse"
+  - "restauration béton Overijse"
+
+# URL
+slug: "reparation-beton-overijse"
+permalink: "/reparation-beton-overijse/"
+
+# Service Info
+service_id: "reparation-beton"
+service_name: "Réparation Béton"
+service_title: "Réparation & Protection Béton"
+service_slug: "reparation-beton"
+service_description: "Réparation de béton dégradé : passivation des armatures, reprises localisées, ragréage, protection anticorrosion, étanchéité."
+service_short: "Restauration structures béton"
+
+# Catégorie
+category: "traitements"
+category_name: "Traitements Spécialisés"
+
+# Ville Info
+city_name: "Overijse"
+city_id: "overijse"
+region: "Brabant Flamand"
+postal_codes: ["3090"]
+is_hq: true
+
+# Features
+features:
+  - "Réparation béton dégradé"
+  - "Passivation armatures"
+  - "Reprises localisées"
+  - "Ragréage"
+  - "Protection anticorrosion"
+  - "Étanchéité béton"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "traitement-humidite"
+    name: "Traitement Humidité"
+    slug: "traitement-humidite"
+    description: "Injection et assèchement murs"
+  - id: "nettoyage-haute-pression"
+    name: "Nettoyage Haute Pression"
+    slug: "nettoyage-haute-pression"
+    description: "Décapage professionnel surfaces"
+  - id: "demolition-murs-porteurs"
+    name: "Démolition Murs Porteurs"
+    slug: "demolition-murs-porteurs"
+    description: "Ouvertures structurelles sécurisées"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "tervuren"
+    name: "Tervuren"
+  - id: "leuven"
+    name: "Leuven"
+  - id: "zaventem"
+    name: "Zaventem"
+  - id: "vilvoorde"
+    name: "Vilvorde"
+  - id: "hoeilaart"
+    name: "Hoeilaart"
+
+# Flags spéciaux
+
+featured: false
+priority: 3
+---

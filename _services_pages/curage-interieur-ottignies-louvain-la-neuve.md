@@ -1,0 +1,82 @@
+---
+layout: service-city
+title: "Curage Intérieur Avant Rénovation Ottignies-Louvain-la-Neuve"
+description: "Curage Intérieur à Ottignies-Louvain-la-Neuve (Brabant Wallon). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "curage-interieur Ottignies-Louvain-la-Neuve"
+  - "entreprise curage-interieur Ottignies-Louvain-la-Neuve"
+  - "curage-interieur Brabant Wallon"
+  - "prix curage-interieur Ottignies-Louvain-la-Neuve"
+  - "curage intérieur Ottignies-Louvain-la-Neuve"
+  - "curage avant rénovation Ottignies-Louvain-la-Neuve"
+  - "démontage intérieur Ottignies-Louvain-la-Neuve"
+  - "vidage chantier Ottignies-Louvain-la-Neuve"
+  - "préparation rénovation Ottignies-Louvain-la-Neuve"
+
+# URL
+slug: "curage-interieur-ottignies-louvain-la-neuve"
+permalink: "/curage-interieur-ottignies-louvain-la-neuve/"
+
+# Service Info
+service_id: "curage-interieur"
+service_name: "Curage Intérieur"
+service_title: "Curage Intérieur Avant Rénovation"
+service_slug: "curage-interieur"
+service_description: "Curage intérieur complet avant rénovation : démontage cloisons, revêtements, plafonds, sanitaires. Préparation chantier pour entrepreneurs."
+service_short: "Vidage complet avant travaux"
+
+# Catégorie
+category: "demolition"
+category_name: "Démolition & Curage"
+
+# Ville Info
+city_name: "Ottignies-Louvain-la-Neuve"
+city_id: "ottignies-louvain-la-neuve"
+region: "Brabant Wallon"
+postal_codes: ["1340", "1341", "1342", "1348"]
+
+
+# Features
+features:
+  - "Démontage cloisons"
+  - "Retrait revêtements sols/murs"
+  - "Démontage plafonds"
+  - "Retrait sanitaires"
+  - "Évacuation gravats"
+  - "Préparation rénovation"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "demolition-murs-porteurs"
+    name: "Démolition Murs Porteurs"
+    slug: "demolition-murs-porteurs"
+    description: "Ouvertures structurelles sécurisées"
+  - id: "nettoyage-haute-pression"
+    name: "Nettoyage Haute Pression"
+    slug: "nettoyage-haute-pression"
+    description: "Décapage professionnel surfaces"
+  - id: "desamiantage-simple"
+    name: "Désamiantage Simple"
+    slug: "desamiantage-simple"
+    description: "Retrait amiante non friable"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "waterloo"
+    name: "Waterloo"
+  - id: "wavre"
+    name: "Wavre"
+  - id: "braine-lalleud"
+    name: "Braine-l'Alleud"
+  - id: "nivelles"
+    name: "Nivelles"
+  - id: "rixensart"
+    name: "Rixensart"
+
+# Flags spéciaux
+
+featured: false
+priority: 3
+---

@@ -1,0 +1,74 @@
+---
+layout: service-city
+title: "Traitement Humidité & Salpêtre Namur"
+description: "Traitement Humidité à Namur (Namur). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "traitement-humidite Namur"
+  - "entreprise traitement-humidite Namur"
+  - "traitement-humidite Namur"
+  - "prix traitement-humidite Namur"
+  - "traitement humidité Namur"
+  - "traitement salpêtre Namur"
+  - "injection mur humide Namur"
+  - "humidité ascensionnelle Namur"
+  - "mur humide Namur"
+  - "remontées capillaires Namur"
+
+# URL
+slug: "traitement-humidite-namur"
+permalink: "/traitement-humidite-namur/"
+
+# Service Info
+service_id: "traitement-humidite"
+service_name: "Traitement Humidité"
+service_title: "Traitement Humidité & Salpêtre"
+service_slug: "traitement-humidite"
+service_description: "Traitement de l'humidité ascensionnelle et du salpêtre : injection de résine, barrière étanche, enduits anti-humidité, drainage, ventilation."
+service_short: "Injection et assèchement murs"
+
+# Catégorie
+category: "traitements"
+category_name: "Traitements Spécialisés"
+
+# Ville Info
+city_name: "Namur"
+city_id: "namur"
+region: "Namur"
+postal_codes: ["5000", "5001", "5002", "5003", "5004", "5020", "5021", "5022", "5024"]
+
+
+# Features
+features:
+  - "Injection résine/crème"
+  - "Barrière étanche"
+  - "Enduits anti-humidité"
+  - "Reprises de murs"
+  - "Ventilation complémentaire"
+  - "Traitement fissures"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "traitement-merule"
+    name: "Traitement Mérule"
+    slug: "traitement-merule"
+    description: "Éradication champignons destructeurs"
+  - id: "reparation-beton"
+    name: "Réparation Béton"
+    slug: "reparation-beton"
+    description: "Restauration structures béton"
+  - id: "nettoyage-haute-pression"
+    name: "Nettoyage Haute Pression"
+    slug: "nettoyage-haute-pression"
+    description: "Décapage professionnel surfaces"
+
+# Villes proches (même région)
+nearby_cities:
+
+
+# Flags spéciaux
+
+featured: true
+priority: 2
+---

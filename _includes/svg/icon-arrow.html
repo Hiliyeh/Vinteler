@@ -1,0 +1,7 @@
+{% comment %}
+  Arrow Icon - Reusable SVG component
+  Usage: {% include svg/icon-arrow.html width="20" height="20" direction="right" %}
+{% endcomment %}
+<svg viewBox="0 0 24 24" width="{{ include.width | default: 24 }}" height="{{ include.height | default: 24 }}" fill="none" stroke="currentColor" stroke-width="{{ include.stroke_width | default: 2 }}"{% if include.class %} class="{{ include.class }}"{% endif %}>
+    <path d="M5 12h14M12 5l7 7-7 7"/>
+</svg>

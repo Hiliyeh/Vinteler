@@ -1,0 +1,78 @@
+---
+layout: service-city
+title: "Traitement & Diagnostic Radon Vilvorde"
+description: "Traitement Radon à Vilvorde (Brabant Flamand). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "traitement-radon Vilvorde"
+  - "entreprise traitement-radon Vilvorde"
+  - "traitement-radon Brabant Flamand"
+  - "prix traitement-radon Vilvorde"
+  - "traitement radon Vilvorde"
+  - "radon belgique Vilvorde"
+  - "diagnostic radon Vilvorde"
+  - "ventilation radon Vilvorde"
+  - "gaz radon maison Vilvorde"
+
+# URL
+slug: "traitement-radon-vilvoorde"
+permalink: "/traitement-radon-vilvoorde/"
+
+# Service Info
+service_id: "traitement-radon"
+service_name: "Traitement Radon"
+service_title: "Traitement & Diagnostic Radon"
+service_slug: "traitement-radon"
+service_description: "Diagnostic et traitement du radon en Belgique. Pose de détecteurs, ventilation sous dalle, étanchéité des passages, solutions conformes SPF."
+service_short: "Diagnostic et réduction radon"
+
+# Catégorie
+category: "traitements"
+category_name: "Traitements Spécialisés"
+
+# Ville Info
+city_name: "Vilvorde"
+city_id: "vilvoorde"
+region: "Brabant Flamand"
+postal_codes: ["1800"]
+
+
+# Features
+features:
+  - "Diagnostic radon"
+  - "Pose détecteurs"
+  - "Ventilation sous dalle"
+  - "Étanchéité passages"
+  - "Puisard radon"
+  - "Conformité SPF"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "traitement-humidite"
+    name: "Traitement Humidité"
+    slug: "traitement-humidite"
+    description: "Injection et assèchement murs"
+  - id: "protection-incendie-locaux"
+    name: "Protection Locaux à Risque"
+    slug: "protection-incendie-locaux"
+    description: "Locaux techniques et zones sensibles"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "overijse"
+    name: "Overijse"
+  - id: "tervuren"
+    name: "Tervuren"
+  - id: "leuven"
+    name: "Leuven"
+  - id: "zaventem"
+    name: "Zaventem"
+  - id: "hoeilaart"
+    name: "Hoeilaart"
+
+# Flags spéciaux
+
+featured: false
+priority: 3
+---

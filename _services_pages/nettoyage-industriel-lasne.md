@@ -1,0 +1,82 @@
+---
+layout: service-city
+title: "Nettoyage Industriel Cuves & Silos Lasne"
+description: "Nettoyage Industriel à Lasne (Brabant Wallon). Cuves, silos, équipements industriels Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "nettoyage-industriel Lasne"
+  - "entreprise nettoyage-industriel Lasne"
+  - "nettoyage-industriel Brabant Wallon"
+  - "prix nettoyage-industriel Lasne"
+  - "nettoyage industriel Lasne"
+  - "nettoyage cuve Lasne"
+  - "nettoyage silo Lasne"
+  - "nettoyage usine Lasne"
+  - "décontamination industrielle Lasne"
+
+# URL
+slug: "nettoyage-industriel-lasne"
+permalink: "/nettoyage-industriel-lasne/"
+
+# Service Info
+service_id: "nettoyage-industriel"
+service_name: "Nettoyage Industriel"
+service_title: "Nettoyage Industriel Cuves & Silos"
+service_slug: "nettoyage-industriel"
+service_description: "Nettoyage industriel de cuves, silos, réservoirs et équipements. Décontamination, hydrocurage, intervention en espace confiné."
+service_short: "Cuves, silos, équipements industriels"
+
+# Catégorie
+category: "nettoyage"
+category_name: "Nettoyage Professionnel"
+
+# Ville Info
+city_name: "Lasne"
+city_id: "lasne"
+region: "Brabant Wallon"
+postal_codes: ["1380", "1381", "1382"]
+
+
+# Features
+features:
+  - "Cuves et réservoirs"
+  - "Silos industriels"
+  - "Dégraissage machines"
+  - "Espace confiné"
+  - "Hydrocurage"
+  - "Décontamination"
+
+# Maillage interne - Services liés
+related_services:
+  - id: "nettoyage-haute-pression"
+    name: "Nettoyage Haute Pression"
+    slug: "nettoyage-haute-pression"
+    description: "Décapage professionnel surfaces"
+  - id: "decoupe-metallique"
+    name: "Découpe Métallique"
+    slug: "decoupe-metallique"
+    description: "Oxycoupage et découpe structures"
+  - id: "demontage-industriel"
+    name: "Démontage Industriel"
+    slug: "demontage-industriel"
+    description: "Démantèlement équipements usines"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "waterloo"
+    name: "Waterloo"
+  - id: "wavre"
+    name: "Wavre"
+  - id: "ottignies-louvain-la-neuve"
+    name: "Ottignies-Louvain-la-Neuve"
+  - id: "braine-lalleud"
+    name: "Braine-l'Alleud"
+  - id: "nivelles"
+    name: "Nivelles"
+
+# Flags spéciaux
+
+featured: false
+priority: 2
+---

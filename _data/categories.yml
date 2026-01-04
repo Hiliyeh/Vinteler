@@ -1,0 +1,94 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# VINTELER - CATÉGORIES DE SERVICES
+# Structure pour navigation et organisation du site
+# ═══════════════════════════════════════════════════════════════════════════
+
+- id: demolition
+  name: "Démolition & Curage"
+  short_name: "Démolition"
+  slug: "demolition"
+  description: "Démolition complète ou partielle, curage intérieur, ouvertures structurelles et sécurisation de chantiers."
+  icon: "demolition"
+  color: "#dc3545"
+  order: 1
+  featured: true
+  services_count: 6
+
+- id: desamiantage
+  name: "Désamiantage"
+  short_name: "Amiante"
+  slug: "desamiantage"
+  description: "Retrait d'amiante en traitement simple ou zone confinée. Entreprise agréée SPF Belgique."
+  icon: "asbestos"
+  color: "#fd7e14"
+  order: 2
+  featured: true
+  services_count: 2
+
+- id: nettoyage
+  name: "Nettoyage Professionnel"
+  short_name: "Nettoyage"
+  slug: "nettoyage"
+  description: "Nettoyage industriel, haute pression, toitures et interventions après décès ou sinistre."
+  icon: "cleaning"
+  color: "#0dcaf0"
+  order: 3
+  featured: false
+  services_count: 4
+
+- id: urgence
+  name: "Urgences 24/7"
+  short_name: "Urgences"
+  slug: "urgence-sinistre"
+  description: "Intervention d'urgence 24h/24 après sinistre : incendie, inondation, tempête. Sur place en 2h max."
+  icon: "emergency"
+  color: "#dc3545"
+  order: 4
+  featured: true
+  is_emergency: true
+  phone: "0490 48 92 42"
+  services_count: 1
+
+- id: demontage
+  name: "Démontage Industriel"
+  short_name: "Démontage"
+  slug: "demontage-industriel"
+  description: "Découpe métallique, démontage de lignes industrielles, hangars et constructions modulaires."
+  icon: "factory"
+  color: "#6c757d"
+  order: 5
+  featured: false
+  services_count: 4
+
+- id: incendie
+  name: "Protection Incendie"
+  short_name: "Incendie"
+  slug: "protection-incendie"
+  description: "Calfeutrement coupe-feu, peinture intumescente, protection planchers, locaux à risque. Certifié EI30 à EI90."
+  icon: "fire"
+  color: "#ff6b35"
+  order: 6
+  featured: true
+  services_count: 4
+
+- id: traitements
+  name: "Traitements Spécialisés"
+  short_name: "Traitements"
+  slug: "traitements"
+  description: "Traitement humidité, mérule, radon et réparation béton. Solutions durables pour problèmes structurels."
+  icon: "treatment"
+  color: "#20c997"
+  order: 7
+  featured: true
+  services_count: 4
+
+- id: finitions
+  name: "Acoustique & Sols"
+  short_name: "Finitions"
+  slug: "finitions"
+  description: "Isolation acoustique professionnelle et aménagements extérieurs : pavage, dallage, klinkers."
+  icon: "finish"
+  color: "#6f42c1"
+  order: 8
+  featured: false
+  services_count: 2
