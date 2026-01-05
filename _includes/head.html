@@ -2,9 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- SEO Primary Meta Tags -->
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} - Désamiantage & Démolition Belgique</title>
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.tagline }}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}{% else %}désamiantage Belgique, démolition Bruxelles, retrait amiante, entreprise certifiée{% endif %}">
+<meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}{% else %}travaux bâtiment Belgique, démolition Bruxelles, curage intérieur, nettoyage professionnel, pavage{% endif %}">
 <meta name="author" content="{{ site.author }}">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -18,7 +18,7 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:image" content="{{ '/assets/images/og-image.jpg' | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/images/og-image.svg' | absolute_url }}">
 <meta property="og:locale" content="fr_BE">
 <meta property="og:site_name" content="{{ site.title }}">
 
@@ -26,6 +26,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{{ '/assets/images/og-image.svg' | absolute_url }}">
 
 <!-- Additional SEO -->
 <meta name="theme-color" content="#0d6e6e">
@@ -36,33 +37,73 @@
 <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/favicon.svg' | relative_url }}">
 
+<!-- Structured Data - Organization -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "{{ site.url }}/#organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ '/favicon.svg' | absolute_url }}",
+    "description": "{{ site.description }}",
+    "foundingDate": "2014",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+32490489242",
+        "contactType": "customer service",
+        "availableLanguage": ["French", "Dutch", "English"]
+    }
+}
+</script>
+
 <!-- Structured Data - LocalBusiness -->
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "{{ site.url }}/#organization",
+    "@id": "{{ site.url }}/#localbusiness",
     "name": "{{ site.title }}",
     "description": "{{ site.description }}",
     "url": "{{ site.url }}",
-    "telephone": "{{ site.contact.phone_link | replace: 'tel:', '+32' | remove: '-' }}",
+    "telephone": "+32490489242",
     "email": "{{ site.contact.email }}",
+    "image": "{{ '/favicon.svg' | absolute_url }}",
+    "priceRange": "€€",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "{{ site.contact.address }}",
         "addressLocality": "{{ site.contact.city }}",
         "postalCode": "{{ site.contact.postal_code }}",
+        "addressRegion": "Brabant Flamand",
         "addressCountry": "BE"
     },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "50.7742",
+        "longitude": "4.5333"
+    },
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "18:00"
+        }
+    ],
     "vatID": "{{ site.contact.vat | remove: ' ' }}",
-    "areaServed": "Belgique"
+    "areaServed": {
+        "@type": "Country",
+        "name": "Belgium"
+    }
 }
 </script>
 
-<!-- Fonts -->
+<!-- Fonts - Preload for better LCP -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
 <!-- Styles -->
 <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">

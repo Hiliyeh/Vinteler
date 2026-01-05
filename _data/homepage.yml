@@ -75,6 +75,17 @@ featured_services:
       - { id: anvers, name: Anvers }
       - { id: gand, name: Gand }
 
+  - id: pavage
+    icon_type: default
+    filter: finitions
+    cities:
+      - { id: bruxelles, name: Bruxelles }
+      - { id: waterloo, name: Waterloo }
+      - { id: ixelles, name: Ixelles }
+      - { id: uccle, name: Uccle }
+      - { id: woluwe-saint-pierre, name: Woluwe-Saint-Pierre }
+      - { id: rhode-saint-genese, name: Rhode-Saint-Genèse }
+
 # Additional services shown in accordion
 other_services:
   - { name: "Démolition d'Annexe", filter: demolition }
@@ -87,7 +98,7 @@ other_services:
   - { name: "Traitement Mérule", filter: traitements }
   - { name: "Traitement Radon", filter: traitements }
   - { name: "Réparation Béton", filter: traitements }
-  - { name: "Pavage & Dallage", filter: finitions }
+  - { name: "Terrassement", filter: finitions }
   - { name: "Isolation Acoustique", filter: finitions }
 
 # Trust stats
@@ -100,14 +111,14 @@ trust_stats:
 # Guarantees
 guarantees:
   - "Devis gratuit et sans engagement"
-  - "Personnel formé (32h désamiantage)"
+  - "Personnel qualifié et formé"
   - "Assurance RC professionnelle"
   - "Évacuation déchets conforme"
 
 # Certifications
 certifications:
-  - title: "Conformité SPF Emploi"
-    description: "Respect des normes belges pour les travaux de désamiantage et démolition"
+  - title: "Conformité Normes Belges"
+    description: "Respect strict des réglementations en vigueur"
     icon: shield
 
   - title: "Formation Sécurité VCA"
@@ -119,5 +130,5 @@ certifications:
     icon: clock
 
   - title: "Gestion Déchets Conforme"
-    description: "Évacuation via centres agréés (amiante, gravats, matériaux)"
+    description: "Évacuation via centres agréés"
     icon: layers

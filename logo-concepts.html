@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINTELER - Concepts Logo Construction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 10px;
+            color: #e8a838;
+        }
+
+        .subtitle {
+            color: #8b949e;
+            margin-bottom: 60px;
+            font-size: 1.1rem;
+        }
+
+        .concepts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .concept-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .concept-card:hover {
+            border-color: #0f7a7a;
+            transform: translateY(-4px);
+        }
+
+        .concept-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .concept-number {
+            background: #0f7a7a;
+            color: white;
+            font-weight: 700;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+        .concept-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.05em;
+            color: #f0f6fc;
+        }
+
+        .concept-description {
+            color: #8b949e;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .logo-preview {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 30px;
+            background: #1a2332;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .logo-preview.light {
+            background: #f5f5f5;
+        }
+
+        .logo-preview.light .logo-text {
+            color: #1a2332;
+        }
+
+        .logo-preview.light .logo-tagline {
+            color: #666;
+        }
+
+        .logo-text-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            letter-spacing: 0.15em;
+            color: #f0f6fc;
+            line-height: 1;
+        }
+
+        .logo-tagline {
+            font-size: 0.7rem;
+            color: #8b949e;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .sizes {
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+            padding: 20px;
+            background: #21262d;
+            border-radius: 8px;
+        }
+
+        .size-label {
+            font-size: 0.7rem;
+            color: #8b949e;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background: #21262d;
+            color: #8b949e;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+
+        .winner {
+            border: 2px solid #e8a838 !important;
+            position: relative;
+        }
+
+        .winner::before {
+            content: 'RECOMMANDE';
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background: #e8a838;
+            color: #1a2332;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 4px;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body>
+    <h1>VINTELER - CONCEPTS LOGO</h1>
+    <p class="subtitle">Style Construction / BTP / Industriel - Adieu le gaming, bonjour la demolition</p>
+
+    <div class="concepts-grid">
+
+        <!-- CONCEPT 1: I-BEAM STRUCTURAL -->
+        <div class="concept-card winner">
+            <div class="concept-header">
+                <span class="concept-number">01</span>
+                <span class="concept-title">POUTRE IPN</span>
+            </div>
+            <p class="concept-description">
+                Le V forme par deux poutres IPN (profil en I) qui se rejoignent. Ultra industriel,
+                immediatement reconnaissable comme BTP/construction. Symbolise la solidite structurelle.
+            </p>
+
+            <div class="logo-preview">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <defs>
+                        <linearGradient id="steelGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f7a7a"/>
+                            <stop offset="100%" style="stop-color:#095555"/>
+                        </linearGradient>
+                        <linearGradient id="metalGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#f4c45a"/>
+                            <stop offset="50%" style="stop-color:#e8a838"/>
+                            <stop offset="100%" style="stop-color:#c4882a"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Background solide, angles durs -->
+                    <rect width="32" height="32" rx="4" fill="url(#steelGrad1)"/>
+                    <!-- Texture industrielle subtile -->
+                    <rect x="0" y="0" width="32" height="32" rx="4" fill="url(#metalGrad1)" opacity="0.03"/>
+                    <!-- Poutre gauche - profil IPN -->
+                    <polygon points="6,6 10,6 16,24 14,24" fill="url(#metalGrad1)"/>
+                    <polygon points="7,6 9,6 15,23 14,23" fill="#d4922a" opacity="0.5"/>
+                    <!-- Poutre droite - profil IPN -->
+                    <polygon points="22,6 26,6 18,24 16,24" fill="url(#metalGrad1)"/>
+                    <polygon points="23,6 25,6 17,23 16,23" fill="#f4c45a" opacity="0.3"/>
+                    <!-- Rivet/boulon central -->
+                    <circle cx="16" cy="24" r="2" fill="#c4882a"/>
+                    <circle cx="16" cy="24" r="1.2" fill="#e8a838"/>
+                    <!-- Boulons haut -->
+                    <circle cx="8" cy="7" r="1" fill="#c4882a"/>
+                    <circle cx="24" cy="7" r="1" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="logo-preview light">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <defs>
+                        <linearGradient id="steelGrad1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f7a7a"/>
+                            <stop offset="100%" style="stop-color:#095555"/>
+                        </linearGradient>
+                        <linearGradient id="metalGrad1b" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#f4c45a"/>
+                            <stop offset="50%" style="stop-color:#e8a838"/>
+                            <stop offset="100%" style="stop-color:#c4882a"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="32" height="32" rx="4" fill="url(#steelGrad1b)"/>
+                    <polygon points="6,6 10,6 16,24 14,24" fill="url(#metalGrad1b)"/>
+                    <polygon points="7,6 9,6 15,23 14,23" fill="#d4922a" opacity="0.5"/>
+                    <polygon points="22,6 26,6 18,24 16,24" fill="url(#metalGrad1b)"/>
+                    <polygon points="23,6 25,6 17,23 16,23" fill="#f4c45a" opacity="0.3"/>
+                    <circle cx="16" cy="24" r="2" fill="#c4882a"/>
+                    <circle cx="16" cy="24" r="1.2" fill="#e8a838"/>
+                    <circle cx="8" cy="7" r="1" fill="#c4882a"/>
+                    <circle cx="24" cy="7" r="1" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="sizes">
+                <div>
+                    <svg viewBox="0 0 32 32" width="64" height="64">
+                        <defs>
+                            <linearGradient id="sg1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#095555"/>
+                            </linearGradient>
+                            <linearGradient id="mg1c" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#f4c45a"/>
+                                <stop offset="50%" style="stop-color:#e8a838"/>
+                                <stop offset="100%" style="stop-color:#c4882a"/>
+                            </linearGradient>
+                        </defs>
+                        <rect width="32" height="32" rx="4" fill="url(#sg1c)"/>
+                        <polygon points="6,6 10,6 16,24 14,24" fill="url(#mg1c)"/>
+                        <polygon points="22,6 26,6 18,24 16,24" fill="url(#mg1c)"/>
+                        <circle cx="16" cy="24" r="2" fill="#c4882a"/>
+                        <circle cx="16" cy="24" r="1.2" fill="#e8a838"/>
+                        <circle cx="8" cy="7" r="1" fill="#c4882a"/>
+                        <circle cx="24" cy="7" r="1" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">64px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="48" height="48">
+                        <rect width="32" height="32" rx="4" fill="#0a5f5f"/>
+                        <polygon points="6,6 10,6 16,24 14,24" fill="#e8a838"/>
+                        <polygon points="22,6 26,6 18,24 16,24" fill="#e8a838"/>
+                        <circle cx="16" cy="24" r="2" fill="#c4882a"/>
+                        <circle cx="8" cy="7" r="1" fill="#c4882a"/>
+                        <circle cx="24" cy="7" r="1" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">48px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" rx="4" fill="#0a5f5f"/>
+                        <polygon points="6,6 10,6 16,24 14,24" fill="#e8a838"/>
+                        <polygon points="22,6 26,6 18,24 16,24" fill="#e8a838"/>
+                        <circle cx="16" cy="24" r="2" fill="#c4882a"/>
+                        <circle cx="8" cy="7" r="1" fill="#c4882a"/>
+                        <circle cx="24" cy="7" r="1" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">36px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" rx="4" fill="#0a5f5f"/>
+                        <polygon points="6,6 10,6 16,24 14,24" fill="#e8a838"/>
+                        <polygon points="22,6 26,6 18,24 16,24" fill="#e8a838"/>
+                        <circle cx="16" cy="24" r="1.5" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">24px</div>
+                </div>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Industriel</span>
+                <span class="tag">Poutres acier</span>
+                <span class="tag">Boulons</span>
+                <span class="tag">BTP</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT 2: CHARPENTE TRIANGULAIRE -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">02</span>
+                <span class="concept-title">CHARPENTE TRUSS</span>
+            </div>
+            <p class="concept-description">
+                Structure triangulaire type charpente metallique ou pont. Le V est renforce par
+                des elements de liaison. Evoque la construction structurelle professionnelle.
+            </p>
+
+            <div class="logo-preview">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <defs>
+                        <linearGradient id="steelGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f7a7a"/>
+                            <stop offset="100%" style="stop-color:#074545"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="32" height="32" rx="3" fill="url(#steelGrad2)"/>
+                    <!-- Structure principale V -->
+                    <path d="M6 7 L16 25 L26 7" stroke="#e8a838" stroke-width="3" stroke-linecap="square" fill="none"/>
+                    <!-- Traverse horizontale -->
+                    <line x1="9" y1="13" x2="23" y2="13" stroke="#e8a838" stroke-width="2" stroke-linecap="square"/>
+                    <!-- Renforts diagonaux -->
+                    <line x1="11" y1="13" x2="16" y2="22" stroke="#e8a838" stroke-width="1.5" stroke-linecap="square"/>
+                    <line x1="21" y1="13" x2="16" y2="22" stroke="#e8a838" stroke-width="1.5" stroke-linecap="square"/>
+                    <!-- Joints/noeuds -->
+                    <rect x="5" y="5.5" width="3" height="3" fill="#c4882a"/>
+                    <rect x="24" y="5.5" width="3" height="3" fill="#c4882a"/>
+                    <rect x="14.5" y="23" width="3" height="3" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="logo-preview light">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                    <path d="M6 7 L16 25 L26 7" stroke="#e8a838" stroke-width="3" stroke-linecap="square" fill="none"/>
+                    <line x1="9" y1="13" x2="23" y2="13" stroke="#e8a838" stroke-width="2" stroke-linecap="square"/>
+                    <line x1="11" y1="13" x2="16" y2="22" stroke="#e8a838" stroke-width="1.5" stroke-linecap="square"/>
+                    <line x1="21" y1="13" x2="16" y2="22" stroke="#e8a838" stroke-width="1.5" stroke-linecap="square"/>
+                    <rect x="5" y="5.5" width="3" height="3" fill="#c4882a"/>
+                    <rect x="24" y="5.5" width="3" height="3" fill="#c4882a"/>
+                    <rect x="14.5" y="23" width="3" height="3" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="sizes">
+                <div>
+                    <svg viewBox="0 0 32 32" width="64" height="64">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <path d="M6 7 L16 25 L26 7" stroke="#e8a838" stroke-width="3" stroke-linecap="square" fill="none"/>
+                        <line x1="9" y1="13" x2="23" y2="13" stroke="#e8a838" stroke-width="2"/>
+                        <line x1="11" y1="13" x2="16" y2="22" stroke="#e8a838" stroke-width="1.5"/>
+                        <line x1="21" y1="13" x2="16" y2="22" stroke="#e8a838" stroke-width="1.5"/>
+                        <rect x="5" y="5.5" width="3" height="3" fill="#c4882a"/>
+                        <rect x="24" y="5.5" width="3" height="3" fill="#c4882a"/>
+                        <rect x="14.5" y="23" width="3" height="3" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">64px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <path d="M6 7 L16 25 L26 7" stroke="#e8a838" stroke-width="3" fill="none"/>
+                        <line x1="9" y1="13" x2="23" y2="13" stroke="#e8a838" stroke-width="2"/>
+                        <rect x="5" y="5.5" width="3" height="3" fill="#c4882a"/>
+                        <rect x="24" y="5.5" width="3" height="3" fill="#c4882a"/>
+                        <rect x="14.5" y="23" width="3" height="3" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">36px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <path d="M6 7 L16 25 L26 7" stroke="#e8a838" stroke-width="3.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">24px</div>
+                </div>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Charpente</span>
+                <span class="tag">Structure</span>
+                <span class="tag">Pont</span>
+                <span class="tag">Ingenierie</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT 3: BLOC DEMOLITION -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">03</span>
+                <span class="concept-title">BLOC DEMOLITION</span>
+            </div>
+            <p class="concept-description">
+                V forme par des blocs/briques empiles, certains en train de tomber.
+                Represente directement l'activite de demolition de facon graphique et memorable.
+            </p>
+
+            <div class="logo-preview">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <defs>
+                        <linearGradient id="steelGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f7a7a"/>
+                            <stop offset="100%" style="stop-color:#074545"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="32" height="32" rx="3" fill="url(#steelGrad3)"/>
+                    <!-- Blocs gauche descendant -->
+                    <rect x="5" y="5" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="7" y="10" width="5" height="4" fill="#d4922a" rx="0.5"/>
+                    <rect x="9" y="15" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="11" y="20" width="5" height="4" fill="#c4882a" rx="0.5"/>
+                    <!-- Blocs droite descendant -->
+                    <rect x="22" y="5" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="20" y="10" width="5" height="4" fill="#d4922a" rx="0.5"/>
+                    <rect x="18" y="15" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="16" y="20" width="5" height="4" fill="#c4882a" rx="0.5"/>
+                    <!-- Bloc qui tombe (anime) -->
+                    <rect x="3" y="12" width="3" height="2.5" fill="#f4c45a" rx="0.3" transform="rotate(-15 4.5 13)"/>
+                    <rect x="26" y="14" width="2.5" height="2" fill="#f4c45a" rx="0.3" transform="rotate(20 27 15)"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="logo-preview light">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                    <rect x="5" y="5" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="7" y="10" width="5" height="4" fill="#d4922a" rx="0.5"/>
+                    <rect x="9" y="15" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="11" y="20" width="5" height="4" fill="#c4882a" rx="0.5"/>
+                    <rect x="22" y="5" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="20" y="10" width="5" height="4" fill="#d4922a" rx="0.5"/>
+                    <rect x="18" y="15" width="5" height="4" fill="#e8a838" rx="0.5"/>
+                    <rect x="16" y="20" width="5" height="4" fill="#c4882a" rx="0.5"/>
+                    <rect x="3" y="12" width="3" height="2.5" fill="#f4c45a" rx="0.3" transform="rotate(-15 4.5 13)"/>
+                    <rect x="26" y="14" width="2.5" height="2" fill="#f4c45a" rx="0.3" transform="rotate(20 27 15)"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="sizes">
+                <div>
+                    <svg viewBox="0 0 32 32" width="64" height="64">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <rect x="5" y="5" width="5" height="4" fill="#e8a838"/>
+                        <rect x="7" y="10" width="5" height="4" fill="#d4922a"/>
+                        <rect x="9" y="15" width="5" height="4" fill="#e8a838"/>
+                        <rect x="11" y="20" width="5" height="4" fill="#c4882a"/>
+                        <rect x="22" y="5" width="5" height="4" fill="#e8a838"/>
+                        <rect x="20" y="10" width="5" height="4" fill="#d4922a"/>
+                        <rect x="18" y="15" width="5" height="4" fill="#e8a838"/>
+                        <rect x="16" y="20" width="5" height="4" fill="#c4882a"/>
+                        <rect x="3" y="12" width="3" height="2.5" fill="#f4c45a" transform="rotate(-15 4.5 13)"/>
+                    </svg>
+                    <div class="size-label">64px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <rect x="5" y="5" width="5" height="4" fill="#e8a838"/>
+                        <rect x="7" y="10" width="5" height="4" fill="#d4922a"/>
+                        <rect x="9" y="15" width="5" height="4" fill="#e8a838"/>
+                        <rect x="11" y="20" width="5" height="4" fill="#c4882a"/>
+                        <rect x="22" y="5" width="5" height="4" fill="#e8a838"/>
+                        <rect x="20" y="10" width="5" height="4" fill="#d4922a"/>
+                        <rect x="18" y="15" width="5" height="4" fill="#e8a838"/>
+                        <rect x="16" y="20" width="5" height="4" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">36px</div>
+                </div>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Demolition</span>
+                <span class="tag">Blocs</span>
+                <span class="tag">Dynamique</span>
+                <span class="tag">Original</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT 4: GEOMETRIQUE BRUTAL -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">04</span>
+                <span class="concept-title">GEOMETRIQUE BRUTAL</span>
+            </div>
+            <p class="concept-description">
+                Design minimaliste et brutal. V angulaire avec decoupe architecturale.
+                Style brutaliste moderne, tres professionnel, aucun fioriture.
+            </p>
+
+            <div class="logo-preview">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <rect width="32" height="32" rx="2" fill="#0a6b6b"/>
+                    <!-- V brutal geometrique -->
+                    <polygon points="5,5 11,5 16,20 21,5 27,5 27,8 22,8 16,26 10,8 5,8" fill="#e8a838"/>
+                    <!-- Ligne de base -->
+                    <rect x="5" y="26" width="22" height="2" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="logo-preview light">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <rect width="32" height="32" rx="2" fill="#0a6b6b"/>
+                    <polygon points="5,5 11,5 16,20 21,5 27,5 27,8 22,8 16,26 10,8 5,8" fill="#e8a838"/>
+                    <rect x="5" y="26" width="22" height="2" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="sizes">
+                <div>
+                    <svg viewBox="0 0 32 32" width="64" height="64">
+                        <rect width="32" height="32" rx="2" fill="#0a6b6b"/>
+                        <polygon points="5,5 11,5 16,20 21,5 27,5 27,8 22,8 16,26 10,8 5,8" fill="#e8a838"/>
+                        <rect x="5" y="26" width="22" height="2" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">64px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" rx="2" fill="#0a6b6b"/>
+                        <polygon points="5,5 11,5 16,20 21,5 27,5 27,8 22,8 16,26 10,8 5,8" fill="#e8a838"/>
+                        <rect x="5" y="26" width="22" height="2" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">36px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" rx="2" fill="#0a6b6b"/>
+                        <polygon points="6,6 11,6 16,22 21,6 26,6 16,28" fill="#e8a838"/>
+                    </svg>
+                    <div class="size-label">24px</div>
+                </div>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Minimaliste</span>
+                <span class="tag">Brutaliste</span>
+                <span class="tag">Moderne</span>
+                <span class="tag">Pro</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT 5: EXCAVATRICE / GRUE -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">05</span>
+                <span class="concept-title">BRAS EXCAVATRICE</span>
+            </div>
+            <p class="concept-description">
+                Le V evoque le bras articule d'une excavatrice ou d'une grue de demolition.
+                Reference directe au metier avec une touche moderne et stylisee.
+            </p>
+
+            <div class="logo-preview">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <defs>
+                        <linearGradient id="machineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f7a7a"/>
+                            <stop offset="100%" style="stop-color:#074545"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="32" height="32" rx="3" fill="url(#machineGrad)"/>
+                    <!-- Bras principal (V) -->
+                    <path d="M6 6 L16 22 L26 6" stroke="#e8a838" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <!-- Articulations hydrauliques -->
+                    <circle cx="6" cy="6" r="3" fill="#c4882a"/>
+                    <circle cx="6" cy="6" r="1.5" fill="#0a5f5f"/>
+                    <circle cx="26" cy="6" r="3" fill="#c4882a"/>
+                    <circle cx="26" cy="6" r="1.5" fill="#0a5f5f"/>
+                    <circle cx="16" cy="22" r="3.5" fill="#c4882a"/>
+                    <circle cx="16" cy="22" r="2" fill="#0a5f5f"/>
+                    <!-- Godet/pince -->
+                    <path d="M12 25 L16 22 L20 25 L18 28 L14 28 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="logo-preview light">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                    <path d="M6 6 L16 22 L26 6" stroke="#e8a838" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <circle cx="6" cy="6" r="3" fill="#c4882a"/>
+                    <circle cx="6" cy="6" r="1.5" fill="#0a5f5f"/>
+                    <circle cx="26" cy="6" r="3" fill="#c4882a"/>
+                    <circle cx="26" cy="6" r="1.5" fill="#0a5f5f"/>
+                    <circle cx="16" cy="22" r="3.5" fill="#c4882a"/>
+                    <circle cx="16" cy="22" r="2" fill="#0a5f5f"/>
+                    <path d="M12 25 L16 22 L20 25 L18 28 L14 28 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="sizes">
+                <div>
+                    <svg viewBox="0 0 32 32" width="64" height="64">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <path d="M6 6 L16 22 L26 6" stroke="#e8a838" stroke-width="4" fill="none"/>
+                        <circle cx="6" cy="6" r="3" fill="#c4882a"/>
+                        <circle cx="26" cy="6" r="3" fill="#c4882a"/>
+                        <circle cx="16" cy="22" r="3.5" fill="#c4882a"/>
+                        <path d="M12 25 L16 22 L20 25 L18 28 L14 28 Z" fill="#e8a838"/>
+                    </svg>
+                    <div class="size-label">64px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <path d="M6 6 L16 22 L26 6" stroke="#e8a838" stroke-width="4" fill="none"/>
+                        <circle cx="6" cy="6" r="2.5" fill="#c4882a"/>
+                        <circle cx="26" cy="6" r="2.5" fill="#c4882a"/>
+                        <circle cx="16" cy="22" r="3" fill="#c4882a"/>
+                        <path d="M12 25 L16 22 L20 25 L18 28 L14 28 Z" fill="#e8a838"/>
+                    </svg>
+                    <div class="size-label">36px</div>
+                </div>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Excavatrice</span>
+                <span class="tag">Machine</span>
+                <span class="tag">Hydraulique</span>
+                <span class="tag">Demolition</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT 6: SHIELD/ECUSSON INDUSTRIEL -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">06</span>
+                <span class="concept-title">ECUSSON INDUSTRIEL</span>
+            </div>
+            <p class="concept-description">
+                Forme d'ecusson/blason avec le V au centre. Inspire des logos d'entreprises
+                de construction historiques. Inspire confiance et heritage professionnel.
+            </p>
+
+            <div class="logo-preview">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <defs>
+                        <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f7a7a"/>
+                            <stop offset="100%" style="stop-color:#074545"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Forme ecusson -->
+                    <path d="M16 2 L28 6 L28 18 C28 24 22 28 16 30 C10 28 4 24 4 18 L4 6 Z" fill="url(#shieldGrad)"/>
+                    <!-- Bordure -->
+                    <path d="M16 4 L26 7.5 L26 18 C26 22.5 21 26 16 28 C11 26 6 22.5 6 18 L6 7.5 Z" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                    <!-- V central -->
+                    <path d="M10 10 L16 22 L22 10" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <!-- Detail haut -->
+                    <rect x="14" y="5" width="4" height="2" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="logo-preview light">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="48" height="48">
+                    <path d="M16 2 L28 6 L28 18 C28 24 22 28 16 30 C10 28 4 24 4 18 L4 6 Z" fill="#0a6b6b"/>
+                    <path d="M16 4 L26 7.5 L26 18 C26 22.5 21 26 16 28 C11 26 6 22.5 6 18 L6 7.5 Z" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                    <path d="M10 10 L16 22 L22 10" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <rect x="14" y="5" width="4" height="2" fill="#c4882a"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+
+            <div class="sizes">
+                <div>
+                    <svg viewBox="0 0 32 32" width="64" height="64">
+                        <path d="M16 2 L28 6 L28 18 C28 24 22 28 16 30 C10 28 4 24 4 18 L4 6 Z" fill="#0a6b6b"/>
+                        <path d="M16 4 L26 7.5 L26 18 C26 22.5 21 26 16 28 C11 26 6 22.5 6 18 L6 7.5 Z" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <path d="M10 10 L16 22 L22 10" stroke="#e8a838" stroke-width="3.5" fill="none"/>
+                        <rect x="14" y="5" width="4" height="2" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">64px</div>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <path d="M16 2 L28 6 L28 18 C28 24 22 28 16 30 C10 28 4 24 4 18 L4 6 Z" fill="#0a6b6b"/>
+                        <path d="M10 10 L16 22 L22 10" stroke="#e8a838" stroke-width="4" fill="none"/>
+                    </svg>
+                    <div class="size-label">36px</div>
+                </div>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Ecusson</span>
+                <span class="tag">Heritage</span>
+                <span class="tag">Confiance</span>
+                <span class="tag">Classique</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 60px; padding: 40px; background: #161b22; border-radius: 12px; max-width: 800px; margin-left: auto; margin-right: auto;">
+        <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; margin-bottom: 10px; color: #e8a838;">CHOIX RECOMMANDE</h2>
+        <p style="color: #8b949e; margin-bottom: 20px;">Le concept <strong>#01 POUTRE IPN</strong> est le plus adapte car :</p>
+        <ul style="text-align: left; color: #e6edf3; line-height: 2; max-width: 500px; margin: 0 auto;">
+            <li>Immediatement reconnaissable comme BTP/construction</li>
+            <li>Les boulons/rivets = solidite industrielle</li>
+            <li>Le V en poutres acier = expertise structurelle</li>
+            <li>Fonctionne bien a toutes les tailles</li>
+            <li>Aucune ambiguite "gaming" possible</li>
+        </ul>
+    </div>
+
+</body>
+</html>

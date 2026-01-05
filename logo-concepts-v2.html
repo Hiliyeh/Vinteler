@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINTELER - Concepts Logo V2 - Direction Ecusson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            min-height: 100vh;
+            padding: 40px;
+        }
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 8px;
+            color: #e8a838;
+        }
+        .subtitle { color: #8b949e; margin-bottom: 50px; }
+        .concepts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 30px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        .concept-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+        .concept-card:hover {
+            border-color: #0f7a7a;
+            transform: translateY(-2px);
+        }
+        .concept-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+        .concept-number {
+            background: #e8a838;
+            color: #1a2332;
+            font-weight: 700;
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 3px;
+        }
+        .concept-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.3rem;
+            letter-spacing: 0.05em;
+        }
+        .concept-description {
+            color: #8b949e;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .logo-row {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .logo-preview {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .logo-preview.dark { background: #1a2332; }
+        .logo-preview.light { background: #f0f0f0; }
+        .logo-preview.light .logo-text { color: #1a2332; }
+        .logo-preview.light .logo-tagline { color: #666; }
+        .logo-text-group { display: flex; flex-direction: column; }
+        .logo-text {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.12em;
+            color: #f0f6fc;
+            line-height: 1;
+        }
+        .logo-tagline {
+            font-size: 0.6rem;
+            color: #8b949e;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+        .sizes {
+            display: flex;
+            gap: 15px;
+            align-items: flex-end;
+            padding: 15px;
+            background: #21262d;
+            border-radius: 6px;
+        }
+        .size-item { text-align: center; }
+        .size-label {
+            font-size: 0.65rem;
+            color: #8b949e;
+            margin-top: 6px;
+        }
+        .tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .tag {
+            background: #21262d;
+            color: #8b949e;
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 12px;
+        }
+        .winner {
+            border: 2px solid #e8a838 !important;
+            position: relative;
+        }
+        .winner::before {
+            content: 'TOP';
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            background: #e8a838;
+            color: #1a2332;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 2px 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOGOS V2 - DIRECTION ECUSSON</h1>
+    <p class="subtitle">Specialite: Demolition & Desamiantage - Style badge/ecusson professionnel</p>
+
+    <div class="concepts-grid">
+
+        <!-- CONCEPT A: BADGE HEXAGONAL CHANTIER -->
+        <div class="concept-card winner">
+            <div class="concept-header">
+                <span class="concept-number">A</span>
+                <span class="concept-title">BADGE HEXAGONAL</span>
+            </div>
+            <p class="concept-description">
+                Forme hexagonale = ecrou/boulon industriel. V central avec ligne de base solide.
+                Style signalétique de chantier, très pro.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="hexGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#074848"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Hexagone -->
+                        <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="url(#hexGrad)"/>
+                        <polygon points="16,3 27,9.5 27,22.5 16,29 5,22.5 5,9.5" fill="none" stroke="#e8a838" stroke-width="1"/>
+                        <!-- V robuste -->
+                        <path d="M9 9 L16 22 L23 9" stroke="#e8a838" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+                        <!-- Barre de base -->
+                        <rect x="8" y="24" width="16" height="2.5" fill="#c4882a" rx="0.5"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="#0a6b6b"/>
+                        <polygon points="16,3 27,9.5 27,22.5 16,29 5,22.5 5,9.5" fill="none" stroke="#e8a838" stroke-width="1"/>
+                        <path d="M9 9 L16 22 L23 9" stroke="#e8a838" stroke-width="4" stroke-linecap="square" fill="none"/>
+                        <rect x="8" y="24" width="16" height="2.5" fill="#c4882a" rx="0.5"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="#0a6b6b"/>
+                        <polygon points="16,3 27,9.5 27,22.5 16,29 5,22.5 5,9.5" fill="none" stroke="#e8a838" stroke-width="1"/>
+                        <path d="M9 9 L16 22 L23 9" stroke="#e8a838" stroke-width="4" fill="none"/>
+                        <rect x="8" y="24" width="16" height="2.5" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="#0a6b6b"/>
+                        <path d="M9 9 L16 22 L23 9" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                        <rect x="8" y="24" width="16" height="2.5" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="#0a6b6b"/>
+                        <path d="M9 9 L16 22 L23 9" stroke="#e8a838" stroke-width="5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Industriel</span>
+                <span class="tag">Ecrou</span>
+                <span class="tag">Chantier</span>
+                <span class="tag">Solide</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT B: ECUSSON MODERNE ASYMETRIQUE -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">B</span>
+                <span class="concept-title">ECUSSON MODERNE</span>
+            </div>
+            <p class="concept-description">
+                Ecusson avec pointe vers le bas, style moderne. Bordure epaisse, V central
+                avec effet de profondeur. Plus contemporain que l'ecusson classique.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="shieldMod" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#064040"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Ecusson moderne -->
+                        <path d="M4 4 L4 18 L16 30 L28 18 L28 4 Z" fill="url(#shieldMod)"/>
+                        <!-- Bordure interieure -->
+                        <path d="M6 6 L6 17 L16 27 L26 17 L26 6 Z" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <!-- V avec ombre -->
+                        <path d="M10 10 L16 21 L22 10" stroke="#c4882a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        <path d="M10 10 L16 21 L22 10" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <path d="M4 4 L4 18 L16 30 L28 18 L28 4 Z" fill="#0a6b6b"/>
+                        <path d="M6 6 L6 17 L16 27 L26 17 L26 6 Z" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <path d="M10 10 L16 21 L22 10" stroke="#c4882a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        <path d="M10 10 L16 21 L22 10" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <path d="M4 4 L4 18 L16 30 L28 18 L28 4 Z" fill="#0a6b6b"/>
+                        <path d="M6 6 L6 17 L16 27 L26 17 L26 6 Z" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <path d="M10 10 L16 21 L22 10" stroke="#e8a838" stroke-width="4" fill="none"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <path d="M4 4 L4 18 L16 30 L28 18 L28 4 Z" fill="#0a6b6b"/>
+                        <path d="M10 10 L16 21 L22 10" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <path d="M4 4 L4 18 L16 30 L28 18 L28 4 Z" fill="#0a6b6b"/>
+                        <path d="M10 10 L16 21 L22 10" stroke="#e8a838" stroke-width="5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Moderne</span>
+                <span class="tag">Ecusson</span>
+                <span class="tag">Pro</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT C: PLAQUE CONSTRUCTEUR -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">C</span>
+                <span class="concept-title">PLAQUE CONSTRUCTEUR</span>
+            </div>
+            <p class="concept-description">
+                Rectangle avec coins coupes = style plaque metallique industrielle.
+                Comme les plaques qu'on trouve sur les machines de chantier.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#074848"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Plaque avec coins coupes -->
+                        <polygon points="5,2 27,2 30,5 30,27 27,30 5,30 2,27 2,5" fill="url(#plateGrad)"/>
+                        <!-- Rivets -->
+                        <circle cx="5" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="5" cy="27" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="27" r="1.5" fill="#c4882a"/>
+                        <!-- V central -->
+                        <path d="M8 8 L16 23 L24 8" stroke="#e8a838" stroke-width="4" stroke-linecap="square" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <polygon points="5,2 27,2 30,5 30,27 27,30 5,30 2,27 2,5" fill="#0a6b6b"/>
+                        <circle cx="5" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="5" cy="27" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="27" r="1.5" fill="#c4882a"/>
+                        <path d="M8 8 L16 23 L24 8" stroke="#e8a838" stroke-width="4" stroke-linecap="square" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <polygon points="5,2 27,2 30,5 30,27 27,30 5,30 2,27 2,5" fill="#0a6b6b"/>
+                        <circle cx="5" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="5" cy="27" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="27" r="1.5" fill="#c4882a"/>
+                        <path d="M8 8 L16 23 L24 8" stroke="#e8a838" stroke-width="4" fill="none"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <polygon points="5,2 27,2 30,5 30,27 27,30 5,30 2,27 2,5" fill="#0a6b6b"/>
+                        <circle cx="5" cy="5" r="1.5" fill="#c4882a"/>
+                        <circle cx="27" cy="5" r="1.5" fill="#c4882a"/>
+                        <path d="M8 8 L16 23 L24 8" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <polygon points="5,2 27,2 30,5 30,27 27,30 5,30 2,27 2,5" fill="#0a6b6b"/>
+                        <path d="M8 8 L16 23 L24 8" stroke="#e8a838" stroke-width="5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Plaque</span>
+                <span class="tag">Rivets</span>
+                <span class="tag">Machine</span>
+                <span class="tag">Industriel</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT D: LABEL CERTIFICATION -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">D</span>
+                <span class="concept-title">LABEL QUALITE</span>
+            </div>
+            <p class="concept-description">
+                Cercle avec bordure double = style label de certification/qualite.
+                Inspire confiance, rappelle les certifications SPF desamiantage.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="labelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#064545"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Double cercle -->
+                        <circle cx="16" cy="16" r="15" fill="url(#labelGrad)"/>
+                        <circle cx="16" cy="16" r="13" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <circle cx="16" cy="16" r="10.5" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.5"/>
+                        <!-- V -->
+                        <path d="M9 10 L16 22 L23 10" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <circle cx="16" cy="16" r="15" fill="#0a6b6b"/>
+                        <circle cx="16" cy="16" r="13" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <circle cx="16" cy="16" r="10.5" fill="none" stroke="#e8a838" stroke-width="0.5" opacity="0.5"/>
+                        <path d="M9 10 L16 22 L23 10" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <circle cx="16" cy="16" r="15" fill="#0a6b6b"/>
+                        <circle cx="16" cy="16" r="13" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <path d="M9 10 L16 22 L23 10" stroke="#e8a838" stroke-width="3.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <circle cx="16" cy="16" r="15" fill="#0a6b6b"/>
+                        <circle cx="16" cy="16" r="12.5" fill="none" stroke="#e8a838" stroke-width="2"/>
+                        <path d="M9 10 L16 22 L23 10" stroke="#e8a838" stroke-width="4" fill="none"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <circle cx="16" cy="16" r="15" fill="#0a6b6b"/>
+                        <path d="M9 10 L16 22 L23 10" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Certification</span>
+                <span class="tag">Qualite</span>
+                <span class="tag">Confiance</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT E: PANNEAU DANGER/CHANTIER -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">E</span>
+                <span class="concept-title">PANNEAU CHANTIER</span>
+            </div>
+            <p class="concept-description">
+                Triangle pointe en bas comme les panneaux de signalisation chantier.
+                Tres reconnaissable, evoque directement le BTP et la securite.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="signGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#064545"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Triangle pointe en bas -->
+                        <polygon points="16,30 2,6 30,6" fill="url(#signGrad)"/>
+                        <polygon points="16,27 5,8 27,8" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <!-- V (forme naturelle du triangle) -->
+                        <path d="M10 11 L16 23 L22 11" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <polygon points="16,30 2,6 30,6" fill="#0a6b6b"/>
+                        <polygon points="16,27 5,8 27,8" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <path d="M10 11 L16 23 L22 11" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <polygon points="16,30 2,6 30,6" fill="#0a6b6b"/>
+                        <polygon points="16,27 5,8 27,8" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+                        <path d="M10 11 L16 23 L22 11" stroke="#e8a838" stroke-width="3.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <polygon points="16,30 2,6 30,6" fill="#0a6b6b"/>
+                        <path d="M10 11 L16 23 L22 11" stroke="#e8a838" stroke-width="4" fill="none"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <polygon points="16,30 2,6 30,6" fill="#0a6b6b"/>
+                        <path d="M10 11 L16 23 L22 11" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Signalisation</span>
+                <span class="tag">Chantier</span>
+                <span class="tag">Securite</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT F: ECUSSON RUBAN -->
+        <div class="concept-card winner">
+            <div class="concept-header">
+                <span class="concept-number">F</span>
+                <span class="concept-title">ECUSSON RUBAN</span>
+            </div>
+            <p class="concept-description">
+                Ecusson avec encoche en V en bas (style drapeau/ruban). Tres elegant,
+                le V est integre dans la forme meme. Professionnel et memorable.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#064545"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Ecusson avec encoche V -->
+                        <path d="M4 2 L28 2 L28 24 L16 32 L4 24 Z" fill="url(#ribbonGrad)"/>
+                        <path d="M6 4 L26 4 L26 23 L16 29 L6 23 Z" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                        <!-- V interne -->
+                        <path d="M10 8 L16 18 L22 8" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        <!-- Ligne horizontale -->
+                        <line x1="9" y1="21" x2="23" y2="21" stroke="#c4882a" stroke-width="1.5"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <path d="M4 2 L28 2 L28 24 L16 32 L4 24 Z" fill="#0a6b6b"/>
+                        <path d="M6 4 L26 4 L26 23 L16 29 L6 23 Z" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                        <path d="M10 8 L16 18 L22 8" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        <line x1="9" y1="21" x2="23" y2="21" stroke="#c4882a" stroke-width="1.5"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <path d="M4 2 L28 2 L28 24 L16 32 L4 24 Z" fill="#0a6b6b"/>
+                        <path d="M6 4 L26 4 L26 23 L16 29 L6 23 Z" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                        <path d="M10 8 L16 18 L22 8" stroke="#e8a838" stroke-width="3.5" fill="none"/>
+                        <line x1="9" y1="21" x2="23" y2="21" stroke="#c4882a" stroke-width="1.5"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <path d="M4 2 L28 2 L28 24 L16 32 L4 24 Z" fill="#0a6b6b"/>
+                        <path d="M10 8 L16 18 L22 8" stroke="#e8a838" stroke-width="4" fill="none"/>
+                        <line x1="9" y1="21" x2="23" y2="21" stroke="#c4882a" stroke-width="2"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <path d="M4 2 L28 2 L28 24 L16 32 L4 24 Z" fill="#0a6b6b"/>
+                        <path d="M10 8 L16 18 L22 8" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Elegant</span>
+                <span class="tag">Ruban</span>
+                <span class="tag">Pro</span>
+                <span class="tag">Memorable</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT G: DIAMOND / LOSANGE -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">G</span>
+                <span class="concept-title">LOSANGE INDUSTRIEL</span>
+            </div>
+            <p class="concept-description">
+                Losange = forme des panneaux de signalisation et des logos industriels.
+                Solide, equilibre, avec V central bien visible.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#064545"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Losange -->
+                        <polygon points="16,1 31,16 16,31 1,16" fill="url(#diamondGrad)"/>
+                        <polygon points="16,4 28,16 16,28 4,16" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                        <!-- V -->
+                        <path d="M10 12 L16 22 L22 12" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <polygon points="16,1 31,16 16,31 1,16" fill="#0a6b6b"/>
+                        <polygon points="16,4 28,16 16,28 4,16" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                        <path d="M10 12 L16 22 L22 12" stroke="#e8a838" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <polygon points="16,1 31,16 16,31 1,16" fill="#0a6b6b"/>
+                        <polygon points="16,4 28,16 16,28 4,16" fill="none" stroke="#e8a838" stroke-width="1.2"/>
+                        <path d="M10 12 L16 22 L22 12" stroke="#e8a838" stroke-width="3.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <polygon points="16,1 31,16 16,31 1,16" fill="#0a6b6b"/>
+                        <path d="M10 12 L16 22 L22 12" stroke="#e8a838" stroke-width="4" fill="none"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <polygon points="16,1 31,16 16,31 1,16" fill="#0a6b6b"/>
+                        <path d="M10 12 L16 22 L22 12" stroke="#e8a838" stroke-width="4.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Losange</span>
+                <span class="tag">Equilibre</span>
+                <span class="tag">Signalisation</span>
+            </div>
+        </div>
+
+        <!-- CONCEPT H: BATIMENT + V -->
+        <div class="concept-card">
+            <div class="concept-header">
+                <span class="concept-number">H</span>
+                <span class="concept-title">BATIMENT STYLISE</span>
+            </div>
+            <p class="concept-description">
+                Silhouette de batiment/immeuble avec le V integre comme toit ou structure.
+                Reference directe a la demolition de batiments.
+            </p>
+            <div class="logo-row">
+                <div class="logo-preview dark">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <defs>
+                            <linearGradient id="buildGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0f7a7a"/>
+                                <stop offset="100%" style="stop-color:#064545"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Fond carre -->
+                        <rect width="32" height="32" rx="3" fill="url(#buildGrad)"/>
+                        <!-- Batiment stylise -->
+                        <rect x="6" y="12" width="8" height="16" fill="#e8a838"/>
+                        <rect x="18" y="8" width="8" height="20" fill="#c4882a"/>
+                        <!-- V comme toit/lien -->
+                        <path d="M6 12 L16 4 L26 8" stroke="#e8a838" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                        <!-- Fenetres -->
+                        <rect x="8" y="15" width="3" height="3" fill="#064545"/>
+                        <rect x="8" y="21" width="3" height="3" fill="#064545"/>
+                        <rect x="20" y="11" width="3" height="3" fill="#064545"/>
+                        <rect x="20" y="17" width="3" height="3" fill="#064545"/>
+                        <rect x="20" y="23" width="3" height="3" fill="#064545"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-row">
+                <div class="logo-preview light">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <rect x="6" y="12" width="8" height="16" fill="#e8a838"/>
+                        <rect x="18" y="8" width="8" height="20" fill="#c4882a"/>
+                        <path d="M6 12 L16 4 L26 8" stroke="#e8a838" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                        <rect x="8" y="15" width="3" height="3" fill="#064545"/>
+                        <rect x="8" y="21" width="3" height="3" fill="#064545"/>
+                        <rect x="20" y="11" width="3" height="3" fill="#064545"/>
+                        <rect x="20" y="17" width="3" height="3" fill="#064545"/>
+                        <rect x="20" y="23" width="3" height="3" fill="#064545"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-text">VINTELER</span>
+                        <span class="logo-tagline">Demolition & Desamiantage</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="56" height="56">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <rect x="6" y="12" width="8" height="16" fill="#e8a838"/>
+                        <rect x="18" y="8" width="8" height="20" fill="#c4882a"/>
+                        <path d="M6 12 L16 4 L26 8" stroke="#e8a838" stroke-width="2.5" fill="none"/>
+                    </svg>
+                    <div class="size-label">56px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="40" height="40">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <rect x="6" y="12" width="8" height="16" fill="#e8a838"/>
+                        <rect x="18" y="8" width="8" height="20" fill="#c4882a"/>
+                        <path d="M6 12 L16 4 L26 8" stroke="#e8a838" stroke-width="3" fill="none"/>
+                    </svg>
+                    <div class="size-label">40px</div>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <rect width="32" height="32" rx="3" fill="#0a6b6b"/>
+                        <rect x="7" y="13" width="7" height="14" fill="#e8a838"/>
+                        <rect x="18" y="9" width="7" height="18" fill="#c4882a"/>
+                    </svg>
+                    <div class="size-label">28px</div>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag">Batiment</span>
+                <span class="tag">Demolition</span>
+                <span class="tag">Urbain</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 50px; padding: 30px; background: #161b22; border-radius: 12px; max-width: 900px; margin-left: auto; margin-right: auto;">
+        <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; margin-bottom: 15px; color: #e8a838;">MES 2 FAVORIS</h2>
+        <p style="color: #8b949e; margin-bottom: 15px;">Pour Demolition & Desamiantage specialise :</p>
+        <div style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+            <div style="background: #21262d; padding: 20px 30px; border-radius: 8px; border: 1px solid #e8a838;">
+                <strong style="color: #e8a838;">A - HEXAGONAL</strong>
+                <p style="color: #8b949e; font-size: 0.85rem; margin-top: 5px;">Industriel, ecrou, chantier</p>
+            </div>
+            <div style="background: #21262d; padding: 20px 30px; border-radius: 8px; border: 1px solid #e8a838;">
+                <strong style="color: #e8a838;">F - ECUSSON RUBAN</strong>
+                <p style="color: #8b949e; font-size: 0.85rem; margin-top: 5px;">Elegant, pro, memorable</p>
+            </div>
+        </div>
+        <p style="color: #6e7681; font-size: 0.8rem; margin-top: 20px;">Dites-moi votre choix et je l'implemente dans nav.html !</p>
+    </div>
+
+</body>
+</html>

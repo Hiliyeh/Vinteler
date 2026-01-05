@@ -82,13 +82,24 @@
   featured: true
   services_count: 4
 
-- id: finitions
-  name: "Acoustique & Sols"
-  short_name: "Finitions"
-  slug: "finitions"
-  description: "Isolation acoustique professionnelle et aménagements extérieurs : pavage, dallage, klinkers."
-  icon: "finish"
+- id: acoustique
+  name: "Protection Acoustique"
+  short_name: "Acoustique"
+  slug: "acoustique"
+  description: "Isolation acoustique professionnelle : panneaux muraux absorbants, dalles plafond, traitement phonique."
+  icon: "sound"
   color: "#6f42c1"
   order: 8
   featured: false
-  services_count: 2
+  services_count: 1
+
+- id: sols
+  name: "Pavage & Sols"
+  short_name: "Sols"
+  slug: "sols"
+  description: "Aménagements extérieurs durables : pavage, dallage, klinkers pour allées, terrasses et parkings."
+  icon: "paving"
+  color: "#198754"
+  order: 9
+  featured: false
+  services_count: 1

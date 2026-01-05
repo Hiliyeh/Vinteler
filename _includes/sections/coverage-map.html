@@ -1,0 +1,123 @@
+{% comment %}
+  Coverage Map Section - Belgium map with contact
+  Usage: {% include sections/coverage-map.html %}
+{% endcomment %}
+
+<section class="coverage-map">
+    <div class="container coverage-map-grid">
+        <div class="coverage-content">
+            <h2 class="coverage-title">
+                À votre service dans<br>
+                <span class="coverage-regions">toute la Belgique</span>
+            </h2>
+            <p class="coverage-text">
+                Besoin de <strong>travaux de démolition</strong>, de <strong>curage</strong>,
+                de <strong>nettoyage industriel</strong> ou de <strong>pavage</strong> ?
+                Notre équipe intervient en <strong>Flandre</strong>, à <strong>Bruxelles</strong>
+                et en <strong>Wallonie</strong>. Particuliers, professionnels ou industriels :
+                nous répondons à tous vos besoins avec <strong>rapidité</strong> et
+                <strong>professionnalisme</strong>.
+            </p>
+            <div class="coverage-buttons">
+                <a href="#contact" class="coverage-btn coverage-btn-contact">
+                    Contact
+                </a>
+                <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="coverage-btn coverage-btn-phone">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    {{ site.contact.phone }}
+                </a>
+            </div>
+        </div>
+        <div class="coverage-map-visual">
+            <div class="belgium-map-container">
+                <!-- Real Belgium SVG map from mapsicon (accurate shape) -->
+                <img src="{{ '/assets/images/belgium-map.svg' | relative_url }}" alt="Carte de la Belgique" class="belgium-map-img">
+
+                <!-- Our custom pins overlay with V logo + stem -->
+                <div class="map-pins-overlay">
+                    <!-- Bruxelles (Brussels-Capital) -->
+                    <div class="map-pin" style="left: 42%; top: 36%;" data-city="Bruxelles">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Anvers (Antwerp) -->
+                    <div class="map-pin" style="left: 52%; top: 18%;" data-city="Anvers">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Bruges (West Flanders) -->
+                    <div class="map-pin" style="left: 20%; top: 30%;" data-city="Bruges">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Gand (East Flanders) -->
+                    <div class="map-pin" style="left: 35%; top: 28%;" data-city="Gand">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Hasselt (Limburg) -->
+                    <div class="map-pin" style="left: 72%; top: 22%;" data-city="Hasselt">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Liège -->
+                    <div class="map-pin" style="left: 80%; top: 38%;" data-city="Liège">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Namur -->
+                    <div class="map-pin" style="left: 62%; top: 54%;" data-city="Namur">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Charleroi (Hainaut) -->
+                    <div class="map-pin" style="left: 42%; top: 56%;" data-city="Charleroi">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Mons (Hainaut) -->
+                    <div class="map-pin" style="left: 35%; top: 58%;" data-city="Mons">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+
+                    <!-- Arlon (Luxembourg) -->
+                    <div class="map-pin" style="left: 82%; top: 82%;" data-city="Arlon">
+                        <div class="pin-marker">
+                            <svg class="pin-logo" viewBox="0 0 32 32"><path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/><path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/></svg>
+                            <span class="pin-stem"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

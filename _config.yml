@@ -1,10 +1,10 @@
 # VINTELER - Configuration Jekyll
-# Site de désamiantage et démolition en Belgique
+# Entreprise de travaux du bâtiment en Belgique
 
 # Site Settings
 title: "VINTELER"
-tagline: "Désamiantage & Démolition en Belgique"
-description: "Entreprise certifiée de désamiantage et démolition à Bruxelles, Brabant Wallon et toute la Belgique. Retrait amiante sécurisé, démolition urgente 24/7."
+tagline: "Experts Travaux du Bâtiment en Belgique"
+description: "Entreprise familiale belge spécialisée dans les travaux du bâtiment. Plus de 25 services : démolition, curage, nettoyage, pavage et plus. Devis gratuit."
 url: "https://vinteler.be"
 baseurl: ""
 lang: "fr-BE"

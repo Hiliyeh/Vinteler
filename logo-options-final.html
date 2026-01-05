@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINTELER - Options Finales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0d1117;
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px;
+        }
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 50px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #161b22;
+            border-radius: 4px;
+            padding: 30px;
+            border: 1px solid #30363d;
+        }
+        .card.recommended {
+            border-color: #e8a838;
+        }
+        .card.recommended::before {
+            content: "RECOMMANDE";
+            display: block;
+            background: #e8a838;
+            color: #000;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            width: fit-content;
+            margin-bottom: 12px;
+        }
+        .card-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+            color: #0f7a7a;
+        }
+        .card-desc {
+            font-size: 0.8rem;
+            color: #6e7681;
+            margin-bottom: 20px;
+        }
+        .logo-demo {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 20px;
+            background: #1a2332;
+            margin-bottom: 12px;
+        }
+        .logo-demo.teal-bg {
+            background: linear-gradient(135deg, #0f7a7a, #095555);
+        }
+        .logo-demo.light-bg {
+            background: #f5f5f5;
+        }
+        .logo-text-group {
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-text {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        .logo-demo.light-bg .logo-text {
+            color: #1a2332;
+        }
+        .logo-tagline {
+            font-size: 0.58rem;
+            color: rgba(255,255,255,0.75);
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            margin-top: 2px;
+        }
+        .logo-demo.light-bg .logo-tagline {
+            color: #0f7a7a;
+        }
+        .sizes {
+            display: flex;
+            align-items: flex-end;
+            gap: 18px;
+            margin-top: 18px;
+        }
+        .size-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .size-label {
+            font-size: 0.7rem;
+            color: #6e7681;
+        }
+    </style>
+</head>
+<body>
+    <h1>VINTELER - Options Finales</h1>
+    <p class="subtitle">Forme V split - Teal + Ambre - Coins droits style construction</p>
+
+    <div class="grid">
+
+        <!-- OPTION 1: Standard -->
+        <div class="card recommended">
+            <div class="card-title">01. V Split Standard</div>
+            <div class="card-desc">Forme equilibree, coins droits, propre</div>
+            <div class="logo-demo teal-bg">
+                <svg viewBox="0 0 32 32" width="52" height="52">
+                    <path d="M6,4 C4,4 3,6 4,10 L15,28 L16,28 L16,14 C12,12 9,8 7,4 Z" fill="#0f7a7a"/>
+                    <path d="M26,4 C28,4 29,6 28,10 L17,28 L16,28 L16,14 C20,12 23,8 25,4 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="logo-demo">
+                <svg viewBox="0 0 32 32" width="44" height="44">
+                    <path d="M6,4 C4,4 3,6 4,10 L15,28 L16,28 L16,14 C12,12 9,8 7,4 Z" fill="#0f7a7a"/>
+                    <path d="M26,4 C28,4 29,6 28,10 L17,28 L16,28 L16,14 C20,12 23,8 25,4 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M6,4 C4,4 3,6 4,10 L15,28 L16,28 L16,14 C12,12 9,8 7,4 Z" fill="#0f7a7a"/>
+                        <path d="M26,4 C28,4 29,6 28,10 L17,28 L16,28 L16,14 C20,12 23,8 25,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">52px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M6,4 C4,4 3,6 4,10 L15,28 L16,28 L16,14 C12,12 9,8 7,4 Z" fill="#0f7a7a"/>
+                        <path d="M26,4 C28,4 29,6 28,10 L17,28 L16,28 L16,14 C20,12 23,8 25,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">36px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M6,4 C4,4 3,6 4,10 L15,28 L16,28 L16,14 C12,12 9,8 7,4 Z" fill="#0f7a7a"/>
+                        <path d="M26,4 C28,4 29,6 28,10 L17,28 L16,28 L16,14 C20,12 23,8 25,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">24px</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- OPTION 2: Plus large -->
+        <div class="card recommended">
+            <div class="card-title">02. V Split Large</div>
+            <div class="card-desc">V plus imposant, plus de presence</div>
+            <div class="logo-demo teal-bg">
+                <svg viewBox="0 0 32 32" width="52" height="52">
+                    <path d="M4,3 C2,3 1,5 2,10 L15,29 L16,29 L16,13 C11,11 7,7 5,3 Z" fill="#0f7a7a"/>
+                    <path d="M28,3 C30,3 31,5 30,10 L17,29 L16,29 L16,13 C21,11 25,7 27,3 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="logo-demo">
+                <svg viewBox="0 0 32 32" width="44" height="44">
+                    <path d="M4,3 C2,3 1,5 2,10 L15,29 L16,29 L16,13 C11,11 7,7 5,3 Z" fill="#0f7a7a"/>
+                    <path d="M28,3 C30,3 31,5 30,10 L17,29 L16,29 L16,13 C21,11 25,7 27,3 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M4,3 C2,3 1,5 2,10 L15,29 L16,29 L16,13 C11,11 7,7 5,3 Z" fill="#0f7a7a"/>
+                        <path d="M28,3 C30,3 31,5 30,10 L17,29 L16,29 L16,13 C21,11 25,7 27,3 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">52px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M4,3 C2,3 1,5 2,10 L15,29 L16,29 L16,13 C11,11 7,7 5,3 Z" fill="#0f7a7a"/>
+                        <path d="M28,3 C30,3 31,5 30,10 L17,29 L16,29 L16,13 C21,11 25,7 27,3 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">36px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M4,3 C2,3 1,5 2,10 L15,29 L16,29 L16,13 C11,11 7,7 5,3 Z" fill="#0f7a7a"/>
+                        <path d="M28,3 C30,3 31,5 30,10 L17,29 L16,29 L16,13 C21,11 25,7 27,3 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">24px</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- OPTION 3: Avec ecart -->
+        <div class="card">
+            <div class="card-title">03. V Split avec Ecart</div>
+            <div class="card-desc">Separation visible au centre - effet coupe/demolition</div>
+            <div class="logo-demo teal-bg">
+                <svg viewBox="0 0 32 32" width="52" height="52">
+                    <path d="M5,4 C3,4 2,6 3,10 L14.5,28 L15,28 L15,14 C11,12 8,8 6,4 Z" fill="#0f7a7a"/>
+                    <path d="M27,4 C29,4 30,6 29,10 L17.5,28 L17,28 L17,14 C21,12 24,8 26,4 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="logo-demo">
+                <svg viewBox="0 0 32 32" width="44" height="44">
+                    <path d="M5,4 C3,4 2,6 3,10 L14.5,28 L15,28 L15,14 C11,12 8,8 6,4 Z" fill="#0f7a7a"/>
+                    <path d="M27,4 C29,4 30,6 29,10 L17.5,28 L17,28 L17,14 C21,12 24,8 26,4 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M5,4 C3,4 2,6 3,10 L14.5,28 L15,28 L15,14 C11,12 8,8 6,4 Z" fill="#0f7a7a"/>
+                        <path d="M27,4 C29,4 30,6 29,10 L17.5,28 L17,28 L17,14 C21,12 24,8 26,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">52px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M5,4 C3,4 2,6 3,10 L14.5,28 L15,28 L15,14 C11,12 8,8 6,4 Z" fill="#0f7a7a"/>
+                        <path d="M27,4 C29,4 30,6 29,10 L17.5,28 L17,28 L17,14 C21,12 24,8 26,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">36px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M5,4 C3,4 2,6 3,10 L14.5,28 L15,28 L15,14 C11,12 8,8 6,4 Z" fill="#0f7a7a"/>
+                        <path d="M27,4 C29,4 30,6 29,10 L17.5,28 L17,28 L17,14 C21,12 24,8 26,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">24px</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- OPTION 4: Angulaire/Construction -->
+        <div class="card recommended">
+            <div class="card-title">04. V Angulaire Construction</div>
+            <div class="card-desc">Bords plus droits, style poutre metallique</div>
+            <div class="logo-demo teal-bg">
+                <svg viewBox="0 0 32 32" width="52" height="52">
+                    <polygon points="5,4 11,4 16,26 16,28 14,28" fill="#0f7a7a"/>
+                    <polygon points="27,4 21,4 16,26 16,28 18,28" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="logo-demo">
+                <svg viewBox="0 0 32 32" width="44" height="44">
+                    <polygon points="5,4 11,4 16,26 16,28 14,28" fill="#0f7a7a"/>
+                    <polygon points="27,4 21,4 16,26 16,28 18,28" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <polygon points="5,4 11,4 16,26 16,28 14,28" fill="#0f7a7a"/>
+                        <polygon points="27,4 21,4 16,26 16,28 18,28" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">52px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <polygon points="5,4 11,4 16,26 16,28 14,28" fill="#0f7a7a"/>
+                        <polygon points="27,4 21,4 16,26 16,28 18,28" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">36px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <polygon points="5,4 11,4 16,26 16,28 14,28" fill="#0f7a7a"/>
+                        <polygon points="27,4 21,4 16,26 16,28 18,28" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">24px</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- OPTION 5: Mixte courbe/droit -->
+        <div class="card">
+            <div class="card-title">05. V Mixte</div>
+            <div class="card-desc">Bord exterieur legerement courbe, interieur droit</div>
+            <div class="logo-demo teal-bg">
+                <svg viewBox="0 0 32 32" width="52" height="52">
+                    <path d="M6,4 Q4,6 5,12 L15,28 L16,28 L16,14 L10,8 L8,4 Z" fill="#0f7a7a"/>
+                    <path d="M26,4 Q28,6 27,12 L17,28 L16,28 L16,14 L22,8 L24,4 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="logo-demo">
+                <svg viewBox="0 0 32 32" width="44" height="44">
+                    <path d="M6,4 Q4,6 5,12 L15,28 L16,28 L16,14 L10,8 L8,4 Z" fill="#0f7a7a"/>
+                    <path d="M26,4 Q28,6 27,12 L17,28 L16,28 L16,14 L22,8 L24,4 Z" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M6,4 Q4,6 5,12 L15,28 L16,28 L16,14 L10,8 L8,4 Z" fill="#0f7a7a"/>
+                        <path d="M26,4 Q28,6 27,12 L17,28 L16,28 L16,14 L22,8 L24,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">52px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M6,4 Q4,6 5,12 L15,28 L16,28 L16,14 L10,8 L8,4 Z" fill="#0f7a7a"/>
+                        <path d="M26,4 Q28,6 27,12 L17,28 L16,28 L16,14 L22,8 L24,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">36px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <path d="M6,4 Q4,6 5,12 L15,28 L16,28 L16,14 L10,8 L8,4 Z" fill="#0f7a7a"/>
+                        <path d="M26,4 Q28,6 27,12 L17,28 L16,28 L16,14 L22,8 L24,4 Z" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">24px</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- OPTION 6: Bold/Epais -->
+        <div class="card">
+            <div class="card-title">06. V Bold</div>
+            <div class="card-desc">Traits plus epais, plus massif</div>
+            <div class="logo-demo teal-bg">
+                <svg viewBox="0 0 32 32" width="52" height="52">
+                    <polygon points="3,3 13,3 16,24 16,29 12,29" fill="#0f7a7a"/>
+                    <polygon points="29,3 19,3 16,24 16,29 20,29" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="logo-demo">
+                <svg viewBox="0 0 32 32" width="44" height="44">
+                    <polygon points="3,3 13,3 16,24 16,29 12,29" fill="#0f7a7a"/>
+                    <polygon points="29,3 19,3 16,24 16,29 20,29" fill="#e8a838"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-text">VINTELER</span>
+                    <span class="logo-tagline">Demolition & Desamiantage</span>
+                </div>
+            </div>
+            <div class="sizes">
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="52" height="52">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <polygon points="3,3 13,3 16,24 16,29 12,29" fill="#0f7a7a"/>
+                        <polygon points="29,3 19,3 16,24 16,29 20,29" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">52px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="36" height="36">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <polygon points="3,3 13,3 16,24 16,29 12,29" fill="#0f7a7a"/>
+                        <polygon points="29,3 19,3 16,24 16,29 20,29" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">36px</span>
+                </div>
+                <div class="size-item">
+                    <svg viewBox="0 0 32 32" width="24" height="24">
+                        <rect width="32" height="32" fill="#1a2332"/>
+                        <polygon points="3,3 13,3 16,24 16,29 12,29" fill="#0f7a7a"/>
+                        <polygon points="29,3 19,3 16,24 16,29 20,29" fill="#e8a838"/>
+                    </svg>
+                    <span class="size-label">24px</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

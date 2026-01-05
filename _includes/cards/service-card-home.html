@@ -1,74 +1,93 @@
 {% comment %}
-  Service Card Home - DRY component for homepage services
-  Usage: {% include cards/service-card-home.html config=config service=service %}
-
-  Replaces 6 repeated service-card-v2 blocks in index.html (170 lines → 1 include)
+  Service Card Home - Scandinavian Editorial
+  Photo, badges as tags, clean action
 {% endcomment %}
 
 {% assign config = include.config %}
 {% assign service = include.service %}
 
-<article class="service-card-v2{% if service.featured %} svc-featured{% endif %}{% if config.is_emergency %} svc-emergency{% endif %}">
-
-    {% if config.badge %}
-    <div class="svc-badge{% if config.badge_type == 'emergency' %} emergency{% endif %}">{{ config.badge }}</div>
-    {% endif %}
-
-    <a href="/services/?filter={{ config.filter }}" class="svc-header">
-        <div class="svc-icon{% if config.icon_type == 'warning' %} warning{% elsif config.icon_type == 'emergency' %} emergency{% endif %}">
+<article class="svc-card{% if config.is_emergency %} svc-card--emergency{% endif %}">
+    <!-- Visual -->
+    <div class="svc-card__visual">
+        {% if service.image %}
+        <img src="{{ service.image }}" alt="{{ service.name }}" loading="lazy">
+        {% else %}
+        <div class="svc-card__placeholder">
             {% if config.icon_type == "warning" %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
                 <line x1="12" y1="9" x2="12" y2="13"/>
                 <line x1="12" y1="17" x2="12.01" y2="17"/>
             </svg>
             {% elsif config.icon_type == "emergency" %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
             </svg>
             {% elsif service.category == "demolition" %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M15 12l-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9"/>
                 <path d="M17.64 15L22 10.64"/>
                 <path d="M20.91 11.7l-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"/>
             </svg>
             {% elsif service.category == "nettoyage" or service.id == "curage-interieur" %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <polygon points="12 2 2 7 12 12 22 7 12 2"/>
                 <polyline points="2 17 12 22 22 17"/>
                 <polyline points="2 12 12 17 22 12"/>
             </svg>
             {% elsif service.category == "traitements" %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
             </svg>
             {% elsif service.category == "incendie" %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
             </svg>
             {% else %}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
             </svg>
             {% endif %}
         </div>
-        <div class="svc-info">
-            <h3>{{ service.name }}</h3>
-            <p>{{ service.short_description }}</p>
-        </div>
-    </a>
+        {% endif %}
+    </div>
 
-    <div class="svc-cities">
-        <span class="svc-cities-label">{% if config.is_emergency %}Intervention toute la Belgique{% else %}Où intervenons-nous ?{% endif %}</span>
-        <div class="svc-cities-grid">
-            {% for city in config.cities %}
-            <a href="/{{ service.slug_prefix }}-{{ city.id }}/" class="svc-city">{{ city.name }}</a>
+    <!-- Content -->
+    <div class="svc-card__content">
+        {% if config.badge %}
+        <span class="svc-card__label{% if config.badge_type == 'emergency' %} svc-card__label--emergency{% endif %}">{{ config.badge }}</span>
+        {% endif %}
+
+        <a href="/services/?filter={{ config.filter }}" class="svc-card__link">
+            <h3 class="svc-card__title">{{ service.name }}</h3>
+        </a>
+
+        <!-- 3 Service badges -->
+        <div class="svc-card__tags">
+            {% assign features = service.features | slice: 0, 3 %}
+            {% for feature in features %}
+            <span class="svc-card__tag">{{ feature }}</span>
             {% endfor %}
+        </div>
 
+        <div class="svc-card__foot">
             {% if config.is_emergency %}
-            <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="svc-city svc-city-phone">Appeler</a>
+            <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="svc-card__cta">
+                <span class="svc-card__cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                </span>
+                Appeler
+            </a>
             {% else %}
-            <a href="/services/#{{ config.filter }}" class="svc-city svc-city-more">+39 villes</a>
+            <a href="/services/?filter={{ config.filter }}" class="svc-card__action">
+                Découvrir
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"/>
+                    <polyline points="12 5 19 12 12 19"/>
+                </svg>
+            </a>
             {% endif %}
         </div>
     </div>
