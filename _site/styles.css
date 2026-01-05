@@ -2015,6 +2015,23 @@ h1, h2, h3, h4 {
         max-height: none;
     }
 
+    /* CTA Box in mobile fullscreen - ensure visibility */
+    .zones-finder.mobile-fullscreen .zones-cta-box {
+        position: relative;
+        margin-top: var(--space-lg);
+    }
+
+    .zones-finder.mobile-fullscreen .zones-cta-box.active {
+        max-height: 500px; /* More space for stacked buttons */
+        padding: var(--space-md);
+    }
+
+    .zones-finder.mobile-fullscreen .zones-cta-buttons {
+        width: 100%;
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+
     .zones-btn {
         justify-content: center;
         width: 100%;
@@ -3428,7 +3445,7 @@ a.contact-item:hover .contact-value {
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
-        min-height: auto;
+        min-height: 100svh;
         padding-bottom: var(--space-lg);
     }
 
@@ -3565,6 +3582,40 @@ a.contact-item:hover .contact-value {
 
     .about-image-main .service-image-placeholder {
         min-height: 300px;
+    }
+
+    /* Mobile badge - positioned to cover license plate on van */
+    .about-images--full .about-experience {
+        position: absolute;
+        bottom: 22%;
+        left: 0;
+        padding: 0.4rem 0.8rem;
+        background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+        border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        flex-direction: row;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .about-images--full .exp-number {
+        font-size: 1.1rem;
+        color: var(--color-white);
+        font-weight: 700;
+    }
+
+    .about-images--full .exp-text {
+        color: var(--color-white);
+        font-size: 0.55rem;
+        max-width: 50px;
+        line-height: 1.1;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+
+    .about-image-main--full img {
+        min-height: 280px;
+        max-height: 350px;
     }
 
     .gallery-grid {

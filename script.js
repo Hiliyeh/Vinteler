@@ -643,14 +643,22 @@ function initMobileZonesPicker() {
         });
     });
 
-    // Close fullscreen when city is selected
+    // Close fullscreen when city is selected - but keep it open longer to show CTA
     document.getElementById('city-suggestions')?.addEventListener('click', (e) => {
         if (e.target.closest('.suggestion-item') && isMobile()) {
-            setTimeout(() => {
+            // Don't close fullscreen - let user see the CTA buttons
+            // User can close manually with close button or by clicking a CTA
+        }
+    });
+
+    // Close fullscreen when CTA button is clicked
+    document.querySelectorAll('.zones-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (isMobile()) {
                 zonesSection.classList.remove('mobile-fullscreen');
                 document.body.classList.remove('zones-fullscreen-open');
-            }, 300);
-        }
+            }
+        });
     });
 
     // Add close button for mobile fullscreen
