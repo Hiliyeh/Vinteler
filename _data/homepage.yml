@@ -86,20 +86,20 @@ featured_services:
       - { id: woluwe-saint-pierre, name: Woluwe-Saint-Pierre }
       - { id: rhode-saint-genese, name: Rhode-Saint-Genèse }
 
-# Additional services shown in accordion
+# Additional services shown in accordion (slug links to Bruxelles page)
 other_services:
-  - { name: "Démolition d'Annexe", filter: demolition }
-  - { name: "Murs Porteurs", filter: demolition }
-  - { name: "Découpe Métallique", filter: demontage }
-  - { name: "Démontage Industriel", filter: demontage }
-  - { name: "Nettoyage Industriel", filter: nettoyage }
-  - { name: "Haute Pression", filter: nettoyage }
-  - { name: "Nettoyage Toiture", filter: nettoyage }
-  - { name: "Traitement Mérule", filter: traitements }
-  - { name: "Traitement Radon", filter: traitements }
-  - { name: "Réparation Béton", filter: traitements }
-  - { name: "Terrassement", filter: finitions }
-  - { name: "Isolation Acoustique", filter: finitions }
+  - { name: "Démolition d'Annexe", slug: "demolition-annexe" }
+  - { name: "Murs Porteurs", slug: "demolition-murs-porteurs" }
+  - { name: "Découpe Métallique", slug: "decoupe-metallique" }
+  - { name: "Démontage Industriel", slug: "demontage-industriel" }
+  - { name: "Nettoyage Industriel", slug: "nettoyage-industriel" }
+  - { name: "Haute Pression", slug: "nettoyage-haute-pression" }
+  - { name: "Nettoyage Toiture", slug: "nettoyage-toiture" }
+  - { name: "Traitement Mérule", slug: "traitement-merule" }
+  - { name: "Traitement Radon", slug: "traitement-radon" }
+  - { name: "Réparation Béton", slug: "reparation-beton" }
+  - { name: "Démontage Hangar", slug: "demontage-hangar" }
+  - { name: "Isolation Acoustique", slug: "protection-acoustique" }
 
 # Trust stats
 trust_stats:

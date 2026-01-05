@@ -39,7 +39,7 @@
         <div class="services-more-content">
             <div class="services-tags-v2">
                 {% for svc in site.data.homepage.other_services %}
-                <a href="/services/#{{ svc.filter }}" class="service-tag-link">
+                <a href="/{{ svc.slug }}-bruxelles/" class="service-tag-link">
                     <span class="tag-name">{{ svc.name }}</span>
                     <span class="tag-arrow">&#8594;</span>
                 </a>

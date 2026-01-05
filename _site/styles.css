@@ -1120,6 +1120,54 @@ h1, h2, h3, h4 {
     border-radius: var(--radius-lg);
 }
 
+/* Full-width team photo variant */
+.about-images--full {
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+.about-image-main--full {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.about-image-main--full img {
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+    max-height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.about-images--full .about-experience {
+    position: absolute;
+    bottom: var(--space-md);
+    left: 0;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.about-images--full .exp-number {
+    font-size: 1.75rem;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.about-images--full .exp-text {
+    color: var(--color-white);
+    font-size: 0.7rem;
+    max-width: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
 .about-experience {
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     padding: var(--space-lg);
