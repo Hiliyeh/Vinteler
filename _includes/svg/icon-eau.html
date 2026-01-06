@@ -1,0 +1,15 @@
+{% comment %}
+  Water Drop Icon - Reusable SVG component
+  Usage: {% include svg/icon-eau.html width="24" height="24" %}
+{% endcomment %}
+<svg viewBox="0 0 24 24"
+     width="{{ include.width | default: 24 }}"
+     height="{{ include.height | default: 24 }}"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="{{ include.stroke_width | default: 2 }}"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     {% if include.class %} class="{{ include.class }}"{% endif %}>
+    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+</svg>

@@ -1,12 +1,14 @@
 {% comment %}
   Service Card Home - Scandinavian Editorial
   Photo, badges as tags, clean action
+  Links to service+city pages
 {% endcomment %}
 
 {% assign config = include.config %}
 {% assign service = include.service %}
+{% assign first_city = config.cities | first %}
 
-<a href="{% if config.is_emergency %}tel:{{ site.contact.phone | remove: ' ' }}{% else %}/services/?filter={{ config.filter }}{% endif %}" class="svc-card{% if config.is_emergency %} svc-card--emergency{% endif %}">
+<a href="{% if config.is_emergency %}tel:{{ site.contact.phone | remove: ' ' }}{% else %}/{{ service.slug_prefix }}-{{ first_city.id }}/{% endif %}" class="svc-card{% if config.is_emergency %} svc-card--emergency{% endif %}{% if config.card_style == 'certified' %} svc-card--certified{% endif %}">
     <!-- Visual -->
     <div class="svc-card__visual">
         {% if service.image %}
@@ -48,6 +50,30 @@
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
             </svg>
             {% endif %}
+        </div>
+        {% endif %}
+        {% if config.element_icon %}
+        <div class="svc-card__elements">
+            <span class="element-badge element-badge--{{ config.element_icon }}">
+                {% if config.element_icon == "feu" %}
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+                </svg>
+                {% elsif config.element_icon == "eau" %}
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                </svg>
+                {% elsif config.element_icon == "recycle" %}
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/>
+                    <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"/>
+                    <path d="m14 16-3 3 3 3"/>
+                    <path d="M8.293 13.596 7.196 9.5 3.1 10.598"/>
+                    <path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"/>
+                    <path d="m13.378 9.633 4.096 1.098 1.097-4.096"/>
+                </svg>
+                {% endif %}
+            </span>
         </div>
         {% endif %}
     </div>

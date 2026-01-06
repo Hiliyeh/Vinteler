@@ -1,0 +1,15 @@
+{% comment %}
+  Lightning/Urgence Icon - Reusable SVG component for 24/7 Emergency
+  Usage: {% include svg/icon-urgence.html width="24" height="24" %}
+{% endcomment %}
+<svg viewBox="0 0 24 24"
+     width="{{ include.width | default: 24 }}"
+     height="{{ include.height | default: 24 }}"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="{{ include.stroke_width | default: 2 }}"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     {% if include.class %} class="{{ include.class }}"{% endif %}>
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+</svg>

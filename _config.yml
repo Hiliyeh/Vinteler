@@ -1,10 +1,10 @@
-# VINTELER - Configuration Jekyll
-# Entreprise de travaux du bâtiment en Belgique
+# VIN TELLER SOLUTIONS - Configuration Jekyll
+# Une seule entreprise. Toutes les solutions.
 
 # Site Settings
-title: "VINTELER"
-tagline: "Experts Travaux du Bâtiment en Belgique"
-description: "Entreprise familiale belge spécialisée dans les travaux du bâtiment. Plus de 25 services : démolition, curage, nettoyage, pavage et plus. Devis gratuit."
+title: "Vin Teller Solutions"
+tagline: "Une seule entreprise. Toutes les solutions."
+description: "Vin Teller Solutions - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin."
 url: "https://vinteler.be"
 baseurl: ""
 lang: "fr-BE"
@@ -24,13 +24,13 @@ contact:
 
 # Company Info
 company:
-  name: "VINTELER"
+  name: "Vin Teller Solutions"
   founded: 2014
   experience: "10+"
-  type: "Entreprise familiale"
+  type: "Solution complète bâtiment"
 
 # SEO
-author: "VINTELER"
+author: "Vin Teller Solutions"
 social:
   facebook: ""
   instagram: ""
