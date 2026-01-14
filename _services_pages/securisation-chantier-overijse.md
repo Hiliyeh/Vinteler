@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["3090"]
 is_hq: true
 
+# Geo Data (Local SEO)
+lat: 50.7742
+lng: 4.5333
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Panneaux anti-intrusion"
@@ -46,6 +51,9 @@ features:
   - "Signalétique chantier"
   - "Protection temporaire"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

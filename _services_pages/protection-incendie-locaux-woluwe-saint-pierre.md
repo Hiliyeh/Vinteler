@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Locaux à Risque Woluwe-Saint-Pierre"
-description: "Protection Locaux à Risque à Woluwe-Saint-Pierre (Bruxelles-Capitale). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Locaux à Risque à Woluwe-Saint-Pierre (Bruxelles). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-locaux Woluwe-Saint-Pierre"
   - "entreprise protection-incendie-locaux Woluwe-Saint-Pierre"
-  - "protection-incendie-locaux Bruxelles-Capitale"
+  - "protection-incendie-locaux Bruxelles"
   - "prix protection-incendie-locaux Woluwe-Saint-Pierre"
   - "protection locaux risque Woluwe-Saint-Pierre"
   - "local poubelle coupe-feu Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

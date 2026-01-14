@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1420", "1421"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6833
+lng: 4.3667
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Intervention discrète"
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

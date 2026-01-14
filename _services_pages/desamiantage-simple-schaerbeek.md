@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage Traitement Simple Schaerbeek"
-description: "Désamiantage Simple à Schaerbeek (Bruxelles-Capitale). Retrait amiante non friable Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Simple à Schaerbeek (Bruxelles). Retrait amiante non friable Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-simple Schaerbeek"
   - "entreprise desamiantage-simple Schaerbeek"
-  - "desamiantage-simple Bruxelles-Capitale"
+  - "desamiantage-simple Bruxelles"
   - "prix desamiantage-simple Schaerbeek"
   - "désamiantage simple Schaerbeek"
   - "retrait amiante Schaerbeek"
@@ -35,9 +35,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Revêtements vinyle-amiante"
   - "Évacuation réglementaire"
   - "Certificat conformité"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

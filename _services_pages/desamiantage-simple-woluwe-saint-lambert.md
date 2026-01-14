@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage Traitement Simple Woluwe-Saint-Lambert"
-description: "Désamiantage Simple à Woluwe-Saint-Lambert (Bruxelles-Capitale). Retrait amiante non friable Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Simple à Woluwe-Saint-Lambert (Bruxelles). Retrait amiante non friable Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-simple Woluwe-Saint-Lambert"
   - "entreprise desamiantage-simple Woluwe-Saint-Lambert"
-  - "desamiantage-simple Bruxelles-Capitale"
+  - "desamiantage-simple Bruxelles"
   - "prix desamiantage-simple Woluwe-Saint-Lambert"
   - "désamiantage simple Woluwe-Saint-Lambert"
   - "retrait amiante Woluwe-Saint-Lambert"
@@ -35,9 +35,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Revêtements vinyle-amiante"
   - "Évacuation réglementaire"
   - "Certificat conformité"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

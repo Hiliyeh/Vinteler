@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Haute Pression Sols & Murs Forest"
-description: "Nettoyage Haute Pression à Forest (Bruxelles-Capitale). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Haute Pression à Forest (Bruxelles). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-haute-pression Forest"
   - "entreprise nettoyage-haute-pression Forest"
-  - "nettoyage-haute-pression Bruxelles-Capitale"
+  - "nettoyage-haute-pression Bruxelles"
   - "prix nettoyage-haute-pression Forest"
   - "nettoyage haute pression Forest"
   - "nettoyage façade Forest"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Enlèvement graffitis"
   - "Dégraissage sols"
   - "Traitement anti-mousse"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

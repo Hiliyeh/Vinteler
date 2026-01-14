@@ -119,7 +119,7 @@ featured_services:
       - { id: woluwe-saint-pierre, name: Woluwe-Saint-Pierre }
       - { id: rhode-saint-genese, name: Rhode-Saint-Genèse }
 
-# Additional services shown in accordion (slug links to Bruxelles page)
+# Additional services shown in accordion (links to /zones/ with service pre-selected)
 other_services:
   - { name: "Démolition d'Annexe", slug: "demolition-annexe" }
   - { name: "Murs Porteurs", slug: "demolition-murs-porteurs" }

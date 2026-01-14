@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Hangar & Bâtiment Métallique Etterbeek"
-description: "Démontage Hangar à Etterbeek (Bruxelles-Capitale). Hangars et structures métalliques Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Hangar à Etterbeek (Bruxelles). Hangars et structures métalliques Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-hangar Etterbeek"
   - "entreprise demontage-hangar Etterbeek"
-  - "demontage-hangar Bruxelles-Capitale"
+  - "demontage-hangar Bruxelles"
   - "prix demontage-hangar Etterbeek"
   - "démontage hangar Etterbeek"
   - "démontage entrepôt Etterbeek"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Etterbeek"
 city_id: "etterbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1040"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3833
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Récupération charpente"
   - "Démontage bardage"
   - "Valorisation matériaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

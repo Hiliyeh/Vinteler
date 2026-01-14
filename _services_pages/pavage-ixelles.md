@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Pavage, Dallage & Klinkers Ixelles"
-description: "Pavage & Dallage à Ixelles (Bruxelles-Capitale). Aménagements extérieurs pavés Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Pavage & Dallage à Ixelles (Bruxelles). Aménagements extérieurs pavés Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "pavage Ixelles"
   - "entreprise pavage Ixelles"
-  - "pavage Bruxelles-Capitale"
+  - "pavage Bruxelles"
   - "prix pavage Ixelles"
   - "pavage Ixelles"
   - "dallage Ixelles"
@@ -29,15 +29,20 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

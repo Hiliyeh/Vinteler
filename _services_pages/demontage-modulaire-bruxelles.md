@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Maison Modulaire & Préfabriquée Bruxelles"
-description: "Démontage Maison Modulaire à Bruxelles (Bruxelles-Capitale). Constructions préfabriquées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Maison Modulaire à Bruxelles (Bruxelles). Constructions préfabriquées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-modulaire Bruxelles"
   - "entreprise demontage-modulaire Bruxelles"
-  - "demontage-modulaire Bruxelles-Capitale"
+  - "demontage-modulaire Bruxelles"
   - "prix demontage-modulaire Bruxelles"
   - "démontage maison modulaire Bruxelles"
   - "démontage préfabriqué Bruxelles"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Bruxelles"
 city_id: "bruxelles"
-region: "Bruxelles-Capitale"
-postal_codes: ["1000", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1081", "1082", "1083", "1090"]
+region: "Bruxelles"
+postal_codes: ["1000", "1020", "1120", "1130"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8503
+lng: 4.3517
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Bungalows chantier"
   - "Algeco et similaires"
   - "Remise en état terrain"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

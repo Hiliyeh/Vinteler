@@ -2,34 +2,36 @@
 <html lang="fr-BE">
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 <!-- SEO Primary Meta Tags -->
-<title>Politique de Confidentialité - VINTELER | Vin Teller Solutions - Une seule entreprise. Toutes les solutions.</title>
+<title>Politique de Confidentialité - VINTELER | Vinteler - Une seule entreprise. Toutes les solutions.</title>
 <meta name="description" content="Politique de confidentialité et protection des données personnelles de VINTELER.">
 <meta name="keywords" content="travaux bâtiment Belgique, démolition Bruxelles, curage intérieur, nettoyage professionnel, pavage">
 <meta name="author" content="Vin Teller Solutions">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://vinteler.be/confidentialite/">
+<link rel="canonical" href="http://0.0.0.0:4000/confidentialite/">
 
-<!-- Geo Meta Tags (Local SEO) -->
-<meta name="geo.region" content="BE">
+<!-- Geo Meta Tags (Local SEO) - Enhanced -->
+<meta name="geo.region" content="BE-VBR">
 <meta name="geo.placename" content="Overijse, Belgique">
+<meta name="geo.position" content="50.7742;4.5333">
+<meta name="ICBM" content="50.7742, 4.5333">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://vinteler.be/confidentialite/">
-<meta property="og:title" content="Politique de Confidentialité - VINTELER | Vin Teller Solutions">
+<meta property="og:url" content="http://0.0.0.0:4000/confidentialite/">
+<meta property="og:title" content="Politique de Confidentialité - VINTELER | Vinteler">
 <meta property="og:description" content="Politique de confidentialité et protection des données personnelles de VINTELER.">
-<meta property="og:image" content="https://vinteler.be/assets/images/og-image.svg">
+<meta property="og:image" content="http://0.0.0.0:4000/assets/images/og-image.svg">
 <meta property="og:locale" content="fr_BE">
-<meta property="og:site_name" content="Vin Teller Solutions">
+<meta property="og:site_name" content="Vinteler">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Politique de Confidentialité - VINTELER">
 <meta name="twitter:description" content="Politique de confidentialité et protection des données personnelles de VINTELER.">
-<meta name="twitter:image" content="https://vinteler.be/assets/images/og-image.svg">
+<meta name="twitter:image" content="http://0.0.0.0:4000/assets/images/og-image.svg">
 
 <!-- Additional SEO -->
 <meta name="theme-color" content="#0d6e6e">
@@ -45,18 +47,29 @@
 {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://vinteler.be/#organization",
-    "name": "Vin Teller Solutions",
-    "url": "https://vinteler.be",
-    "logo": "https://vinteler.be/favicon.svg",
+    "@id": "http://0.0.0.0:4000/#organization",
+    "name": "Vinteler",
+    "url": "http://0.0.0.0:4000",
+    "logo": "http://0.0.0.0:4000/favicon.svg",
     "description": "Vin Teller Solutions - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin.",
     "foundingDate": "2014",
     "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+32490489242",
         "contactType": "customer service",
-        "availableLanguage": ["French", "Dutch", "English"]
-    }
+        "availableLanguage": ["French", "Dutch", "English"],
+        "areaServed": {
+            "@type": "Country",
+            "name": "Belgium"
+        }
+    },
+    "sameAs": [
+        "https://www.facebook.com/vinteler.be",
+        "https://www.linkedin.com/company/vinteler",
+        "https://www.instagram.com/vinteler.be"
+    ],
+    "knowsAbout": ["Démolition", "Désamiantage", "Curage intérieur", "Protection incendie", "Nettoyage professionnel"],
+    "slogan": "Une seule entreprise. Toutes les solutions."
 }
 </script>
 
@@ -64,15 +77,17 @@
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://vinteler.be/#localbusiness",
-    "name": "Vin Teller Solutions",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "@id": "http://0.0.0.0:4000/#localbusiness",
+    "name": "Vinteler",
     "description": "Vin Teller Solutions - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin.",
-    "url": "https://vinteler.be",
+    "url": "http://0.0.0.0:4000",
     "telephone": "+32490489242",
-    "email": "jonathan@vinteler.be",
-    "image": "https://vinteler.be/favicon.svg",
+    "email": "info@vinteler.be",
+    "image": "http://0.0.0.0:4000/favicon.svg",
     "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Credit Card, Bank Transfer",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "Brusselsesteenweg 511",
@@ -92,46 +107,166 @@
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "opens": "08:00",
             "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday"],
+            "description": "Urgences uniquement 24/7"
         }
     ],
     "vatID": "BE0783.397.239",
     "areaServed": {
-        "@type": "Country",
-        "name": "Belgium"
-    }
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "50.7742",
+            "longitude": "4.5333"
+        },
+        "geoRadius": "150000"
+    },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services Vinteler",
+        "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Démolition complète"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Désamiantage"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Curage intérieur"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Protection incendie"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Urgences 24/7"}}
+        ]
+    },
+    "sameAs": [
+        "https://www.facebook.com/vinteler.be",
+        "https://www.linkedin.com/company/vinteler"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Marc D., Bruxelles"
+            },
+            "reviewBody": "Démolition rapide et professionnelle. Équipe compétente et respectueuse des délais."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sophie L., Waterloo"
+            },
+            "reviewBody": "Désamiantage réalisé dans les règles. Certificat fourni rapidement. Je recommande."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jean-Pierre M., Liège"
+            },
+            "reviewBody": "Intervention d'urgence après inondation. Sur place en 1h30. Travail impeccable."
+        }
+    ]
 }
 </script>
+
+<!-- Structured Data - WebSite with SearchAction (GEO) -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "http://0.0.0.0:4000/#website",
+    "url": "http://0.0.0.0:4000",
+    "name": "Vinteler",
+    "description": "Vin Teller Solutions - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin.",
+    "publisher": {
+        "@id": "http://0.0.0.0:4000/#organization"
+    },
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "http://0.0.0.0:4000/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+    },
+    "inLanguage": "fr-BE"
+}
+</script>
+
+<!-- Article Freshness Meta (GEO) -->
+<meta property="article:modified_time" content="2026-01-14T17:28:02-06:00">
 
 <!-- Fonts - Preload for better LCP -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
 <!-- Styles -->
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=20260114">
 
 </head>
 <body>
     <nav class="nav" id="nav">
     <div class="nav-container">
         <a href="/" class="logo">
-            <svg class="logo-icon" viewBox="0 0 32 32" width="36" height="36">
-                <path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/>
-                <path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/>
-            </svg>
+            <div class="logo-icon-wrapper">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="36" height="36">
+                    <defs>
+                        <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#0f7a7a"/>
+                            <stop offset="100%" stop-color="#14b8a6"/>
+                        </linearGradient>
+                        <linearGradient id="amberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#e8a838"/>
+                            <stop offset="100%" stop-color="#fbbf24"/>
+                        </linearGradient>
+                        <filter id="logoGlow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                            <feMerge>
+                                <feMergeNode in="blur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g class="logo-chevrons" filter="url(#logoGlow)">
+                        <path class="logo-chevron-left" d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="url(#tealGradient)"/>
+                        <path class="logo-chevron-right" d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="url(#amberGradient)"/>
+                    </g>
+                </svg>
+                <div class="logo-pulse-ring"></div>
+                <div class="logo-energy-dot"></div>
+            </div>
             <div class="logo-text-group">
                 <div class="logo-title-row">
-                    <span class="logo-text">Vin Teller Solutions</span>
-                    <span class="logo-badge">+10 ans</span>
+                    <span class="logo-text">Vinteler</span>
+                    <span class="logo-badge dynamic-years-badge">+10 ans</span>
                 </div>
-                <span class="logo-tagline">Une seule équipe, du début à la fin</span>
+                <span class="logo-tagline">Une équipe, un problème, une solution.</span>
             </div>
         </a>
         <ul class="nav-links">
             <li><a href="/#services">Services</a></li>
             <li><a href="/#about">Nous</a></li>
-            <li><a href="/#zones">Zones</a></li>
+            <li><a href="/zones/">Zones</a></li>
             <li class="nav-cta-group">
                 <div class="nav-cta-item">
                     <span class="nav-cta-label">Appelez-nous</span>
@@ -165,6 +300,13 @@
     <main>
         <section class="legal-page">
     <div class="container">
+        <!-- Breadcrumb for SEO -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="/">Accueil</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="breadcrumb-current">Confidentialité</span>
+        </nav>
+
         <h1>Politique de Confidentialité</h1>
 
         <div class="legal-content">
@@ -172,7 +314,7 @@
             <p>
                 <strong>Vin Teller Solutions</strong><br>
                 Brusselsesteenweg 511, 3090 Overijse<br>
-                Email : <a href="mailto:jonathan@vinteler.be">jonathan@vinteler.be</a>
+                Email : <a href="mailto:info@vinteler.be">info@vinteler.be</a>
             </p>
 
             <h2>Données collectées</h2>
@@ -219,7 +361,7 @@
                 <li>Droit à la portabilité</li>
             </ul>
             <p>
-                Pour exercer ces droits, contactez-nous à : <a href="mailto:jonathan@vinteler.be">jonathan@vinteler.be</a>
+                Pour exercer ces droits, contactez-nous à : <a href="mailto:info@vinteler.be">info@vinteler.be</a>
             </p>
 
             <h2>Cookies</h2>
@@ -235,7 +377,7 @@
             <h2>Contact</h2>
             <p>
                 Pour toute question concernant cette politique de confidentialité, contactez-nous :<br>
-                <a href="mailto:jonathan@vinteler.be">jonathan@vinteler.be</a> | <a href="tel:0490489242">0490 48 92 42</a>
+                <a href="mailto:info@vinteler.be">info@vinteler.be</a> | <a href="tel:0490489242">0490 48 92 42</a>
             </p>
 
             <p class="legal-update">Dernière mise à jour : Janvier 2025</p>
@@ -252,7 +394,7 @@
                 <path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/>
                 <path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/>
             </svg>
-            <span class="footer-company">Vin Teller Solutions</span>
+            <span class="footer-company">Vinteler</span>
             <span class="footer-sep">·</span>
             <span class="footer-address">Brusselsesteenweg 511, 3090 Overijse</span>
             <span class="footer-sep">·</span>

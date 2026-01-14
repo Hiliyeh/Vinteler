@@ -28,8 +28,8 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Liège"
@@ -37,6 +37,11 @@ city_id: "liege"
 region: "Liège"
 postal_codes: ["4000", "4020", "4030", "4031", "4032"]
 
+
+# Geo Data (Local SEO)
+lat: 50.6326
+lng: 5.5797
+geo_region: "BE-WLG"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -60,7 +68,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "seraing"
+    name: "Seraing"
+  - id: "verviers"
+    name: "Verviers"
+  - id: "herstal"
+    name: "Herstal"
+  - id: "ans"
+    name: "Ans"
+  - id: "flemalle"
+    name: "Flémalle"
 
 # Flags spéciaux
 

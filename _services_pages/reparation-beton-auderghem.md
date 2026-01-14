@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Réparation & Protection Béton Auderghem"
-description: "Réparation Béton à Auderghem (Bruxelles-Capitale). Restauration structures béton Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Réparation Béton à Auderghem (Bruxelles). Restauration structures béton Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "reparation-beton Auderghem"
   - "entreprise reparation-beton Auderghem"
-  - "reparation-beton Bruxelles-Capitale"
+  - "reparation-beton Bruxelles"
   - "prix reparation-beton Auderghem"
   - "réparation béton Auderghem"
   - "béton dégradé Auderghem"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Ragréage"
   - "Protection anticorrosion"
   - "Étanchéité béton"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

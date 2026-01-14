@@ -1,22 +1,45 @@
 <nav class="nav" id="nav">
     <div class="nav-container">
         <a href="{{ '/' | relative_url }}" class="logo">
-            <svg class="logo-icon" viewBox="0 0 32 32" width="36" height="36">
-                <path d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="#0f7a7a"/>
-                <path d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="#e8a838"/>
-            </svg>
+            <div class="logo-icon-wrapper">
+                <svg class="logo-icon" viewBox="0 0 32 32" width="36" height="36">
+                    <defs>
+                        <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#0f7a7a"/>
+                            <stop offset="100%" stop-color="#14b8a6"/>
+                        </linearGradient>
+                        <linearGradient id="amberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#e8a838"/>
+                            <stop offset="100%" stop-color="#fbbf24"/>
+                        </linearGradient>
+                        <filter id="logoGlow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                            <feMerge>
+                                <feMergeNode in="blur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g class="logo-chevrons" filter="url(#logoGlow)">
+                        <path class="logo-chevron-left" d="M3,3 L2,8 L14.5,29 L14.5,10 L10,4 Z" fill="url(#tealGradient)"/>
+                        <path class="logo-chevron-right" d="M29,3 L30,8 L17.5,29 L17.5,10 L22,4 Z" fill="url(#amberGradient)"/>
+                    </g>
+                </svg>
+                <div class="logo-pulse-ring"></div>
+                <div class="logo-energy-dot"></div>
+            </div>
             <div class="logo-text-group">
                 <div class="logo-title-row">
                     <span class="logo-text">{{ site.title }}</span>
-                    <span class="logo-badge">+10 ans</span>
+                    <span class="logo-badge dynamic-years-badge">+10 ans</span>
                 </div>
-                <span class="logo-tagline">Une seule équipe, du début à la fin</span>
+                <span class="logo-tagline">Une équipe, un problème, une solution.</span>
             </div>
         </a>
         <ul class="nav-links">
             <li><a href="{{ '/#services' | relative_url }}">Services</a></li>
             <li><a href="{{ '/#about' | relative_url }}">Nous</a></li>
-            <li><a href="{{ '/#zones' | relative_url }}">Zones</a></li>
+            <li><a href="{{ '/zones/' | relative_url }}">Zones</a></li>
             <li class="nav-cta-group">
                 <div class="nav-cta-item">
                     <span class="nav-cta-label">Appelez-nous</span>

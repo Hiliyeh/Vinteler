@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Après Décès & Désinfection Woluwe-Saint-Lambert"
-description: "Nettoyage Après Décès à Woluwe-Saint-Lambert (Bruxelles-Capitale). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Après Décès à Woluwe-Saint-Lambert (Bruxelles). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-apres-deces Woluwe-Saint-Lambert"
   - "entreprise nettoyage-apres-deces Woluwe-Saint-Lambert"
-  - "nettoyage-apres-deces Bruxelles-Capitale"
+  - "nettoyage-apres-deces Bruxelles"
   - "prix nettoyage-apres-deces Woluwe-Saint-Lambert"
   - "nettoyage après décès Woluwe-Saint-Lambert"
   - "nettoyage décès Woluwe-Saint-Lambert"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

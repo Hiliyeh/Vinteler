@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["1930", "1931", "1932", "1933"]
 
 
+# Geo Data (Local SEO)
+lat: 50.8833
+lng: 4.4667
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Intervention discrète"
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

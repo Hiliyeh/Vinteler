@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["1800"]
 
 
+# Geo Data (Local SEO)
+lat: 50.9275
+lng: 4.4297
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Garages et carports"
@@ -46,6 +51,9 @@ features:
   - "Remises et dépendances"
   - "Remise en état terrain"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

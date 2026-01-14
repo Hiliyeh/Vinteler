@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Curage Intérieur Avant Rénovation Forest"
-description: "Curage Intérieur à Forest (Bruxelles-Capitale). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Curage Intérieur à Forest (Bruxelles). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "curage-interieur Forest"
   - "entreprise curage-interieur Forest"
-  - "curage-interieur Bruxelles-Capitale"
+  - "curage-interieur Bruxelles"
   - "prix curage-interieur Forest"
   - "curage intérieur Forest"
   - "curage avant rénovation Forest"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Retrait sanitaires"
   - "Évacuation gravats"
   - "Préparation rénovation"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

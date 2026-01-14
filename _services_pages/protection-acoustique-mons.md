@@ -28,8 +28,8 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Mons"
@@ -37,6 +37,11 @@ city_id: "mons"
 region: "Hainaut"
 postal_codes: ["7000", "7010", "7011", "7012", "7020", "7021", "7022", "7024", "7030", "7031", "7032", "7033", "7034"]
 
+
+# Geo Data (Local SEO)
+lat: 50.4542
+lng: 3.9514
+geo_region: "BE-WHT"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -64,6 +72,12 @@ nearby_cities:
     name: "Charleroi"
   - id: "tournai"
     name: "Tournai"
+  - id: "la-louviere"
+    name: "La Louvière"
+  - id: "mouscron"
+    name: "Mouscron"
+  - id: "soignies"
+    name: "Soignies"
 
 # Flags spéciaux
 

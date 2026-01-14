@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Mérule & Champignons du Bâti Ixelles"
-description: "Traitement Mérule à Ixelles (Bruxelles-Capitale). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Mérule à Ixelles (Bruxelles). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-merule Ixelles"
   - "entreprise traitement-merule Ixelles"
-  - "traitement-merule Bruxelles-Capitale"
+  - "traitement-merule Bruxelles"
   - "prix traitement-merule Ixelles"
   - "traitement mérule Ixelles"
   - "mérule belgique Ixelles"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Assainissement maçonnerie"
   - "Traitement bois"
   - "Prévention récidive"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

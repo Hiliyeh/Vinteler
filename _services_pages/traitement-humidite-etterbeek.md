@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Humidité & Salpêtre Etterbeek"
-description: "Traitement Humidité à Etterbeek (Bruxelles-Capitale). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Humidité à Etterbeek (Bruxelles). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-humidite Etterbeek"
   - "entreprise traitement-humidite Etterbeek"
-  - "traitement-humidite Bruxelles-Capitale"
+  - "traitement-humidite Bruxelles"
   - "prix traitement-humidite Etterbeek"
   - "traitement humidité Etterbeek"
   - "traitement salpêtre Etterbeek"
@@ -35,9 +35,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Etterbeek"
 city_id: "etterbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1040"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3833
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

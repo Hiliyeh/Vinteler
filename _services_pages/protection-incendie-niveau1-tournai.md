@@ -38,6 +38,11 @@ region: "Hainaut"
 postal_codes: ["7500", "7501", "7502", "7503", "7504", "7506", "7510"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6058
+lng: 3.3883
+geo_region: "BE-WHT"
+
 # Features
 features:
   - "Calfeutrement câbles/tuyaux"
@@ -46,6 +51,9 @@ features:
   - "Rebouchage après curage"
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,6 +69,18 @@ related_services:
     name: "Curage Intérieur"
     slug: "curage-interieur"
     description: "Vidage complet avant travaux"
+  - id: "portes-coupe-feu"
+    name: "Portes Coupe-Feu"
+    slug: "portes-coupe-feu"
+    description: "Portes RF certifiées EI30-EI90"
+  - id: "clapets-coupe-feu"
+    name: "Clapets Coupe-Feu"
+    slug: "clapets-coupe-feu"
+    description: "Clapets RF gaines ventilation"
+  - id: "audit-securite-incendie"
+    name: "Audit Sécurité Incendie"
+    slug: "audit-securite-incendie"
+    description: "Diagnostic conformité incendie"
 
 # Villes proches (même région)
 nearby_cities:
@@ -68,6 +88,12 @@ nearby_cities:
     name: "Charleroi"
   - id: "mons"
     name: "Mons"
+  - id: "la-louviere"
+    name: "La Louvière"
+  - id: "mouscron"
+    name: "Mouscron"
+  - id: "soignies"
+    name: "Soignies"
 
 # Flags spéciaux
 

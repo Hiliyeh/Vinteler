@@ -38,6 +38,11 @@ region: "Flandre-Orientale"
 postal_codes: ["9000", "9030", "9031", "9032", "9040", "9041", "9042", "9050", "9051", "9052"]
 
 
+# Geo Data (Local SEO)
+lat: 51.0536
+lng: 3.7253
+geo_region: "BE-VOV"
+
 # Features
 features:
   - "Peinture intumescente acier"
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,10 +69,27 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "alost"
+    name: "Alost"
+  - id: "sint-niklaas"
+    name: "Saint-Nicolas"
+  - id: "dendermonde"
+    name: "Termonde"
+  - id: "lokeren"
+    name: "Lokeren"
+  - id: "beveren"
+    name: "Beveren"
 
 # Flags spéciaux
 

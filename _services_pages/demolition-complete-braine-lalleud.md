@@ -39,6 +39,11 @@ region: "Brabant Wallon"
 postal_codes: ["1420", "1421"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6833
+lng: 4.3667
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Maisons individuelles"
@@ -47,6 +52,15 @@ features:
   - "Évacuation débris incluse"
   - "Devis gratuit 24h"
   - "Tri sélectif des matériaux"
+
+# FAQ (pour SEO et schema FAQPage)
+faq:
+  - question: "Combien coûte une démolition complète en Belgique ?"
+    answer: "Le prix d'une démolition complète dépend de la taille du bâtiment, des matériaux et de l'accessibilité. VINTELER propose des devis gratuits sous 24h pour une estimation précise."
+  - question: "Faut-il un permis pour démolir une maison en Belgique ?"
+    answer: "Oui, un permis d'urbanisme est généralement requis pour une démolition complète. Notre équipe peut vous accompagner dans les démarches administratives."
+  - question: "Que devient les débris après une démolition ?"
+    answer: "VINTELER assure le tri sélectif et l'évacuation réglementaire des débris vers des centres agréés. La valorisation des matériaux est privilégiée."
 
 # Maillage interne - Services liés
 related_services:

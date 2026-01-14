@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["1630"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7667
+lng: 4.3333
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Locaux poubelles"
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

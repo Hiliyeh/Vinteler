@@ -55,7 +55,7 @@ layout: null
         "description": "Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, démolition, rénovation. Un seul interlocuteur du début à la fin.",
         "url": "https://vinteler.be",
         "telephone": "+32490489242",
-        "email": "jonathan@vinteler.be",
+        "email": "info@vinteler.be",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Brusselsesteenweg 511",
@@ -178,7 +178,7 @@ layout: null
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -186,71 +186,58 @@ layout: null
     <!-- Navigation -->
     {% include nav.html %}
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-bg">
-            <div class="hero-image-placeholder">
-                <!-- Image de fond à ajouter -->
-            </div>
-            <div class="hero-overlay"></div>
+    <!-- Hero Section - Architectural Precision -->
+    <header class="hero-arch">
+        <!-- Background -->
+        <div class="hero-arch__bg">
+            <div class="arch-line arch-line--1"></div>
+            <div class="arch-line arch-line--2"></div>
+            <div class="arch-glow"></div>
         </div>
-        <div class="hero-content">
-            <h1 class="hero-title">
-                <span class="title-line">Du sinistre</span>
-                <span class="title-line accent">à la solution.</span>
-            </h1>
-            <p class="hero-tagline">Une seule équipe, de A à Z.</p>
-            <p class="hero-subtitle">
-                Urgence ou projet planifié, un seul interlocuteur vous accompagne du diagnostic à la garantie.
-            </p>
-            <div class="hero-cta">
-                <a href="tel:0490489242" class="btn btn-primary">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                    </svg>
-                    0490 48 92 42
-                </a>
-                <a href="#contact" class="btn btn-secondary">
-                    Devis gratuit
-                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                </a>
+
+        <!-- Main Content -->
+        <div class="hero-arch__main">
+            <div class="arch-content">
+                <h1 class="arch-title">
+                    <span class="arch-title__line arch-title__line--1">DU SINISTRE</span>
+                    <span class="arch-title__line arch-title__line--2">À LA SOLUTION</span>
+                </h1>
+
+                <p class="arch-subtitle">
+                    Une seule entreprise. Toutes les solutions.
+                </p>
+
+                <div class="arch-actions">
+                    <a href="tel:0490489242" class="arch-btn arch-btn--call">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <span>APPELER</span>
+                    </a>
+                    <a href="#contact" class="arch-btn arch-btn--devis">
+                        <span>DEMANDER UN DEVIS</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
-        <!-- Trust Pills -->
-        <div class="hero-trust-bar">
-            <div class="hero-trust-pill">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                    <polyline points="22 4 12 14.01 9 11.01"/>
-                </svg>
-                <span><strong>500+</strong> Chantiers</span>
-            </div>
-            <div class="hero-trust-pill">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                </svg>
-                <span><strong>Certifié</strong> SPF</span>
-            </div>
-            <div class="hero-trust-pill">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <polyline points="12 6 12 12 16 14"/>
-                </svg>
-                <span><strong>24h</strong> Réponse</span>
-            </div>
-            <div class="hero-trust-pill hero-trust-pill--urgence">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-                </svg>
-                <span><strong>24/7</strong> Urgences</span>
+
+        <!-- Bottom Services -->
+        <div class="hero-arch__bottom">
+            <div class="arch-services">
+                <span class="arch-services__label">NOS SERVICES</span>
+                <div class="arch-services__list">
+                    <span class="arch-chip">DÉMOLITION</span>
+                    <span class="arch-chip">DÉSAMIANTAGE</span>
+                    <span class="arch-chip">RÉNOVATION</span>
+                    <span class="arch-chip">NETTOYAGE</span>
+                    <span class="arch-chip">ISOLATION</span>
+                </div>
             </div>
         </div>
     </header>
-
-    <!-- Cycle Complet Section -->
-    {% include sections/cycle-complet.html %}
 
     <!-- Services Section -->
     {% include sections/services-home.html %}
@@ -348,30 +335,20 @@ layout: null
                     en Belgique. Réponse sous 24h.
                 </p>
 
-                <div class="contact-details">
-                    <a href="tel:0490489242" class="contact-item">
-                        <div class="contact-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                            </svg>
-                        </div>
-                        <div class="contact-text">
-                            <span class="contact-label">Téléphone</span>
-                            <span class="contact-value">0490 48 92 42</span>
-                        </div>
+                <div class="contact-cta-buttons">
+                    <a href="tel:0490489242" class="btn btn-primary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        Appelez-nous
                     </a>
 
-                    <a href="mailto:jonathan@vinteler.be" class="contact-item">
-                        <div class="contact-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
-                            </svg>
-                        </div>
-                        <div class="contact-text">
-                            <span class="contact-label">Email</span>
-                            <span class="contact-value">jonathan@vinteler.be</span>
-                        </div>
+                    <a href="mailto:info@vinteler.be" class="btn btn-secondary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        Envoyez un email
                     </a>
 
                     <div class="contact-item">

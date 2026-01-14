@@ -39,6 +39,11 @@ region: "Brabant Flamand"
 postal_codes: ["3000", "3001", "3010", "3012", "3018"]
 
 
+# Geo Data (Local SEO)
+lat: 50.8798
+lng: 4.7005
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Injection résine/crème"
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

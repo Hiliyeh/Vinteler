@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Mérule & Champignons du Bâti Forest"
-description: "Traitement Mérule à Forest (Bruxelles-Capitale). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Mérule à Forest (Bruxelles). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-merule Forest"
   - "entreprise traitement-merule Forest"
-  - "traitement-merule Bruxelles-Capitale"
+  - "traitement-merule Bruxelles"
   - "prix traitement-merule Forest"
   - "traitement mérule Forest"
   - "mérule belgique Forest"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Assainissement maçonnerie"
   - "Traitement bois"
   - "Prévention récidive"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,0 +1,150 @@
+{% comment %}
+  Zones Finder Internal - Variante pour pages service-city
+  Pre-remplit le service actuel, permet de changer de ville ou service
+
+  Usage: {% include sections/zones-finder-internal.html %}
+  Context requis: page.service_slug, page.service_name, page.city_name, page.city_id
+{% endcomment %}
+
+<section class="zones-finder zones-finder--internal" id="zones-internal">
+    <div class="container">
+        <div class="zones-finder-header">
+            <span class="section-tag light">Autre intervention</span>
+            <h2 class="section-title light">Ce service dans une autre ville ?</h2>
+            <p class="zones-finder-lead">
+                Vous consultez <strong>{{ page.service_name }}</strong> a <strong>{{ page.city_name }}</strong>.<br>
+                Changez de ville ou decouvrez nos autres services.
+            </p>
+        </div>
+
+        <!-- Service Picker (pre-filled but changeable) -->
+        <div class="service-picker" id="servicePickerInternal">
+            <button class="service-picker-trigger selected" id="servicePickerTriggerInternal"
+                    data-preselected-slug="{{ page.service_slug }}"
+                    data-preselected-name="{{ page.service_name }}">
+                <span class="picker-label">{{ page.service_name }}</span>
+                <span class="picker-change-hint">Changer</span>
+                <svg class="picker-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+
+            <div class="service-picker-panel" id="servicePickerPanelInternal">
+                <div class="picker-categories">
+                    {% for cat in site.data.categories %}
+                        {% assign cat_services = site.data.services | where: "category", cat.id %}
+                        {% if cat_services.size > 0 %}
+                    <div class="picker-category" data-category="{{ cat.id }}">
+                        <button class="picker-category-header">
+                            <span class="picker-cat-icon">
+                                {% if cat.id == "demolition" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 22h20"/><path d="M6.5 22v-5l-2-2V8l5-5 5 5v7l-2 2v5"/><path d="M9.5 3v4"/><path d="M14.5 22v-3h5v3"/><path d="M14.5 16h5"/></svg>
+                                {% elsif cat.id == "desamiantage" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><circle cx="12" cy="16" r="1"/></svg>
+                                {% elsif cat.id == "nettoyage" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                                {% elsif cat.id == "urgence" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                                {% elsif cat.id == "demontage" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                                {% elsif cat.id == "incendie" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                                {% elsif cat.id == "traitements" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 21h10"/><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M12 17v4"/></svg>
+                                {% elsif cat.id == "acoustique" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+                                {% elsif cat.id == "sols" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                                {% endif %}
+                            </span>
+                            <span class="picker-cat-name">{{ cat.name }}</span>
+                            <span class="picker-cat-count">{{ cat_services.size }}</span>
+                            <svg class="picker-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                        </button>
+                        <div class="picker-services">
+                            {% for service in cat_services %}
+                            <button class="picker-service{% if service.slug_prefix == page.service_slug %} current{% endif %}"
+                                    data-slug="{{ service.slug_prefix }}"
+                                    data-name="{{ service.name }}">
+                                {{ service.name }}
+                                {% if service.slug_prefix == page.service_slug %}
+                                <span class="current-badge">actuel</span>
+                                {% endif %}
+                            </button>
+                            {% endfor %}
+                        </div>
+                    </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- City Input (visible immediately) -->
+        <div class="city-picker active" id="cityPickerInternal">
+            <div class="city-picker-inner">
+                <label>Choisir une autre ville</label>
+                <div class="city-input-wrap">
+                    <input type="text"
+                           id="zone-city-input-internal"
+                           placeholder="Tapez une ville ou code postal..."
+                           autocomplete="off"
+                           data-current-city="{{ page.city_name }}"
+                           data-current-city-id="{{ page.city_id }}">
+                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                </div>
+                <div class="city-suggestions" id="city-suggestions-internal"></div>
+            </div>
+        </div>
+
+        <!-- CTA Box -->
+        <div class="zones-cta-box" id="zones-cta-box-internal">
+            <div class="zones-cta-content">
+                <div class="zones-cta-check">
+                    {% include svg/icon-check.html width="28" height="28" stroke_width="3" %}
+                </div>
+                <div>
+                    <h3 id="zones-cta-title-internal">Nouvelle destination</h3>
+                    <p id="zones-cta-desc-internal">
+                        <strong id="zones-service-name-internal">{{ page.service_name }}</strong>
+                        a <strong id="zones-city-name-internal">...</strong>
+                    </p>
+                </div>
+            </div>
+            <div class="zones-cta-buttons">
+                <a href="{{ site.contact.phone_link }}" class="zones-btn zones-btn-call">
+                    {% include svg/icon-phone.html width="22" height="22" stroke_width="2.5" %}
+                    <span>Appeler</span>
+                </a>
+                <a href="#" id="zones-devis-btn-internal" class="zones-btn zones-btn-devis">
+                    <span>Voir cette page</span>
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Quick suggestion: nearby cities -->
+        <div class="zones-quick-cities">
+            <span class="quick-cities-label">Villes proches :</span>
+            <div class="quick-cities-list">
+                {% assign region_cities = site.data.cities | where: "region", page.region %}
+                {% for city in region_cities limit: 6 %}
+                {% unless city.id == page.city_id %}
+                <a href="{{ '/' | relative_url }}{{ page.service_slug }}-{{ city.id }}/" class="quick-city-link">
+                    {{ city.name }}
+                </a>
+                {% endunless %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% comment %} City data for JavaScript (only if not already present) {% endcomment %}
+{% unless page.layout == 'default' or page.zones_data_loaded %}
+<script id="cities-data-internal" type="application/json">
+[{% for city in site.data.cities %}{"id":"{{ city.id }}","name":"{{ city.name }}","region":"{{ city.region }}","postalCodes":{{ city.postal_codes | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+</script>
+{% endunless %}

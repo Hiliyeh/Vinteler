@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition d'Annexe & Dépendances Woluwe-Saint-Pierre"
-description: "Démolition d'Annexe à Woluwe-Saint-Pierre (Bruxelles-Capitale). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition d'Annexe à Woluwe-Saint-Pierre (Bruxelles). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-annexe Woluwe-Saint-Pierre"
   - "entreprise demolition-annexe Woluwe-Saint-Pierre"
-  - "demolition-annexe Bruxelles-Capitale"
+  - "demolition-annexe Bruxelles"
   - "prix demolition-annexe Woluwe-Saint-Pierre"
   - "démolition annexe Woluwe-Saint-Pierre"
   - "démolition garage Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Remises et dépendances"
   - "Remise en état terrain"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

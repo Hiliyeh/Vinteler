@@ -38,6 +38,11 @@ region: "Anvers"
 postal_codes: ["2000", "2018", "2020", "2030", "2040", "2050", "2060"]
 
 
+# Geo Data (Local SEO)
+lat: 51.2194
+lng: 4.4025
+geo_region: "BE-VAN"
+
 # Features
 features:
   - "Peinture intumescente acier"
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,11 +69,27 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:
   - id: "malines"
     name: "Malines"
+  - id: "turnhout"
+    name: "Turnhout"
+  - id: "mol"
+    name: "Mol"
+  - id: "lier"
+    name: "Lier"
+  - id: "boom"
+    name: "Boom"
 
 # Flags spéciaux
 

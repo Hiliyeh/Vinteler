@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Coupe-Feu Planchers & Plafonds Forest"
-description: "Protection Planchers & Plafonds à Forest (Bruxelles-Capitale). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Planchers & Plafonds à Forest (Bruxelles). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-planchers Forest"
   - "entreprise protection-incendie-planchers Forest"
-  - "protection-incendie-planchers Bruxelles-Capitale"
+  - "protection-incendie-planchers Bruxelles"
   - "prix protection-incendie-planchers Forest"
   - "protection plancher incendie Forest"
   - "plafond coupe-feu Forest"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

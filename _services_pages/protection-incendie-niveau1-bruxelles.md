@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Niveau 1 - Calfeutrement Bruxelles"
-description: "Protection Incendie Niveau 1 à Bruxelles (Bruxelles-Capitale). Calfeutrement et rebouchage coupe-feu Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Incendie Niveau 1 à Bruxelles (Bruxelles). Calfeutrement et rebouchage coupe-feu Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-niveau1 Bruxelles"
   - "entreprise protection-incendie-niveau1 Bruxelles"
-  - "protection-incendie-niveau1 Bruxelles-Capitale"
+  - "protection-incendie-niveau1 Bruxelles"
   - "prix protection-incendie-niveau1 Bruxelles"
   - "protection incendie Bruxelles"
   - "calfeutrement coupe-feu Bruxelles"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Bruxelles"
 city_id: "bruxelles"
-region: "Bruxelles-Capitale"
-postal_codes: ["1000", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1081", "1082", "1083", "1090"]
+region: "Bruxelles"
+postal_codes: ["1000", "1020", "1120", "1130"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8503
+lng: 4.3517
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Rebouchage après curage"
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,6 +69,18 @@ related_services:
     name: "Curage Intérieur"
     slug: "curage-interieur"
     description: "Vidage complet avant travaux"
+  - id: "portes-coupe-feu"
+    name: "Portes Coupe-Feu"
+    slug: "portes-coupe-feu"
+    description: "Portes RF certifiées EI30-EI90"
+  - id: "clapets-coupe-feu"
+    name: "Clapets Coupe-Feu"
+    slug: "clapets-coupe-feu"
+    description: "Clapets RF gaines ventilation"
+  - id: "audit-securite-incendie"
+    name: "Audit Sécurité Incendie"
+    slug: "audit-securite-incendie"
+    description: "Diagnostic conformité incendie"
 
 # Villes proches (même région)
 nearby_cities:

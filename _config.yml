@@ -2,7 +2,7 @@
 # Une seule entreprise. Toutes les solutions.
 
 # Site Settings
-title: "Vin Teller Solutions"
+title: "Vinteler"
 tagline: "Une seule entreprise. Toutes les solutions."
 description: "Vin Teller Solutions - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin."
 url: "https://vinteler.be"
@@ -13,7 +13,7 @@ lang: "fr-BE"
 contact:
   phone: "0490 48 92 42"
   phone_link: "tel:0490489242"
-  email: "jonathan@vinteler.be"
+  email: "info@vinteler.be"
   address: "Brusselsesteenweg 511"
   city: "Overijse"
   postal_code: "3090"
@@ -32,9 +32,14 @@ company:
 # SEO
 author: "Vin Teller Solutions"
 social:
-  facebook: ""
-  instagram: ""
-  linkedin: ""
+  facebook: "https://www.facebook.com/vinteler.be"
+  instagram: "https://www.instagram.com/vinteler.be"
+  linkedin: "https://www.linkedin.com/company/vinteler"
+
+# IndexNow (Bing, Yandex, ChatGPT Search)
+indexnow:
+  key: "1128b74ef956bacbafd521b09cd071d0"
+  endpoint: "https://api.indexnow.org/indexnow"
 
 # Build Settings
 markdown: kramdown
@@ -72,6 +77,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# Include in build (IndexNow key file)
+include:
+  - 1128b74ef956bacbafd521b09cd071d0.txt
 
 # Exclude from build
 exclude:

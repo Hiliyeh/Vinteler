@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1420", "1421"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6833
+lng: 4.3667
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Lignes de production"
@@ -46,6 +51,9 @@ features:
   - "Convoyeurs"
   - "Équipements lourds"
   - "Récupération métaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

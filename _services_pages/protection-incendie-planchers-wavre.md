@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1300", "1301"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7167
+lng: 4.6
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Renforcement planchers"
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Haute Pression Sols & Murs Woluwe-Saint-Pierre"
-description: "Nettoyage Haute Pression à Woluwe-Saint-Pierre (Bruxelles-Capitale). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Haute Pression à Woluwe-Saint-Pierre (Bruxelles). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-haute-pression Woluwe-Saint-Pierre"
   - "entreprise nettoyage-haute-pression Woluwe-Saint-Pierre"
-  - "nettoyage-haute-pression Bruxelles-Capitale"
+  - "nettoyage-haute-pression Bruxelles"
   - "prix nettoyage-haute-pression Woluwe-Saint-Pierre"
   - "nettoyage haute pression Woluwe-Saint-Pierre"
   - "nettoyage façade Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Enlèvement graffitis"
   - "Dégraissage sols"
   - "Traitement anti-mousse"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

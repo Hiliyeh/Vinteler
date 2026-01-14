@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Découpe Métallique & Oxycoupage Anderlecht"
-description: "Découpe Métallique à Anderlecht (Bruxelles-Capitale). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Découpe Métallique à Anderlecht (Bruxelles). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "decoupe-metallique Anderlecht"
   - "entreprise decoupe-metallique Anderlecht"
-  - "decoupe-metallique Bruxelles-Capitale"
+  - "decoupe-metallique Bruxelles"
   - "prix decoupe-metallique Anderlecht"
   - "découpe métallique Anderlecht"
   - "oxycoupage Anderlecht"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Structures métalliques"
   - "Charpentes acier"
   - "Cuves et réservoirs"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["1970"]
 
 
+# Geo Data (Local SEO)
+lat: 50.85
+lng: 4.4833
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Disponible 24/7"
@@ -46,6 +51,9 @@ features:
   - "Rapport pour assurance"
   - "Coordination pompiers"
   - "Déblaiement urgent"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

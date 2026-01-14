@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Réparation & Protection Béton Watermael-Boitsfort"
-description: "Réparation Béton à Watermael-Boitsfort (Bruxelles-Capitale). Restauration structures béton Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Réparation Béton à Watermael-Boitsfort (Bruxelles). Restauration structures béton Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "reparation-beton Watermael-Boitsfort"
   - "entreprise reparation-beton Watermael-Boitsfort"
-  - "reparation-beton Bruxelles-Capitale"
+  - "reparation-beton Bruxelles"
   - "prix reparation-beton Watermael-Boitsfort"
   - "réparation béton Watermael-Boitsfort"
   - "béton dégradé Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Ragréage"
   - "Protection anticorrosion"
   - "Étanchéité béton"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

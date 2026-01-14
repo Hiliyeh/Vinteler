@@ -1,0 +1,53 @@
+{% comment %}
+  Answer Capsule Component - GEO Optimization
+  Provides a clear, extractable summary for AI search engines
+  Usage: {% include components/answer-capsule.html %}
+  Requires page variables: answer_capsule or tldr, optional stats
+{% endcomment %}
+
+{% if page.answer_capsule or page.tldr %}
+<div class="answer-capsule" itemscope itemtype="https://schema.org/Answer">
+    <div class="answer-header">
+        <span class="answer-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4"/>
+                <path d="M12 8h.01"/>
+            </svg>
+            En bref
+        </span>
+    </div>
+    <p class="answer-text" itemprop="text">{{ page.answer_capsule | default: page.tldr }}</p>
+
+    {% if page.stats %}
+    <div class="answer-stats">
+        {% if page.stats.typical_duration %}
+        <span class="stat-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            {{ page.stats.typical_duration }}
+        </span>
+        {% endif %}
+        {% if page.stats.typical_cost_range %}
+        <span class="stat-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <line x1="12" y1="1" x2="12" y2="23"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+            {{ page.stats.typical_cost_range }}
+        </span>
+        {% endif %}
+        {% if page.stats.satisfaction %}
+        <span class="stat-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            {{ page.stats.satisfaction }}% satisfaction
+        </span>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endif %}

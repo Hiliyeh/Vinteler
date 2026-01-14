@@ -28,8 +28,8 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Anvers"
@@ -37,6 +37,11 @@ city_id: "anvers"
 region: "Anvers"
 postal_codes: ["2000", "2018", "2020", "2030", "2040", "2050", "2060"]
 
+
+# Geo Data (Local SEO)
+lat: 51.2194
+lng: 4.4025
+geo_region: "BE-VAN"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -62,6 +70,14 @@ related_services:
 nearby_cities:
   - id: "malines"
     name: "Malines"
+  - id: "turnhout"
+    name: "Turnhout"
+  - id: "mol"
+    name: "Mol"
+  - id: "lier"
+    name: "Lier"
+  - id: "boom"
+    name: "Boom"
 
 # Flags spéciaux
 

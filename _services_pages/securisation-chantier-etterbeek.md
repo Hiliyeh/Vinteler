@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Sécurisation Chantier Anti-Squatte Etterbeek"
-description: "Sécurisation Chantier à Etterbeek (Bruxelles-Capitale). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Sécurisation Chantier à Etterbeek (Bruxelles). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "securisation-chantier Etterbeek"
   - "entreprise securisation-chantier Etterbeek"
-  - "securisation-chantier Bruxelles-Capitale"
+  - "securisation-chantier Bruxelles"
   - "prix securisation-chantier Etterbeek"
   - "sécurisation chantier Etterbeek"
   - "anti-squatte Etterbeek"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Etterbeek"
 city_id: "etterbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1040"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3833
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Signalétique chantier"
   - "Protection temporaire"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

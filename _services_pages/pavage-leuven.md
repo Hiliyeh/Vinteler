@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Leuven"
@@ -38,6 +38,11 @@ city_id: "leuven"
 region: "Brabant Flamand"
 postal_codes: ["3000", "3001", "3010", "3012", "3018"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8798
+lng: 4.7005
+geo_region: "BE-VBR"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

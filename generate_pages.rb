@@ -8,7 +8,7 @@
 require 'yaml'
 require 'fileutils'
 
-puts "🚀 VINTELER - Génération des pages SEO"
+puts "VINTELER - Generation des pages SEO"
 puts "═" * 50
 
 # Charger les données
@@ -99,9 +99,17 @@ services.each do |service|
       postal_codes: #{city['postal_codes'].inspect}
       #{city['is_hq'] ? "is_hq: true" : ""}
 
+      # Geo Data (Local SEO)
+      lat: #{city['lat'] || 50.8503}
+      lng: #{city['lng'] || 4.3517}
+      geo_region: "#{city['geo_region'] || 'BE'}"
+
       # Features
       features:
       #{(service['features'] || []).map { |f| "  - \"#{f}\"" }.join("\n")}
+
+      # FAQ (pour SEO et schema FAQPage)
+      #{service['faq'] && service['faq'].length > 0 ? "faq:\n" + service['faq'].map { |f| "  - question: \"#{f['question'].gsub('"', '\\"')}\"\n    answer: \"#{f['answer'].gsub('"', '\\"')}\"" }.join("\n") : ""}
 
       # Maillage interne - Services liés
       related_services:
@@ -123,19 +131,24 @@ services.each do |service|
   end
 
   # Afficher la progression
-  print "\r📄 #{service['name']}: #{cities.length} pages générées"
+  print "\r[+] #{service['name']}: #{cities.length} pages generees"
 end
 
 puts "\n"
 puts "═" * 50
-puts "✅ #{count} pages SEO générées dans _services_pages/"
-puts "📊 #{services.length} services × #{cities.length} villes"
+puts "[OK] #{count} pages SEO generees dans _services_pages/"
+puts "[i] #{services.length} services x #{cities.length} villes"
 puts ""
-puts "📈 Structure du maillage interne:"
-puts "   - Chaque page inclut #{services.first['related_services']&.length || 0} services liés"
-puts "   - Chaque page inclut les villes de la même région"
+puts "Structure du maillage interne:"
+puts "   - Chaque page inclut #{services.first['related_services']&.length || 0} services lies"
+puts "   - Chaque page inclut les villes de la meme region"
 puts ""
-puts "🗂️  Catégories:"
+puts "SEO Local ameliore:"
+puts "   - Coordonnees GPS (lat/lng) pour chaque ville"
+puts "   - Code region ISO (geo_region) pour le ciblage geographique"
+puts "   - FAQ integree pour le schema FAQPage"
+puts ""
+puts "Categories:"
 if categories
   categories.each do |cat|
     cat_services = services.select { |s| s['category'] == cat['id'] }

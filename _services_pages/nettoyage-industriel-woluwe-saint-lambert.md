@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Industriel Cuves & Silos Woluwe-Saint-Lambert"
-description: "Nettoyage Industriel à Woluwe-Saint-Lambert (Bruxelles-Capitale). Cuves, silos, équipements industriels Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Industriel à Woluwe-Saint-Lambert (Bruxelles). Cuves, silos, équipements industriels Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-industriel Woluwe-Saint-Lambert"
   - "entreprise nettoyage-industriel Woluwe-Saint-Lambert"
-  - "nettoyage-industriel Bruxelles-Capitale"
+  - "nettoyage-industriel Bruxelles"
   - "prix nettoyage-industriel Woluwe-Saint-Lambert"
   - "nettoyage industriel Woluwe-Saint-Lambert"
   - "nettoyage cuve Woluwe-Saint-Lambert"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Espace confiné"
   - "Hydrocurage"
   - "Décontamination"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

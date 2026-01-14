@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Coupe-Feu Planchers & Plafonds Anderlecht"
-description: "Protection Planchers & Plafonds à Anderlecht (Bruxelles-Capitale). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Planchers & Plafonds à Anderlecht (Bruxelles). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-planchers Anderlecht"
   - "entreprise protection-incendie-planchers Anderlecht"
-  - "protection-incendie-planchers Bruxelles-Capitale"
+  - "protection-incendie-planchers Bruxelles"
   - "prix protection-incendie-planchers Anderlecht"
   - "protection plancher incendie Anderlecht"
   - "plafond coupe-feu Anderlecht"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

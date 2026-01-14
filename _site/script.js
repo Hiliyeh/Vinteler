@@ -4,17 +4,48 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize all modules
+    initDynamicYears(); // Update years on all pages
     initNavigation();
     initMobileMenu();
     initScrollAnimations();
     initContactForm();
-    initGalleryHover();
-    initZonesAccordion();
-    initServiceModals();
     initMobileServicesAccordion();
     initZonesPicker(); // DRY: Externalized from index.html
+    initZonesPickerInternal(); // Variant for internal service pages
+    initZonesPickerUniversal(); // Universal component for all pages
     initMobileZonesPicker();
+    initHeroPremium(); // Premium hero animations
 });
+
+/* ============================================
+   Dynamic Years - Auto-update since 2014
+   ============================================ */
+
+// Calculate years since founding (2014)
+function getYearsSinceFounding() {
+    const foundingYear = 2014;
+    const currentYear = new Date().getFullYear();
+    return currentYear - foundingYear;
+}
+
+function initDynamicYears() {
+    const yearsExperience = getYearsSinceFounding();
+
+    // Update all elements with dynamic years class (format: "12+")
+    document.querySelectorAll('.dynamic-years').forEach(el => {
+        el.textContent = yearsExperience + '+';
+    });
+
+    // Update nav badge (format: "+12 ans")
+    document.querySelectorAll('.dynamic-years-badge').forEach(el => {
+        el.textContent = '+' + yearsExperience + ' ans';
+    });
+
+    // Update text spans (format: "+12")
+    document.querySelectorAll('.dynamic-years-text').forEach(el => {
+        el.textContent = '+' + yearsExperience;
+    });
+}
 
 /* ============================================
    Navigation Scroll Effect
@@ -202,54 +233,6 @@ function initContactForm() {
 }
 
 /* ============================================
-   Gallery Hover Effects
-   ============================================ */
-
-function initGalleryHover() {
-    const galleryItems = document.querySelectorAll('.gallery-item');
-
-    galleryItems.forEach(item => {
-        item.addEventListener('mouseenter', () => {
-            // Add slight rotation for dynamic feel
-            const rotation = (Math.random() - 0.5) * 2;
-            item.style.transform = `translateY(-8px) rotate(${rotation}deg)`;
-        });
-
-        item.addEventListener('mouseleave', () => {
-            item.style.transform = '';
-        });
-    });
-}
-
-/* ============================================
-   Zones Accordion
-   ============================================ */
-
-function initZonesAccordion() {
-    const accordions = document.querySelectorAll('.zone-accordion');
-
-    if (!accordions.length) return;
-
-    accordions.forEach(accordion => {
-        const header = accordion.querySelector('.zone-accordion-header');
-
-        if (!header) return;
-
-        header.addEventListener('click', () => {
-            // Close other accordions (optional - for single open mode)
-            accordions.forEach(other => {
-                if (other !== accordion && other.classList.contains('open')) {
-                    other.classList.remove('open');
-                }
-            });
-
-            // Toggle current accordion
-            accordion.classList.toggle('open');
-        });
-    });
-}
-
-/* ============================================
    Phone Number Click Tracking
    ============================================ */
 
@@ -262,157 +245,6 @@ document.querySelectorAll('a[href^="tel:"]').forEach(link => {
         // gtag('event', 'click', { event_category: 'contact', event_label: 'phone' });
     });
 });
-
-/* ============================================
-   Lazy Load Images (for future real images)
-   ============================================ */
-
-function initLazyLoading() {
-    if ('IntersectionObserver' in window) {
-        const imageObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    if (img.dataset.src) {
-                        img.src = img.dataset.src;
-                        img.removeAttribute('data-src');
-                        imageObserver.unobserve(img);
-                    }
-                }
-            });
-        });
-
-        document.querySelectorAll('img[data-src]').forEach(img => {
-            imageObserver.observe(img);
-        });
-    }
-}
-
-/* ============================================
-   Service Tags Interaction
-   ============================================ */
-
-document.querySelectorAll('.service-tag').forEach(tag => {
-    tag.addEventListener('click', () => {
-        // Scroll to contact form with pre-selected service
-        const contactSection = document.getElementById('contact');
-        const serviceSelect = document.getElementById('service');
-
-        if (contactSection && serviceSelect) {
-            // Map tag text to select option
-            const tagText = tag.textContent.toLowerCase();
-            const options = serviceSelect.options;
-
-            for (let i = 0; i < options.length; i++) {
-                if (options[i].text.toLowerCase().includes(tagText) ||
-                    tagText.includes(options[i].value)) {
-                    serviceSelect.selectedIndex = i;
-                    break;
-                }
-            }
-
-            // Scroll to contact
-            contactSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    });
-});
-
-/* ============================================
-   Parallax Effect for Hero (subtle)
-   ============================================ */
-
-let ticking = false;
-
-window.addEventListener('scroll', () => {
-    if (!ticking) {
-        window.requestAnimationFrame(() => {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero-bg');
-
-            if (hero && scrolled < window.innerHeight) {
-                hero.style.transform = `translateY(${scrolled * 0.3}px)`;
-            }
-
-            ticking = false;
-        });
-
-        ticking = true;
-    }
-});
-
-/* ============================================
-   Service Modals
-   ============================================ */
-
-function initServiceModals() {
-    const modalOverlay = document.getElementById('serviceModal');
-    const modalContent = document.getElementById('modalContent');
-    const modalClose = modalOverlay?.querySelector('.modal-close');
-    const serviceCards = document.querySelectorAll('.service-card[data-service]');
-
-    if (!modalOverlay || !modalContent || !serviceCards.length) return;
-
-    // Open modal when clicking service card
-    serviceCards.forEach(card => {
-        card.addEventListener('click', (e) => {
-            // Don't open modal if clicking a link inside the card
-            if (e.target.closest('a')) return;
-
-            const serviceId = card.dataset.service;
-            const template = document.getElementById(`modal-${serviceId}`);
-
-            if (template) {
-                // Clone template content into modal
-                modalContent.innerHTML = '';
-                modalContent.appendChild(template.content.cloneNode(true));
-
-                // Open modal
-                modalOverlay.classList.add('active');
-                document.body.classList.add('modal-open');
-
-                // Setup quote button to close modal and scroll to contact
-                const quoteBtn = modalContent.querySelector('.modal-quote-btn');
-                if (quoteBtn) {
-                    quoteBtn.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        closeModal();
-                        setTimeout(() => {
-                            const contactSection = document.getElementById('contact');
-                            if (contactSection) {
-                                contactSection.scrollIntoView({ behavior: 'smooth' });
-                            }
-                        }, 350);
-                    });
-                }
-            }
-        });
-    });
-
-    // Close modal function
-    function closeModal() {
-        modalOverlay.classList.remove('active');
-        document.body.classList.remove('modal-open');
-    }
-
-    // Close on X button click
-    if (modalClose) {
-        modalClose.addEventListener('click', closeModal);
-    }
-
-    // Close on overlay click (outside modal)
-    modalOverlay.addEventListener('click', (e) => {
-        if (e.target === modalOverlay) {
-            closeModal();
-        }
-    });
-
-    // Close on Escape key
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
-            closeModal();
-        }
-    });
-}
 
 /* ============================================
    Mobile Services More Accordion
@@ -483,6 +315,24 @@ function initZonesPicker() {
 
     let selectedService = null;
     let selectedCity = null;
+
+    // Check URL parameter for pre-selected service
+    const urlParams = new URLSearchParams(window.location.search);
+    const preSelectedSlug = urlParams.get('service');
+
+    if (preSelectedSlug) {
+        // Find the service button with matching slug
+        const serviceBtn = panel.querySelector(`.picker-service[data-slug="${preSelectedSlug}"]`);
+        if (serviceBtn) {
+            // Simulate selection
+            selectedService = { slug: serviceBtn.dataset.slug, name: serviceBtn.dataset.name };
+            trigger.querySelector('.picker-label').textContent = selectedService.name;
+            trigger.classList.add('selected');
+            cityPicker.classList.add('active');
+            // Focus on city input after a short delay
+            setTimeout(() => cityInput.focus(), 500);
+        }
+    }
 
     // Open/close panel
     function openPanel() {
@@ -568,6 +418,12 @@ function initZonesPicker() {
             cityNameEl.textContent = selectedCity.name;
             devisBtn.href = '/' + selectedService.slug + '-' + selectedCity.id + '/#contact';
             ctaBox.classList.add('active');
+            // Scroll CTA into view on mobile after animation
+            if (window.innerWidth <= 768) {
+                setTimeout(() => {
+                    ctaBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 450);
+            }
         } else {
             ctaBox.classList.remove('active');
         }
@@ -671,4 +527,538 @@ function initMobileZonesPicker() {
     });
     zonesSection.insertBefore(closeBtn, zonesSection.firstChild);
 }
+
+/* ============================================
+   Hero Premium - Trust Animations
+   ============================================ */
+
+function initHeroPremium() {
+    const heroPremium = document.querySelector('.hero-premium');
+    if (!heroPremium) return;
+
+    // Update stat card with experience years (dynamic)
+    const yearsExperience = getYearsSinceFounding();
+    const experienceCard = document.querySelector('.stat-card[data-experience]');
+    if (experienceCard) {
+        experienceCard.dataset.count = yearsExperience;
+    }
+
+    // Animate stat counters
+    const statCards = document.querySelectorAll('.stat-card');
+
+    const animateCounter = (element, target, suffix = '') => {
+        const countElement = element.querySelector('.stat-card__count');
+        if (!countElement) return;
+
+        const duration = 2000;
+        const startTime = performance.now();
+        const startValue = 0;
+
+        // Easing function for smooth animation
+        const easeOutQuart = t => 1 - Math.pow(1 - t, 4);
+
+        const updateCounter = (currentTime) => {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const easedProgress = easeOutQuart(progress);
+            const currentValue = Math.round(startValue + (target - startValue) * easedProgress);
+
+            countElement.textContent = currentValue;
+
+            if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+            } else {
+                countElement.textContent = target;
+            }
+        };
+
+        requestAnimationFrame(updateCounter);
+    };
+
+    // Intersection Observer for stat cards
+    const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const card = entry.target;
+                const target = parseInt(card.dataset.count, 10);
+
+                // Start counter animation
+                setTimeout(() => {
+                    animateCounter(card, target);
+                    card.classList.add('animated');
+                }, 200);
+
+                statsObserver.unobserve(card);
+            }
+        });
+    }, {
+        threshold: 0.5,
+        rootMargin: '0px'
+    });
+
+    statCards.forEach(card => {
+        statsObserver.observe(card);
+    });
+
+    // Parallax effect for floating elements (subtle)
+    const floats = document.querySelectorAll('.hero-premium__float');
+
+    if (floats.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        let ticking = false;
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    const scrollY = window.pageYOffset;
+                    const heroHeight = heroPremium.offsetHeight;
+
+                    if (scrollY < heroHeight) {
+                        const progress = scrollY / heroHeight;
+
+                        floats.forEach((float, index) => {
+                            const speed = 0.1 + (index * 0.05);
+                            const yOffset = scrollY * speed;
+                            float.style.transform = `translateY(${yOffset}px)`;
+                        });
+                    }
+
+                    ticking = false;
+                });
+
+                ticking = true;
+            }
+        });
+    }
+
+    // CTA button ripple effect
+    const primaryBtn = document.querySelector('.btn-premium--primary');
+    if (primaryBtn) {
+        primaryBtn.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            ripple.className = 'btn-ripple';
+
+            const rect = this.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+
+            ripple.style.cssText = `
+                position: absolute;
+                width: ${size}px;
+                height: ${size}px;
+                left: ${e.clientX - rect.left - size/2}px;
+                top: ${e.clientY - rect.top - size/2}px;
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 50%;
+                transform: scale(0);
+                animation: rippleEffect 0.6s ease-out;
+                pointer-events: none;
+            `;
+
+            this.appendChild(ripple);
+
+            setTimeout(() => ripple.remove(), 600);
+        });
+    }
+}
+
+/* ============================================
+   Zones Picker Internal - For Service Pages
+   Pre-selects current service, allows city change
+   ============================================ */
+
+function initZonesPickerInternal() {
+    // Load cities data (try internal first, then fallback)
+    const citiesDataEl = document.getElementById('cities-data-internal') || document.getElementById('cities-data');
+    if (!citiesDataEl) return;
+
+    let cities;
+    try {
+        cities = JSON.parse(citiesDataEl.textContent);
+    } catch (e) {
+        console.error('Failed to parse cities data:', e);
+        return;
+    }
+
+    // Elements with -internal suffix
+    const picker = document.getElementById('servicePickerInternal');
+    const trigger = document.getElementById('servicePickerTriggerInternal');
+    const panel = document.getElementById('servicePickerPanelInternal');
+    const cityPicker = document.getElementById('cityPickerInternal');
+    const cityInput = document.getElementById('zone-city-input-internal');
+    const suggestions = document.getElementById('city-suggestions-internal');
+    const ctaBox = document.getElementById('zones-cta-box-internal');
+    const devisBtn = document.getElementById('zones-devis-btn-internal');
+    const serviceNameEl = document.getElementById('zones-service-name-internal');
+    const cityNameEl = document.getElementById('zones-city-name-internal');
+
+    if (!picker || !trigger || !panel || !cityInput) return;
+
+    // Pre-selected values from data attributes
+    let selectedService = {
+        slug: trigger.dataset.preselectedSlug,
+        name: trigger.dataset.preselectedName
+    };
+    let selectedCity = null;
+    const currentCityId = cityInput.dataset.currentCityId;
+    const currentCityName = cityInput.dataset.currentCity;
+
+    // Open/close panel
+    function openPanel() {
+        trigger.classList.add('active');
+        panel.classList.add('active');
+    }
+
+    function closePanel() {
+        trigger.classList.remove('active');
+        panel.classList.remove('active');
+        panel.querySelectorAll('.picker-category.open').forEach(cat => cat.classList.remove('open'));
+    }
+
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        panel.classList.contains('active') ? closePanel() : openPanel();
+    });
+
+    // Category accordion
+    panel.querySelectorAll('.picker-category-header').forEach(header => {
+        header.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const category = header.closest('.picker-category');
+            panel.querySelectorAll('.picker-category.open').forEach(cat => {
+                if (cat !== category) cat.classList.remove('open');
+            });
+            category.classList.toggle('open');
+        });
+    });
+
+    // Service selection
+    panel.querySelectorAll('.picker-service').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            selectedService = { slug: btn.dataset.slug, name: btn.dataset.name };
+            trigger.querySelector('.picker-label').textContent = selectedService.name;
+            trigger.classList.add('selected');
+            closePanel();
+
+            // Update service name in CTA
+            if (serviceNameEl) serviceNameEl.textContent = selectedService.name;
+
+            // Reset city selection when service changes
+            selectedCity = null;
+            cityInput.value = '';
+            updateCTA();
+        });
+    });
+
+    // Close panel on outside click
+    document.addEventListener('click', (e) => {
+        if (!picker.contains(e.target)) closePanel();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && panel.classList.contains('active')) closePanel();
+    });
+
+    // City autocomplete
+    function filterCities(query) {
+        if (!query || query.length < 2) return [];
+        const q = query.toLowerCase();
+        return cities.filter(city =>
+            city.name.toLowerCase().includes(q) ||
+            city.postalCodes.some(pc => pc.toString().startsWith(q))
+        ).slice(0, 8);
+    }
+
+    function showSuggestions(filtered) {
+        if (filtered.length === 0) {
+            suggestions.innerHTML = '';
+            suggestions.classList.remove('active');
+            return;
+        }
+        suggestions.innerHTML = filtered.map(city => {
+            const isCurrent = city.id === currentCityId;
+            return `<div class="suggestion-item${isCurrent ? ' suggestion-current' : ''}" data-id="${city.id}" data-name="${city.name}">
+                <span class="suggestion-name">${city.name}</span>
+                <span class="suggestion-region">${city.region}</span>
+                ${isCurrent ? '<span class="suggestion-current-badge">actuelle</span>' : `<span class="suggestion-postal">${city.postalCodes.slice(0, 2).join(', ')}</span>`}
+            </div>`;
+        }).join('');
+        suggestions.classList.add('active');
+    }
+
+    function updateCTA() {
+        if (selectedService && selectedCity) {
+            // Only show CTA if it's a different page
+            const isSamePage = selectedCity.id === currentCityId &&
+                               selectedService.slug === trigger.dataset.preselectedSlug;
+
+            if (isSamePage) {
+                ctaBox.classList.remove('active');
+                return;
+            }
+
+            serviceNameEl.textContent = selectedService.name;
+            cityNameEl.textContent = selectedCity.name;
+            devisBtn.href = '/' + selectedService.slug + '-' + selectedCity.id + '/';
+            ctaBox.classList.add('active');
+
+            // Scroll CTA into view on mobile
+            if (window.innerWidth <= 768) {
+                setTimeout(() => {
+                    ctaBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 450);
+            }
+        } else {
+            ctaBox.classList.remove('active');
+        }
+    }
+
+    cityInput.addEventListener('input', function() {
+        showSuggestions(filterCities(this.value));
+        selectedCity = null;
+        updateCTA();
+    });
+
+    cityInput.addEventListener('focus', function() {
+        if (this.value.length >= 2) {
+            showSuggestions(filterCities(this.value));
+        }
+    });
+
+    suggestions.addEventListener('click', function(e) {
+        const item = e.target.closest('.suggestion-item');
+        if (item) {
+            selectedCity = cities.find(c => c.id === item.dataset.id);
+            cityInput.value = item.dataset.name;
+            suggestions.classList.remove('active');
+            updateCTA();
+        }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('#cityPickerInternal')) {
+            suggestions.classList.remove('active');
+        }
+    });
+}
+
+/* ============================================
+   Zones Picker Universal - ONE Component for All Pages
+   Adapts behavior based on context:
+   - Homepage/Services: Full picker (service + city)
+   - Service landing: Service pre-selected, city input shown
+   - Service+City pages: Service pre-selected, quick city links only
+   ============================================ */
+
+function initZonesPickerUniversal() {
+    // Load cities data
+    const citiesDataEl = document.getElementById('cities-data-univ');
+    if (!citiesDataEl) return;
+
+    let cities;
+    try {
+        cities = JSON.parse(citiesDataEl.textContent);
+    } catch (e) {
+        console.error('Failed to parse cities data:', e);
+        return;
+    }
+
+    // Core elements
+    const section = document.getElementById('zones-universal');
+    const trigger = document.getElementById('servicePickerTriggerUniv');
+    const panel = document.getElementById('servicePickerPanelUniv');
+    const closeBtn = document.getElementById('pickerPanelCloseUniv');
+    const cityInput = document.getElementById('zone-city-input-univ');
+    const suggestions = document.getElementById('city-suggestions-univ');
+    const ctaBox = document.getElementById('zones-cta-box-univ');
+    const devisBtn = document.getElementById('zones-devis-btn-univ');
+    const serviceNameEl = document.getElementById('zones-service-name-univ');
+    const cityNameEl = document.getElementById('zones-city-name-univ');
+
+    if (!section || !panel) return;
+
+    // Check if service is pre-selected (from data attributes on trigger)
+    const preselectedSlug = trigger?.dataset.preselectedSlug;
+    const preselectedName = trigger?.dataset.preselectedName;
+
+    let selectedService = preselectedSlug ? { slug: preselectedSlug, name: preselectedName } : null;
+    let selectedCity = null;
+
+    // Open/close panel functions
+    function openPanel() {
+        panel.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closePanel() {
+        panel.classList.remove('active');
+        document.body.style.overflow = '';
+        panel.querySelectorAll('.picker-category.open').forEach(cat => cat.classList.remove('open'));
+    }
+
+    // Service picker trigger click
+    if (trigger) {
+        trigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openPanel();
+        });
+    }
+
+    // Close button click
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closePanel);
+    }
+
+    // Category accordion
+    panel.querySelectorAll('.picker-category-header').forEach(header => {
+        header.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const category = header.closest('.picker-category');
+            panel.querySelectorAll('.picker-category.open').forEach(cat => {
+                if (cat !== category) cat.classList.remove('open');
+            });
+            category.classList.toggle('open');
+        });
+    });
+
+    // Service selection
+    panel.querySelectorAll('.picker-service').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            selectedService = { slug: btn.dataset.slug, name: btn.dataset.name };
+
+            // Update trigger text if it has picker-label
+            const pickerLabel = trigger?.querySelector('.picker-label');
+            if (pickerLabel) {
+                pickerLabel.textContent = selectedService.name;
+                trigger.classList.add('selected');
+            } else if (trigger) {
+                // For compact design, update badge text
+                const firstText = trigger.childNodes[0];
+                if (firstText && firstText.nodeType === Node.TEXT_NODE) {
+                    firstText.textContent = selectedService.name + ' ';
+                }
+            }
+
+            // Remove "current" badge from all services
+            panel.querySelectorAll('.picker-service').forEach(s => s.classList.remove('current'));
+            btn.classList.add('current');
+
+            closePanel();
+
+            // Focus city input if available
+            if (cityInput) {
+                setTimeout(() => cityInput.focus(), 300);
+            }
+
+            updateCTA();
+        });
+    });
+
+    // Close panel on escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && panel.classList.contains('active')) closePanel();
+    });
+
+    // City autocomplete
+    if (cityInput && suggestions) {
+        function filterCities(query) {
+            if (!query || query.length < 2) return [];
+            const q = query.toLowerCase();
+            return cities.filter(city =>
+                city.name.toLowerCase().includes(q) ||
+                city.postalCodes.some(pc => pc.toString().startsWith(q))
+            ).slice(0, 8);
+        }
+
+        function showSuggestions(filtered) {
+            if (filtered.length === 0) {
+                suggestions.innerHTML = '';
+                suggestions.classList.remove('active');
+                return;
+            }
+            suggestions.innerHTML = filtered.map(city =>
+                `<div class="suggestion-item" data-id="${city.id}" data-name="${city.name}">
+                    <span class="suggestion-name">${city.name}</span>
+                    <span class="suggestion-region">${city.region}</span>
+                    <span class="suggestion-postal">${city.postalCodes.slice(0, 2).join(', ')}</span>
+                </div>`
+            ).join('');
+            suggestions.classList.add('active');
+        }
+
+        cityInput.addEventListener('input', function() {
+            showSuggestions(filterCities(this.value));
+            selectedCity = null;
+            updateCTA();
+        });
+
+        cityInput.addEventListener('focus', function() {
+            if (this.value.length >= 2) showSuggestions(filterCities(this.value));
+        });
+
+        suggestions.addEventListener('click', function(e) {
+            const item = e.target.closest('.suggestion-item');
+            if (item) {
+                selectedCity = cities.find(c => c.id === item.dataset.id);
+                cityInput.value = item.dataset.name;
+                suggestions.classList.remove('active');
+                updateCTA();
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.zones-input-group') && !e.target.closest('.city-picker')) {
+                suggestions.classList.remove('active');
+            }
+        });
+    }
+
+    // Quick city links (for homepage with service selected)
+    document.querySelectorAll('#zones-universal .quick-city-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const cityId = this.dataset.cityId;
+            const cityName = this.dataset.cityName;
+
+            if (selectedService) {
+                window.location.href = '/' + selectedService.slug + '-' + cityId + '/';
+            } else {
+                selectedCity = { id: cityId, name: cityName };
+                if (cityNameEl) cityNameEl.textContent = cityName;
+                openPanel();
+            }
+        });
+    });
+
+    // Update CTA box
+    function updateCTA() {
+        if (selectedService && selectedCity) {
+            if (serviceNameEl) serviceNameEl.textContent = selectedService.name;
+            if (cityNameEl) cityNameEl.textContent = selectedCity.name;
+            if (devisBtn) devisBtn.href = '/' + selectedService.slug + '-' + selectedCity.id + '/';
+            ctaBox.classList.add('active');
+
+            // Scroll CTA into view on mobile
+            if (window.innerWidth <= 768) {
+                setTimeout(() => {
+                    ctaBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 450);
+            }
+        } else {
+            ctaBox.classList.remove('active');
+        }
+    }
+}
+
+// Add ripple keyframes dynamically
+const styleSheet = document.createElement('style');
+styleSheet.textContent = `
+    @keyframes rippleEffect {
+        to {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(styleSheet);
 

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection & Isolation Acoustique Forest"
-description: "Protection Acoustique à Forest (Bruxelles-Capitale). Isolation phonique professionnelle Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Acoustique à Forest (Bruxelles). Isolation phonique professionnelle Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-acoustique Forest"
   - "entreprise protection-acoustique Forest"
-  - "protection-acoustique Bruxelles-Capitale"
+  - "protection-acoustique Bruxelles"
   - "prix protection-acoustique Forest"
   - "isolation acoustique Forest"
   - "protection acoustique Forest"
@@ -28,15 +28,20 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

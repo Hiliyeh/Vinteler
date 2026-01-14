@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Coupe-Feu Planchers & Plafonds Woluwe-Saint-Pierre"
-description: "Protection Planchers & Plafonds à Woluwe-Saint-Pierre (Bruxelles-Capitale). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Planchers & Plafonds à Woluwe-Saint-Pierre (Bruxelles). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-planchers Woluwe-Saint-Pierre"
   - "entreprise protection-incendie-planchers Woluwe-Saint-Pierre"
-  - "protection-incendie-planchers Bruxelles-Capitale"
+  - "protection-incendie-planchers Bruxelles"
   - "prix protection-incendie-planchers Woluwe-Saint-Pierre"
   - "protection plancher incendie Woluwe-Saint-Pierre"
   - "plafond coupe-feu Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

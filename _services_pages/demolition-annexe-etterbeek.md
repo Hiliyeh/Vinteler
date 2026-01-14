@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition d'Annexe & Dépendances Etterbeek"
-description: "Démolition d'Annexe à Etterbeek (Bruxelles-Capitale). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition d'Annexe à Etterbeek (Bruxelles). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-annexe Etterbeek"
   - "entreprise demolition-annexe Etterbeek"
-  - "demolition-annexe Bruxelles-Capitale"
+  - "demolition-annexe Bruxelles"
   - "prix demolition-annexe Etterbeek"
   - "démolition annexe Etterbeek"
   - "démolition garage Etterbeek"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Etterbeek"
 city_id: "etterbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1040"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3833
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Remises et dépendances"
   - "Remise en état terrain"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

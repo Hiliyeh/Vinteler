@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Urgente Après Sinistre Watermael-Boitsfort"
-description: "Démolition Urgente à Watermael-Boitsfort (Bruxelles-Capitale). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Urgente à Watermael-Boitsfort (Bruxelles). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-urgente Watermael-Boitsfort"
   - "entreprise demolition-urgente Watermael-Boitsfort"
-  - "demolition-urgente Bruxelles-Capitale"
+  - "demolition-urgente Bruxelles"
   - "prix demolition-urgente Watermael-Boitsfort"
   - "démolition urgente Watermael-Boitsfort"
   - "démolition sinistre Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Rapport pour assurance"
   - "Coordination pompiers"
   - "Déblaiement urgent"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

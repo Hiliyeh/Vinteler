@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Coupe-Feu Planchers & Plafonds Schaerbeek"
-description: "Protection Planchers & Plafonds à Schaerbeek (Bruxelles-Capitale). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Planchers & Plafonds à Schaerbeek (Bruxelles). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-planchers Schaerbeek"
   - "entreprise protection-incendie-planchers Schaerbeek"
-  - "protection-incendie-planchers Bruxelles-Capitale"
+  - "protection-incendie-planchers Bruxelles"
   - "prix protection-incendie-planchers Schaerbeek"
   - "protection plancher incendie Schaerbeek"
   - "plafond coupe-feu Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

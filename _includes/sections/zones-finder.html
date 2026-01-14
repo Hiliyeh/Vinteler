@@ -44,8 +44,10 @@
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
                                 {% elsif cat.id == "traitements" %}
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 21h10"/><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M12 17v4"/></svg>
-                                {% elsif cat.id == "finitions" %}
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                                {% elsif cat.id == "acoustique" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+                                {% elsif cat.id == "sols" %}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
                                 {% endif %}
                             </span>
                             <span class="picker-cat-name">{{ cat.name }}</span>
@@ -94,8 +96,7 @@
             <div class="zones-cta-buttons">
                 <a href="{{ site.contact.phone_link }}" class="zones-btn zones-btn-call">
                     {% include svg/icon-phone.html width="22" height="22" stroke_width="2.5" %}
-                    <span>Appelez-nous</span>
-                    <strong>{{ site.contact.phone }}</strong>
+                    <span>Appeler maintenant</span>
                 </a>
                 <a href="#contact" id="zones-devis-btn" class="zones-btn zones-btn-devis">
                     {% include svg/icon-envelope.html width="22" height="22" %}

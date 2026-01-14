@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Coupe-Feu Planchers & Plafonds Ixelles"
-description: "Protection Planchers & Plafonds à Ixelles (Bruxelles-Capitale). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Planchers & Plafonds à Ixelles (Bruxelles). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-planchers Ixelles"
   - "entreprise protection-incendie-planchers Ixelles"
-  - "protection-incendie-planchers Bruxelles-Capitale"
+  - "protection-incendie-planchers Bruxelles"
   - "prix protection-incendie-planchers Ixelles"
   - "protection plancher incendie Ixelles"
   - "plafond coupe-feu Ixelles"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

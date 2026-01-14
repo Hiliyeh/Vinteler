@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Découpe Métallique & Oxycoupage Woluwe-Saint-Lambert"
-description: "Découpe Métallique à Woluwe-Saint-Lambert (Bruxelles-Capitale). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Découpe Métallique à Woluwe-Saint-Lambert (Bruxelles). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "decoupe-metallique Woluwe-Saint-Lambert"
   - "entreprise decoupe-metallique Woluwe-Saint-Lambert"
-  - "decoupe-metallique Bruxelles-Capitale"
+  - "decoupe-metallique Bruxelles"
   - "prix decoupe-metallique Woluwe-Saint-Lambert"
   - "découpe métallique Woluwe-Saint-Lambert"
   - "oxycoupage Woluwe-Saint-Lambert"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Structures métalliques"
   - "Charpentes acier"
   - "Cuves et réservoirs"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

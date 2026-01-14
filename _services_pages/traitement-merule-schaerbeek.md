@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Mérule & Champignons du Bâti Schaerbeek"
-description: "Traitement Mérule à Schaerbeek (Bruxelles-Capitale). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Mérule à Schaerbeek (Bruxelles). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-merule Schaerbeek"
   - "entreprise traitement-merule Schaerbeek"
-  - "traitement-merule Bruxelles-Capitale"
+  - "traitement-merule Bruxelles"
   - "prix traitement-merule Schaerbeek"
   - "traitement mérule Schaerbeek"
   - "mérule belgique Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Assainissement maçonnerie"
   - "Traitement bois"
   - "Prévention récidive"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

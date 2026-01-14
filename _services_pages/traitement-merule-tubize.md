@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1480", "1481"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6897
+lng: 4.2011
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Diagnostic mérule"
@@ -46,6 +51,9 @@ features:
   - "Assainissement maçonnerie"
   - "Traitement bois"
   - "Prévention récidive"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

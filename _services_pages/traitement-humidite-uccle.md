@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Humidité & Salpêtre Uccle"
-description: "Traitement Humidité à Uccle (Bruxelles-Capitale). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Humidité à Uccle (Bruxelles). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-humidite Uccle"
   - "entreprise traitement-humidite Uccle"
-  - "traitement-humidite Bruxelles-Capitale"
+  - "traitement-humidite Bruxelles"
   - "prix traitement-humidite Uccle"
   - "traitement humidité Uccle"
   - "traitement salpêtre Uccle"
@@ -35,9 +35,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

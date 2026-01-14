@@ -38,6 +38,11 @@ region: "Flandre-Occidentale"
 postal_codes: ["8000", "8200", "8310", "8380"]
 
 
+# Geo Data (Local SEO)
+lat: 51.2094
+lng: 3.2247
+geo_region: "BE-VWV"
+
 # Features
 features:
   - "Peinture intumescente acier"
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,10 +69,27 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "courtrai"
+    name: "Courtrai"
+  - id: "ostende"
+    name: "Ostende"
+  - id: "roulers"
+    name: "Roulers"
+  - id: "ypres"
+    name: "Ypres"
+  - id: "knokke-heist"
+    name: "Knokke-Heist"
 
 # Flags spéciaux
 

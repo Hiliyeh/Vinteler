@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Découpe Métallique & Oxycoupage Ixelles"
-description: "Découpe Métallique à Ixelles (Bruxelles-Capitale). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Découpe Métallique à Ixelles (Bruxelles). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "decoupe-metallique Ixelles"
   - "entreprise decoupe-metallique Ixelles"
-  - "decoupe-metallique Bruxelles-Capitale"
+  - "decoupe-metallique Bruxelles"
   - "prix decoupe-metallique Ixelles"
   - "découpe métallique Ixelles"
   - "oxycoupage Ixelles"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Structures métalliques"
   - "Charpentes acier"
   - "Cuves et réservoirs"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Locaux à Risque Ixelles"
-description: "Protection Locaux à Risque à Ixelles (Bruxelles-Capitale). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Locaux à Risque à Ixelles (Bruxelles). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-locaux Ixelles"
   - "entreprise protection-incendie-locaux Ixelles"
-  - "protection-incendie-locaux Bruxelles-Capitale"
+  - "protection-incendie-locaux Bruxelles"
   - "prix protection-incendie-locaux Ixelles"
   - "protection locaux risque Ixelles"
   - "local poubelle coupe-feu Ixelles"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

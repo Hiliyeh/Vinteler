@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Drogenbos"
@@ -38,6 +38,11 @@ city_id: "drogenbos"
 region: "Brabant Flamand"
 postal_codes: ["1620"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7833
+lng: 4.3167
+geo_region: "BE-VBR"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

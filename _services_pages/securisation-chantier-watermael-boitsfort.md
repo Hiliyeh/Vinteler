@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Sécurisation Chantier Anti-Squatte Watermael-Boitsfort"
-description: "Sécurisation Chantier à Watermael-Boitsfort (Bruxelles-Capitale). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Sécurisation Chantier à Watermael-Boitsfort (Bruxelles). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "securisation-chantier Watermael-Boitsfort"
   - "entreprise securisation-chantier Watermael-Boitsfort"
-  - "securisation-chantier Bruxelles-Capitale"
+  - "securisation-chantier Bruxelles"
   - "prix securisation-chantier Watermael-Boitsfort"
   - "sécurisation chantier Watermael-Boitsfort"
   - "anti-squatte Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Signalétique chantier"
   - "Protection temporaire"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

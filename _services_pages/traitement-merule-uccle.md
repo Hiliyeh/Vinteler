@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Mérule & Champignons du Bâti Uccle"
-description: "Traitement Mérule à Uccle (Bruxelles-Capitale). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Mérule à Uccle (Bruxelles). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-merule Uccle"
   - "entreprise traitement-merule Uccle"
-  - "traitement-merule Bruxelles-Capitale"
+  - "traitement-merule Bruxelles"
   - "prix traitement-merule Uccle"
   - "traitement mérule Uccle"
   - "mérule belgique Uccle"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Assainissement maçonnerie"
   - "Traitement bois"
   - "Prévention récidive"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

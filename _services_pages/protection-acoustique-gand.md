@@ -28,8 +28,8 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Gand"
@@ -37,6 +37,11 @@ city_id: "gand"
 region: "Flandre-Orientale"
 postal_codes: ["9000", "9030", "9031", "9032", "9040", "9041", "9042", "9050", "9051", "9052"]
 
+
+# Geo Data (Local SEO)
+lat: 51.0536
+lng: 3.7253
+geo_region: "BE-VOV"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -60,7 +68,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "alost"
+    name: "Alost"
+  - id: "sint-niklaas"
+    name: "Saint-Nicolas"
+  - id: "dendermonde"
+    name: "Termonde"
+  - id: "lokeren"
+    name: "Lokeren"
+  - id: "beveren"
+    name: "Beveren"
 
 # Flags spéciaux
 

@@ -35,8 +35,13 @@ category_name: "Démolition & Curage"
 city_name: "Charleroi"
 city_id: "charleroi"
 region: "Hainaut"
-postal_codes: ["6000", "6001", "6010", "6020", "6030", "6031", "6040", "6041", "6042", "6043", "6044"]
+postal_codes: ["6000", "6001", "6010", "6020", "6030", "6040", "6041", "6042", "6043", "6044"]
 
+
+# Geo Data (Local SEO)
+lat: 50.4108
+lng: 4.4447
+geo_region: "BE-WHT"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Remises et dépendances"
   - "Remise en état terrain"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -68,6 +76,12 @@ nearby_cities:
     name: "Mons"
   - id: "tournai"
     name: "Tournai"
+  - id: "la-louviere"
+    name: "La Louvière"
+  - id: "mouscron"
+    name: "Mouscron"
+  - id: "soignies"
+    name: "Soignies"
 
 # Flags spéciaux
 

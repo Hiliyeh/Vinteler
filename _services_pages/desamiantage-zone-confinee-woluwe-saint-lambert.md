@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage en Zone Confinée Woluwe-Saint-Lambert"
-description: "Désamiantage Zone Confinée à Woluwe-Saint-Lambert (Bruxelles-Capitale). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Zone Confinée à Woluwe-Saint-Lambert (Bruxelles). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-zone-confinee Woluwe-Saint-Lambert"
   - "entreprise desamiantage-zone-confinee Woluwe-Saint-Lambert"
-  - "desamiantage-zone-confinee Bruxelles-Capitale"
+  - "desamiantage-zone-confinee Bruxelles"
   - "prix desamiantage-zone-confinee Woluwe-Saint-Lambert"
   - "désamiantage zone confinée Woluwe-Saint-Lambert"
   - "amiante friable Woluwe-Saint-Lambert"
@@ -34,9 +34,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

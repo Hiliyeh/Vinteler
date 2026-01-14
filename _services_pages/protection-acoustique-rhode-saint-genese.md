@@ -28,8 +28,8 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Rhode-Saint-Genèse"
@@ -37,6 +37,11 @@ city_id: "rhode-saint-genese"
 region: "Brabant Flamand"
 postal_codes: ["1640"]
 
+
+# Geo Data (Local SEO)
+lat: 50.75
+lng: 4.3667
+geo_region: "BE-VBR"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

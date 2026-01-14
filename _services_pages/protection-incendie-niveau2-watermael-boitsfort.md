@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Niveau 2 - Peinture & Habillage Watermael-Boitsfort"
-description: "Protection Incendie Niveau 2 à Watermael-Boitsfort (Bruxelles-Capitale). Peinture intumescente et habillage RF Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Incendie Niveau 2 à Watermael-Boitsfort (Bruxelles). Peinture intumescente et habillage RF Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-niveau2 Watermael-Boitsfort"
   - "entreprise protection-incendie-niveau2 Watermael-Boitsfort"
-  - "protection-incendie-niveau2 Bruxelles-Capitale"
+  - "protection-incendie-niveau2 Bruxelles"
   - "prix protection-incendie-niveau2 Watermael-Boitsfort"
   - "peinture intumescente Watermael-Boitsfort"
   - "habillage coupe-feu Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,6 +69,14 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:

@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Malines"
@@ -38,6 +38,11 @@ city_id: "malines"
 region: "Anvers"
 postal_codes: ["2800", "2801", "2811", "2812"]
 
+
+# Geo Data (Local SEO)
+lat: 51.0256
+lng: 4.4803
+geo_region: "BE-VAN"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -63,6 +71,14 @@ related_services:
 nearby_cities:
   - id: "anvers"
     name: "Anvers"
+  - id: "turnhout"
+    name: "Turnhout"
+  - id: "mol"
+    name: "Mol"
+  - id: "lier"
+    name: "Lier"
+  - id: "boom"
+    name: "Boom"
 
 # Flags spéciaux
 

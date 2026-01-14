@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Industriel Cuves & Silos Watermael-Boitsfort"
-description: "Nettoyage Industriel à Watermael-Boitsfort (Bruxelles-Capitale). Cuves, silos, équipements industriels Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Industriel à Watermael-Boitsfort (Bruxelles). Cuves, silos, équipements industriels Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-industriel Watermael-Boitsfort"
   - "entreprise nettoyage-industriel Watermael-Boitsfort"
-  - "nettoyage-industriel Bruxelles-Capitale"
+  - "nettoyage-industriel Bruxelles"
   - "prix nettoyage-industriel Watermael-Boitsfort"
   - "nettoyage industriel Watermael-Boitsfort"
   - "nettoyage cuve Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Espace confiné"
   - "Hydrocurage"
   - "Décontamination"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

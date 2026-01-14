@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Murs Porteurs & Ouverture Trémie Anderlecht"
-description: "Démolition Murs Porteurs à Anderlecht (Bruxelles-Capitale). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Murs Porteurs à Anderlecht (Bruxelles). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-murs-porteurs Anderlecht"
   - "entreprise demolition-murs-porteurs Anderlecht"
-  - "demolition-murs-porteurs Bruxelles-Capitale"
+  - "demolition-murs-porteurs Bruxelles"
   - "prix demolition-murs-porteurs Anderlecht"
   - "démolition mur porteur Anderlecht"
   - "ouverture mur porteur Anderlecht"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Pose IPN/IPE"
   - "Renforcement structure"
   - "Étude préalable"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -47,7 +47,7 @@
   featured: true
   is_emergency: true
   phone: "0490 48 92 42"
-  services_count: 1
+  services_count: 6
 
 - id: demontage
   name: "Démontage Industriel"
@@ -69,7 +69,7 @@
   color: "#ff6b35"
   order: 6
   featured: true
-  services_count: 4
+  services_count: 9
 
 - id: traitements
   name: "Traitements Spécialisés"

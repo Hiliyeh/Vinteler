@@ -5,10 +5,10 @@
 
 - id: bruxelles
   name: "Bruxelles-Capitale"
-  count_label: "11 communes"
+  count_label: "19 communes"
   filter_type: exact
   filter_values:
-    - "Bruxelles-Capitale"
+    - "Bruxelles"
   featured_services:
     - slug: "desamiantage-simple"
       name: "Désamiantage"
@@ -25,7 +25,7 @@
 
 - id: brabant-wallon
   name: "Brabant Wallon"
-  count_label: "12 villes"
+  count_label: "18 communes"
   filter_type: exact
   filter_values:
     - "Brabant Wallon"
@@ -45,7 +45,7 @@
 
 - id: brabant-flamand
   name: "Brabant Flamand"
-  count_label: "11 villes"
+  count_label: "21 communes"
   filter_type: exact
   filter_values:
     - "Brabant Flamand"
@@ -64,16 +64,72 @@
     - slug: "demontage-industriel"
       name: "Démontage industriel"
 
-- id: wallonie
-  name: "Wallonie"
-  count_label: "Namur, Liège, Hainaut, Luxembourg"
-  filter_type: multiple
+- id: hainaut
+  name: "Hainaut"
+  count_label: "18 communes"
+  filter_type: exact
+  filter_values:
+    - "Hainaut"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "traitement-humidite"
+      name: "Humidité"
+    - slug: "traitement-merule"
+      name: "Mérule"
+
+- id: liege
+  name: "Province de Liège"
+  count_label: "16 communes"
+  filter_type: exact
+  filter_values:
+    - "Liège"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "traitement-humidite"
+      name: "Humidité"
+    - slug: "traitement-radon"
+      name: "Radon"
+
+- id: namur
+  name: "Province de Namur"
+  count_label: "12 communes"
+  filter_type: exact
   filter_values:
     - "Namur"
-    - "Liège"
-    - "Hainaut"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "traitement-humidite"
+      name: "Humidité"
+    - slug: "traitement-merule"
+      name: "Mérule"
+
+- id: luxembourg
+  name: "Province de Luxembourg"
+  count_label: "10 communes"
+  filter_type: exact
+  filter_values:
     - "Luxembourg"
-  show_region_in_postal: true
   featured_services:
     - slug: "desamiantage-simple"
       name: "Désamiantage"
@@ -88,26 +144,82 @@
     - slug: "traitement-radon"
       name: "Radon"
 
-- id: flandre
-  name: "Flandre"
-  count_label: "Anvers, Flandre-Orientale, Flandre-Occidentale, Limbourg"
-  filter_type: multiple
+- id: anvers
+  name: "Province d'Anvers"
+  count_label: "12 communes"
+  filter_type: exact
   filter_values:
     - "Anvers"
-    - "Flandre-Orientale"
-    - "Flandre-Occidentale"
-    - "Limbourg"
-  show_region_in_postal: true
   featured_services:
     - slug: "desamiantage-simple"
       name: "Désamiantage"
     - slug: "demolition-complete"
       name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
     - slug: "urgence-sinistre"
       name: "Urgence 24/7"
     - slug: "demontage-industriel"
       name: "Démontage industriel"
     - slug: "nettoyage-industriel"
       name: "Nettoyage industriel"
+
+- id: flandre-orientale
+  name: "Flandre-Orientale"
+  count_label: "12 communes"
+  filter_type: exact
+  filter_values:
+    - "Flandre-Orientale"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "demontage-industriel"
+      name: "Démontage industriel"
     - slug: "decoupe-metallique"
       name: "Découpe métallique"
+
+- id: flandre-occidentale
+  name: "Flandre-Occidentale"
+  count_label: "13 communes"
+  filter_type: exact
+  filter_values:
+    - "Flandre-Occidentale"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "demontage-industriel"
+      name: "Démontage industriel"
+    - slug: "nettoyage-industriel"
+      name: "Nettoyage industriel"
+
+- id: limbourg
+  name: "Limbourg"
+  count_label: "11 communes"
+  filter_type: exact
+  filter_values:
+    - "Limbourg"
+  featured_services:
+    - slug: "desamiantage-simple"
+      name: "Désamiantage"
+    - slug: "demolition-complete"
+      name: "Démolition"
+    - slug: "curage-interieur"
+      name: "Curage"
+    - slug: "urgence-sinistre"
+      name: "Urgence 24/7"
+    - slug: "demontage-industriel"
+      name: "Démontage industriel"
+    - slug: "nettoyage-industriel"
+      name: "Nettoyage industriel"

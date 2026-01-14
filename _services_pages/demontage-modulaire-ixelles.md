@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Maison Modulaire & Préfabriquée Ixelles"
-description: "Démontage Maison Modulaire à Ixelles (Bruxelles-Capitale). Constructions préfabriquées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Maison Modulaire à Ixelles (Bruxelles). Constructions préfabriquées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-modulaire Ixelles"
   - "entreprise demontage-modulaire Ixelles"
-  - "demontage-modulaire Bruxelles-Capitale"
+  - "demontage-modulaire Bruxelles"
   - "prix demontage-modulaire Ixelles"
   - "démontage maison modulaire Ixelles"
   - "démontage préfabriqué Ixelles"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Bungalows chantier"
   - "Algeco et similaires"
   - "Remise en état terrain"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,0 +1,24 @@
+{% comment %}
+  FAQ Section Component
+  Usage: {% include components/faq-section.html
+         faq=page.faq
+         title="Questions fréquentes" %}
+{% endcomment %}
+
+{% if include.faq and include.faq.size > 0 %}
+<section class="service-faq">
+    <div class="container">
+        <h3>{{ include.title | default: "Questions fréquentes" }}</h3>
+        <div class="faq-list">
+            {% for item in include.faq %}
+            <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <summary itemprop="name">{{ item.question }}</summary>
+                <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">{{ item.answer }}</p>
+                </div>
+            </details>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}

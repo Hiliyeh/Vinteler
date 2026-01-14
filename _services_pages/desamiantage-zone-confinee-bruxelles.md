@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage en Zone Confinée Bruxelles"
-description: "Désamiantage Zone Confinée à Bruxelles (Bruxelles-Capitale). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Zone Confinée à Bruxelles (Bruxelles). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-zone-confinee Bruxelles"
   - "entreprise desamiantage-zone-confinee Bruxelles"
-  - "desamiantage-zone-confinee Bruxelles-Capitale"
+  - "desamiantage-zone-confinee Bruxelles"
   - "prix desamiantage-zone-confinee Bruxelles"
   - "désamiantage zone confinée Bruxelles"
   - "amiante friable Bruxelles"
@@ -34,9 +34,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Bruxelles"
 city_id: "bruxelles"
-region: "Bruxelles-Capitale"
-postal_codes: ["1000", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1081", "1082", "1083", "1090"]
+region: "Bruxelles"
+postal_codes: ["1000", "1020", "1120", "1130"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8503
+lng: 4.3517
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement & Diagnostic Radon Forest"
-description: "Traitement Radon à Forest (Bruxelles-Capitale). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Radon à Forest (Bruxelles). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-radon Forest"
   - "entreprise traitement-radon Forest"
-  - "traitement-radon Bruxelles-Capitale"
+  - "traitement-radon Bruxelles"
   - "prix traitement-radon Forest"
   - "traitement radon Forest"
   - "radon belgique Forest"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Étanchéité passages"
   - "Puisard radon"
   - "Conformité SPF"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

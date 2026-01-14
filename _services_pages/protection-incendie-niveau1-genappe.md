@@ -35,8 +35,13 @@ category_name: "Protection Incendie"
 city_name: "Genappe"
 city_id: "genappe"
 region: "Brabant Wallon"
-postal_codes: ["1470", "1471", "1472", "1473", "1474"]
+postal_codes: ["1470", "1471", "1472", "1473"]
 
+
+# Geo Data (Local SEO)
+lat: 50.6117
+lng: 4.4519
+geo_region: "BE-WBR"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Rebouchage après curage"
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,6 +69,18 @@ related_services:
     name: "Curage Intérieur"
     slug: "curage-interieur"
     description: "Vidage complet avant travaux"
+  - id: "portes-coupe-feu"
+    name: "Portes Coupe-Feu"
+    slug: "portes-coupe-feu"
+    description: "Portes RF certifiées EI30-EI90"
+  - id: "clapets-coupe-feu"
+    name: "Clapets Coupe-Feu"
+    slug: "clapets-coupe-feu"
+    description: "Clapets RF gaines ventilation"
+  - id: "audit-securite-incendie"
+    name: "Audit Sécurité Incendie"
+    slug: "audit-securite-incendie"
+    description: "Diagnostic conformité incendie"
 
 # Villes proches (même région)
 nearby_cities:

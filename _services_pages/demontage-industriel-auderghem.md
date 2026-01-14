@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Lignes & Machines Industrielles Auderghem"
-description: "Démontage Industriel à Auderghem (Bruxelles-Capitale). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Industriel à Auderghem (Bruxelles). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-industriel Auderghem"
   - "entreprise demontage-industriel Auderghem"
-  - "demontage-industriel Bruxelles-Capitale"
+  - "demontage-industriel Bruxelles"
   - "prix demontage-industriel Auderghem"
   - "démontage industriel Auderghem"
   - "démontage usine Auderghem"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Convoyeurs"
   - "Équipements lourds"
   - "Récupération métaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Bruges"
@@ -38,6 +38,11 @@ city_id: "bruges"
 region: "Flandre-Occidentale"
 postal_codes: ["8000", "8200", "8310", "8380"]
 
+
+# Geo Data (Local SEO)
+lat: 51.2094
+lng: 3.2247
+geo_region: "BE-VWV"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,7 +69,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "courtrai"
+    name: "Courtrai"
+  - id: "ostende"
+    name: "Ostende"
+  - id: "roulers"
+    name: "Roulers"
+  - id: "ypres"
+    name: "Ypres"
+  - id: "knokke-heist"
+    name: "Knokke-Heist"
 
 # Flags spéciaux
 

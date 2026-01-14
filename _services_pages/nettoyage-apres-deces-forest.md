@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Après Décès & Désinfection Forest"
-description: "Nettoyage Après Décès à Forest (Bruxelles-Capitale). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Après Décès à Forest (Bruxelles). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-apres-deces Forest"
   - "entreprise nettoyage-apres-deces Forest"
-  - "nettoyage-apres-deces Bruxelles-Capitale"
+  - "nettoyage-apres-deces Bruxelles"
   - "prix nettoyage-apres-deces Forest"
   - "nettoyage après décès Forest"
   - "nettoyage décès Forest"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

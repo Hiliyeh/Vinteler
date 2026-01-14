@@ -1,0 +1,299 @@
+---
+layout: default
+---
+
+{% comment %}
+  Service Landing Page Layout
+  Shows service info + zones finder to pick a city
+  Usage: Front matter with service_id pointing to services.yml entry
+{% endcomment %}
+
+{% assign service = site.data.services | where: "id", page.service_id | first %}
+
+<section class="service-hero">
+    {% if service.image %}
+    <div class="service-hero-bg">
+        <img src="{{ service.image }}" alt="{{ service.name }}" loading="eager">
+    </div>
+    <div class="service-hero-overlay"></div>
+    {% endif %}
+    <div class="service-hero-content">
+        {% comment %} Breadcrumb for SEO {% endcomment %}
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="{{ '/' | relative_url }}">Accueil</a>
+            <span class="breadcrumb-sep">›</span>
+            <a href="{{ '/services/' | relative_url }}">Services</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="breadcrumb-current">{{ service.name }}</span>
+        </nav>
+
+        <h1 class="service-hero-title">{{ service.title }}</h1>
+
+        <p class="service-hero-subtitle">{{ service.description }}</p>
+
+        {% include components/hero-cta.html secondary_href="#zones-picker" secondary_text="Trouver ma ville" %}
+
+        {% comment %} Trust indicators {% endcomment %}
+        {% include components/trust-indicators.html %}
+    </div>
+</section>
+
+{% comment %} Features Section {% endcomment %}
+{% if service.features %}
+<section class="service-landing-features">
+    <div class="container">
+        <h2>Ce que comprend notre service</h2>
+        <div class="features-grid">
+            {% for feature in service.features %}
+            <div class="feature-item">
+                <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="20" height="20">
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span>{{ feature }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% comment %} Zones Picker Section - Service pre-selected {% endcomment %}
+<section class="service-zones-picker" id="zones-picker">
+    <div class="container">
+        <div class="zones-picker-header">
+            <span class="section-tag">Intervention rapide</span>
+            <h2>Disponible dans toute la Belgique</h2>
+            <p>Sélectionnez votre ville pour obtenir un devis personnalisé pour <strong>{{ service.name }}</strong></p>
+        </div>
+
+        <div class="zones-picker-box">
+            <div class="zones-picker-service-info">
+                <span class="selected-service-label">Service sélectionné</span>
+                <span class="selected-service-name">{{ service.name }}</span>
+            </div>
+
+            <div class="zones-picker-city">
+                <label for="landing-city-input">Votre ville ou code postal</label>
+                <div class="city-input-wrap">
+                    <input type="text" id="landing-city-input" placeholder="Ex: Bruxelles ou 1000" autocomplete="off" data-service-slug="{{ service.slug_prefix }}">
+                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <div class="city-suggestions" id="landing-city-suggestions"></div>
+                </div>
+            </div>
+
+            <div class="zones-picker-ctas" id="zones-ctas" style="display: none;">
+                <div class="zones-ctas-confirm">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="24" height="24">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span>On intervient à <strong id="selected-city-name">votre ville</strong> !</span>
+                </div>
+                <div class="zones-ctas-buttons">
+                    <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="zones-cta-call">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <span>Appeler maintenant</span>
+                    </a>
+                    <a href="/#contact" class="zones-cta-devis">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <span>Devis gratuit</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        {% comment %} Quick city links {% endcomment %}
+        <div class="zones-picker-quick">
+            <span class="quick-label">Villes populaires :</span>
+            <div class="quick-cities">
+                {% assign popular_cities = "bruxelles,namur,liege,charleroi,anvers,gand,waterloo,uccle" | split: "," %}
+                {% for city_id in popular_cities %}
+                    {% assign city = site.data.cities | where: "id", city_id | first %}
+                    {% if city %}
+                    <a href="/{{ service.slug_prefix }}-{{ city.id }}/" class="quick-city-link">{{ city.name }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% comment %} Related Services {% endcomment %}
+{% if service.related_services.size > 0 %}
+<section class="service-landing-related">
+    <div class="container">
+        <h2>Services complémentaires</h2>
+        <p class="section-subtitle">Découvrez nos autres prestations qui pourraient vous intéresser</p>
+
+        <div class="related-services-grid">
+            {% for related_slug in service.related_services limit: 4 %}
+                {% assign related = site.data.services | where: "slug_prefix", related_slug | first %}
+                {% if related %}
+                <a href="/services/{{ related.slug_prefix }}/" class="related-service-card">
+                    <h4>{{ related.name }}</h4>
+                    <p>{{ related.short_description }}</p>
+                    <span class="card-link">
+                        Voir le service
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% comment %} FAQ Section {% endcomment %}
+{% if service.faq.size > 0 %}
+<section class="service-landing-faq">
+    <div class="container">
+        <h2>Questions fréquentes</h2>
+        <div class="faq-list">
+            {% for item in service.faq %}
+            <details class="faq-item">
+                <summary class="faq-question">
+                    {{ item.question }}
+                    <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-answer">
+                    {{ item.answer }}
+                </div>
+            </details>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% comment %} Final CTA {% endcomment %}
+{% capture final_cta_title %}Contactez VINTELER pour votre {{ service.name | downcase }}{% endcapture %}
+{% include components/final-cta.html is_emergency=is_urgence title=final_cta_title subtitle="Entreprise familiale avec plus de 10 ans d'expérience. Devis gratuit, intervention rapide dans toute la Belgique." %}
+
+{% comment %} Schema.org Structured Data for SEO {% endcomment %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "{{ service.name }}",
+    "description": "{{ service.description | strip_html | strip_newlines | escape }}",
+    "provider": {
+        "@type": "LocalBusiness",
+        "name": "VINTELER",
+        "telephone": "{{ site.contact.phone }}",
+        "email": "{{ site.contact.email }}",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Brusselsesteenweg 511",
+            "addressLocality": "Overijse",
+            "postalCode": "3090",
+            "addressCountry": "BE"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Belgique"
+        }
+    },
+    "serviceType": "{{ service.name }}"
+}
+</script>
+
+{% comment %} City data for JavaScript {% endcomment %}
+<script id="cities-data" type="application/json">
+[{% for city in site.data.cities %}{"id":{{ city.id | jsonify }},"name":{{ city.name | jsonify }},"region":{{ city.region | jsonify }},"postalCodes":{{ city.postal_codes | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+</script>
+
+<script>
+(function() {
+    const cityInput = document.getElementById('landing-city-input');
+    const suggestions = document.getElementById('landing-city-suggestions');
+    const ctasBox = document.getElementById('zones-ctas');
+    const cityNameEl = document.getElementById('selected-city-name');
+
+    if (!cityInput || !suggestions || !ctasBox) return;
+
+    // Load cities data
+    let cities = [];
+    try {
+        const citiesDataEl = document.getElementById('cities-data');
+        if (citiesDataEl) {
+            cities = JSON.parse(citiesDataEl.textContent);
+        }
+    } catch(e) {}
+
+    function showCTAs(cityName) {
+        if (cityNameEl) cityNameEl.textContent = cityName;
+        ctasBox.style.display = 'block';
+        ctasBox.style.animation = 'fadeSlideUp 0.4s ease';
+    }
+
+    function hideCTAs() {
+        ctasBox.style.display = 'none';
+    }
+
+    function showSuggestions(query) {
+        if (!query || query.length < 2) {
+            suggestions.innerHTML = '';
+            suggestions.classList.remove('active');
+            return;
+        }
+
+        const q = query.toLowerCase();
+        const matches = cities.filter(c => {
+            const nameMatch = c.name && c.name.toLowerCase().includes(q);
+            const postalMatch = c.postalCodes && c.postalCodes.some(p => p.toString().startsWith(q));
+            return nameMatch || postalMatch;
+        }).slice(0, 6);
+
+        if (matches.length === 0) {
+            suggestions.innerHTML = '<div class="suggestion-empty">Aucune ville trouvée</div>';
+            suggestions.classList.add('active');
+            return;
+        }
+
+        suggestions.innerHTML = matches.map(c => `
+            <button type="button" class="suggestion-item" data-id="${c.id}" data-name="${c.name}">
+                <span class="suggestion-name">${c.name}</span>
+                <span class="suggestion-region">${c.region}</span>
+                <span class="suggestion-postal">${c.postalCodes ? c.postalCodes[0] : ''}</span>
+            </button>
+        `).join('');
+        suggestions.classList.add('active');
+
+        suggestions.querySelectorAll('.suggestion-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const cityName = this.dataset.name;
+                cityInput.value = cityName;
+                suggestions.innerHTML = '';
+                suggestions.classList.remove('active');
+                showCTAs(cityName);
+            });
+        });
+    }
+
+    cityInput.addEventListener('input', (e) => {
+        hideCTAs();
+        showSuggestions(e.target.value);
+    });
+
+    cityInput.addEventListener('focus', () => {
+        if (cityInput.value.length >= 2) showSuggestions(cityInput.value);
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.zones-picker-city')) {
+            suggestions.classList.remove('active');
+        }
+    });
+})();
+</script>

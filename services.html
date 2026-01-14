@@ -1,12 +1,19 @@
 ---
 layout: default
-title: "Nos 27 Services Professionnels"
-description: "Découvrez nos 27 services professionnels : démolition, curage, nettoyage industriel, pavage et plus. Entreprise agréée en Belgique. Devis gratuit sous 24h."
+title: "Nos 37 Services Professionnels"
+description: "Découvrez nos 37 services professionnels : démolition, curage, désamiantage, nettoyage industriel, protection incendie et plus. Entreprise agréée en Belgique. Devis gratuit sous 24h."
 permalink: /services/
 ---
 
 <section class="services-page">
     <div class="container">
+
+        <!-- Breadcrumb for SEO -->
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+            <a href="/">Accueil</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="breadcrumb-current">Services</span>
+        </nav>
 
         {% comment %}
         ═══════════════════════════════════════════════════════════════════
@@ -31,7 +38,7 @@ permalink: /services/
         <!-- Services Grid -->
         <div class="services-grid" id="services-grid">
             {% for service in site.data.services %}
-            <a href="/{{ service.slug_prefix }}-bruxelles/" class="service-item" data-category="{{ service.category }}">
+            <a href="/services/{{ service.slug_prefix }}/" class="service-item" data-category="{{ service.category }}">
                 <div class="service-item-inner">
                     <span class="service-category-tag">{{ service.category_name }}</span>
                     <h3>{{ service.name }}</h3>
@@ -45,27 +52,13 @@ permalink: /services/
             {% endfor %}
         </div>
 
-        <!-- CTA Section - Using include -->
-        <div class="services-cta">
-            <div class="services-cta-content">
-                <h2>Besoin d'un devis ?</h2>
-                <p>Notre équipe vous répond sous 24h pour une estimation gratuite et sans engagement.</p>
-                <div class="services-cta-buttons">
-                    <a href="{{ site.contact.phone_link }}" class="cta-btn cta-btn-call">
-                        {% include svg/icon-phone.html width="22" height="22" stroke_width="2.5" %}
-                        <span>Appelez-nous</span>
-                        <strong>{{ site.contact.phone }}</strong>
-                    </a>
-                    <a href="/#contact" class="cta-btn cta-btn-devis">
-                        {% include svg/icon-envelope.html width="22" height="22" %}
-                        <span>Devis gratuit</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
+
+{% comment %} ═══════════════════════════════════════════════════════════════════
+    ZONES FINDER UNIVERSAL - Selecteur service + ville
+═══════════════════════════════════════════════════════════════════ {% endcomment %}
+{% include sections/zones-finder-universal.html %}
 
 <script>
 (function() {

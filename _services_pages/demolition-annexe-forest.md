@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition d'Annexe & Dépendances Forest"
-description: "Démolition d'Annexe à Forest (Bruxelles-Capitale). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition d'Annexe à Forest (Bruxelles). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-annexe Forest"
   - "entreprise demolition-annexe Forest"
-  - "demolition-annexe Bruxelles-Capitale"
+  - "demolition-annexe Bruxelles"
   - "prix demolition-annexe Forest"
   - "démolition annexe Forest"
   - "démolition garage Forest"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Remises et dépendances"
   - "Remise en état terrain"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

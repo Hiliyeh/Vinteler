@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Humidité & Salpêtre Ixelles"
-description: "Traitement Humidité à Ixelles (Bruxelles-Capitale). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Humidité à Ixelles (Bruxelles). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-humidite Ixelles"
   - "entreprise traitement-humidite Ixelles"
-  - "traitement-humidite Bruxelles-Capitale"
+  - "traitement-humidite Bruxelles"
   - "prix traitement-humidite Ixelles"
   - "traitement humidité Ixelles"
   - "traitement salpêtre Ixelles"
@@ -35,9 +35,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

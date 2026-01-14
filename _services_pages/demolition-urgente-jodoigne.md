@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1370", "1377"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7167
+lng: 4.8667
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Disponible 24/7"
@@ -46,6 +51,9 @@ features:
   - "Rapport pour assurance"
   - "Coordination pompiers"
   - "Déblaiement urgent"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

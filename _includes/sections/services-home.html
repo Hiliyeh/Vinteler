@@ -9,7 +9,7 @@
     <div class="section-header">
         <span class="section-tag">Entreprise familiale depuis 2014</span>
         <h2 class="section-title">Nos Services</h2>
-        <p class="section-desc">Plus de 25 services pour tous vos travaux du bâtiment</p>
+        <p class="section-desc">Plus de 37 services pour tous vos travaux du bâtiment</p>
     </div>
 
     <div class="services-grid-v2">
@@ -24,7 +24,7 @@
     <!-- All Services Link -->
     <div class="services-all-link">
         <a href="/services/" class="btn-all-services">
-            <span>Voir nos 27 services</span>
+            <span>Voir nos 37 services</span>
             {% include svg/icon-arrow.html width="20" height="20" %}
         </a>
     </div>
@@ -39,13 +39,13 @@
         <div class="services-more-content">
             <div class="services-tags-v2">
                 {% for svc in site.data.homepage.other_services %}
-                <a href="/{{ svc.slug }}-bruxelles/" class="service-tag-link">
+                <a href="/services/{{ svc.slug }}/" class="service-tag-link">
                     <span class="tag-name">{{ svc.name }}</span>
                     <span class="tag-arrow">&#8594;</span>
                 </a>
                 {% endfor %}
             </div>
-            <a href="/services/" class="services-more-cta">Voir tous les 27 services &#8594;</a>
+            <a href="/services/" class="services-more-cta">Voir tous les 37 services &#8594;</a>
         </div>
     </div>
 </section>

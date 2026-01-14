@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Curage Intérieur Avant Rénovation Uccle"
-description: "Curage Intérieur à Uccle (Bruxelles-Capitale). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Curage Intérieur à Uccle (Bruxelles). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "curage-interieur Uccle"
   - "entreprise curage-interieur Uccle"
-  - "curage-interieur Bruxelles-Capitale"
+  - "curage-interieur Bruxelles"
   - "prix curage-interieur Uccle"
   - "curage intérieur Uccle"
   - "curage avant rénovation Uccle"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Retrait sanitaires"
   - "Évacuation gravats"
   - "Préparation rénovation"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

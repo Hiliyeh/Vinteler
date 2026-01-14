@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Urgente Après Sinistre Auderghem"
-description: "Démolition Urgente à Auderghem (Bruxelles-Capitale). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Urgente à Auderghem (Bruxelles). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-urgente Auderghem"
   - "entreprise demolition-urgente Auderghem"
-  - "demolition-urgente Bruxelles-Capitale"
+  - "demolition-urgente Bruxelles"
   - "prix demolition-urgente Auderghem"
   - "démolition urgente Auderghem"
   - "démolition sinistre Auderghem"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Rapport pour assurance"
   - "Coordination pompiers"
   - "Déblaiement urgent"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

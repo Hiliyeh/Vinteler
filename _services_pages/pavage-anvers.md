@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Anvers"
@@ -38,6 +38,11 @@ city_id: "anvers"
 region: "Anvers"
 postal_codes: ["2000", "2018", "2020", "2030", "2040", "2050", "2060"]
 
+
+# Geo Data (Local SEO)
+lat: 51.2194
+lng: 4.4025
+geo_region: "BE-VAN"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -63,6 +71,14 @@ related_services:
 nearby_cities:
   - id: "malines"
     name: "Malines"
+  - id: "turnhout"
+    name: "Turnhout"
+  - id: "mol"
+    name: "Mol"
+  - id: "lier"
+    name: "Lier"
+  - id: "boom"
+    name: "Boom"
 
 # Flags spéciaux
 

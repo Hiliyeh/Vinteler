@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement & Diagnostic Radon Woluwe-Saint-Lambert"
-description: "Traitement Radon à Woluwe-Saint-Lambert (Bruxelles-Capitale). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Radon à Woluwe-Saint-Lambert (Bruxelles). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-radon Woluwe-Saint-Lambert"
   - "entreprise traitement-radon Woluwe-Saint-Lambert"
-  - "traitement-radon Bruxelles-Capitale"
+  - "traitement-radon Bruxelles"
   - "prix traitement-radon Woluwe-Saint-Lambert"
   - "traitement radon Woluwe-Saint-Lambert"
   - "radon belgique Woluwe-Saint-Lambert"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Étanchéité passages"
   - "Puisard radon"
   - "Conformité SPF"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

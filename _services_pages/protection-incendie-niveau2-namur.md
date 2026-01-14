@@ -38,6 +38,11 @@ region: "Namur"
 postal_codes: ["5000", "5001", "5002", "5003", "5004", "5020", "5021", "5022", "5024"]
 
 
+# Geo Data (Local SEO)
+lat: 50.4667
+lng: 4.8667
+geo_region: "BE-WNA"
+
 # Features
 features:
   - "Peinture intumescente acier"
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,10 +69,27 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "sambreville"
+    name: "Sambreville"
+  - id: "andenne"
+    name: "Andenne"
+  - id: "gembloux"
+    name: "Gembloux"
+  - id: "dinant"
+    name: "Dinant"
+  - id: "ciney"
+    name: "Ciney"
 
 # Flags spéciaux
 

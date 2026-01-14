@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Locaux à Risque Uccle"
-description: "Protection Locaux à Risque à Uccle (Bruxelles-Capitale). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Locaux à Risque à Uccle (Bruxelles). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-locaux Uccle"
   - "entreprise protection-incendie-locaux Uccle"
-  - "protection-incendie-locaux Bruxelles-Capitale"
+  - "protection-incendie-locaux Bruxelles"
   - "prix protection-incendie-locaux Uccle"
   - "protection locaux risque Uccle"
   - "local poubelle coupe-feu Uccle"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

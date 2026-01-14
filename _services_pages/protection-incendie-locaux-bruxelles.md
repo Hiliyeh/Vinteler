@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Locaux à Risque Bruxelles"
-description: "Protection Locaux à Risque à Bruxelles (Bruxelles-Capitale). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Locaux à Risque à Bruxelles (Bruxelles). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-locaux Bruxelles"
   - "entreprise protection-incendie-locaux Bruxelles"
-  - "protection-incendie-locaux Bruxelles-Capitale"
+  - "protection-incendie-locaux Bruxelles"
   - "prix protection-incendie-locaux Bruxelles"
   - "protection locaux risque Bruxelles"
   - "local poubelle coupe-feu Bruxelles"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Bruxelles"
 city_id: "bruxelles"
-region: "Bruxelles-Capitale"
-postal_codes: ["1000", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1081", "1082", "1083", "1090"]
+region: "Bruxelles"
+postal_codes: ["1000", "1020", "1120", "1130"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8503
+lng: 4.3517
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

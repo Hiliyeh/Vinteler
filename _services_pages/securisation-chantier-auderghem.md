@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Sécurisation Chantier Anti-Squatte Auderghem"
-description: "Sécurisation Chantier à Auderghem (Bruxelles-Capitale). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Sécurisation Chantier à Auderghem (Bruxelles). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "securisation-chantier Auderghem"
   - "entreprise securisation-chantier Auderghem"
-  - "securisation-chantier Bruxelles-Capitale"
+  - "securisation-chantier Bruxelles"
   - "prix securisation-chantier Auderghem"
   - "sécurisation chantier Auderghem"
   - "anti-squatte Auderghem"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Signalétique chantier"
   - "Protection temporaire"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

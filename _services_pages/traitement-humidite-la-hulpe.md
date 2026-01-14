@@ -39,6 +39,11 @@ region: "Brabant Wallon"
 postal_codes: ["1310"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7294
+lng: 4.4781
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Injection résine/crème"
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

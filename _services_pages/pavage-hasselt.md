@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Hasselt"
@@ -38,6 +38,11 @@ city_id: "hasselt"
 region: "Limbourg"
 postal_codes: ["3500", "3501", "3510", "3511", "3512"]
 
+
+# Geo Data (Local SEO)
+lat: 50.9311
+lng: 5.3378
+geo_region: "BE-VLI"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,7 +69,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "genk"
+    name: "Genk"
+  - id: "beringen"
+    name: "Beringen"
+  - id: "sint-truiden"
+    name: "Saint-Trond"
+  - id: "tongeren"
+    name: "Tongres"
+  - id: "lommel"
+    name: "Lommel"
 
 # Flags spéciaux
 

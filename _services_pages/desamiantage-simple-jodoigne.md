@@ -39,6 +39,11 @@ region: "Brabant Wallon"
 postal_codes: ["1370", "1377"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7167
+lng: 4.8667
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Entreprise agréée SPF"
@@ -47,6 +52,9 @@ features:
   - "Revêtements vinyle-amiante"
   - "Évacuation réglementaire"
   - "Certificat conformité"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

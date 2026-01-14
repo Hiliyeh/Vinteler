@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Haute Pression Sols & Murs Watermael-Boitsfort"
-description: "Nettoyage Haute Pression à Watermael-Boitsfort (Bruxelles-Capitale). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Haute Pression à Watermael-Boitsfort (Bruxelles). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-haute-pression Watermael-Boitsfort"
   - "entreprise nettoyage-haute-pression Watermael-Boitsfort"
-  - "nettoyage-haute-pression Bruxelles-Capitale"
+  - "nettoyage-haute-pression Bruxelles"
   - "prix nettoyage-haute-pression Watermael-Boitsfort"
   - "nettoyage haute pression Watermael-Boitsfort"
   - "nettoyage façade Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Enlèvement graffitis"
   - "Dégraissage sols"
   - "Traitement anti-mousse"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

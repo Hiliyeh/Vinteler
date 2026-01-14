@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Haute Pression Sols & Murs Auderghem"
-description: "Nettoyage Haute Pression à Auderghem (Bruxelles-Capitale). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Haute Pression à Auderghem (Bruxelles). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-haute-pression Auderghem"
   - "entreprise nettoyage-haute-pression Auderghem"
-  - "nettoyage-haute-pression Bruxelles-Capitale"
+  - "nettoyage-haute-pression Bruxelles"
   - "prix nettoyage-haute-pression Auderghem"
   - "nettoyage haute pression Auderghem"
   - "nettoyage façade Auderghem"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Enlèvement graffitis"
   - "Dégraissage sols"
   - "Traitement anti-mousse"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

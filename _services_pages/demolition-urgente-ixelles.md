@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Urgente Après Sinistre Ixelles"
-description: "Démolition Urgente à Ixelles (Bruxelles-Capitale). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Urgente à Ixelles (Bruxelles). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-urgente Ixelles"
   - "entreprise demolition-urgente Ixelles"
-  - "demolition-urgente Bruxelles-Capitale"
+  - "demolition-urgente Bruxelles"
   - "prix demolition-urgente Ixelles"
   - "démolition urgente Ixelles"
   - "démolition sinistre Ixelles"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Rapport pour assurance"
   - "Coordination pompiers"
   - "Déblaiement urgent"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

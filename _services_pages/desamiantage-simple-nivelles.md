@@ -36,8 +36,13 @@ category_name: "Désamiantage"
 city_name: "Nivelles"
 city_id: "nivelles"
 region: "Brabant Wallon"
-postal_codes: ["1400", "1401", "1402", "1404"]
+postal_codes: ["1400", "1401", "1402"]
 
+
+# Geo Data (Local SEO)
+lat: 50.5978
+lng: 4.3286
+geo_region: "BE-WBR"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Revêtements vinyle-amiante"
   - "Évacuation réglementaire"
   - "Certificat conformité"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

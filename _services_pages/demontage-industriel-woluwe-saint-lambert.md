@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Lignes & Machines Industrielles Woluwe-Saint-Lambert"
-description: "Démontage Industriel à Woluwe-Saint-Lambert (Bruxelles-Capitale). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Industriel à Woluwe-Saint-Lambert (Bruxelles). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-industriel Woluwe-Saint-Lambert"
   - "entreprise demontage-industriel Woluwe-Saint-Lambert"
-  - "demontage-industriel Bruxelles-Capitale"
+  - "demontage-industriel Bruxelles"
   - "prix demontage-industriel Woluwe-Saint-Lambert"
   - "démontage industriel Woluwe-Saint-Lambert"
   - "démontage usine Woluwe-Saint-Lambert"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Convoyeurs"
   - "Équipements lourds"
   - "Récupération métaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

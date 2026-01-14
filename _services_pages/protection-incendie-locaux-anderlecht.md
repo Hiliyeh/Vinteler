@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Incendie Locaux à Risque Anderlecht"
-description: "Protection Locaux à Risque à Anderlecht (Bruxelles-Capitale). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Locaux à Risque à Anderlecht (Bruxelles). Locaux techniques et zones sensibles Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-locaux Anderlecht"
   - "entreprise protection-incendie-locaux Anderlecht"
-  - "protection-incendie-locaux Bruxelles-Capitale"
+  - "protection-incendie-locaux Bruxelles"
   - "prix protection-incendie-locaux Anderlecht"
   - "protection locaux risque Anderlecht"
   - "local poubelle coupe-feu Anderlecht"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection Coupe-Feu Planchers & Plafonds Etterbeek"
-description: "Protection Planchers & Plafonds à Etterbeek (Bruxelles-Capitale). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Planchers & Plafonds à Etterbeek (Bruxelles). Renforcement EI planchers/plafonds Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-incendie-planchers Etterbeek"
   - "entreprise protection-incendie-planchers Etterbeek"
-  - "protection-incendie-planchers Bruxelles-Capitale"
+  - "protection-incendie-planchers Bruxelles"
   - "prix protection-incendie-planchers Etterbeek"
   - "protection plancher incendie Etterbeek"
   - "plafond coupe-feu Etterbeek"
@@ -34,9 +34,14 @@ category_name: "Protection Incendie"
 # Ville Info
 city_name: "Etterbeek"
 city_id: "etterbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1040"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3833
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

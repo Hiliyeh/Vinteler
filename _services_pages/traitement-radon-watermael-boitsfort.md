@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement & Diagnostic Radon Watermael-Boitsfort"
-description: "Traitement Radon à Watermael-Boitsfort (Bruxelles-Capitale). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Radon à Watermael-Boitsfort (Bruxelles). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-radon Watermael-Boitsfort"
   - "entreprise traitement-radon Watermael-Boitsfort"
-  - "traitement-radon Bruxelles-Capitale"
+  - "traitement-radon Bruxelles"
   - "prix traitement-radon Watermael-Boitsfort"
   - "traitement radon Watermael-Boitsfort"
   - "radon belgique Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Étanchéité passages"
   - "Puisard radon"
   - "Conformité SPF"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

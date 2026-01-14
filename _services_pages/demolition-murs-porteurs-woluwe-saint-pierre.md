@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Murs Porteurs & Ouverture Trémie Woluwe-Saint-Pierre"
-description: "Démolition Murs Porteurs à Woluwe-Saint-Pierre (Bruxelles-Capitale). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Murs Porteurs à Woluwe-Saint-Pierre (Bruxelles). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-murs-porteurs Woluwe-Saint-Pierre"
   - "entreprise demolition-murs-porteurs Woluwe-Saint-Pierre"
-  - "demolition-murs-porteurs Bruxelles-Capitale"
+  - "demolition-murs-porteurs Bruxelles"
   - "prix demolition-murs-porteurs Woluwe-Saint-Pierre"
   - "démolition mur porteur Woluwe-Saint-Pierre"
   - "ouverture mur porteur Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Pose IPN/IPE"
   - "Renforcement structure"
   - "Étude préalable"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

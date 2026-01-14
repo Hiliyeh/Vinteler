@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Lignes & Machines Industrielles Uccle"
-description: "Démontage Industriel à Uccle (Bruxelles-Capitale). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Industriel à Uccle (Bruxelles). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-industriel Uccle"
   - "entreprise demontage-industriel Uccle"
-  - "demontage-industriel Bruxelles-Capitale"
+  - "demontage-industriel Bruxelles"
   - "prix demontage-industriel Uccle"
   - "démontage industriel Uccle"
   - "démontage usine Uccle"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Convoyeurs"
   - "Équipements lourds"
   - "Récupération métaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

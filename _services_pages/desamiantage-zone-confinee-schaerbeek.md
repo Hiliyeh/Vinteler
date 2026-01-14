@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage en Zone Confinée Schaerbeek"
-description: "Désamiantage Zone Confinée à Schaerbeek (Bruxelles-Capitale). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Zone Confinée à Schaerbeek (Bruxelles). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-zone-confinee Schaerbeek"
   - "entreprise desamiantage-zone-confinee Schaerbeek"
-  - "desamiantage-zone-confinee Bruxelles-Capitale"
+  - "desamiantage-zone-confinee Bruxelles"
   - "prix desamiantage-zone-confinee Schaerbeek"
   - "désamiantage zone confinée Schaerbeek"
   - "amiante friable Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

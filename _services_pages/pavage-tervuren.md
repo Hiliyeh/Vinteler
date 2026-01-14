@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Tervuren"
@@ -38,6 +38,11 @@ city_id: "tervuren"
 region: "Brabant Flamand"
 postal_codes: ["3080"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.5167
+geo_region: "BE-VBR"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

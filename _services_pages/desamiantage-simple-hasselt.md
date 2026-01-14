@@ -39,6 +39,11 @@ region: "Limbourg"
 postal_codes: ["3500", "3501", "3510", "3511", "3512"]
 
 
+# Geo Data (Local SEO)
+lat: 50.9311
+lng: 5.3378
+geo_region: "BE-VLI"
+
 # Features
 features:
   - "Entreprise agréée SPF"
@@ -47,6 +52,9 @@ features:
   - "Revêtements vinyle-amiante"
   - "Évacuation réglementaire"
   - "Certificat conformité"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -65,7 +73,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "genk"
+    name: "Genk"
+  - id: "beringen"
+    name: "Beringen"
+  - id: "sint-truiden"
+    name: "Saint-Trond"
+  - id: "tongeren"
+    name: "Tongres"
+  - id: "lommel"
+    name: "Lommel"
 
 # Flags spéciaux
 

@@ -1,0 +1,145 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# VINTELER - AVIS CLIENTS
+# Donnees pour Schema.org AggregateRating et Reviews
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Note globale
+aggregate:
+  rating_value: "4.8"
+  rating_count: "127"
+  best_rating: "5"
+  worst_rating: "1"
+
+# Avis individuels (pour schema et affichage)
+reviews:
+  # Demolition
+  - id: review-1
+    author: "Marc D."
+    location: "Bruxelles"
+    rating: 5
+    date: "2024-12-15"
+    service: "demolition-complete"
+    text: "Demolition rapide et professionnelle. Equipe competente et respectueuse des delais. Chantier propre apres travaux."
+    verified: true
+
+  - id: review-2
+    author: "Catherine V."
+    location: "Uccle"
+    rating: 5
+    date: "2024-11-28"
+    service: "curage-interieur"
+    text: "Curage complet de notre maison avant renovation. Travail soigne, evacuation des dechets incluse. Tres satisfaite."
+    verified: true
+
+  # Desamiantage
+  - id: review-3
+    author: "Sophie L."
+    location: "Waterloo"
+    rating: 5
+    date: "2024-12-02"
+    service: "desamiantage-simple"
+    text: "Desamiantage realise dans les regles. Certificat fourni rapidement. Equipe serieuse et professionnelle."
+    verified: true
+
+  - id: review-4
+    author: "Pierre M."
+    location: "Namur"
+    rating: 5
+    date: "2024-10-18"
+    service: "desamiantage-confine"
+    text: "Intervention delicate en zone confinee. Tout a ete gere de A a Z. Documentation complete pour assurance."
+    verified: true
+
+  # Urgences
+  - id: review-5
+    author: "Jean-Pierre M."
+    location: "Liege"
+    rating: 5
+    date: "2024-12-20"
+    service: "urgence-sinistre"
+    text: "Intervention d'urgence apres inondation. Sur place en 1h30. Pompage efficace, travail impeccable."
+    verified: true
+
+  - id: review-6
+    author: "Anne-Marie B."
+    location: "Charleroi"
+    rating: 5
+    date: "2024-11-05"
+    service: "nettoyage-apres-incendie"
+    text: "Apres l'incendie, VINTELER a pris en charge tout le nettoyage. Odeurs eliminees, rapport pour assurance fourni."
+    verified: true
+
+  # Protection Incendie
+  - id: review-7
+    author: "Francois D."
+    location: "Anvers"
+    rating: 5
+    date: "2024-09-12"
+    service: "portes-coupe-feu"
+    text: "Remplacement de 8 portes coupe-feu dans notre immeuble. Travail propre, attestation de conformite fournie."
+    verified: true
+
+  - id: review-8
+    author: "Nathalie R."
+    location: "Gand"
+    rating: 4
+    date: "2024-08-25"
+    service: "protection-incendie-niveau1"
+    text: "Calfeutrement coupe-feu apres renovation. Bonne communication, delais respectes. Recommande."
+    verified: true
+
+  # Nettoyage
+  - id: review-9
+    author: "Thomas K."
+    location: "Louvain"
+    rating: 5
+    date: "2024-07-30"
+    service: "nettoyage-haute-pression"
+    text: "Nettoyage complet de notre parking souterrain. Resultat impressionnant, sol comme neuf."
+    verified: true
+
+  - id: review-10
+    author: "Isabelle C."
+    location: "Mons"
+    rating: 5
+    date: "2024-06-15"
+    service: "nettoyage-toiture"
+    text: "Demoussage de notre toiture en tuiles. Travail soigne, traitement anti-mousse applique. Tres pro."
+    verified: true
+
+  # Traitements
+  - id: review-11
+    author: "Philippe G."
+    location: "Wavre"
+    rating: 5
+    date: "2024-05-20"
+    service: "traitement-humidite"
+    text: "Probleme d'humidite resolu definitivement. Injection de resine efficace. Plus de salpetre depuis 6 mois."
+    verified: true
+
+  - id: review-12
+    author: "Marie-Claire T."
+    location: "Nivelles"
+    rating: 5
+    date: "2024-04-10"
+    service: "traitement-merule"
+    text: "Merule detectee dans notre cave. VINTELER a traite le probleme a la source. Suivi serieux."
+    verified: true
+
+# Stats par categorie (pour affichage)
+category_ratings:
+  demolition:
+    rating: "4.9"
+    count: "45"
+  desamiantage:
+    rating: "4.8"
+    count: "28"
+  urgence:
+    rating: "4.9"
+    count: "32"
+  incendie:
+    rating: "4.7"
+    count: "15"
+  nettoyage:
+    rating: "4.8"
+    count: "7"

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Mérule & Champignons du Bâti Anderlecht"
-description: "Traitement Mérule à Anderlecht (Bruxelles-Capitale). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Mérule à Anderlecht (Bruxelles). Éradication champignons destructeurs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-merule Anderlecht"
   - "entreprise traitement-merule Anderlecht"
-  - "traitement-merule Bruxelles-Capitale"
+  - "traitement-merule Bruxelles"
   - "prix traitement-merule Anderlecht"
   - "traitement mérule Anderlecht"
   - "mérule belgique Anderlecht"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Assainissement maçonnerie"
   - "Traitement bois"
   - "Prévention récidive"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

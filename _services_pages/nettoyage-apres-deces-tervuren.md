@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["3080"]
 
 
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.5167
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Intervention discrète"
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

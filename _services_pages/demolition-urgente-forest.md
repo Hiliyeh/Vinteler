@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Urgente Après Sinistre Forest"
-description: "Démolition Urgente à Forest (Bruxelles-Capitale). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Urgente à Forest (Bruxelles). Intervention rapide post-sinistre Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-urgente Forest"
   - "entreprise demolition-urgente Forest"
-  - "demolition-urgente Bruxelles-Capitale"
+  - "demolition-urgente Bruxelles"
   - "prix demolition-urgente Forest"
   - "démolition urgente Forest"
   - "démolition sinistre Forest"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Rapport pour assurance"
   - "Coordination pompiers"
   - "Déblaiement urgent"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

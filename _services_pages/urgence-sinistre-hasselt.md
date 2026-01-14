@@ -39,6 +39,11 @@ region: "Limbourg"
 postal_codes: ["3500", "3501", "3510", "3511", "3512"]
 
 
+# Geo Data (Local SEO)
+lat: 50.9311
+lng: 5.3378
+geo_region: "BE-VLI"
+
 # Features
 features:
   - "Disponible 24/7"
@@ -48,8 +53,31 @@ features:
   - "Tempête & effondrement"
   - "Rapport pour assurance"
 
+# FAQ (pour SEO et schema FAQPage)
+
+
 # Maillage interne - Services liés
 related_services:
+  - id: "nettoyage-apres-incendie"
+    name: "Nettoyage Après Incendie"
+    slug: "nettoyage-apres-incendie"
+    description: "Décontamination post-incendie"
+  - id: "pompage-urgence"
+    name: "Pompage Urgence"
+    slug: "pompage-urgence"
+    description: "Évacuation eaux d'urgence 24/7"
+  - id: "assechement-technique"
+    name: "Assèchement Technique"
+    slug: "assechement-technique"
+    description: "Séchage professionnel post-inondation"
+  - id: "bachage-urgence"
+    name: "Bâchage Urgence"
+    slug: "bachage-urgence"
+    description: "Protection temporaire post-sinistre"
+  - id: "desodorisation"
+    name: "Désodorisation"
+    slug: "desodorisation"
+    description: "Élimination odeurs tenaces"
   - id: "demolition-urgente"
     name: "Démolition Urgente"
     slug: "demolition-urgente"
@@ -69,7 +97,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "genk"
+    name: "Genk"
+  - id: "beringen"
+    name: "Beringen"
+  - id: "sint-truiden"
+    name: "Saint-Trond"
+  - id: "tongeren"
+    name: "Tongres"
+  - id: "lommel"
+    name: "Lommel"
 
 # Flags spéciaux
 is_emergency: true

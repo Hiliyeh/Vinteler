@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Curage Intérieur Avant Rénovation Anderlecht"
-description: "Curage Intérieur à Anderlecht (Bruxelles-Capitale). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Curage Intérieur à Anderlecht (Bruxelles). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "curage-interieur Anderlecht"
   - "entreprise curage-interieur Anderlecht"
-  - "curage-interieur Bruxelles-Capitale"
+  - "curage-interieur Bruxelles"
   - "prix curage-interieur Anderlecht"
   - "curage intérieur Anderlecht"
   - "curage avant rénovation Anderlecht"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Retrait sanitaires"
   - "Évacuation gravats"
   - "Préparation rénovation"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

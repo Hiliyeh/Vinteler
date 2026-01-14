@@ -35,8 +35,13 @@ category_name: "Protection Incendie"
 city_name: "Genappe"
 city_id: "genappe"
 region: "Brabant Wallon"
-postal_codes: ["1470", "1471", "1472", "1473", "1474"]
+postal_codes: ["1470", "1471", "1472", "1473"]
 
+
+# Geo Data (Local SEO)
+lat: 50.6117
+lng: 4.4519
+geo_region: "BE-WBR"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,6 +69,14 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:

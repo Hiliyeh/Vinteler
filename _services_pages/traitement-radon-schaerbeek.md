@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement & Diagnostic Radon Schaerbeek"
-description: "Traitement Radon à Schaerbeek (Bruxelles-Capitale). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Radon à Schaerbeek (Bruxelles). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-radon Schaerbeek"
   - "entreprise traitement-radon Schaerbeek"
-  - "traitement-radon Bruxelles-Capitale"
+  - "traitement-radon Bruxelles"
   - "prix traitement-radon Schaerbeek"
   - "traitement radon Schaerbeek"
   - "radon belgique Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Étanchéité passages"
   - "Puisard radon"
   - "Conformité SPF"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

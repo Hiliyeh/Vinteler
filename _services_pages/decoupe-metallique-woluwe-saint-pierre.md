@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Découpe Métallique & Oxycoupage Woluwe-Saint-Pierre"
-description: "Découpe Métallique à Woluwe-Saint-Pierre (Bruxelles-Capitale). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Découpe Métallique à Woluwe-Saint-Pierre (Bruxelles). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "decoupe-metallique Woluwe-Saint-Pierre"
   - "entreprise decoupe-metallique Woluwe-Saint-Pierre"
-  - "decoupe-metallique Bruxelles-Capitale"
+  - "decoupe-metallique Bruxelles"
   - "prix decoupe-metallique Woluwe-Saint-Pierre"
   - "découpe métallique Woluwe-Saint-Pierre"
   - "oxycoupage Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Structures métalliques"
   - "Charpentes acier"
   - "Cuves et réservoirs"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

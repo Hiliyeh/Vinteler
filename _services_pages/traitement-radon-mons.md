@@ -38,6 +38,11 @@ region: "Hainaut"
 postal_codes: ["7000", "7010", "7011", "7012", "7020", "7021", "7022", "7024", "7030", "7031", "7032", "7033", "7034"]
 
 
+# Geo Data (Local SEO)
+lat: 50.4542
+lng: 3.9514
+geo_region: "BE-WHT"
+
 # Features
 features:
   - "Diagnostic radon"
@@ -46,6 +51,9 @@ features:
   - "Étanchéité passages"
   - "Puisard radon"
   - "Conformité SPF"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -64,6 +72,12 @@ nearby_cities:
     name: "Charleroi"
   - id: "tournai"
     name: "Tournai"
+  - id: "la-louviere"
+    name: "La Louvière"
+  - id: "mouscron"
+    name: "Mouscron"
+  - id: "soignies"
+    name: "Soignies"
 
 # Flags spéciaux
 

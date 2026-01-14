@@ -39,6 +39,11 @@ region: "Namur"
 postal_codes: ["5000", "5001", "5002", "5003", "5004", "5020", "5021", "5022", "5024"]
 
 
+# Geo Data (Local SEO)
+lat: 50.4667
+lng: 4.8667
+geo_region: "BE-WNA"
+
 # Features
 features:
   - "Injection résine/crème"
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -65,7 +73,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "sambreville"
+    name: "Sambreville"
+  - id: "andenne"
+    name: "Andenne"
+  - id: "gembloux"
+    name: "Gembloux"
+  - id: "dinant"
+    name: "Dinant"
+  - id: "ciney"
+    name: "Ciney"
 
 # Flags spéciaux
 

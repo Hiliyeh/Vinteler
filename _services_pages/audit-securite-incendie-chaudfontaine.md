@@ -1,0 +1,90 @@
+---
+layout: service-city
+title: "Audit & Diagnostic Sécurité Incendie Chaudfontaine"
+description: "Audit Sécurité Incendie à Chaudfontaine (Liège). Diagnostic conformité incendie Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "audit-securite-incendie Chaudfontaine"
+  - "entreprise audit-securite-incendie Chaudfontaine"
+  - "audit-securite-incendie Liège"
+  - "prix audit-securite-incendie Chaudfontaine"
+  - "audit incendie Chaudfontaine"
+  - "diagnostic sécurité incendie Chaudfontaine"
+  - "conformité incendie Chaudfontaine"
+  - "mise aux normes incendie Chaudfontaine"
+  - "rapport incendie Chaudfontaine"
+
+# URL
+slug: "audit-securite-incendie-chaudfontaine"
+permalink: "/audit-securite-incendie-chaudfontaine/"
+
+# Service Info
+service_id: "audit-securite-incendie"
+service_name: "Audit Sécurité Incendie"
+service_title: "Audit & Diagnostic Sécurité Incendie"
+service_slug: "audit-securite-incendie"
+service_description: "Audit complet de la sécurité incendie de votre bâtiment. Identification des non-conformités, recommandations de mise aux normes, rapport détaillé."
+service_short: "Diagnostic conformité incendie"
+
+# Catégorie
+category: "incendie"
+category_name: "Protection Incendie"
+
+# Ville Info
+city_name: "Chaudfontaine"
+city_id: "chaudfontaine"
+region: "Liège"
+postal_codes: ["4050", "4051", "4052", "4053"]
+
+
+# Geo Data (Local SEO)
+lat: 50.5833
+lng: 5.6333
+geo_region: "BE-WLG"
+
+# Features
+features:
+  - "Audit complet"
+  - "Identification non-conformités"
+  - "Recommandations"
+  - "Rapport détaillé"
+  - "Estimation travaux"
+  - "Accompagnement pompiers"
+
+# FAQ (pour SEO et schema FAQPage)
+
+
+# Maillage interne - Services liés
+related_services:
+  - id: "protection-incendie-niveau1"
+    name: "Protection Incendie Niveau 1"
+    slug: "protection-incendie-niveau1"
+    description: "Calfeutrement et rebouchage coupe-feu"
+  - id: "portes-coupe-feu"
+    name: "Portes Coupe-Feu"
+    slug: "portes-coupe-feu"
+    description: "Portes RF certifiées EI30-EI90"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "liege"
+    name: "Liège"
+  - id: "seraing"
+    name: "Seraing"
+  - id: "verviers"
+    name: "Verviers"
+  - id: "herstal"
+    name: "Herstal"
+  - id: "ans"
+    name: "Ans"
+
+# Flags spéciaux
+
+featured: true
+priority: 1
+---

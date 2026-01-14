@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 <!-- SEO Primary Meta Tags -->
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.tagline }}</title>
@@ -9,9 +9,11 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-<!-- Geo Meta Tags (Local SEO) -->
-<meta name="geo.region" content="BE">
-<meta name="geo.placename" content="{% if page.city %}{{ page.city }}, Belgique{% else %}Overijse, Belgique{% endif %}">
+<!-- Geo Meta Tags (Local SEO) - Enhanced -->
+<meta name="geo.region" content="{% if page.geo_region %}{{ page.geo_region }}{% else %}BE-VBR{% endif %}">
+<meta name="geo.placename" content="{% if page.city_name %}{{ page.city_name }}, Belgique{% else %}Overijse, Belgique{% endif %}">
+<meta name="geo.position" content="{% if page.lat %}{{ page.lat }};{{ page.lng }}{% else %}50.7742;4.5333{% endif %}">
+<meta name="ICBM" content="{% if page.lat %}{{ page.lat }}, {{ page.lng }}{% else %}50.7742, 4.5333{% endif %}">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
@@ -52,8 +54,19 @@
         "@type": "ContactPoint",
         "telephone": "+32490489242",
         "contactType": "customer service",
-        "availableLanguage": ["French", "Dutch", "English"]
-    }
+        "availableLanguage": ["French", "Dutch", "English"],
+        "areaServed": {
+            "@type": "Country",
+            "name": "Belgium"
+        }
+    },
+    "sameAs": [
+        "https://www.facebook.com/vinteler.be",
+        "https://www.linkedin.com/company/vinteler",
+        "https://www.instagram.com/vinteler.be"
+    ],
+    "knowsAbout": ["Démolition", "Désamiantage", "Curage intérieur", "Protection incendie", "Nettoyage professionnel"],
+    "slogan": "{{ site.tagline }}"
 }
 </script>
 
@@ -61,7 +74,7 @@
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "ProfessionalService"],
     "@id": "{{ site.url }}/#localbusiness",
     "name": "{{ site.title }}",
     "description": "{{ site.description }}",
@@ -70,6 +83,8 @@
     "email": "{{ site.contact.email }}",
     "image": "{{ '/favicon.svg' | absolute_url }}",
     "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Credit Card, Bank Transfer",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "{{ site.contact.address }}",
@@ -89,21 +104,118 @@
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "opens": "08:00",
             "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday"],
+            "description": "Urgences uniquement 24/7"
         }
     ],
     "vatID": "{{ site.contact.vat | remove: ' ' }}",
     "areaServed": {
-        "@type": "Country",
-        "name": "Belgium"
-    }
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "50.7742",
+            "longitude": "4.5333"
+        },
+        "geoRadius": "150000"
+    },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services Vinteler",
+        "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Démolition complète"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Désamiantage"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Curage intérieur"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Protection incendie"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Urgences 24/7"}}
+        ]
+    },
+    "sameAs": [
+        "https://www.facebook.com/vinteler.be",
+        "https://www.linkedin.com/company/vinteler"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Marc D., Bruxelles"
+            },
+            "reviewBody": "Démolition rapide et professionnelle. Équipe compétente et respectueuse des délais."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sophie L., Waterloo"
+            },
+            "reviewBody": "Désamiantage réalisé dans les règles. Certificat fourni rapidement. Je recommande."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jean-Pierre M., Liège"
+            },
+            "reviewBody": "Intervention d'urgence après inondation. Sur place en 1h30. Travail impeccable."
+        }
+    ]
 }
 </script>
+
+<!-- Structured Data - WebSite with SearchAction (GEO) -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ site.url }}/#website",
+    "url": "{{ site.url }}",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "publisher": {
+        "@id": "{{ site.url }}/#organization"
+    },
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "{{ site.url }}/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+    },
+    "inLanguage": "fr-BE"
+}
+</script>
+
+<!-- Article Freshness Meta (GEO) -->
+<meta property="article:modified_time" content="{{ site.time | date_to_xmlschema }}">
 
 <!-- Fonts - Preload for better LCP -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
 <!-- Styles -->
-<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=20260114">

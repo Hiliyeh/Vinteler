@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Hangar & Bâtiment Métallique Auderghem"
-description: "Démontage Hangar à Auderghem (Bruxelles-Capitale). Hangars et structures métalliques Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Hangar à Auderghem (Bruxelles). Hangars et structures métalliques Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-hangar Auderghem"
   - "entreprise demontage-hangar Auderghem"
-  - "demontage-hangar Bruxelles-Capitale"
+  - "demontage-hangar Bruxelles"
   - "prix demontage-hangar Auderghem"
   - "démontage hangar Auderghem"
   - "démontage entrepôt Auderghem"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Récupération charpente"
   - "Démontage bardage"
   - "Valorisation matériaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

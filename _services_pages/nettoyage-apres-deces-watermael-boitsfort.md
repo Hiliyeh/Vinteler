@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Après Décès & Désinfection Watermael-Boitsfort"
-description: "Nettoyage Après Décès à Watermael-Boitsfort (Bruxelles-Capitale). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Après Décès à Watermael-Boitsfort (Bruxelles). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-apres-deces Watermael-Boitsfort"
   - "entreprise nettoyage-apres-deces Watermael-Boitsfort"
-  - "nettoyage-apres-deces Bruxelles-Capitale"
+  - "nettoyage-apres-deces Bruxelles"
   - "prix nettoyage-apres-deces Watermael-Boitsfort"
   - "nettoyage après décès Watermael-Boitsfort"
   - "nettoyage décès Watermael-Boitsfort"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

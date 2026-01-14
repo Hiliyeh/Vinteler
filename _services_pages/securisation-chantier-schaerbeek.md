@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Sécurisation Chantier Anti-Squatte Schaerbeek"
-description: "Sécurisation Chantier à Schaerbeek (Bruxelles-Capitale). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Sécurisation Chantier à Schaerbeek (Bruxelles). Protection bâtiments vacants Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "securisation-chantier Schaerbeek"
   - "entreprise securisation-chantier Schaerbeek"
-  - "securisation-chantier Bruxelles-Capitale"
+  - "securisation-chantier Bruxelles"
   - "prix securisation-chantier Schaerbeek"
   - "sécurisation chantier Schaerbeek"
   - "anti-squatte Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Signalétique chantier"
   - "Protection temporaire"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

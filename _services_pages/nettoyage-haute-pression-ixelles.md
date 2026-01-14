@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Haute Pression Sols & Murs Ixelles"
-description: "Nettoyage Haute Pression à Ixelles (Bruxelles-Capitale). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Haute Pression à Ixelles (Bruxelles). Décapage professionnel surfaces Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-haute-pression Ixelles"
   - "entreprise nettoyage-haute-pression Ixelles"
-  - "nettoyage-haute-pression Bruxelles-Capitale"
+  - "nettoyage-haute-pression Bruxelles"
   - "prix nettoyage-haute-pression Ixelles"
   - "nettoyage haute pression Ixelles"
   - "nettoyage façade Ixelles"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Enlèvement graffitis"
   - "Dégraissage sols"
   - "Traitement anti-mousse"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

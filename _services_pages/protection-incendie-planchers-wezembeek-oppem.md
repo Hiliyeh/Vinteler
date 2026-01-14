@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["1970"]
 
 
+# Geo Data (Local SEO)
+lat: 50.85
+lng: 4.4833
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Renforcement planchers"
@@ -46,6 +51,9 @@ features:
   - "Planchers bois anciens"
   - "Plafonds techniques"
   - "Certification EI"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

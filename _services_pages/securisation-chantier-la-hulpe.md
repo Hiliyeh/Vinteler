@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1310"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7294
+lng: 4.4781
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Panneaux anti-intrusion"
@@ -46,6 +51,9 @@ features:
   - "Signalétique chantier"
   - "Protection temporaire"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

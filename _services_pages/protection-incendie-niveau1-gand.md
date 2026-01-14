@@ -38,6 +38,11 @@ region: "Flandre-Orientale"
 postal_codes: ["9000", "9030", "9031", "9032", "9040", "9041", "9042", "9050", "9051", "9052"]
 
 
+# Geo Data (Local SEO)
+lat: 51.0536
+lng: 3.7253
+geo_region: "BE-VOV"
+
 # Features
 features:
   - "Calfeutrement câbles/tuyaux"
@@ -46,6 +51,9 @@ features:
   - "Rebouchage après curage"
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,10 +69,31 @@ related_services:
     name: "Curage Intérieur"
     slug: "curage-interieur"
     description: "Vidage complet avant travaux"
+  - id: "portes-coupe-feu"
+    name: "Portes Coupe-Feu"
+    slug: "portes-coupe-feu"
+    description: "Portes RF certifiées EI30-EI90"
+  - id: "clapets-coupe-feu"
+    name: "Clapets Coupe-Feu"
+    slug: "clapets-coupe-feu"
+    description: "Clapets RF gaines ventilation"
+  - id: "audit-securite-incendie"
+    name: "Audit Sécurité Incendie"
+    slug: "audit-securite-incendie"
+    description: "Diagnostic conformité incendie"
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "alost"
+    name: "Alost"
+  - id: "sint-niklaas"
+    name: "Saint-Nicolas"
+  - id: "dendermonde"
+    name: "Termonde"
+  - id: "lokeren"
+    name: "Lokeren"
+  - id: "beveren"
+    name: "Beveren"
 
 # Flags spéciaux
 

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement Humidité & Salpêtre Watermael-Boitsfort"
-description: "Traitement Humidité à Watermael-Boitsfort (Bruxelles-Capitale). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Humidité à Watermael-Boitsfort (Bruxelles). Injection et assèchement murs Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-humidite Watermael-Boitsfort"
   - "entreprise traitement-humidite Watermael-Boitsfort"
-  - "traitement-humidite Bruxelles-Capitale"
+  - "traitement-humidite Bruxelles"
   - "prix traitement-humidite Watermael-Boitsfort"
   - "traitement humidité Watermael-Boitsfort"
   - "traitement salpêtre Watermael-Boitsfort"
@@ -35,9 +35,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Watermael-Boitsfort"
 city_id: "watermael-boitsfort"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1170"]
 
+
+# Geo Data (Local SEO)
+lat: 50.7972
+lng: 4.4097
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Reprises de murs"
   - "Ventilation complémentaire"
   - "Traitement fissures"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

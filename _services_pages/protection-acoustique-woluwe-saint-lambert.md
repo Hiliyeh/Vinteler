@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection & Isolation Acoustique Woluwe-Saint-Lambert"
-description: "Protection Acoustique à Woluwe-Saint-Lambert (Bruxelles-Capitale). Isolation phonique professionnelle Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Acoustique à Woluwe-Saint-Lambert (Bruxelles). Isolation phonique professionnelle Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-acoustique Woluwe-Saint-Lambert"
   - "entreprise protection-acoustique Woluwe-Saint-Lambert"
-  - "protection-acoustique Bruxelles-Capitale"
+  - "protection-acoustique Bruxelles"
   - "prix protection-acoustique Woluwe-Saint-Lambert"
   - "isolation acoustique Woluwe-Saint-Lambert"
   - "protection acoustique Woluwe-Saint-Lambert"
@@ -28,15 +28,20 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Woluwe-Saint-Lambert"
 city_id: "woluwe-saint-lambert"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1200"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8492
+lng: 4.4342
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

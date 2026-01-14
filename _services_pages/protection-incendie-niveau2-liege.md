@@ -38,6 +38,11 @@ region: "Liège"
 postal_codes: ["4000", "4020", "4030", "4031", "4032"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6326
+lng: 5.5797
+geo_region: "BE-WLG"
+
 # Features
 features:
   - "Peinture intumescente acier"
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,10 +69,27 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "seraing"
+    name: "Seraing"
+  - id: "verviers"
+    name: "Verviers"
+  - id: "herstal"
+    name: "Herstal"
+  - id: "ans"
+    name: "Ans"
+  - id: "flemalle"
+    name: "Flémalle"
 
 # Flags spéciaux
 

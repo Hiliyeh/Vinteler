@@ -38,6 +38,11 @@ region: "Hainaut"
 postal_codes: ["7000", "7010", "7011", "7012", "7020", "7021", "7022", "7024", "7030", "7031", "7032", "7033", "7034"]
 
 
+# Geo Data (Local SEO)
+lat: 50.4542
+lng: 3.9514
+geo_region: "BE-WHT"
+
 # Features
 features:
   - "Peinture intumescente acier"
@@ -46,6 +51,9 @@ features:
   - "Caissons EI60/EI90"
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,6 +69,14 @@ related_services:
     name: "Protection Locaux à Risque"
     slug: "protection-incendie-locaux"
     description: "Locaux techniques et zones sensibles"
+  - id: "cloisons-coupe-feu"
+    name: "Cloisons Coupe-Feu"
+    slug: "cloisons-coupe-feu"
+    description: "Cloisons RF compartimentage"
+  - id: "maintenance-coupe-feu"
+    name: "Maintenance Coupe-Feu"
+    slug: "maintenance-coupe-feu"
+    description: "Entretien préventif équipements RF"
 
 # Villes proches (même région)
 nearby_cities:
@@ -68,6 +84,12 @@ nearby_cities:
     name: "Charleroi"
   - id: "tournai"
     name: "Tournai"
+  - id: "la-louviere"
+    name: "La Louvière"
+  - id: "mouscron"
+    name: "Mouscron"
+  - id: "soignies"
+    name: "Soignies"
 
 # Flags spéciaux
 

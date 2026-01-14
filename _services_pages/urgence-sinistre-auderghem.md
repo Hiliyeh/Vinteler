@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Intervention Urgente Sinistre 24h/24 Auderghem"
-description: "Urgence Sinistre 24/7 à Auderghem (Bruxelles-Capitale). Intervention rapide tous sinistres Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Urgence Sinistre 24/7 à Auderghem (Bruxelles). Intervention rapide tous sinistres Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "urgence-sinistre Auderghem"
   - "entreprise urgence-sinistre Auderghem"
-  - "urgence-sinistre Bruxelles-Capitale"
+  - "urgence-sinistre Bruxelles"
   - "prix urgence-sinistre Auderghem"
   - "urgence sinistre Auderghem"
   - "intervention urgente Auderghem"
@@ -35,9 +35,14 @@ category_name: "Urgences 24/7"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -48,8 +53,31 @@ features:
   - "Tempête & effondrement"
   - "Rapport pour assurance"
 
+# FAQ (pour SEO et schema FAQPage)
+
+
 # Maillage interne - Services liés
 related_services:
+  - id: "nettoyage-apres-incendie"
+    name: "Nettoyage Après Incendie"
+    slug: "nettoyage-apres-incendie"
+    description: "Décontamination post-incendie"
+  - id: "pompage-urgence"
+    name: "Pompage Urgence"
+    slug: "pompage-urgence"
+    description: "Évacuation eaux d'urgence 24/7"
+  - id: "assechement-technique"
+    name: "Assèchement Technique"
+    slug: "assechement-technique"
+    description: "Séchage professionnel post-inondation"
+  - id: "bachage-urgence"
+    name: "Bâchage Urgence"
+    slug: "bachage-urgence"
+    description: "Protection temporaire post-sinistre"
+  - id: "desodorisation"
+    name: "Désodorisation"
+    slug: "desodorisation"
+    description: "Élimination odeurs tenaces"
   - id: "demolition-urgente"
     name: "Démolition Urgente"
     slug: "demolition-urgente"

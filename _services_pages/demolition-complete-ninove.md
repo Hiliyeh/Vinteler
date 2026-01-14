@@ -1,0 +1,97 @@
+---
+layout: service-city
+title: "Démolition Complète Maison & Bâtiment Ninove"
+description: "Démolition Complète à Ninove (Flandre-Orientale). Démolition totale de constructions Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+
+# SEO Keywords
+keywords:
+  - "demolition-complete Ninove"
+  - "entreprise demolition-complete Ninove"
+  - "demolition-complete Flandre-Orientale"
+  - "prix demolition-complete Ninove"
+  - "démolition complète Ninove"
+  - "démolition maison Ninove"
+  - "démolition bâtiment Ninove"
+  - "entreprise démolition Ninove"
+  - "démolition immeuble Ninove"
+  - "démolition totale Ninove"
+
+# URL
+slug: "demolition-complete-ninove"
+permalink: "/demolition-complete-ninove/"
+
+# Service Info
+service_id: "demolition-complete"
+service_name: "Démolition Complète"
+service_title: "Démolition Complète Maison & Bâtiment"
+service_slug: "demolition-complete"
+service_description: "Démolition complète de maisons, immeubles et bâtiments industriels. Entreprise agréée, évacuation des débris incluse, devis gratuit sous 24h."
+service_short: "Démolition totale de constructions"
+
+# Catégorie
+category: "demolition"
+category_name: "Démolition & Curage"
+
+# Ville Info
+city_name: "Ninove"
+city_id: "ninove"
+region: "Flandre-Orientale"
+postal_codes: ["9400", "9401", "9402", "9403", "9404", "9406"]
+
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.0167
+geo_region: "BE-VOV"
+
+# Features
+features:
+  - "Maisons individuelles"
+  - "Bâtiments commerciaux"
+  - "Structures industrielles"
+  - "Évacuation débris incluse"
+  - "Devis gratuit 24h"
+  - "Tri sélectif des matériaux"
+
+# FAQ (pour SEO et schema FAQPage)
+faq:
+  - question: "Combien coûte une démolition complète en Belgique ?"
+    answer: "Le prix d'une démolition complète dépend de la taille du bâtiment, des matériaux et de l'accessibilité. VINTELER propose des devis gratuits sous 24h pour une estimation précise."
+  - question: "Faut-il un permis pour démolir une maison en Belgique ?"
+    answer: "Oui, un permis d'urbanisme est généralement requis pour une démolition complète. Notre équipe peut vous accompagner dans les démarches administratives."
+  - question: "Que devient les débris après une démolition ?"
+    answer: "VINTELER assure le tri sélectif et l'évacuation réglementaire des débris vers des centres agréés. La valorisation des matériaux est privilégiée."
+
+# Maillage interne - Services liés
+related_services:
+  - id: "curage-interieur"
+    name: "Curage Intérieur"
+    slug: "curage-interieur"
+    description: "Vidage complet avant travaux"
+  - id: "demolition-urgente"
+    name: "Démolition Urgente"
+    slug: "demolition-urgente"
+    description: "Intervention rapide post-sinistre"
+  - id: "desamiantage-simple"
+    name: "Désamiantage Simple"
+    slug: "desamiantage-simple"
+    description: "Retrait amiante non friable"
+
+# Villes proches (même région)
+nearby_cities:
+  - id: "gand"
+    name: "Gand"
+  - id: "alost"
+    name: "Alost"
+  - id: "sint-niklaas"
+    name: "Saint-Nicolas"
+  - id: "dendermonde"
+    name: "Termonde"
+  - id: "lokeren"
+    name: "Lokeren"
+
+# Flags spéciaux
+
+featured: true
+priority: 1
+---

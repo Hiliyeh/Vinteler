@@ -38,6 +38,11 @@ region: "Namur"
 postal_codes: ["5000", "5001", "5002", "5003", "5004", "5020", "5021", "5022", "5024"]
 
 
+# Geo Data (Local SEO)
+lat: 50.4667
+lng: 4.8667
+geo_region: "BE-WNA"
+
 # Features
 features:
   - "Calfeutrement câbles/tuyaux"
@@ -46,6 +51,9 @@ features:
   - "Rebouchage après curage"
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,10 +69,31 @@ related_services:
     name: "Curage Intérieur"
     slug: "curage-interieur"
     description: "Vidage complet avant travaux"
+  - id: "portes-coupe-feu"
+    name: "Portes Coupe-Feu"
+    slug: "portes-coupe-feu"
+    description: "Portes RF certifiées EI30-EI90"
+  - id: "clapets-coupe-feu"
+    name: "Clapets Coupe-Feu"
+    slug: "clapets-coupe-feu"
+    description: "Clapets RF gaines ventilation"
+  - id: "audit-securite-incendie"
+    name: "Audit Sécurité Incendie"
+    slug: "audit-securite-incendie"
+    description: "Diagnostic conformité incendie"
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "sambreville"
+    name: "Sambreville"
+  - id: "andenne"
+    name: "Andenne"
+  - id: "gembloux"
+    name: "Gembloux"
+  - id: "dinant"
+    name: "Dinant"
+  - id: "ciney"
+    name: "Ciney"
 
 # Flags spéciaux
 

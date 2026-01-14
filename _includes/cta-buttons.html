@@ -20,7 +20,7 @@
     {% if show_phone %}
     <a href="tel:{{ site.contact.phone | remove: ' ' }}" class="{{ btn_class }} btn-primary{% if include.emergency %} btn-emergency{% endif %}">
         {% include svg/icon-phone.html width="22" height="22" class="btn-icon" %}
-        {% if include.emergency %}Urgence : {% endif %}{{ include.phone_text | default: site.contact.phone }}
+        {% if include.emergency %}Appel d'urgence{% else %}{{ include.phone_text | default: "Appeler maintenant" }}{% endif %}
     </a>
     {% endif %}
 

@@ -38,6 +38,11 @@ region: "Luxembourg"
 postal_codes: ["6700"]
 
 
+# Geo Data (Local SEO)
+lat: 49.6833
+lng: 5.8167
+geo_region: "BE-WLX"
+
 # Features
 features:
   - "Oxycoupage"
@@ -46,6 +51,9 @@ features:
   - "Structures métalliques"
   - "Charpentes acier"
   - "Cuves et réservoirs"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -64,7 +72,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "bastogne"
+    name: "Bastogne"
+  - id: "marche-en-famenne"
+    name: "Marche-en-Famenne"
+  - id: "virton"
+    name: "Virton"
+  - id: "libramont"
+    name: "Libramont"
+  - id: "durbuy"
+    name: "Durbuy"
 
 # Flags spéciaux
 

@@ -29,8 +29,8 @@ service_description: "Pose de pavés, dalles et klinkers pour allées, terrasses
 service_short: "Aménagements extérieurs pavés"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "sols"
+category_name: "Sols"
 
 # Ville Info
 city_name: "Arlon"
@@ -38,6 +38,11 @@ city_id: "arlon"
 region: "Luxembourg"
 postal_codes: ["6700"]
 
+
+# Geo Data (Local SEO)
+lat: 49.6833
+lng: 5.8167
+geo_region: "BE-WLX"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Allées et entrées"
   - "Terrasses"
   - "Parkings"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -61,7 +69,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "bastogne"
+    name: "Bastogne"
+  - id: "marche-en-famenne"
+    name: "Marche-en-Famenne"
+  - id: "virton"
+    name: "Virton"
+  - id: "libramont"
+    name: "Libramont"
+  - id: "durbuy"
+    name: "Durbuy"
 
 # Flags spéciaux
 

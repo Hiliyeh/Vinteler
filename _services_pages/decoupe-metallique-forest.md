@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Découpe Métallique & Oxycoupage Forest"
-description: "Découpe Métallique à Forest (Bruxelles-Capitale). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Découpe Métallique à Forest (Bruxelles). Oxycoupage et découpe structures Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "decoupe-metallique Forest"
   - "entreprise decoupe-metallique Forest"
-  - "decoupe-metallique Bruxelles-Capitale"
+  - "decoupe-metallique Bruxelles"
   - "prix decoupe-metallique Forest"
   - "découpe métallique Forest"
   - "oxycoupage Forest"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Structures métalliques"
   - "Charpentes acier"
   - "Cuves et réservoirs"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

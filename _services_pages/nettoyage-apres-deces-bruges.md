@@ -38,6 +38,11 @@ region: "Flandre-Occidentale"
 postal_codes: ["8000", "8200", "8310", "8380"]
 
 
+# Geo Data (Local SEO)
+lat: 51.2094
+lng: 3.2247
+geo_region: "BE-VWV"
+
 # Features
 features:
   - "Intervention discrète"
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -64,7 +72,16 @@ related_services:
 
 # Villes proches (même région)
 nearby_cities:
-
+  - id: "courtrai"
+    name: "Courtrai"
+  - id: "ostende"
+    name: "Ostende"
+  - id: "roulers"
+    name: "Roulers"
+  - id: "ypres"
+    name: "Ypres"
+  - id: "knokke-heist"
+    name: "Knokke-Heist"
 
 # Flags spéciaux
 

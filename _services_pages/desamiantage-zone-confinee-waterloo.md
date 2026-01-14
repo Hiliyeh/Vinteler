@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1410"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7147
+lng: 4.3997
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Zone de confinement"
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

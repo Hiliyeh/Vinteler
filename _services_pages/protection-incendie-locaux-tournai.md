@@ -38,6 +38,11 @@ region: "Hainaut"
 postal_codes: ["7500", "7501", "7502", "7503", "7504", "7506", "7510"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6058
+lng: 3.3883
+geo_region: "BE-WHT"
+
 # Features
 features:
   - "Locaux poubelles"
@@ -46,6 +51,9 @@ features:
   - "Locaux techniques"
   - "Parkings souterrains"
   - "Caves communes"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
@@ -68,6 +76,12 @@ nearby_cities:
     name: "Charleroi"
   - id: "mons"
     name: "Mons"
+  - id: "la-louviere"
+    name: "La Louvière"
+  - id: "mouscron"
+    name: "Mouscron"
+  - id: "soignies"
+    name: "Soignies"
 
 # Flags spéciaux
 

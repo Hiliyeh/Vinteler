@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Hangar & Bâtiment Métallique Uccle"
-description: "Démontage Hangar à Uccle (Bruxelles-Capitale). Hangars et structures métalliques Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Hangar à Uccle (Bruxelles). Hangars et structures métalliques Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-hangar Uccle"
   - "entreprise demontage-hangar Uccle"
-  - "demontage-hangar Bruxelles-Capitale"
+  - "demontage-hangar Bruxelles"
   - "prix demontage-hangar Uccle"
   - "démontage hangar Uccle"
   - "démontage entrepôt Uccle"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Récupération charpente"
   - "Démontage bardage"
   - "Valorisation matériaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Murs Porteurs & Ouverture Trémie Bruxelles"
-description: "Démolition Murs Porteurs à Bruxelles (Bruxelles-Capitale). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Murs Porteurs à Bruxelles (Bruxelles). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-murs-porteurs Bruxelles"
   - "entreprise demolition-murs-porteurs Bruxelles"
-  - "demolition-murs-porteurs Bruxelles-Capitale"
+  - "demolition-murs-porteurs Bruxelles"
   - "prix demolition-murs-porteurs Bruxelles"
   - "démolition mur porteur Bruxelles"
   - "ouverture mur porteur Bruxelles"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Bruxelles"
 city_id: "bruxelles"
-region: "Bruxelles-Capitale"
-postal_codes: ["1000", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1081", "1082", "1083", "1090"]
+region: "Bruxelles"
+postal_codes: ["1000", "1020", "1120", "1130"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8503
+lng: 4.3517
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Pose IPN/IPE"
   - "Renforcement structure"
   - "Étude préalable"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

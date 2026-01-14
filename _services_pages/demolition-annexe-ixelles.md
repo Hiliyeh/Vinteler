@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition d'Annexe & Dépendances Ixelles"
-description: "Démolition d'Annexe à Ixelles (Bruxelles-Capitale). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition d'Annexe à Ixelles (Bruxelles). Démolition garages, vérandas, abris Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-annexe Ixelles"
   - "entreprise demolition-annexe Ixelles"
-  - "demolition-annexe Bruxelles-Capitale"
+  - "demolition-annexe Bruxelles"
   - "prix demolition-annexe Ixelles"
   - "démolition annexe Ixelles"
   - "démolition garage Ixelles"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Remises et dépendances"
   - "Remise en état terrain"
   - "Intervention rapide"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

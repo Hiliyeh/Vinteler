@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage Traitement Simple Anderlecht"
-description: "Désamiantage Simple à Anderlecht (Bruxelles-Capitale). Retrait amiante non friable Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Simple à Anderlecht (Bruxelles). Retrait amiante non friable Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-simple Anderlecht"
   - "entreprise desamiantage-simple Anderlecht"
-  - "desamiantage-simple Bruxelles-Capitale"
+  - "desamiantage-simple Bruxelles"
   - "prix desamiantage-simple Anderlecht"
   - "désamiantage simple Anderlecht"
   - "retrait amiante Anderlecht"
@@ -35,9 +35,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Anderlecht"
 city_id: "anderlecht"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1070"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.3
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -47,6 +52,9 @@ features:
   - "Revêtements vinyle-amiante"
   - "Évacuation réglementaire"
   - "Certificat conformité"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

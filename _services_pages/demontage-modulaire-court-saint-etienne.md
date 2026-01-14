@@ -38,6 +38,11 @@ region: "Brabant Wallon"
 postal_codes: ["1490"]
 
 
+# Geo Data (Local SEO)
+lat: 50.6333
+lng: 4.5667
+geo_region: "BE-WBR"
+
 # Features
 features:
   - "Maisons modulaires"
@@ -46,6 +51,9 @@ features:
   - "Bungalows chantier"
   - "Algeco et similaires"
   - "Remise en état terrain"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

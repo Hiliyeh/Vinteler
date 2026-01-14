@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Lignes & Machines Industrielles Ixelles"
-description: "Démontage Industriel à Ixelles (Bruxelles-Capitale). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Industriel à Ixelles (Bruxelles). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-industriel Ixelles"
   - "entreprise demontage-industriel Ixelles"
-  - "demontage-industriel Bruxelles-Capitale"
+  - "demontage-industriel Bruxelles"
   - "prix demontage-industriel Ixelles"
   - "démontage industriel Ixelles"
   - "démontage usine Ixelles"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Ixelles"
 city_id: "ixelles"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1050"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8279
+lng: 4.3769
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Convoyeurs"
   - "Équipements lourds"
   - "Récupération métaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

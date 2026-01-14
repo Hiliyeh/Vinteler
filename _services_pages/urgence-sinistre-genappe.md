@@ -36,8 +36,13 @@ category_name: "Urgences 24/7"
 city_name: "Genappe"
 city_id: "genappe"
 region: "Brabant Wallon"
-postal_codes: ["1470", "1471", "1472", "1473", "1474"]
+postal_codes: ["1470", "1471", "1472", "1473"]
 
+
+# Geo Data (Local SEO)
+lat: 50.6117
+lng: 4.4519
+geo_region: "BE-WBR"
 
 # Features
 features:
@@ -48,8 +53,31 @@ features:
   - "Tempête & effondrement"
   - "Rapport pour assurance"
 
+# FAQ (pour SEO et schema FAQPage)
+
+
 # Maillage interne - Services liés
 related_services:
+  - id: "nettoyage-apres-incendie"
+    name: "Nettoyage Après Incendie"
+    slug: "nettoyage-apres-incendie"
+    description: "Décontamination post-incendie"
+  - id: "pompage-urgence"
+    name: "Pompage Urgence"
+    slug: "pompage-urgence"
+    description: "Évacuation eaux d'urgence 24/7"
+  - id: "assechement-technique"
+    name: "Assèchement Technique"
+    slug: "assechement-technique"
+    description: "Séchage professionnel post-inondation"
+  - id: "bachage-urgence"
+    name: "Bâchage Urgence"
+    slug: "bachage-urgence"
+    description: "Protection temporaire post-sinistre"
+  - id: "desodorisation"
+    name: "Désodorisation"
+    slug: "desodorisation"
+    description: "Élimination odeurs tenaces"
   - id: "demolition-urgente"
     name: "Démolition Urgente"
     slug: "demolition-urgente"

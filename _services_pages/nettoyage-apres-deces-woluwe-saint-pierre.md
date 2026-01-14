@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Après Décès & Désinfection Woluwe-Saint-Pierre"
-description: "Nettoyage Après Décès à Woluwe-Saint-Pierre (Bruxelles-Capitale). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Après Décès à Woluwe-Saint-Pierre (Bruxelles). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-apres-deces Woluwe-Saint-Pierre"
   - "entreprise nettoyage-apres-deces Woluwe-Saint-Pierre"
-  - "nettoyage-apres-deces Bruxelles-Capitale"
+  - "nettoyage-apres-deces Bruxelles"
   - "prix nettoyage-apres-deces Woluwe-Saint-Pierre"
   - "nettoyage après décès Woluwe-Saint-Pierre"
   - "nettoyage décès Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

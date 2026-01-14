@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Maison Modulaire & Préfabriquée Forest"
-description: "Démontage Maison Modulaire à Forest (Bruxelles-Capitale). Constructions préfabriquées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Maison Modulaire à Forest (Bruxelles). Constructions préfabriquées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-modulaire Forest"
   - "entreprise demontage-modulaire Forest"
-  - "demontage-modulaire Bruxelles-Capitale"
+  - "demontage-modulaire Bruxelles"
   - "prix demontage-modulaire Forest"
   - "démontage maison modulaire Forest"
   - "démontage préfabriqué Forest"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Forest"
 city_id: "forest"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1190"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8103
+lng: 4.3242
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Bungalows chantier"
   - "Algeco et similaires"
   - "Remise en état terrain"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

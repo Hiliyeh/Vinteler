@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Traitement & Diagnostic Radon Auderghem"
-description: "Traitement Radon à Auderghem (Bruxelles-Capitale). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Traitement Radon à Auderghem (Bruxelles). Diagnostic et réduction radon Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "traitement-radon Auderghem"
   - "entreprise traitement-radon Auderghem"
-  - "traitement-radon Bruxelles-Capitale"
+  - "traitement-radon Bruxelles"
   - "prix traitement-radon Auderghem"
   - "traitement radon Auderghem"
   - "radon belgique Auderghem"
@@ -34,9 +34,14 @@ category_name: "Traitements Spécialisés"
 # Ville Info
 city_name: "Auderghem"
 city_id: "auderghem"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1160"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8167
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Étanchéité passages"
   - "Puisard radon"
   - "Conformité SPF"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

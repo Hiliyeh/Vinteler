@@ -38,6 +38,11 @@ region: "Brabant Flamand"
 postal_codes: ["1560"]
 
 
+# Geo Data (Local SEO)
+lat: 50.7667
+lng: 4.4667
+geo_region: "BE-VBR"
+
 # Features
 features:
   - "Zone de confinement"
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

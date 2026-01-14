@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Curage Intérieur Avant Rénovation Woluwe-Saint-Pierre"
-description: "Curage Intérieur à Woluwe-Saint-Pierre (Bruxelles-Capitale). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Curage Intérieur à Woluwe-Saint-Pierre (Bruxelles). Vidage complet avant travaux Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "curage-interieur Woluwe-Saint-Pierre"
   - "entreprise curage-interieur Woluwe-Saint-Pierre"
-  - "curage-interieur Bruxelles-Capitale"
+  - "curage-interieur Bruxelles"
   - "prix curage-interieur Woluwe-Saint-Pierre"
   - "curage intérieur Woluwe-Saint-Pierre"
   - "curage avant rénovation Woluwe-Saint-Pierre"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Woluwe-Saint-Pierre"
 city_id: "woluwe-saint-pierre"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1150"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8333
+lng: 4.4333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Retrait sanitaires"
   - "Évacuation gravats"
   - "Préparation rénovation"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

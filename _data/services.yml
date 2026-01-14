@@ -1,7 +1,7 @@
 # ═══════════════════════════════════════════════════════════════════════════
 # VINTELER - CATALOGUE COMPLET DES SERVICES
 # Structure optimisée SEO avec maillage interne
-# 27 services × 45 villes = 1,215 pages SEO
+# 37 services × 130+ communes = 4,810+ pages SEO
 # ═══════════════════════════════════════════════════════════════════════════
 
 # ┌─────────────────────────────────────────────────────────────────────────┐
@@ -17,6 +17,21 @@
   category_name: "Démolition & Curage"
   description: "Démolition complète de maisons, immeubles et bâtiments industriels. Entreprise agréée, évacuation des débris incluse, devis gratuit sous 24h."
   short_description: "Démolition totale de constructions"
+  tldr: "VINTELER réalise la démolition complète de votre bâtiment en Belgique avec évacuation et tri des débris inclus."
+  answer_capsule: "La démolition complète par VINTELER comprend l'analyse préalable du bâtiment, l'obtention du permis d'urbanisme, la démolition mécanique ou manuelle selon le contexte, le tri sélectif des matériaux (béton, bois, métaux) et l'évacuation vers des centres agréés. Délai : 1 à 4 semaines selon la taille. Devis gratuit sous 24h au 0490 48 92 42."
+  stats:
+    typical_duration: "1-4 semaines"
+    typical_cost_range: "Sur devis"
+    satisfaction: "98"
+  process_steps:
+    - step: "Diagnostic et devis gratuit"
+      description: "Visite sur site pour évaluer le bâtiment, identifier les matériaux (dont amiante éventuel) et établir un devis détaillé gratuit sous 24h."
+    - step: "Obtention du permis"
+      description: "Accompagnement dans les démarches administratives pour l'obtention du permis d'urbanisme requis pour la démolition."
+    - step: "Démolition sécurisée"
+      description: "Démolition mécanique ou manuelle selon le contexte, avec respect des normes de sécurité et protection du voisinage."
+    - step: "Tri et évacuation"
+      description: "Tri sélectif des matériaux (béton, bois, métaux) et évacuation vers des centres de recyclage agréés."
   features:
     - "Maisons individuelles"
     - "Bâtiments commerciaux"
@@ -46,6 +61,8 @@
       answer: "Oui, un permis d'urbanisme est généralement requis pour une démolition complète. Notre équipe peut vous accompagner dans les démarches administratives."
     - question: "Que devient les débris après une démolition ?"
       answer: "VINTELER assure le tri sélectif et l'évacuation réglementaire des débris vers des centres agréés. La valorisation des matériaux est privilégiée."
+    - question: "Faut-il un diagnostic amiante avant démolition ?"
+      answer: "Oui, un diagnostic amiante est obligatoire avant toute démolition de bâtiment construit avant 2001. VINTELER peut réaliser ce diagnostic et, si nécessaire, le désamiantage avant la démolition. Tout est géré en un seul chantier."
 
 - id: demolition-annexe
   name: "Démolition d'Annexe"
@@ -55,6 +72,30 @@
   category_name: "Démolition & Curage"
   description: "Démolition d'annexes, garages, vérandas, abris de jardin et dépendances. Intervention rapide, évacuation et remise en état du terrain."
   short_description: "Démolition garages, vérandas, abris"
+  tldr: "VINTELER démolit vos annexes, garages et vérandas avec évacuation des débris et remise en état du terrain."
+  answer_capsule: "La démolition d'annexe par VINTELER comprend garages, vérandas, pergolas, abris de jardin, carports et remises. Intervention rapide sans permis requis dans la plupart des cas. Évacuation des débris et remise en état du terrain incluses. Devis gratuit sous 24h. Idéal pour libérer de l'espace ou préparer une nouvelle construction."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Visite et devis"
+      description: "Évaluation sur site de la structure à démolir, vérification des raccordements (eau, électricité) et devis gratuit."
+    - step: "Déconnexion réseaux"
+      description: "Coupure et sécurisation des alimentations électriques, eau et gaz si concernées."
+    - step: "Démolition contrôlée"
+      description: "Abattage méthodique de la structure avec tri des matériaux sur place (bois, métal, béton)."
+    - step: "Évacuation et remise en état"
+      description: "Chargement et évacuation des débris, nivellement du terrain pour usage futur."
+  faq:
+    - question: "Faut-il un permis pour démolir un garage ou une véranda ?"
+      answer: "En général, non. La démolition d'annexes de moins de 30m² ne nécessite pas de permis en Belgique. Pour les structures plus grandes ou en zone protégée, une déclaration peut être requise. VINTELER vous conseille selon votre situation."
+    - question: "Combien coûte la démolition d'un garage ?"
+      answer: "Le prix d'une démolition de garage dépend du type de construction (bois, métal, béton), de l'accessibilité et du volume de débris. VINTELER propose un devis gratuit sous 24h pour une estimation précise adaptée à votre projet."
+    - question: "Que devient l'emplacement après démolition ?"
+      answer: "VINTELER nivelle le terrain après démolition. Vous pouvez ensuite construire une nouvelle annexe, créer un espace de stationnement ou aménager un jardin. Nous pouvons aussi poser des pavés ou dalles sur demande."
+    - question: "Démolissez-vous aussi les fondations ?"
+      answer: "Oui, sur demande nous retirons les fondations et dalles béton. Cette option est recommandée si vous souhaitez planter ou construire à un autre emplacement. Le prix est ajusté en fonction du volume de béton à évacuer."
   features:
     - "Garages et carports"
     - "Vérandas et pergolas"
@@ -85,6 +126,30 @@
   category_name: "Démolition & Curage"
   description: "Curage intérieur complet avant rénovation : démontage cloisons, revêtements, plafonds, sanitaires. Préparation chantier pour entrepreneurs."
   short_description: "Vidage complet avant travaux"
+  tldr: "Le curage intérieur VINTELER prépare votre bâtiment pour la rénovation en retirant tous les éléments non structurels."
+  answer_capsule: "Le curage intérieur consiste à vider complètement un bâtiment avant rénovation : démontage des cloisons, retrait des revêtements sols et murs, démontage des plafonds, évacuation des sanitaires et menuiseries. VINTELER assure le tri sélectif et l'évacuation conforme. Durée : 1-5 jours selon la surface. Idéal avant travaux de rénovation lourde. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-5 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Diagnostic sur site"
+      description: "Visite gratuite pour évaluer les éléments à retirer, identifier les matériaux dangereux éventuels et préparer le chantier."
+    - step: "Démontage méthodique"
+      description: "Retrait des cloisons, revêtements de sols et murs, plafonds, sanitaires et menuiseries dans un ordre logique."
+    - step: "Tri sélectif"
+      description: "Séparation des matériaux par type (bois, plâtre, métaux, gravats) pour recyclage et valorisation."
+    - step: "Évacuation et nettoyage"
+      description: "Transport vers centres agréés et nettoyage du chantier pour livraison prête à rénover."
+  faq:
+    - question: "Combien coûte un curage intérieur en Belgique ?"
+      answer: "Le prix d'un curage intérieur dépend de la complexité des travaux, de l'accessibilité, du volume de déchets et de la présence éventuelle d'amiante. VINTELER propose un devis gratuit sous 24h pour une estimation précise."
+    - question: "Quelle est la durée d'un curage intérieur ?"
+      answer: "Un curage intérieur standard dure entre 1 et 5 jours selon la surface à traiter. L'équipe VINTELER évacue les déchets simultanément pour optimiser les délais. Contactez-nous au 0490 48 92 42 pour une estimation précise."
+    - question: "Comment se déroule un curage intérieur ?"
+      answer: "Le curage comprend 4 étapes : 1) Diagnostic gratuit sur site, 2) Devis détaillé, 3) Démontage et évacuation méthodique, 4) Tri sélectif des déchets et nettoyage final. VINTELER gère tout de A à Z."
+    - question: "Faut-il un permis pour un curage intérieur ?"
+      answer: "Non, le curage intérieur ne nécessite pas de permis d'urbanisme en Belgique car il ne modifie pas la structure du bâtiment. Seule l'évacuation des déchets doit respecter les normes environnementales. VINTELER gère toutes les formalités."
   features:
     - "Démontage cloisons"
     - "Retrait revêtements sols/murs"
@@ -114,6 +179,30 @@
   category_name: "Démolition & Curage"
   description: "Ouverture dans murs porteurs, création de trémies pour escaliers ou ascenseurs. Renforcement IPN/IPE, étude structure préalable."
   short_description: "Ouvertures structurelles sécurisées"
+  tldr: "VINTELER réalise vos ouvertures dans murs porteurs avec pose d'IPN et garantie structurelle."
+  answer_capsule: "L'ouverture de mur porteur nécessite une expertise technique pour garantir la stabilité du bâtiment. VINTELER réalise l'étude préalable, l'étaiement temporaire, la découpe précise et la pose de poutrelles IPN/IPE. Également création de trémies pour escaliers ou ascenseurs. Intervention par équipe spécialisée avec attestation de conformité. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "2-5 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "98"
+  process_steps:
+    - step: "Étude structurelle"
+      description: "Analyse du mur et des charges, dimensionnement des poutrelles IPN/IPE nécessaires, coordination avec ingénieur si requis."
+    - step: "Étaiement sécurisé"
+      description: "Installation d'étais de part et d'autre du mur pour reprendre temporairement les charges pendant les travaux."
+    - step: "Découpe et pose IPN"
+      description: "Découpe progressive du mur, mise en place des poutrelles métalliques avec scellement chimique ou mortier."
+    - step: "Finitions et attestation"
+      description: "Retrait des étais, finitions des tableaux, remise de l'attestation de conformité structurelle."
+  faq:
+    - question: "Faut-il un permis pour ouvrir un mur porteur ?"
+      answer: "En général, non pour une ouverture intérieure. Cependant, une note de calcul d'un ingénieur stabilité peut être exigée par votre assurance ou la commune. VINTELER peut coordonner cette étude et fournir tous les documents nécessaires."
+    - question: "Comment savoir si un mur est porteur ?"
+      answer: "Un mur porteur est généralement plus épais (20cm+), situé au centre du bâtiment ou sous une poutre. En cas de doute, VINTELER effectue un diagnostic gratuit sur site pour identifier les murs porteurs de votre habitation."
+    - question: "Quel est le prix d'une ouverture dans un mur porteur ?"
+      answer: "Le prix dépend de la largeur de l'ouverture, de l'épaisseur du mur et du type de poutrelle nécessaire (IPN/IPE). VINTELER réalise un devis gratuit après étude technique de votre projet."
+    - question: "Combien de temps durent les travaux ?"
+      answer: "Une ouverture dans un mur porteur prend généralement 2 à 5 jours : 1 jour pour l'étaiement, 1-2 jours pour la découpe et pose IPN, 1-2 jours pour les finitions. Le chantier reste propre et sécurisé."
   features:
     - "Ouverture murs porteurs"
     - "Création trémies escalier"
@@ -143,6 +232,30 @@
   category_name: "Démolition & Curage"
   description: "Démolition d'urgence après sinistre : incendie, tempête, effondrement. Intervention rapide 24/7, sécurisation immédiate, rapport assurance."
   short_description: "Intervention rapide post-sinistre"
+  tldr: "Démolition d'urgence VINTELER après sinistre : intervention 24/7 sous 2h avec sécurisation et rapport assurance."
+  answer_capsule: "La démolition urgente intervient après un sinistre (incendie, tempête, effondrement) nécessitant une action immédiate. VINTELER est sur place en 2h maximum, 24/7. Services : sécurisation du périmètre, étaiement si nécessaire, démolition partielle ou totale des structures dangereuses, déblaiement, rapport photographique pour assurance. Coordination avec pompiers et experts. Appelez le 0490 48 92 42."
+  stats:
+    typical_duration: "Intervention sous 2h"
+    typical_cost_range: "Sur devis urgent"
+    satisfaction: "98"
+  process_steps:
+    - step: "Évaluation d'urgence"
+      description: "Arrivée sur site sous 2h, évaluation des risques structurels et définition des priorités avec pompiers si présents."
+    - step: "Sécurisation périmètre"
+      description: "Balisage de la zone dangereuse, étaiement temporaire si nécessaire, protection des riverains et passants."
+    - step: "Démolition contrôlée"
+      description: "Abattage des structures instables par méthode adaptée (mécanique ou manuelle), surveillance continue."
+    - step: "Déblaiement et rapport"
+      description: "Évacuation des gravats, nettoyage du site et remise du rapport photographique pour votre dossier assurance."
+  faq:
+    - question: "Quand faut-il faire appel à une démolition urgente ?"
+      answer: "Une démolition urgente est nécessaire quand un bâtiment présente un danger immédiat après un sinistre : structure instable après incendie, mur menaçant de s'effondrer après tempête, toiture effondrée. VINTELER intervient 24/7 pour sécuriser et démolir les parties dangereuses."
+    - question: "Qui paie la démolition urgente après un sinistre ?"
+      answer: "La démolition urgente après sinistre est généralement couverte par votre assurance habitation ou professionnelle. VINTELER fournit un rapport détaillé et peut coordonner directement avec votre assureur pour faciliter le remboursement."
+    - question: "Faut-il un permis pour une démolition d'urgence ?"
+      answer: "En cas de danger immédiat, la démolition urgente peut être réalisée sans permis préalable sur base du rapport des pompiers ou d'un expert. VINTELER se charge des formalités administratives a posteriori et fournit tous les documents nécessaires."
+    - question: "Intervenez-vous aussi pour les particuliers ?"
+      answer: "Oui, VINTELER intervient pour les particuliers et les professionnels. Maison après incendie, garage effondré, mur de clôture dangereux : nous intervenons 24/7 partout en Belgique. Un seul numéro : 0490 48 92 42."
   features:
     - "Disponible 24/7"
     - "Intervention sous 2h"
@@ -172,6 +285,30 @@
   category_name: "Démolition & Curage"
   description: "Sécurisation de bâtiments vacants contre intrusions et squats. Fermeture temporaire, panneaux métalliques, surveillance, protection du patrimoine."
   short_description: "Protection bâtiments vacants"
+  tldr: "VINTELER sécurise vos bâtiments vacants contre les intrusions et squats avec panneaux anti-effraction."
+  answer_capsule: "La sécurisation de chantier VINTELER protège vos bâtiments vacants contre les intrusions, squats et vandalismes. Solutions : panneaux métalliques anti-effraction sur portes et fenêtres, grillages périmètriques, signalétique réglementaire. Intervention rapide 24/7 après sinistre ou pour bâtiments en attente de travaux. Location ou achat de matériel. Protection de votre patrimoine garantie. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-2 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Audit sécurité"
+      description: "Inspection du bâtiment, identification des points d'accès vulnérables et évaluation des risques."
+    - step: "Installation panneaux"
+      description: "Pose de panneaux métalliques anti-effraction sur toutes les ouvertures (portes, fenêtres, soupiraux)."
+    - step: "Clôture périmétrique"
+      description: "Installation de grillages ou palissades autour du site si nécessaire, avec signalétique."
+    - step: "Remise des clés"
+      description: "Système de fermeture sécurisé avec remise des clés, possibilité de contrôles périodiques."
+  faq:
+    - question: "Comment protéger un bâtiment vacant contre les squatteurs ?"
+      answer: "La meilleure protection combine panneaux métalliques anti-effraction sur toutes les ouvertures, grillages périmètriques et signalétique dissuasive. VINTELER installe ces dispositifs rapidement, souvent dans la journée, pour sécuriser votre bien."
+    - question: "Combien coûte la sécurisation d'un bâtiment ?"
+      answer: "Le prix dépend du nombre d'ouvertures à protéger et du type de protection choisi (panneaux métalliques, grillages). VINTELER propose un devis gratuit sur site pour une estimation adaptée à votre bâtiment."
+    - question: "Intervenez-vous en urgence après un sinistre ?"
+      answer: "Oui, VINTELER intervient 24/7 pour sécuriser un bâtiment après incendie, tempête ou effondrement. Nous pouvons être sur place en 2h pour protéger votre bien en attendant les travaux de réparation ou démolition."
+    - question: "Proposez-vous la location de panneaux de sécurisation ?"
+      answer: "Oui, nous proposons la location mensuelle de panneaux anti-effraction pour les chantiers de longue durée. Option intéressante pour les promoteurs ou syndics avec plusieurs bâtiments à sécuriser temporairement."
   features:
     - "Panneaux anti-intrusion"
     - "Fermeture portes/fenêtres"
@@ -206,6 +343,30 @@
   category_name: "Désamiantage"
   description: "Retrait d'amiante en traitement simple : plaques ondulées, joints, colles. Entreprise agréée SPF, évacuation conforme, certificat de conformité."
   short_description: "Retrait amiante non friable"
+  tldr: "VINTELER, entreprise agréée SPF, retire l'amiante non friable (toitures, joints) avec certificat de conformité inclus."
+  answer_capsule: "Le désamiantage simple concerne l'amiante non friable : plaques de toiture en fibrociment (Eternit), joints, colles, dalles vinyle-amiante. VINTELER, agréé SPF, réalise le retrait sécurisé selon la réglementation belge. Délai : 1-3 jours. Certificat de conformité fourni pour votre dossier. Évacuation vers centre agréé incluse. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "99"
+  process_steps:
+    - step: "Diagnostic amiante"
+      description: "Identification des matériaux amiantés, prélèvement pour analyse laboratoire si nécessaire, évaluation de l'état et des risques."
+    - step: "Préparation du chantier"
+      description: "Balisage de la zone, mise en place des protections, équipement des opérateurs avec EPI spécialisés."
+    - step: "Retrait sécurisé"
+      description: "Démontage selon la méthode adaptée au matériau, humidification pour limiter l'émission de fibres, conditionnement en big-bags étanches."
+    - step: "Évacuation et certificat"
+      description: "Transport vers centre d'élimination agréé, délivrance du certificat de conformité et bordereau de suivi des déchets."
+  faq:
+    - question: "Combien coûte un désamiantage en Belgique ?"
+      answer: "Le prix du désamiantage simple varie selon le type de matériau (toiture, joints, dalles), l'accessibilité et la quantité à traiter. VINTELER, agréé SPF, fournit un devis gratuit détaillé sous 24h."
+    - question: "Ai-je besoin d'un agrément pour faire retirer de l'amiante ?"
+      answer: "Non, c'est l'entreprise qui doit être agréée SPF, pas le particulier. VINTELER possède l'agrément officiel du SPF Emploi pour le retrait d'amiante en traitement simple. Nous fournissons tous les documents requis."
+    - question: "Que faire si je découvre de l'amiante chez moi ?"
+      answer: "Ne touchez pas au matériau suspect. Contactez VINTELER au 0490 48 92 42 pour un diagnostic. Si l'amiante est en bon état et non friable, il peut rester en place. S'il est dégradé, nous procédons au retrait sécurisé avec certificat."
+    - question: "Comment reconnaître l'amiante dans ma maison ?"
+      answer: "L'amiante se trouve souvent dans les toitures en fibrociment (Eternit), les dalles de sol vinyle, les joints de fenêtres, les colles de carrelage des bâtiments d'avant 1998. Un diagnostic par prélèvement permet de confirmer sa présence."
   features:
     - "Entreprise agréée SPF"
     - "Plaques fibro-ciment"
@@ -236,6 +397,30 @@
   category_name: "Désamiantage"
   description: "Désamiantage en zone confinée pour amiante friable. Confinement étanche, dépression d'air, équipements spécialisés, contrôles atmosphériques."
   short_description: "Retrait amiante friable sécurisé"
+  tldr: "VINTELER réalise le désamiantage en zone confinée pour l'amiante friable (flocage, calorifuge) avec contrôles atmosphériques."
+  answer_capsule: "Le désamiantage en zone confinée est requis pour l'amiante friable : flocages, calorifuges, faux-plafonds. VINTELER installe un confinement étanche sous dépression d'air avec sas de décontamination. Contrôles atmosphériques avant, pendant et après travaux. Analyses laboratoire incluses. Prix : sur devis selon complexité. Personnel certifié, équipements spécialisés, respect strict des normes SPF."
+  stats:
+    typical_duration: "3-10 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "99"
+  process_steps:
+    - step: "Installation du confinement"
+      description: "Création d'une zone étanche avec sas de décontamination, mise sous dépression d'air avec filtration HEPA, contrôles d'étanchéité."
+    - step: "Retrait sous contrôle"
+      description: "Retrait de l'amiante friable par équipe spécialisée en combinaison étanche, avec aspiration et humidification continues."
+    - step: "Contrôles atmosphériques"
+      description: "Mesures de concentration de fibres avant, pendant et après les travaux par laboratoire accrédité."
+    - step: "Libération de zone"
+      description: "Analyses finales, nettoyage de la zone, dépose du confinement et remise du dossier technique complet."
+  faq:
+    - question: "Quelle est la différence entre désamiantage simple et confiné ?"
+      answer: "Le désamiantage simple concerne l'amiante non friable (toitures, dalles). Le désamiantage confiné traite l'amiante friable (flocage, calorifuge) qui libère des fibres : il nécessite une zone étanche sous dépression, des contrôles atmosphériques et des équipements spécialisés."
+    - question: "Comment savoir si mon amiante nécessite un confinement ?"
+      answer: "L'amiante friable (qui s'effrite facilement) nécessite un confinement : flocages, calorifuges de tuyaux, certains faux-plafonds. VINTELER réalise un diagnostic gratuit pour déterminer le type de traitement adapté à votre situation."
+    - question: "Combien de temps dure un désamiantage en zone confinée ?"
+      answer: "Un désamiantage confiné dure généralement 3 à 10 jours selon la surface et la complexité. Ce délai inclut l'installation du confinement, le retrait, les contrôles atmosphériques et les analyses de libération de zone."
+    - question: "Le bâtiment peut-il être occupé pendant le désamiantage ?"
+      answer: "Non, la zone de travaux doit être évacuée et isolée pendant toute la durée du désamiantage confiné. VINTELER définit un périmètre de sécurité et coordonne les travaux pour minimiser l'impact sur l'activité du bâtiment."
   features:
     - "Zone de confinement"
     - "Amiante friable"
@@ -269,6 +454,30 @@
   category_name: "Nettoyage Professionnel"
   description: "Nettoyage industriel de cuves, silos, réservoirs et équipements. Décontamination, hydrocurage, intervention en espace confiné."
   short_description: "Cuves, silos, équipements industriels"
+  tldr: "VINTELER nettoie vos cuves, silos et équipements industriels avec intervention en espace confiné certifiée."
+  answer_capsule: "Le nettoyage industriel VINTELER couvre les cuves, silos, réservoirs, machines et sols d'usine. Techniques : hydrocurage haute pression, dégraissage, décontamination, aspiration industrielle. Intervention en espace confiné avec personnel certifié et équipements de sécurité. Idéal pour maintenance préventive ou avant inspection. Devis sur mesure selon vos équipements."
+  stats:
+    typical_duration: "1-5 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Audit des équipements"
+      description: "Analyse des équipements à nettoyer, identification des produits stockés et choix de la méthode de nettoyage adaptée."
+    - step: "Préparation sécurité"
+      description: "Mise en place des équipements de protection, ventilation si espace confiné, détection de gaz."
+    - step: "Nettoyage haute pression"
+      description: "Hydrocurage, dégraissage ou aspiration selon l'équipement, avec produits adaptés au secteur d'activité."
+    - step: "Contrôle et rapport"
+      description: "Vérification du résultat, remise en service de l'équipement et rapport d'intervention pour votre documentation."
+  faq:
+    - question: "Quels types d'équipements nettoyez-vous ?"
+      answer: "VINTELER nettoie tous types d'équipements industriels : cuves de stockage, silos à grains ou poudres, réservoirs, machines-outils, lignes de production, sols d'atelier, parkings souterrains. Nous intervenons dans tous les secteurs industriels."
+    - question: "Intervenez-vous en espace confiné ?"
+      answer: "Oui, notre personnel est certifié pour l'intervention en espace confiné (cuves, silos, réservoirs). Nous disposons des équipements de sécurité requis : détecteurs de gaz, ventilation, harnais, et procédures strictes selon la réglementation belge."
+    - question: "Quel est le délai d'intervention pour un nettoyage industriel ?"
+      answer: "Le délai dépend de la taille et de la complexité de l'équipement. Comptez 1 à 5 jours pour un nettoyage complet. VINTELER peut intervenir en urgence si nécessaire. Contactez-nous pour un planning adapté à votre production."
+    - question: "Proposez-vous des contrats de maintenance ?"
+      answer: "Oui, VINTELER propose des contrats de nettoyage périodique adaptés à vos besoins : mensuel, trimestriel ou annuel. Avantages : tarifs préférentiels, interventions planifiées, suivi technique régulier de vos équipements."
   features:
     - "Cuves et réservoirs"
     - "Silos industriels"
@@ -298,6 +507,30 @@
   category_name: "Nettoyage Professionnel"
   description: "Nettoyage haute pression pour sols industriels, façades, parkings, béton. Élimination graisses, mousse, graffitis, taches tenaces."
   short_description: "Décapage professionnel surfaces"
+  tldr: "VINTELER nettoie vos sols, façades et parkings à haute pression avec élimination des graisses, mousses et graffitis."
+  answer_capsule: "Le nettoyage haute pression VINTELER élimine les salissures tenaces : graisses sur sols d'atelier, mousse sur façades, graffitis, taches d'huile sur parkings, béton encrassé. Équipements professionnels jusqu'à 500 bars, eau chaude disponible. Traitement anti-mousse et hydrofuge en option. Résultat garanti. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Évaluation des surfaces"
+      description: "Visite sur site pour identifier les types de salissures, l'état des surfaces et définir la pression adaptée."
+    - step: "Protection et préparation"
+      description: "Protection des zones sensibles, prétraitement avec détergent si nécessaire pour les salissures tenaces."
+    - step: "Nettoyage haute pression"
+      description: "Application de la pression adaptée (100-500 bars), eau chaude si nécessaire, passage méthodique de toute la surface."
+    - step: "Traitement et finition"
+      description: "Application optionnelle d'un traitement anti-mousse ou hydrofuge, rinçage final et vérification du résultat."
+  faq:
+    - question: "Quelles surfaces nettoyez-vous à haute pression ?"
+      answer: "VINTELER nettoie toutes les surfaces extérieures : sols béton, carrelage, pavés, façades en briques ou crépi, parkings, terrasses, allées, murs de clôture. Nous adaptons la pression et la technique selon le matériau."
+    - question: "Le nettoyage haute pression abîme-t-il les surfaces ?"
+      answer: "Non, nos équipes ajustent la pression (de 100 à 500 bars) selon le matériau. Les surfaces fragiles sont traitées avec précaution. Nous utilisons de l'eau chaude et des détergents adaptés pour un résultat optimal sans dommage."
+    - question: "Combien coûte un nettoyage haute pression ?"
+      answer: "Le prix dépend de la surface (parking, façade, terrasse), du type de salissure et de l'accessibilité. VINTELER propose un devis gratuit sur site pour une estimation précise adaptée à votre projet."
+    - question: "Proposez-vous un traitement anti-mousse après nettoyage ?"
+      answer: "Oui, VINTELER applique sur demande un traitement anti-mousse et/ou hydrofuge après le nettoyage. Ce traitement préventif prolonge la durée du résultat et protège vos surfaces contre les salissures futures."
   features:
     - "Sols béton/carrelage"
     - "Façades et murs"
@@ -327,6 +560,30 @@
   category_name: "Nettoyage Professionnel"
   description: "Nettoyage et démoussage de toitures : tuiles, ardoises, toits plats. Traitement anti-mousse longue durée, nettoyage gouttières."
   short_description: "Démoussage et entretien toitures"
+  tldr: "VINTELER nettoie et démoussе votre toiture avec traitement anti-mousse longue durée garanti 5 ans."
+  answer_capsule: "Le nettoyage de toiture VINTELER élimine mousses, lichens et algues qui dégradent vos tuiles ou ardoises. Technique douce sans haute pression excessive pour préserver les matériaux. Application d'un traitement anti-mousse préventif efficace 3-5 ans. Nettoyage des gouttières inclus. Devis gratuit après inspection au 0490 48 92 42."
+  stats:
+    typical_duration: "1-2 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Inspection toiture"
+      description: "Vérification de l'état des tuiles/ardoises, identification des zones à traiter et des réparations éventuelles."
+    - step: "Démoussage manuel"
+      description: "Retrait des mousses et lichens avec technique adaptée au matériau, sans abîmer les tuiles."
+    - step: "Nettoyage basse pression"
+      description: "Rinçage de la toiture à basse pression, nettoyage des gouttières et descentes d'eau."
+    - step: "Traitement préventif"
+      description: "Application du traitement anti-mousse et/ou hydrofuge pour une protection longue durée."
+  faq:
+    - question: "À quelle fréquence faut-il nettoyer sa toiture ?"
+      answer: "En Belgique, un nettoyage tous les 5 à 10 ans est recommandé selon l'exposition (arbres, humidité, orientation nord). Avec un traitement anti-mousse, vous prolongez l'intervalle entre deux nettoyages."
+    - question: "Le nettoyage haute pression abîme-t-il les tuiles ?"
+      answer: "Une pression trop forte peut effectivement dégrader les tuiles. VINTELER utilise une technique basse pression adaptée au matériau. Pour les toitures fragiles (ardoises, tuiles anciennes), nous privilégions le traitement chimique doux."
+    - question: "Combien coûte un démoussage de toiture ?"
+      answer: "Le prix dépend du type de toiture (tuiles, ardoises), de la surface et du niveau d'encrassement. Traitement anti-mousse inclus dans nos prestations. VINTELER propose un devis gratuit après inspection sur site."
+    - question: "Nettoyez-vous aussi les gouttières ?"
+      answer: "Oui, le nettoyage des gouttières est inclus dans nos prestations de nettoyage toiture. Nous retirons les feuilles et débris, vérifions l'écoulement et signalons les réparations éventuelles à prévoir."
   features:
     - "Démoussage toiture"
     - "Traitement anti-mousse"
@@ -355,6 +612,30 @@
   category_name: "Nettoyage Professionnel"
   description: "Nettoyage et désinfection après décès, syndrome de Diogène, logement insalubre. Intervention discrète, désodorisation, remise en état complète."
   short_description: "Désinfection et remise en état"
+  tldr: "VINTELER assure le nettoyage après décès avec désinfection complète, désodorisation et intervention discrète."
+  answer_capsule: "Le nettoyage après décès VINTELER comprend la désinfection complète des surfaces, l'élimination des odeurs par traitement ozone, et la remise en état du logement. Intervention également pour syndrome de Diogène et logements insalubres. Équipe formée, intervention discrète (véhicules banalisés), respect et dignité garantis. Coordination possible avec notaire et famille. Devis confidentiel sous 24h."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "99"
+  process_steps:
+    - step: "Évaluation confidentielle"
+      description: "Visite discrète pour évaluer l'ampleur des travaux, en coordination avec la famille ou le notaire."
+    - step: "Nettoyage et désinfection"
+      description: "Retrait des éléments souillés, nettoyage en profondeur de toutes les surfaces, désinfection biocide."
+    - step: "Désodorisation"
+      description: "Traitement des odeurs par ozone ou ionisation, neutralisation complète pour un logement sain."
+    - step: "Remise en état"
+      description: "Nettoyage final, vérification de chaque pièce, remise des clés au mandataire."
+  faq:
+    - question: "Comment se passe un nettoyage après décès ?"
+      answer: "VINTELER intervient avec discrétion et respect. Nous retirons les éléments souillés, désinfectons toutes les surfaces avec des produits biocides professionnels, puis traitons les odeurs par ozone. Le logement est rendu propre et sain, prêt pour la succession."
+    - question: "Intervenez-vous pour le syndrome de Diogène ?"
+      answer: "Oui, VINTELER est spécialisé dans le nettoyage de logements touchés par le syndrome de Diogène : accumulation de déchets, insalubrité, odeurs. Nous évacuons, désinfectons et remettons le logement en état habitable ou vendable."
+    - question: "L'intervention est-elle discrète ?"
+      answer: "Absolument. Nos équipes interviennent en véhicules banalisés, sans uniforme identifiable. Nous respectons la confidentialité de la situation et la dignité des personnes concernées. Aucune information n'est partagée."
+    - question: "Qui paie le nettoyage après décès ?"
+      answer: "Les frais sont généralement à la charge de la succession ou des héritiers. Dans certains cas, l'assurance habitation du défunt peut couvrir une partie des frais. Nous fournissons une facture détaillée pour le notaire."
   features:
     - "Intervention discrète"
     - "Désinfection complète"
@@ -389,6 +670,30 @@
   category_name: "Urgences 24/7"
   description: "Intervention d'urgence 24h/24 7j/7 après sinistre : incendie, inondation, accident, tempête. Sur place en 2h max, rapport assurance, coordination experts."
   short_description: "Intervention rapide tous sinistres"
+  tldr: "VINTELER intervient 24h/24 et 7j/7 après sinistre (incendie, inondation, tempête) avec rapport pour votre assurance."
+  answer_capsule: "Urgence sinistre VINTELER : intervention en 2h maximum partout en Belgique, 24h/24 et 7j/7. Nous intervenons après incendie, inondation, tempête, accident ou effondrement. Services : sécurisation immédiate, pompage, bâchage, déblaiement, nettoyage. Rapport détaillé pour votre assurance inclus. Un seul numéro : 0490 48 92 42. Coordination avec pompiers et experts d'assurance."
+  stats:
+    typical_duration: "Intervention sous 2h"
+    typical_cost_range: "Sur devis urgent"
+    satisfaction: "99"
+  process_steps:
+    - step: "Appel et dispatch"
+      description: "Réception de votre appel 24/7, évaluation de l'urgence et dispatch immédiat de l'équipe la plus proche."
+    - step: "Sécurisation sur site"
+      description: "Arrivée sous 2h maximum, mise en sécurité du périmètre, évaluation des dégâts et des risques immédiats."
+    - step: "Intervention d'urgence"
+      description: "Actions prioritaires selon le sinistre : pompage, bâchage, déblaiement, étaiement, sécurisation des ouvertures."
+    - step: "Rapport et suivi"
+      description: "Rédaction du rapport détaillé avec photos pour votre assurance, coordination avec experts si nécessaire."
+  faq:
+    - question: "En combien de temps intervenez-vous en cas d'urgence ?"
+      answer: "VINTELER garantit une intervention en 2 heures maximum partout en Belgique, 24h/24 et 7j/7. Appelez le 0490 48 92 42 pour une intervention immédiate après sinistre (incendie, inondation, tempête, accident)."
+    - question: "Que faire immédiatement après un sinistre ?"
+      answer: "1) Assurez votre sécurité et celle des occupants. 2) Appelez les pompiers si nécessaire. 3) Contactez VINTELER au 0490 48 92 42 pour sécuriser le site. 4) Prévenez votre assurance. 5) Ne touchez à rien avant notre intervention et les constats."
+    - question: "Fournissez-vous un rapport pour l'assurance ?"
+      answer: "Oui, VINTELER fournit systématiquement un rapport détaillé avec photos, description des dommages et des travaux réalisés. Ce document est accepté par toutes les compagnies d'assurance belges pour le traitement de votre dossier."
+    - question: "Intervenez-vous la nuit et le week-end ?"
+      answer: "Oui, VINTELER est disponible 24h/24 et 7j/7, y compris les nuits, week-ends et jours fériés. Les sinistres n'attendent pas : notre équipe d'astreinte intervient en 2h maximum partout en Belgique."
   features:
     - "Disponible 24/7"
     - "Sur place en 2h max"
@@ -413,6 +718,11 @@
     - "dégât des eaux"
     - "intervention 24h"
   related_services:
+    - "nettoyage-apres-incendie"
+    - "pompage-urgence"
+    - "assechement-technique"
+    - "bachage-urgence"
+    - "desodorisation"
     - "demolition-urgente"
     - "securisation-chantier"
     - "nettoyage-apres-deces"
@@ -423,6 +733,273 @@
   is_emergency: true
   emergency_phone: "0490 48 92 42"
   response_time: "2h max"
+
+- id: nettoyage-apres-incendie
+  name: "Nettoyage Après Incendie"
+  title: "Nettoyage & Décontamination Après Incendie"
+  slug_prefix: "nettoyage-apres-incendie"
+  category: "urgence"
+  category_name: "Urgences 24/7"
+  description: "Nettoyage complet après incendie : élimination suie et cendres, décontamination des surfaces, traitement des odeurs de fumée, remise en état."
+  short_description: "Décontamination post-incendie"
+  tldr: "VINTELER nettoie et décontamine votre logement après incendie avec élimination complète de la suie et des odeurs."
+  answer_capsule: "Le nettoyage après incendie VINTELER élimine la suie, les cendres et les résidus toxiques de combustion. Techniques : nettoyage chimique des surfaces, traitement des textiles récupérables, désodorisation par ozone. Nous intervenons dès l'autorisation des pompiers, souvent dans les 24h. Rapport photographique détaillé pour votre assurance. Coordination avec experts possible."
+  stats:
+    typical_duration: "2-7 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "98"
+  process_steps:
+    - step: "Évaluation des dégâts"
+      description: "Inspection complète dès autorisation des pompiers, identification des zones touchées et des éléments récupérables."
+    - step: "Retrait suie et cendres"
+      description: "Aspiration et nettoyage de la suie sur toutes les surfaces : murs, plafonds, sols, mobilier."
+    - step: "Décontamination chimique"
+      description: "Traitement des surfaces avec produits spécifiques pour éliminer les résidus toxiques de combustion."
+    - step: "Désodorisation et rapport"
+      description: "Traitement ozone pour éliminer les odeurs de fumée, remise du rapport détaillé pour l'assurance."
+  faq:
+    - question: "Quand peut-on nettoyer après un incendie ?"
+      answer: "Le nettoyage peut commencer dès que les pompiers ont donné leur autorisation et que le bâtiment est sécurisé. VINTELER peut intervenir dans les 24h suivant le sinistre pour limiter les dégâts secondaires."
+    - question: "La suie est-elle dangereuse pour la santé ?"
+      answer: "Oui, la suie contient des particules toxiques et des résidus de combustion nocifs. Il est important de ne pas nettoyer soi-même et de faire appel à des professionnels équipés. VINTELER utilise des EPI adaptés et des techniques sécurisées."
+    - question: "L'assurance couvre-t-elle le nettoyage après incendie ?"
+      answer: "Oui, le nettoyage après incendie est généralement couvert par votre assurance habitation au titre des frais de remise en état. VINTELER fournit un rapport détaillé avec photos pour faciliter votre indemnisation."
+    - question: "Peut-on éliminer les odeurs de fumée ?"
+      answer: "Oui, VINTELER utilise des générateurs d'ozone professionnels qui éliminent définitivement les odeurs de fumée, même imprégnées dans les murs et textiles. Le traitement dure 24-48h et est très efficace."
+  features:
+    - "Élimination suie et cendres"
+    - "Décontamination surfaces"
+    - "Nettoyage murs et plafonds"
+    - "Traitement textiles"
+    - "Élimination odeurs fumée"
+    - "Rapport pour assurance"
+  keywords:
+    - "nettoyage après incendie"
+    - "nettoyage sinistre incendie"
+    - "décontamination suie"
+    - "nettoyage fumée"
+    - "remise en état incendie"
+  related_services:
+    - "urgence-sinistre"
+    - "desodorisation"
+    - "demolition-urgente"
+  icon: "fire-clean"
+  featured: true
+  priority: 1
+
+- id: assechement-technique
+  name: "Assèchement Technique"
+  title: "Assèchement Technique Après Dégât des Eaux"
+  slug_prefix: "assechement-technique"
+  category: "urgence"
+  category_name: "Urgences 24/7"
+  description: "Assèchement professionnel après inondation ou dégât des eaux. Déshumidificateurs industriels, séchage murs et sols, prévention moisissures."
+  short_description: "Séchage professionnel post-inondation"
+  tldr: "VINTELER assèche vos murs et sols après dégât des eaux avec déshumidificateurs industriels et suivi hygrométrique."
+  answer_capsule: "L'assèchement technique VINTELER accélère le séchage de vos murs et sols après inondation ou dégât des eaux. Installation de déshumidificateurs industriels et aérothermes, suivi quotidien du taux d'humidité, rapport technique pour l'assurance. Prévient les moisissures et dégâts secondaires. Intervention sous 24h. Location ou prestation complète disponible."
+  stats:
+    typical_duration: "5-15 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Diagnostic humidité"
+      description: "Mesure du taux d'humidité des murs, sols et matériaux avec hygromètre professionnel pour établir le plan de séchage."
+    - step: "Installation équipements"
+      description: "Mise en place des déshumidificateurs industriels, aérothermes et ventilateurs selon le volume à traiter."
+    - step: "Suivi quotidien"
+      description: "Relevé journalier des mesures d'humidité, ajustement du dispositif selon l'évolution du séchage."
+    - step: "Rapport et retrait"
+      description: "Remise du rapport technique avec courbes de séchage pour l'assurance, retrait du matériel une fois l'objectif atteint."
+  faq:
+    - question: "Combien de temps pour sécher un mur après inondation ?"
+      answer: "Le temps de séchage varie de 5 à 15 jours selon l'épaisseur du mur et le taux d'humidité initial. Avec des déshumidificateurs professionnels, le séchage est 3 à 5 fois plus rapide qu'un séchage naturel."
+    - question: "Pourquoi faire appel à un assèchement professionnel ?"
+      answer: "Un séchage naturel peut prendre plusieurs mois et favorise le développement de moisissures. L'assèchement technique accélère le processus, prévient les dégâts secondaires et fournit un rapport pour votre assurance."
+    - question: "L'assurance prend-elle en charge l'assèchement ?"
+      answer: "Oui, l'assèchement technique est généralement couvert par l'assurance dégât des eaux. VINTELER fournit un rapport technique détaillé avec les mesures d'humidité qui facilite votre indemnisation."
+    - question: "Peut-on habiter pendant l'assèchement ?"
+      answer: "Oui, dans la plupart des cas vous pouvez rester dans le logement. Les déshumidificateurs sont bruyants mais peuvent être installés dans les pièces inoccupées. Nous adaptons le dispositif à votre situation."
+  features:
+    - "Déshumidificateurs industriels"
+    - "Séchage murs et sols"
+    - "Détection humidité résiduelle"
+    - "Prévention moisissures"
+    - "Suivi hygrométrique"
+    - "Rapport technique assurance"
+  keywords:
+    - "assèchement technique"
+    - "séchage après inondation"
+    - "déshumidification"
+    - "dégât des eaux"
+    - "séchage mur humide"
+  related_services:
+    - "urgence-sinistre"
+    - "pompage-urgence"
+    - "traitement-humidite"
+  icon: "dehumidifier"
+  featured: true
+  priority: 1
+
+- id: pompage-urgence
+  name: "Pompage Urgence"
+  title: "Pompage Urgence Inondation & Caves"
+  slug_prefix: "pompage-urgence"
+  category: "urgence"
+  category_name: "Urgences 24/7"
+  description: "Pompage d'urgence 24/7 après inondation : caves, parkings, bâtiments. Pompes haute capacité, intervention rapide, évacuation eaux usées."
+  short_description: "Évacuation eaux d'urgence 24/7"
+  features:
+    - "Disponible 24/7"
+    - "Pompes haute capacité"
+    - "Caves et sous-sols"
+    - "Parkings inondés"
+    - "Eaux usées/pluviales"
+    - "Intervention sous 2h"
+  keywords:
+    - "pompage urgence"
+    - "pompage cave inondée"
+    - "pompage inondation"
+    - "évacuation eau urgence"
+    - "pompage 24h"
+  related_services:
+    - "urgence-sinistre"
+    - "assechement-technique"
+    - "nettoyage-industriel"
+  icon: "pump"
+  featured: true
+  priority: 1
+  is_emergency: true
+  tldr: "Pompage d'urgence 24/7 pour caves, parkings et bâtiments inondés avec pompes haute capacité et intervention sous 2h."
+  answer_capsule: "Le pompage d'urgence après inondation nécessite une intervention immédiate pour limiter les dégâts. VINTELER intervient 24/7 avec des pompes haute capacité capables d'évacuer jusqu'à 500m³/heure. Caves inondées, parkings souterrains, locaux commerciaux : notre équipe est sur place en moins de 2h. Appelez le 0490 48 92 42 pour une intervention immédiate."
+  stats:
+    typical_duration: "2-8 heures"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Appel urgence 24/7"
+      description: "Contact téléphonique, évaluation situation, départ équipe sous 30 minutes."
+    - step: "Évaluation sur site"
+      description: "Analyse du niveau d'eau, identification source, choix équipements."
+    - step: "Pompage intensif"
+      description: "Déploiement pompes haute capacité, évacuation eaux vers réseau."
+    - step: "Séchage préventif"
+      description: "Début déshumidification, conseils assurance, rapport intervention."
+  faq:
+    - question: "Combien coûte un pompage d'urgence après inondation?"
+      answer: "Le prix du pompage d'urgence dépend du volume d'eau et de l'accessibilité. VINTELER propose un forfait incluant déplacement 24/7, pompage et rapport pour assurance. Appelez le 0490 48 92 42."
+    - question: "En combien de temps intervenez-vous pour un pompage urgent?"
+      answer: "VINTELER intervient sous 2 heures maximum en Belgique. Notre équipe d'astreinte est disponible 24/7, weekends et jours fériés compris. Appelez immédiatement pour mobiliser une équipe."
+    - question: "Quel volume d'eau pouvez-vous pomper?"
+      answer: "Nos pompes haute capacité évacuent jusqu'à 500m³/heure. Nous intervenons sur caves inondées, parkings souterrains, sous-sols commerciaux et industriels. Aucune limite de volume."
+    - question: "Le pompage est-il couvert par l'assurance?"
+      answer: "Oui, le pompage d'urgence est généralement couvert par votre assurance habitation ou RC professionnelle. VINTELER fournit un rapport détaillé avec photos pour faciliter votre déclaration de sinistre."
+
+- id: bachage-urgence
+  name: "Bâchage Urgence"
+  title: "Bâchage Urgence Toiture & Façade"
+  slug_prefix: "bachage-urgence"
+  category: "urgence"
+  category_name: "Urgences 24/7"
+  description: "Bâchage d'urgence après tempête ou sinistre : protection temporaire toitures, façades, ouvertures. Intervention rapide 24/7, mise hors d'eau."
+  short_description: "Protection temporaire post-sinistre"
+  features:
+    - "Disponible 24/7"
+    - "Bâches résistantes"
+    - "Protection toiture"
+    - "Fermeture ouvertures"
+    - "Mise hors d'eau rapide"
+    - "Rapport pour assurance"
+  keywords:
+    - "bâchage urgence"
+    - "bâchage toiture"
+    - "protection tempête"
+    - "mise hors eau"
+    - "bâchage sinistre"
+  related_services:
+    - "urgence-sinistre"
+    - "securisation-chantier"
+    - "demolition-urgente"
+  icon: "tarp"
+  featured: false
+  priority: 2
+  is_emergency: true
+  tldr: "Bâchage d'urgence 24/7 pour protéger toitures et façades endommagées après tempête ou sinistre avec mise hors d'eau rapide."
+  answer_capsule: "Le bâchage d'urgence protège votre bâtiment des intempéries après une tempête ou un sinistre. VINTELER intervient 24/7 pour installer des bâches résistantes sur toitures percées, façades endommagées ou ouvertures béantes. Mise hors d'eau garantie en quelques heures. Rapport photographique fourni pour votre assurance. Appelez le 0490 48 92 42."
+  stats:
+    typical_duration: "2-6 heures"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Appel urgence 24/7"
+      description: "Contact téléphonique, description dégâts, départ équipe rapide."
+    - step: "Sécurisation zone"
+      description: "Évaluation dégâts, sécurisation accès, protection périmètre."
+    - step: "Installation bâches"
+      description: "Pose bâches résistantes, fixation renforcée, étanchéité complète."
+    - step: "Documentation assurance"
+      description: "Photos avant/après, rapport intervention, conseils déclaration."
+  faq:
+    - question: "Combien coûte un bâchage d'urgence après tempête?"
+      answer: "Le prix du bâchage d'urgence dépend de la surface à protéger. VINTELER inclut déplacement 24/7, bâches professionnelles et fixations. Rapport assurance fourni. Appelez le 0490 48 92 42."
+    - question: "Combien de temps tient un bâchage temporaire?"
+      answer: "Nos bâchages résistent plusieurs semaines aux intempéries. Nous utilisons des bâches professionnelles renforcées avec fixations mécaniques. Solution efficace le temps des réparations définitives."
+    - question: "Intervenez-vous la nuit et le weekend pour le bâchage?"
+      answer: "Oui, VINTELER dispose d'une équipe d'astreinte 24/7, 365 jours par an. Nous intervenons de nuit, les weekends et jours fériés sans surcoût excessif. Votre bâtiment ne peut pas attendre."
+    - question: "Le bâchage est-il pris en charge par l'assurance?"
+      answer: "Oui, le bâchage d'urgence est une mesure conservatoire couverte par les assurances. VINTELER fournit un rapport détaillé avec photos pour votre déclaration de sinistre. Remboursement facilité."
+
+- id: desodorisation
+  name: "Désodorisation"
+  title: "Désodorisation Professionnelle"
+  slug_prefix: "desodorisation"
+  category: "urgence"
+  category_name: "Urgences 24/7"
+  description: "Traitement professionnel des mauvaises odeurs : incendie, décès, moisissures, égouts. Ozone, ionisation, neutralisants enzymatiques."
+  short_description: "Élimination odeurs tenaces"
+  features:
+    - "Traitement ozone"
+    - "Ionisation air"
+    - "Neutralisants enzymatiques"
+    - "Odeurs incendie"
+    - "Odeurs décès"
+    - "Odeurs moisissures"
+  keywords:
+    - "désodorisation"
+    - "élimination odeurs"
+    - "traitement odeurs"
+    - "ozone désodorisation"
+    - "odeur incendie"
+  related_services:
+    - "nettoyage-apres-incendie"
+    - "nettoyage-apres-deces"
+    - "urgence-sinistre"
+  icon: "air-fresh"
+  featured: false
+  priority: 2
+  tldr: "Désodorisation professionnelle par ozone, ionisation et neutralisants enzymatiques pour éliminer odeurs d'incendie, décès ou moisissures."
+  answer_capsule: "La désodorisation professionnelle élimine définitivement les odeurs tenaces que les produits ménagers ne peuvent traiter. VINTELER utilise trois techniques combinées : traitement ozone, ionisation de l'air et neutralisants enzymatiques. Efficace contre odeurs d'incendie, de décès, de moisissures ou d'égouts. Résultat garanti. Contactez-nous au 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "95"
+  process_steps:
+    - step: "Diagnostic olfactif"
+      description: "Identification source et type d'odeur, évaluation surfaces imprégnées."
+    - step: "Traitement ozone"
+      description: "Générateurs d'ozone pour oxyder molécules odorantes en profondeur."
+    - step: "Ionisation complémentaire"
+      description: "Purificateurs ionisants pour neutraliser particules en suspension."
+    - step: "Finition enzymatique"
+      description: "Application neutralisants enzymatiques sur surfaces, contrôle final."
+  faq:
+    - question: "Combien coûte une désodorisation professionnelle?"
+      answer: "Le prix de la désodorisation dépend de la surface et de l'intensité des odeurs. VINTELER propose un diagnostic gratuit pour établir un devis précis. Appelez le 0490 48 92 42."
+    - question: "Le traitement ozone est-il efficace contre les odeurs d'incendie?"
+      answer: "Oui, l'ozone est très efficace contre les odeurs d'incendie. Il oxyde les molécules de suie et de fumée en profondeur. VINTELER combine ozone et neutralisants pour un résultat 100% garanti."
+    - question: "Combien de temps dure une désodorisation complète?"
+      answer: "Une désodorisation complète dure 1 à 3 jours selon l'imprégnation. Le traitement ozone nécessite une évacuation temporaire du local. Résultat visible dès le premier traitement."
+    - question: "Peut-on éliminer les odeurs après un décès?"
+      answer: "Oui, VINTELER intervient avec discrétion et professionnalisme après un décès. Notre protocole combine nettoyage spécialisé, traitement ozone et neutralisants enzymatiques. Odeurs complètement éliminées."
 
 # ┌─────────────────────────────────────────────────────────────────────────┐
 # │ CATÉGORIE 5: DÉCOUPE MÉTALLIQUE & DÉMONTAGE INDUSTRIEL                  │
@@ -456,6 +1033,30 @@
   icon: "cutting-torch"
   featured: false
   priority: 2
+  tldr: "Découpe métallique professionnelle par oxycoupage et plasma pour structures, charpentes, cuves et équipements industriels."
+  answer_capsule: "La découpe métallique professionnelle permet de démanteler structures acier, charpentes métalliques et équipements industriels de façon sécurisée. VINTELER utilise oxycoupage et découpe plasma pour des coupes précises sur tous types de métaux. Intervention sur site, évacuation et valorisation des ferrailles incluses. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-5 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Analyse structure"
+      description: "Étude plans, repérage points de coupe, séquence démontage sécurisé."
+    - step: "Préparation chantier"
+      description: "Sécurisation zone, installation équipements, protection environnement."
+    - step: "Découpe méthodique"
+      description: "Oxycoupage ou plasma selon épaisseurs, découpe par sections."
+    - step: "Évacuation valorisation"
+      description: "Tri métaux, chargement, transport vers centre de recyclage."
+  faq:
+    - question: "Combien coûte une découpe métallique industrielle?"
+      answer: "Le prix de la découpe métallique dépend du tonnage et de la complexité. VINTELER propose un devis gratuit sur site incluant découpe, évacuation et valorisation ferrailles. Appelez le 0490 48 92 42."
+    - question: "Quelle technique de découpe pour l'acier épais?"
+      answer: "Pour l'acier épais (>20mm), nous utilisons l'oxycoupage qui permet des coupes propres jusqu'à 300mm d'épaisseur. Pour les aciers inox ou alu, la découpe plasma est privilégiée. VINTELER dispose des deux technologies."
+    - question: "Récupérez-vous la valeur des métaux découpés?"
+      answer: "Oui, VINTELER valorise tous les métaux ferreux et non-ferreux. La valeur de récupération est déduite de votre facture. Sur gros chantiers, cela peut représenter une économie significative."
+    - question: "Pouvez-vous découper une structure occupée?"
+      answer: "Oui, nous intervenons sur bâtiments en activité avec des protocoles de sécurité renforcés. Découpe par phases, travail de nuit possible, coordination avec votre exploitation. VINTELER s'adapte à vos contraintes."
 
 - id: demontage-industriel
   name: "Démontage Industriel"
@@ -485,6 +1086,30 @@
   icon: "factory-demolition"
   featured: false
   priority: 2
+  tldr: "Démontage industriel de lignes de production, machines-outils et équipements lourds avec récupération et valorisation des matériaux."
+  answer_capsule: "Le démontage industriel permet de démanteler usines, lignes de production et équipements lourds de façon organisée. VINTELER gère le démontage complet : machines-outils, ponts roulants, convoyeurs, cuves. Récupération et valorisation des métaux, évacuation déchets, remise en état des locaux. Un seul interlocuteur pour tout le chantier. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "1-4 semaines"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Audit industriel"
+      description: "Inventaire équipements, repérage réseaux, planification démontage."
+    - step: "Déconnexion réseaux"
+      description: "Consignation électrique, vidange fluides, déconnexion utilités."
+    - step: "Démontage séquentiel"
+      description: "Démantèlement méthodique, découpe si nécessaire, stockage temporaire."
+    - step: "Évacuation finale"
+      description: "Tri sélectif, valorisation métaux, nettoyage industriel des locaux."
+  faq:
+    - question: "Combien coûte un démontage d'usine complet?"
+      answer: "Le prix du démontage industriel dépend de la taille de l'installation. VINTELER réalise un audit gratuit pour chiffrer précisément. La valorisation des métaux réduit significativement le coût final."
+    - question: "Quelle est la durée d'un démontage industriel?"
+      answer: "Un démontage industriel dure 1 à 4 semaines selon la complexité. VINTELER peut accélérer les délais avec des équipes renforcées. Planning détaillé fourni avant démarrage."
+    - question: "Gérez-vous les déchets dangereux industriels?"
+      answer: "Oui, VINTELER est agréé pour la gestion des déchets industriels dangereux : huiles, solvants, batteries, etc. Bordereau de suivi déchets (BSD) fourni pour votre traçabilité environnementale."
+    - question: "Pouvez-vous démonter une usine en activité partielle?"
+      answer: "Oui, nous intervenons fréquemment sur sites partiellement actifs. Démontage par zones, travail en horaires décalés, coordination avec votre production. VINTELER minimise l'impact sur votre activité."
 
 - id: demontage-hangar
   name: "Démontage Hangar"
@@ -514,6 +1139,30 @@
   icon: "warehouse"
   featured: false
   priority: 3
+  tldr: "Démontage de hangars, entrepôts et bâtiments métalliques avec récupération charpente, bardage et valorisation des matériaux."
+  answer_capsule: "Le démontage de hangar permet de récupérer et valoriser les structures métalliques plutôt que de les détruire. VINTELER démonte hangars agricoles, entrepôts logistiques et ateliers industriels. Récupération charpente acier, bardage, couverture. Remise en état du terrain incluse. Solution économique et écologique. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "3-10 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Relevé structure"
+      description: "Analyse charpente, repérage assemblages, plan de démontage."
+    - step: "Démontage couverture"
+      description: "Dépose bardage et couverture, tri matériaux récupérables."
+    - step: "Démontage charpente"
+      description: "Déboulonnage structure, découpe si nécessaire, évacuation pièces."
+    - step: "Remise en état terrain"
+      description: "Enlèvement fondations, nivellement, nettoyage complet du site."
+  faq:
+    - question: "Combien coûte un démontage de hangar?"
+      answer: "Le prix du démontage d'un hangar dépend de la surface et de l'état de la structure. VINTELER valorise les matériaux récupérés ce qui réduit votre facture. Devis gratuit sur site au 0490 48 92 42."
+    - question: "Peut-on récupérer la charpente d'un hangar?"
+      answer: "Oui, une charpente métallique en bon état peut être revendue ou réutilisée. VINTELER démonte soigneusement pour préserver les éléments. La valeur de revente est déduite de votre facture ou versée."
+    - question: "Faut-il un permis pour démonter un hangar?"
+      answer: "Le démontage d'un hangar nécessite généralement une déclaration préalable ou un permis de démolir selon la surface. VINTELER peut vous accompagner dans les démarches administratives."
+    - question: "Démontez-vous aussi les dalles béton?"
+      answer: "Oui, VINTELER peut démolir les fondations et dalles béton après démontage du hangar. Évacuation gravats et remise en état terrain pour un site prêt à être réutilisé."
 
 - id: demontage-modulaire
   name: "Démontage Maison Modulaire"
@@ -543,6 +1192,30 @@
   icon: "modular"
   featured: false
   priority: 3
+  tldr: "Démontage de maisons modulaires, préfabriquées, containers et bungalows de chantier avec évacuation et remise en état du terrain."
+  answer_capsule: "Le démontage de constructions modulaires est plus rapide et économique que la démolition traditionnelle. VINTELER démonte maisons modulaires, constructions préfabriquées, containers aménagés et bungalows de chantier. Évacuation complète des éléments, démontage fondations légères, remise en état du terrain. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "95"
+  process_steps:
+    - step: "Déconnexion réseaux"
+      description: "Coupure électricité, eau, évacuation. Sécurisation du module."
+    - step: "Démontage intérieur"
+      description: "Retrait équipements, mobilier fixe, éléments récupérables."
+    - step: "Démontage structure"
+      description: "Séparation modules, préparation transport ou découpe sur place."
+    - step: "Remise en état"
+      description: "Enlèvement plots/fondations, nivellement terrain, nettoyage."
+  faq:
+    - question: "Combien coûte un démontage de maison modulaire?"
+      answer: "Le prix du démontage d'une maison modulaire dépend de la taille et de l'accessibilité. VINTELER propose un forfait incluant démontage, évacuation et remise en état terrain. Devis au 0490 48 92 42."
+    - question: "Peut-on déplacer une maison modulaire plutôt que la démonter?"
+      answer: "Oui, si la structure est en bon état et accessible aux convois exceptionnels. VINTELER évalue la faisabilité et peut organiser le transport vers un nouveau site. Solution économique et écologique."
+    - question: "Démontez-vous les bungalows de chantier Algeco?"
+      answer: "Oui, VINTELER démonte tous types de bungalows de chantier : Algeco, Portakabin, Cougnaud, etc. Location terminée ou fin de chantier, nous évacuons rapidement vos installations provisoires."
+    - question: "Faut-il un permis pour enlever un préfabriqué?"
+      answer: "Le retrait d'une construction modulaire nécessite rarement un permis si elle était temporaire. Pour les installations permanentes, une déclaration peut être requise. VINTELER vous conseille selon votre situation."
 
 # ┌─────────────────────────────────────────────────────────────────────────┐
 # │ CATÉGORIE 6: PROTECTION INCENDIE                                        │
@@ -574,9 +1247,36 @@
     - "protection-incendie-niveau2"
     - "protection-incendie-planchers"
     - "curage-interieur"
+    - "portes-coupe-feu"
+    - "clapets-coupe-feu"
+    - "audit-securite-incendie"
   icon: "fire-seal"
   featured: true
   priority: 2
+  tldr: "Calfeutrement coupe-feu des passages de câbles et tuyaux avec mousse RF et mastic intumescent pour maintenir le compartimentage."
+  answer_capsule: "Le calfeutrement coupe-feu protège votre bâtiment en obturant tous les passages de câbles et tuyaux à travers les murs et planchers. VINTELER utilise mousse expansive RF, mastic intumescent et plaques coupe-feu certifiées EI30/EI60. Indispensable après curage, rénovation ou passage de nouveaux réseaux. Travail propre avec attestation de conformité. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Repérage passages"
+      description: "Identification de tous les percements non obturés dans les parois coupe-feu."
+    - step: "Préparation support"
+      description: "Nettoyage des passages, retrait des éléments non conformes."
+    - step: "Application produits RF"
+      description: "Mise en œuvre mousse, mastic ou plaques selon configuration."
+    - step: "Contrôle et attestation"
+      description: "Vérification étanchéité, remise attestation de conformité."
+  faq:
+    - question: "Combien coûte un calfeutrement coupe-feu?"
+      answer: "Le prix du calfeutrement coupe-feu dépend du nombre de passages à traiter. VINTELER réalise un devis gratuit sur site avec inventaire précis. Produits certifiés et attestation fournie."
+    - question: "Quand faut-il réaliser un calfeutrement coupe-feu?"
+      answer: "Le calfeutrement est obligatoire après tout percement de paroi coupe-feu : passage câbles, tuyaux, gaines. Également après curage ou rénovation. VINTELER peut auditer votre bâtiment gratuitement."
+    - question: "Quelle est la durée de vie d'un calfeutrement RF?"
+      answer: "Un calfeutrement correctement réalisé dure toute la vie du bâtiment s'il n'est pas modifié. Les produits VINTELER sont certifiés pour des durées de résistance EI30 à EI120 selon les besoins."
+    - question: "Le calfeutrement est-il vérifié par les pompiers?"
+      answer: "Oui, les pompiers contrôlent le compartimentage lors de leurs visites. Un calfeutrement non conforme peut entraîner un avis défavorable. VINTELER fournit une attestation recevable par les services de prévention incendie."
 
 - id: protection-incendie-niveau2
   name: "Protection Incendie Niveau 2"
@@ -603,9 +1303,35 @@
     - "protection-incendie-niveau1"
     - "protection-incendie-planchers"
     - "protection-incendie-locaux"
+    - "cloisons-coupe-feu"
+    - "maintenance-coupe-feu"
   icon: "fire-coat"
   featured: true
   priority: 2
+  tldr: "Protection incendie avancée avec peinture intumescente sur structures acier et habillage coupe-feu de poutres et poteaux."
+  answer_capsule: "La protection incendie niveau 2 protège les structures métalliques exposées par peinture intumescente ou habillage coupe-feu. VINTELER applique des peintures certifiées sur poutres et poteaux acier pour atteindre les résistances EI60/EI90 requises. Également : colliers RF pour tuyauteries, caissons techniques. Solution esthétique préservant l'aspect industriel. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "2-7 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Calcul résistance"
+      description: "Analyse des structures, calcul protection nécessaire selon normes."
+    - step: "Préparation surfaces"
+      description: "Sablage ou brossage acier, application primaire anti-corrosion."
+    - step: "Application protection"
+      description: "Peinture intumescente multicouche ou pose habillage certifié."
+    - step: "Contrôle épaisseurs"
+      description: "Mesure des épaisseurs appliquées, PV de réception."
+  faq:
+    - question: "Combien coûte une peinture intumescente sur acier?"
+      answer: "Le prix de la peinture intumescente dépend du niveau de résistance requis (R30 à R120) et de la surface à traiter. VINTELER réalise un métré précis pour un devis détaillé. Application par équipe certifiée."
+    - question: "Quelle est la différence entre peinture et habillage coupe-feu?"
+      answer: "La peinture intumescente préserve l'esthétique de l'acier apparent. L'habillage (plaques, caissons) offre des résistances supérieures mais masque la structure. VINTELER vous conseille la solution adaptée à votre projet."
+    - question: "La peinture intumescente est-elle visible?"
+      answer: "Non, la peinture intumescente ressemble à une peinture classique. Elle gonfle uniquement en cas d'incendie pour former une couche isolante. Finition lisse ou texturée selon votre choix."
+    - question: "Peut-on peindre par-dessus une peinture intumescente?"
+      answer: "Oui, sous conditions. Seules certaines peintures de finition sont compatibles. VINTELER applique si nécessaire une finition décorative certifiée compatible avec la protection intumescente."
 
 - id: protection-incendie-planchers
   name: "Protection Planchers & Plafonds"
@@ -635,6 +1361,30 @@
   icon: "floor-ceiling"
   featured: false
   priority: 3
+  tldr: "Renforcement coupe-feu de planchers et plafonds existants pour atteindre les résistances EI60/EI90 requises par la réglementation."
+  answer_capsule: "Le renforcement coupe-feu de planchers et plafonds améliore la résistance au feu des structures existantes. VINTELER installe des habillages EI sous plafonds techniques, traite les sous-faces de planchers bois anciens et renforce les dalles. Solution idéale pour mise en conformité de bâtiments existants sans démolition. Certification garantie. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "3-10 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "95"
+  process_steps:
+    - step: "Diagnostic existant"
+      description: "Analyse de la structure actuelle, calcul des renforts nécessaires."
+    - step: "Préparation chantier"
+      description: "Protection des locaux, installation échafaudages si nécessaire."
+    - step: "Pose renforcement"
+      description: "Installation plaques coupe-feu, flocage ou peinture selon cas."
+    - step: "Finitions et certification"
+      description: "Jointement, finition esthétique, attestation de conformité."
+  faq:
+    - question: "Comment améliorer la résistance au feu d'un plancher bois?"
+      answer: "Un plancher bois ancien peut être renforcé par habillage sous-face en plaques coupe-feu ou flocage. VINTELER évalue votre plancher et propose la solution la plus adaptée pour atteindre EI30, EI60 ou EI90."
+    - question: "Combien coûte un renforcement de plafond coupe-feu?"
+      answer: "Le prix du renforcement de plafond coupe-feu dépend de la résistance visée et de la configuration. VINTELER réalise un devis gratuit après visite technique. Solution souvent plus économique qu'une reconstruction."
+    - question: "Peut-on renforcer un plafond sans le démonter?"
+      answer: "Oui, dans la plupart des cas. L'habillage coupe-feu se pose sous le plafond existant, ajoutant quelques centimètres d'épaisseur. VINTELER minimise l'impact sur la hauteur sous plafond."
+    - question: "Le renforcement est-il certifié pour les pompiers?"
+      answer: "Oui, VINTELER utilise uniquement des systèmes certifiés avec PV d'essai feu. Nous fournissons une attestation de conformité recevable par les services de prévention incendie."
 
 - id: protection-incendie-locaux
   name: "Protection Locaux à Risque"
@@ -664,6 +1414,295 @@
   icon: "risk-room"
   featured: false
   priority: 2
+  tldr: "Mise en conformité incendie des locaux à risque : chaufferies, locaux poubelles, compteurs et parkings avec solutions certifiées."
+  answer_capsule: "Les locaux à risque (poubelles, chaufferie, compteurs, parking) doivent respecter des exigences coupe-feu spécifiques. VINTELER réalise la mise en conformité complète : portes RF, clapets, calfeutrement, ventilation. Solutions adaptées aux contraintes de chaque local technique. Intervention rapide sans arrêt d'exploitation. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-5 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Audit du local"
+      description: "Vérification conformité actuelle, identification des manquements."
+    - step: "Proposition technique"
+      description: "Devis détaillé avec solutions adaptées à chaque point de non-conformité."
+    - step: "Travaux de mise aux normes"
+      description: "Pose porte RF, calfeutrement, ventilation, signalétique."
+    - step: "Réception et documentation"
+      description: "Contrôle final, attestations de conformité pour chaque équipement."
+  faq:
+    - question: "Quelles sont les normes pour un local poubelles?"
+      answer: "Un local poubelles doit avoir des parois EI60, une porte EI30 avec ferme-porte, une ventilation haute/basse et un sol lavable. VINTELER réalise la mise en conformité complète de votre local poubelles."
+    - question: "Comment mettre aux normes une chaufferie?"
+      answer: "Une chaufferie nécessite des parois EI120 ou EI60 selon puissance, une porte EI30/EI60, une ventilation réglementaire et des coupures de sécurité. VINTELER audite et met aux normes vos chaufferies."
+    - question: "Le parking souterrain doit-il être coupe-feu?"
+      answer: "Oui, un parking souterrain doit être compartimenté avec des parois et portes coupe-feu, des clapets sur les gaines, un désenfumage. VINTELER réalise les travaux de mise en conformité des parkings."
+    - question: "Combien coûte la mise aux normes d'un local technique?"
+      answer: "Le prix de la mise aux normes d'un local à risque dépend de l'ampleur des travaux nécessaires. VINTELER propose un audit gratuit avec devis détaillé poste par poste."
+
+- id: portes-coupe-feu
+  name: "Portes Coupe-Feu"
+  title: "Pose & Remplacement Portes Coupe-Feu"
+  slug_prefix: "portes-coupe-feu"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Fourniture et pose de portes coupe-feu certifiées EI30, EI60, EI90. Remplacement portes vétustes, mise en conformité, attestation de pose."
+  short_description: "Portes RF certifiées EI30-EI90"
+  tldr: "VINTELER fournit et pose des portes coupe-feu certifiées EI30/EI60/EI90 avec attestation de conformité."
+  answer_capsule: "VINTELER fournit et installe des portes coupe-feu certifiées conformes aux normes belges. Gamme complète : EI30 (30 min), EI60 (60 min), EI90 (90 min). Pose par équipe spécialisée avec attestation de conformité pour les pompiers. Remplacement de portes vétustes, mise aux normes après contrôle incendie, équipement de nouveaux bâtiments. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "1-2 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "98"
+  process_steps:
+    - step: "Relevé de mesures"
+      description: "Prise de cotes précises, vérification du cadre existant et choix du modèle adapté (EI30/EI60/EI90)."
+    - step: "Dépose ancienne porte"
+      description: "Retrait soigneux de l'ancienne porte si remplacement, préparation et adaptation du cadre si nécessaire."
+    - step: "Pose certifiée"
+      description: "Installation de la porte coupe-feu selon les prescriptions du fabricant, réglage du ferme-porte et de la serrure."
+    - step: "Attestation de conformité"
+      description: "Vérification du fonctionnement, remise de l'attestation de pose et des documents pour les pompiers."
+  faq:
+    - question: "Quelle différence entre EI30, EI60 et EI90 ?"
+      answer: "EI30, EI60 et EI90 indiquent la durée de résistance au feu : 30, 60 ou 90 minutes. Le choix dépend de la réglementation applicable à votre bâtiment et de l'emplacement de la porte. VINTELER vous conseille sur le niveau requis."
+    - question: "Combien coûte une porte coupe-feu ?"
+      answer: "Le prix d'une porte coupe-feu dépend du niveau de résistance (EI30/EI60/EI90), des dimensions et des accessoires (ferme-porte, serrure). VINTELER fournit un devis détaillé gratuit."
+    - question: "Fournissez-vous une attestation de pose ?"
+      answer: "Oui, VINTELER délivre systématiquement une attestation de pose certifiant la conformité de l'installation. Ce document est indispensable pour les contrôles des pompiers et la validation de votre assurance incendie."
+    - question: "Remplacez-vous les anciennes portes coupe-feu ?"
+      answer: "Oui, nous remplaçons les portes coupe-feu vétustes ou non conformes. Dépose de l'ancienne porte, adaptation du cadre si nécessaire, pose de la nouvelle porte certifiée et attestation de conformité. Intervention propre et rapide."
+  features:
+    - "Portes EI30/EI60/EI90"
+    - "Pose certifiée"
+    - "Remplacement ancien"
+    - "Mise en conformité"
+    - "Attestation de pose"
+    - "Tous types de bâtiments"
+  keywords:
+    - "porte coupe-feu"
+    - "porte RF"
+    - "porte EI60"
+    - "porte anti-feu"
+    - "porte résistante au feu"
+  related_services:
+    - "clapets-coupe-feu"
+    - "cloisons-coupe-feu"
+    - "protection-incendie-niveau1"
+  icon: "fire-door"
+  featured: true
+  priority: 1
+
+- id: clapets-coupe-feu
+  name: "Clapets Coupe-Feu"
+  title: "Installation Clapets Coupe-Feu Ventilation"
+  slug_prefix: "clapets-coupe-feu"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Pose de clapets coupe-feu dans les gaines de ventilation et conduits. Maintien du compartimentage, conformité réglementaire, rapport d'installation."
+  short_description: "Clapets RF gaines ventilation"
+  features:
+    - "Clapets certifiés"
+    - "Gaines ventilation"
+    - "Conduits techniques"
+    - "Maintien compartimentage"
+    - "Conformité normes"
+    - "Rapport installation"
+  keywords:
+    - "clapet coupe-feu"
+    - "clapet RF"
+    - "clapet ventilation"
+    - "compartimentage feu"
+    - "clapet anti-feu"
+  related_services:
+    - "portes-coupe-feu"
+    - "protection-incendie-niveau1"
+    - "protection-incendie-niveau2"
+  icon: "fire-damper"
+  featured: false
+  priority: 2
+  tldr: "Installation de clapets coupe-feu certifiés dans les gaines de ventilation pour maintenir le compartimentage incendie du bâtiment."
+  answer_capsule: "Les clapets coupe-feu se ferment automatiquement en cas d'incendie pour empêcher la propagation du feu et des fumées via les gaines de ventilation. VINTELER installe des clapets certifiés sur toutes les traversées de parois coupe-feu. Indispensable pour la conformité incendie. Rapport d'installation et plan de repérage fournis. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Repérage gaines"
+      description: "Identification de tous les passages de gaines à travers parois RF."
+    - step: "Dimensionnement clapets"
+      description: "Relevé des sections, commande clapets adaptés."
+    - step: "Pose certifiée"
+      description: "Installation dans les règles de l'art, raccordement éventuel."
+    - step: "Documentation"
+      description: "Plan de repérage des clapets, rapport d'installation."
+  faq:
+    - question: "Combien coûte l'installation d'un clapet coupe-feu?"
+      answer: "Le prix d'un clapet coupe-feu installé dépend de la dimension et de l'accessibilité. VINTELER réalise un inventaire complet pour un devis précis. Prix dégressif sur quantité."
+    - question: "Comment savoir si mes clapets sont conformes?"
+      answer: "Les clapets doivent être certifiés, correctement dimensionnés et installés selon les prescriptions. Un clapet ancien ou rouillé peut être bloqué. VINTELER audite vos installations et propose le remplacement si nécessaire."
+    - question: "Les clapets coupe-feu nécessitent-ils un entretien?"
+      answer: "Oui, les clapets doivent être contrôlés annuellement : test de fermeture, vérification état. VINTELER propose des contrats de maintenance incluant le contrôle de tous vos équipements coupe-feu."
+    - question: "Peut-on installer un clapet sur une gaine existante?"
+      answer: "Oui, VINTELER installe des clapets sur gaines existantes. L'intervention nécessite une découpe de la gaine, l'insertion du clapet et le calfeutrement. Intervention rapide et propre."
+
+- id: cloisons-coupe-feu
+  name: "Cloisons Coupe-Feu"
+  title: "Construction Cloisons Coupe-Feu"
+  slug_prefix: "cloisons-coupe-feu"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Construction de cloisons coupe-feu EI60/EI90/EI120 pour compartimentage. Plaques résistantes au feu, ossature métallique, certification."
+  short_description: "Cloisons RF compartimentage"
+  features:
+    - "Cloisons EI60/EI90/EI120"
+    - "Plaques résistantes feu"
+    - "Ossature métallique"
+    - "Compartimentage"
+    - "Certification"
+    - "Plans techniques"
+  keywords:
+    - "cloison coupe-feu"
+    - "cloison RF"
+    - "compartimentage incendie"
+    - "mur coupe-feu"
+    - "cloison EI90"
+  related_services:
+    - "portes-coupe-feu"
+    - "protection-incendie-niveau2"
+    - "protection-incendie-planchers"
+  icon: "fire-wall"
+  featured: true
+  priority: 1
+  tldr: "Construction de cloisons coupe-feu EI60/EI90/EI120 pour créer un compartimentage efficace et conforme à la réglementation incendie."
+  answer_capsule: "Les cloisons coupe-feu divisent le bâtiment en compartiments pour limiter la propagation du feu. VINTELER construit des cloisons certifiées EI60 à EI120 en plaques résistantes au feu sur ossature métallique. Intégration des portes RF, calfeutrement des passages. Solution clé en main avec plans techniques et certification. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "3-10 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Étude compartimentage"
+      description: "Analyse des besoins, définition des parois selon réglementation."
+    - step: "Préparation chantier"
+      description: "Traçage, pose ossature métallique, réservations portes."
+    - step: "Montage cloison"
+      description: "Pose plaques coupe-feu double ou triple parement selon EI visé."
+    - step: "Finitions et certification"
+      description: "Jointement, intégration portes RF, attestation de conformité."
+  faq:
+    - question: "Combien coûte une cloison coupe-feu au m²?"
+      answer: "Le prix d'une cloison coupe-feu dépend du niveau de résistance (EI60 à EI120) et des finitions. VINTELER réalise un devis précis après relevé des surfaces. Portes RF en supplément."
+    - question: "Quelle épaisseur pour une cloison EI60?"
+      answer: "Une cloison EI60 standard fait environ 100mm d'épaisseur (ossature + double parement). VINTELER optimise l'épaisseur selon vos contraintes d'espace tout en garantissant la certification."
+    - question: "Peut-on créer un compartimentage dans un bâtiment existant?"
+      answer: "Oui, VINTELER intervient régulièrement pour créer des compartiments coupe-feu dans des bâtiments existants. Jonction étanche avec les parois existantes, intégration des réseaux, respect de l'exploitation."
+    - question: "Les cloisons coupe-feu sont-elles aussi acoustiques?"
+      answer: "Oui, les cloisons coupe-feu offrent généralement une bonne isolation acoustique (40 à 55 dB). VINTELER peut renforcer la performance acoustique si nécessaire avec des solutions combinées RF + acoustique."
+
+- id: audit-securite-incendie
+  name: "Audit Sécurité Incendie"
+  title: "Audit & Diagnostic Sécurité Incendie"
+  slug_prefix: "audit-securite-incendie"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Audit complet de la sécurité incendie de votre bâtiment. Identification des non-conformités, recommandations de mise aux normes, rapport détaillé."
+  short_description: "Diagnostic conformité incendie"
+  features:
+    - "Audit complet"
+    - "Identification non-conformités"
+    - "Recommandations"
+    - "Rapport détaillé"
+    - "Estimation travaux"
+    - "Accompagnement pompiers"
+  keywords:
+    - "audit incendie"
+    - "diagnostic sécurité incendie"
+    - "conformité incendie"
+    - "mise aux normes incendie"
+    - "rapport incendie"
+  related_services:
+    - "protection-incendie-niveau1"
+    - "portes-coupe-feu"
+    - "maintenance-coupe-feu"
+  icon: "audit-fire"
+  featured: true
+  priority: 1
+  tldr: "Audit complet de la sécurité incendie avec identification des non-conformités, recommandations de mise aux normes et rapport détaillé."
+  answer_capsule: "L'audit sécurité incendie identifie toutes les non-conformités de votre bâtiment avant un contrôle des pompiers ou pour préparer des travaux. VINTELER réalise un diagnostic complet : compartimentage, issues de secours, équipements coupe-feu, signalétique. Rapport détaillé avec photos, priorisation des travaux et estimation budgétaire. Premier audit gratuit. Appelez le 0490 48 92 42."
+  stats:
+    typical_duration: "1-2 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "98"
+  process_steps:
+    - step: "Visite complète"
+      description: "Inspection de tous les locaux, équipements et issues de secours."
+    - step: "Relevé des écarts"
+      description: "Identification des non-conformités par rapport aux normes applicables."
+    - step: "Rapport photographique"
+      description: "Documentation de chaque point avec photos et références réglementaires."
+    - step: "Plan d'action"
+      description: "Priorisation des travaux, estimation budgétaire, planning suggéré."
+  faq:
+    - question: "Combien coûte un audit sécurité incendie?"
+      answer: "Le prix d'un audit sécurité incendie dépend de la taille du bâtiment. VINTELER offre le premier audit pour les projets de mise en conformité. Rapport détaillé avec photos et estimations."
+    - question: "Quand faut-il réaliser un audit incendie?"
+      answer: "Un audit est recommandé avant un contrôle des pompiers, après un avis défavorable, avant l'achat d'un bâtiment, ou en préparation de travaux. VINTELER peut intervenir sous 48h pour les urgences."
+    - question: "L'audit est-il accepté par les pompiers?"
+      answer: "L'audit VINTELER est un document technique interne pour préparer votre mise en conformité. Le contrôle officiel reste réalisé par les services de prévention incendie. Notre audit vous permet d'anticiper leurs observations."
+    - question: "Proposez-vous les travaux après l'audit?"
+      answer: "Oui, VINTELER réalise tous les travaux de mise en conformité identifiés lors de l'audit : portes RF, clapets, calfeutrement, cloisons, signalétique. Un seul interlocuteur du diagnostic à la réception."
+
+- id: maintenance-coupe-feu
+  name: "Maintenance Coupe-Feu"
+  title: "Maintenance & Entretien Équipements Coupe-Feu"
+  slug_prefix: "maintenance-coupe-feu"
+  category: "incendie"
+  category_name: "Protection Incendie"
+  description: "Maintenance préventive des équipements coupe-feu : portes, clapets, joints. Contrôle annuel, remplacement pièces usées, carnet d'entretien."
+  short_description: "Entretien préventif équipements RF"
+  features:
+    - "Contrôle annuel"
+    - "Maintenance portes RF"
+    - "Vérification clapets"
+    - "Remplacement joints"
+    - "Carnet d'entretien"
+    - "Contrats maintenance"
+  keywords:
+    - "maintenance coupe-feu"
+    - "entretien porte RF"
+    - "contrôle incendie"
+    - "maintenance incendie"
+    - "entretien sécurité incendie"
+  related_services:
+    - "portes-coupe-feu"
+    - "clapets-coupe-feu"
+    - "audit-securite-incendie"
+  icon: "maintenance"
+  featured: false
+  priority: 2
+  tldr: "Maintenance préventive annuelle des équipements coupe-feu : portes RF, clapets, joints avec carnet d'entretien et contrats sur mesure."
+  answer_capsule: "La maintenance des équipements coupe-feu est obligatoire pour garantir leur fonctionnement en cas d'incendie. VINTELER propose des contrats de maintenance annuelle : contrôle portes RF (fermeture, joints, quincaillerie), test clapets, vérification calfeutrements. Carnet d'entretien tenu à jour, remplacement pièces usées. Conformité assurée. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "1 jour/an"
+    typical_cost_range: "Sur devis"
+    satisfaction: "98"
+  process_steps:
+    - step: "Planification visite"
+      description: "Programmation de la visite annuelle selon vos disponibilités."
+    - step: "Contrôle équipements"
+      description: "Test fonctionnel de chaque porte RF, clapet, exutoire."
+    - step: "Maintenance corrective"
+      description: "Réglages, lubrification, remplacement pièces usées."
+    - step: "Mise à jour carnet"
+      description: "Rapport d'intervention, mise à jour du carnet d'entretien."
+  faq:
+    - question: "La maintenance coupe-feu est-elle obligatoire?"
+      answer: "Oui, la réglementation impose un contrôle annuel des équipements coupe-feu. Le carnet d'entretien doit être présenté aux pompiers lors de leurs visites. VINTELER assure cette maintenance avec remise du carnet à jour."
+    - question: "Combien coûte un contrat de maintenance coupe-feu?"
+      answer: "Le prix d'un contrat de maintenance coupe-feu dépend du nombre d'équipements à entretenir. VINTELER propose des forfaits adaptés à chaque bâtiment. Pièces de remplacement incluses ou en supplément selon formule."
+    - question: "Que comprend la maintenance d'une porte coupe-feu?"
+      answer: "La maintenance d'une porte RF comprend : test de fermeture automatique, contrôle joints intumescents, vérification serrure et paumelles, graissage, réglage ferme-porte. VINTELER remplace immédiatement les pièces défectueuses."
+    - question: "Maintenez-vous tous types d'équipements coupe-feu?"
+      answer: "Oui, VINTELER assure la maintenance de tous les équipements : portes RF, clapets, exutoires, volets, rideaux métalliques coupe-feu. Un seul contrat pour l'ensemble de vos équipements."
 
 # ┌─────────────────────────────────────────────────────────────────────────┐
 # │ CATÉGORIE 7: TRAITEMENTS SPÉCIALISÉS                                    │
@@ -678,6 +1717,30 @@
   category_name: "Traitements Spécialisés"
   description: "Traitement de l'humidité ascensionnelle et du salpêtre : injection de résine, barrière étanche, enduits anti-humidité, drainage, ventilation."
   short_description: "Injection et assèchement murs"
+  tldr: "VINTELER traite l'humidité des murs par injection de résine avec garantie 10 ans contre les remontées capillaires."
+  answer_capsule: "Le traitement de l'humidité VINTELER élimine définitivement les remontées capillaires et le salpêtre. Technique : injection de résine hydrophobe dans le mur créant une barrière étanche. Complété par un enduit de cuvelage si nécessaire. Diagnostic gratuit avec mesures d'humidité. Garantie 10 ans. Résultats visibles après 3-6 mois de séchage naturel. Appelez le 0490 48 92 42."
+  stats:
+    typical_duration: "1-3 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Diagnostic humidité"
+      description: "Mesure du taux d'humidité avec hygromètre professionnel, identification de l'origine (remontées capillaires, infiltrations)."
+    - step: "Préparation des murs"
+      description: "Retrait des enduits dégradés, nettoyage des salpêtres, perçage des trous d'injection espacés de 10-15 cm."
+    - step: "Injection de résine"
+      description: "Injection sous pression de résine hydrophobe créant une barrière étanche contre les remontées capillaires."
+    - step: "Finitions et garantie"
+      description: "Application d'un enduit de cuvelage si nécessaire, remise du certificat de garantie 10 ans."
+  faq:
+    - question: "Comment fonctionne le traitement par injection ?"
+      answer: "Des trous sont percés à la base du mur tous les 10-15 cm. Une résine hydrophobe est injectée sous pression, créant une barrière étanche qui bloque les remontées capillaires. Le mur sèche naturellement en 3 à 6 mois. Technique éprouvée et garantie 10 ans."
+    - question: "Combien coûte un traitement contre l'humidité ?"
+      answer: "Le prix du traitement par injection dépend de l'épaisseur du mur et de l'accessibilité. VINTELER réalise un diagnostic gratuit avec mesures d'humidité pour établir un devis précis adapté à votre situation."
+    - question: "Combien de temps pour voir les résultats ?"
+      answer: "Après injection, le mur doit sécher naturellement. Comptez 3 à 6 mois pour un assèchement complet, selon l'épaisseur du mur et le taux d'humidité initial. Les taches de salpêtre disparaissent progressivement pendant cette période."
+    - question: "Le traitement est-il garanti ?"
+      answer: "Oui, VINTELER garantit ses traitements d'humidité pendant 10 ans. Si des remontées capillaires réapparaissent dans la zone traitée, nous intervenons gratuitement. Un certificat de garantie vous est remis après travaux."
   features:
     - "Injection résine/crème"
     - "Barrière étanche"
@@ -728,6 +1791,30 @@
   icon: "fungus"
   featured: true
   priority: 2
+  tldr: "Traitement complet de la mérule et champignons lignivores avec diagnostic, élimination, traitement curatif et prévention des récidives."
+  answer_capsule: "La mérule est un champignon destructeur qui peut compromettre la solidité de votre bâtiment. VINTELER réalise un diagnostic précis, élimine le champignon visible, traite en profondeur les bois et maçonneries affectés, puis met en place des mesures préventives. Intervention rapide essentielle pour stopper la propagation. Garantie sur le traitement. Appelez le 0490 48 92 42."
+  stats:
+    typical_duration: "3-10 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Diagnostic expert"
+      description: "Identification du champignon, cartographie de l'étendue des dégâts."
+    - step: "Curage zone infectée"
+      description: "Retrait bois et plâtres contaminés, mise à nu des maçonneries."
+    - step: "Traitement fongicide"
+      description: "Application produits certifiés sur bois et maçonneries."
+    - step: "Reconstruction et prévention"
+      description: "Remplacement éléments, ventilation, barrières anti-humidité."
+  faq:
+    - question: "Combien coûte un traitement mérule?"
+      answer: "Le prix du traitement de la mérule dépend de l'étendue de l'infestation. VINTELER réalise un diagnostic gratuit pour évaluer les travaux nécessaires. Devis détaillé sous 48h."
+    - question: "Comment reconnaître la mérule?"
+      answer: "La mérule se manifeste par des filaments blancs cotonneux, une odeur de champignon, du bois qui s'effrite et des taches brunes sur les murs. En cas de doute, faites appel à VINTELER pour un diagnostic expert."
+    - question: "La mérule peut-elle revenir après traitement?"
+      answer: "Un traitement professionnel avec élimination de la cause (humidité) garantit l'absence de récidive. VINTELER traite la source du problème et pas seulement les symptômes. Garantie sur nos traitements."
+    - question: "L'assurance couvre-t-elle le traitement mérule?"
+      answer: "Rarement. La mérule est généralement exclue des garanties standard. Certaines assurances habitation couvrent les dégâts si l'humidité provient d'un sinistre couvert. VINTELER fournit un rapport pour votre assurance."
 
 - id: traitement-radon
   name: "Traitement Radon"
@@ -756,6 +1843,30 @@
   icon: "radon"
   featured: false
   priority: 3
+  tldr: "Diagnostic et traitement du radon avec pose de détecteurs, ventilation sous dalle et solutions conformes aux normes SPF Santé."
+  answer_capsule: "Le radon est un gaz radioactif naturel cancérigène présent dans certaines régions de Belgique. VINTELER réalise le diagnostic (pose détecteurs 3 mois) puis les travaux de réduction : ventilation sous dalle, puisard radon, étanchéité des passages. Solutions conformes aux recommandations du SPF Santé. Protégez votre famille. Appelez le 0490 48 92 42."
+  stats:
+    typical_duration: "2-5 jours (hors mesure)"
+    typical_cost_range: "Sur devis"
+    satisfaction: "95"
+  process_steps:
+    - step: "Mesure radon"
+      description: "Pose de détecteurs pendant 3 mois pour mesurer la concentration."
+    - step: "Analyse résultats"
+      description: "Interprétation des mesures, identification des points d'entrée."
+    - step: "Travaux réduction"
+      description: "Ventilation sous dalle, puisard radon, étanchéité selon besoins."
+    - step: "Contrôle efficacité"
+      description: "Nouvelle mesure pour vérifier la réduction effective du radon."
+  faq:
+    - question: "Combien coûte un traitement radon?"
+      answer: "Le prix du traitement radon dépend des travaux nécessaires (ventilation, puisard, étanchéité). VINTELER propose un devis personnalisé après analyse des mesures de radon."
+    - question: "Ma région est-elle concernée par le radon?"
+      answer: "En Belgique, les régions ardennaises sont les plus touchées : provinces de Luxembourg, Namur, Liège. Mais le radon peut être présent partout. VINTELER recommande une mesure systématique dans les zones à risque."
+    - question: "Quel est le seuil de radon dangereux?"
+      answer: "Le niveau d'action recommandé en Belgique est 300 Bq/m³. Au-delà, des travaux de réduction sont conseillés. VINTELER intervient pour ramener les concentrations sous ce seuil, idéalement sous 100 Bq/m³."
+    - question: "Le traitement radon est-il définitif?"
+      answer: "Oui, si les travaux sont correctement réalisés. La ventilation mécanique sous dalle ou le puisard actif évacuent le radon en continu. VINTELER garantit l'efficacité de ses installations avec mesure de contrôle."
 
 - id: reparation-beton
   name: "Réparation Béton"
@@ -785,6 +1896,30 @@
   icon: "concrete"
   featured: false
   priority: 3
+  tldr: "Réparation de béton dégradé avec passivation des armatures, reprises localisées, ragréage et protection anticorrosion durable."
+  answer_capsule: "Le béton dégradé (éclatement, armatures apparentes, carbonatation) compromet la solidité de votre structure. VINTELER réalise les réparations : piquage du béton altéré, passivation des armatures, application de mortiers de réparation, protection anticorrosion. Solutions durables pour balcons, parkings, poutres, dalles. Diagnostic gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "2-7 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "96"
+  process_steps:
+    - step: "Diagnostic structure"
+      description: "Évaluation de l'étendue des dégradations, test de carbonatation."
+    - step: "Préparation support"
+      description: "Piquage béton altéré, mise à nu armatures, sablage/brossage."
+    - step: "Traitement armatures"
+      description: "Passivation anticorrosion, pontage fissures si nécessaire."
+    - step: "Réparation et protection"
+      description: "Application mortiers de réparation, finition, revêtement protecteur."
+  faq:
+    - question: "Combien coûte une réparation de béton?"
+      answer: "Le prix de la réparation de béton dépend de l'étendue des dégâts et de l'accessibilité. VINTELER réalise un diagnostic gratuit avec métré précis. Intervention sur balcons, parkings, structures."
+    - question: "Pourquoi le béton se dégrade-t-il?"
+      answer: "Le béton se dégrade par carbonatation (perte d'alcalinité), infiltration d'eau, gel/dégel ou corrosion des armatures. VINTELER identifie la cause pour traiter le problème à la source et pas seulement les symptômes."
+    - question: "La réparation est-elle durable?"
+      answer: "Oui, une réparation professionnelle avec produits certifiés dure plusieurs décennies. VINTELER applique des mortiers de réparation structurels et des protections anticorrosion garantissant la pérennité."
+    - question: "Réparez-vous les balcons en béton?"
+      answer: "Oui, les balcons sont notre spécialité. Réparation du béton éclaté, traitement des armatures corrodées, étanchéité et finition. VINTELER intervient avec nacelle si nécessaire pour les étages élevés."
 
 # ┌─────────────────────────────────────────────────────────────────────────┐
 # │ CATÉGORIE 8: ACOUSTIQUE & SOLS EXTÉRIEURS                               │
@@ -817,6 +1952,30 @@
   icon: "sound"
   featured: false
   priority: 3
+  tldr: "Solutions d'isolation acoustique professionnelle avec panneaux muraux absorbants, dalles plafond et traitement localisé du bruit."
+  answer_capsule: "L'isolation acoustique améliore le confort dans les bureaux, salles de réunion et locaux bruyants. VINTELER installe des panneaux muraux absorbants, dalles de plafond acoustiques et habillages phoniques. Solutions esthétiques qui réduisent la réverbération et les nuisances sonores. Également : isolation entre locaux pour limiter la transmission du bruit. Devis au 0490 48 92 42."
+  stats:
+    typical_duration: "1-5 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "94"
+  process_steps:
+    - step: "Diagnostic acoustique"
+      description: "Analyse des sources de bruit, mesure des temps de réverbération."
+    - step: "Conception solution"
+      description: "Proposition de traitement adapté : absorption, isolation ou les deux."
+    - step: "Installation"
+      description: "Pose des panneaux, dalles ou habillages par équipe spécialisée."
+    - step: "Validation performance"
+      description: "Test acoustique post-travaux, ajustements si nécessaire."
+  faq:
+    - question: "Combien coûte une isolation acoustique de bureau?"
+      answer: "Le prix de l'isolation acoustique d'un bureau dépend de la surface et de la performance visée. VINTELER propose un diagnostic gratuit pour identifier la solution optimale. Panneaux muraux, dalles plafond, cloisons."
+    - question: "Quelle différence entre absorption et isolation?"
+      answer: "L'absorption réduit la réverbération dans un local (écho). L'isolation empêche le bruit de passer entre deux locaux. VINTELER analyse vos besoins pour proposer la solution adaptée, souvent une combinaison des deux."
+    - question: "Les panneaux acoustiques sont-ils esthétiques?"
+      answer: "Oui, les panneaux acoustiques modernes existent en nombreux coloris et textures. Ils peuvent devenir un élément décoratif. VINTELER propose des solutions design adaptées à votre intérieur professionnel."
+    - question: "Peut-on isoler un local sans gros travaux?"
+      answer: "Oui, les panneaux acoustiques se posent en applique sur murs et plafonds existants. Installation rapide et propre, sans démolition. VINTELER minimise l'impact sur votre activité."
 
 - id: pavage
   name: "Pavage & Dallage"
@@ -847,6 +2006,30 @@
   icon: "paving"
   featured: false
   priority: 3
+  tldr: "Pose professionnelle de pavés, dalles et klinkers pour allées, terrasses, cours et parkings avec drainage intégré."
+  answer_capsule: "Le pavage transforme vos extérieurs avec des surfaces durables et esthétiques. VINTELER pose pavés béton, klinkers et dalles naturelles pour allées, terrasses, cours et parkings. Préparation du sol, lit de pose, drainage intégré et finition soignée. Résultat durable garanti 10 ans. Devis gratuit au 0490 48 92 42."
+  stats:
+    typical_duration: "3-10 jours"
+    typical_cost_range: "Sur devis"
+    satisfaction: "97"
+  process_steps:
+    - step: "Préparation terrain"
+      description: "Décapage, terrassement, mise à niveau et compactage du fond de forme."
+    - step: "Pose fondations"
+      description: "Lit de pose en sable stabilisé ou graviers, drainage si nécessaire."
+    - step: "Pose pavés"
+      description: "Alignement, découpes, pose soignée selon motif choisi."
+    - step: "Finitions"
+      description: "Jointoiement, compactage final, nettoyage du chantier."
+  faq:
+    - question: "Combien coûte un pavage au m²?"
+      answer: "Le prix du pavage dépend du type de pavé choisi (béton, klinkers, pierre naturelle) et de la préparation nécessaire. VINTELER réalise un devis gratuit sur site avec plan d'aménagement."
+    - question: "Quelle est la durée de vie d'un pavage?"
+      answer: "Un pavage bien réalisé dure 30 à 50 ans. La qualité de la fondation et du drainage est déterminante. VINTELER garantit ses pavages 10 ans et utilise des pavés certifiés pour trafic piéton ou véhicules."
+    - question: "Peut-on paver une allée carrossable?"
+      answer: "Oui, avec des pavés adaptés au trafic véhicules (épaisseur 6-8cm) et une fondation renforcée. VINTELER dimensionne votre pavage selon l'usage : piéton, véhicules légers ou poids lourds."
+    - question: "Le pavage nécessite-t-il un entretien?"
+      answer: "Minimal : un nettoyage annuel au nettoyeur haute pression suffit. VINTELER pose des joints polymères qui limitent la pousse des mauvaises herbes. Pas de resurfaçage nécessaire comme pour l'asphalte."
 
 # ═══════════════════════════════════════════════════════════════════════════
 # MÉTADONNÉES CATÉGORIES (pour navigation)

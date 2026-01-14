@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Désamiantage en Zone Confinée Uccle"
-description: "Désamiantage Zone Confinée à Uccle (Bruxelles-Capitale). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Désamiantage Zone Confinée à Uccle (Bruxelles). Retrait amiante friable sécurisé Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "desamiantage-zone-confinee Uccle"
   - "entreprise desamiantage-zone-confinee Uccle"
-  - "desamiantage-zone-confinee Bruxelles-Capitale"
+  - "desamiantage-zone-confinee Bruxelles"
   - "prix desamiantage-zone-confinee Uccle"
   - "désamiantage zone confinée Uccle"
   - "amiante friable Uccle"
@@ -34,9 +34,14 @@ category_name: "Désamiantage"
 # Ville Info
 city_name: "Uccle"
 city_id: "uccle"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1180"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8
+lng: 4.3333
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

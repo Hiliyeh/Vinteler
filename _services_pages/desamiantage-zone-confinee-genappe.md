@@ -35,8 +35,13 @@ category_name: "Désamiantage"
 city_name: "Genappe"
 city_id: "genappe"
 region: "Brabant Wallon"
-postal_codes: ["1470", "1471", "1472", "1473", "1474"]
+postal_codes: ["1470", "1471", "1472", "1473"]
 
+
+# Geo Data (Local SEO)
+lat: 50.6117
+lng: 4.4519
+geo_region: "BE-WBR"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Contrôles atmosphériques"
   - "Équipe spécialisée"
   - "Analyses laboratoire"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

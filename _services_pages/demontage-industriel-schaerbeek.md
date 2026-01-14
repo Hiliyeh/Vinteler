@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démontage Lignes & Machines Industrielles Schaerbeek"
-description: "Démontage Industriel à Schaerbeek (Bruxelles-Capitale). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démontage Industriel à Schaerbeek (Bruxelles). Démantèlement équipements usines Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demontage-industriel Schaerbeek"
   - "entreprise demontage-industriel Schaerbeek"
-  - "demontage-industriel Bruxelles-Capitale"
+  - "demontage-industriel Bruxelles"
   - "prix demontage-industriel Schaerbeek"
   - "démontage industriel Schaerbeek"
   - "démontage usine Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Démontage Industriel"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Convoyeurs"
   - "Équipements lourds"
   - "Récupération métaux"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

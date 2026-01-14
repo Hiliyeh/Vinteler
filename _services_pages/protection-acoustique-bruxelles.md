@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Protection & Isolation Acoustique Bruxelles"
-description: "Protection Acoustique à Bruxelles (Bruxelles-Capitale). Isolation phonique professionnelle Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Protection Acoustique à Bruxelles (Bruxelles). Isolation phonique professionnelle Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "protection-acoustique Bruxelles"
   - "entreprise protection-acoustique Bruxelles"
-  - "protection-acoustique Bruxelles-Capitale"
+  - "protection-acoustique Bruxelles"
   - "prix protection-acoustique Bruxelles"
   - "isolation acoustique Bruxelles"
   - "protection acoustique Bruxelles"
@@ -28,15 +28,20 @@ service_description: "Solutions d'isolation acoustique : panneaux muraux absorba
 service_short: "Isolation phonique professionnelle"
 
 # Catégorie
-category: "finitions"
-category_name: "Acoustique & Sols"
+category: "acoustique"
+category_name: "Acoustique"
 
 # Ville Info
 city_name: "Bruxelles"
 city_id: "bruxelles"
-region: "Bruxelles-Capitale"
-postal_codes: ["1000", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1081", "1082", "1083", "1090"]
+region: "Bruxelles"
+postal_codes: ["1000", "1020", "1120", "1130"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8503
+lng: 4.3517
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Traitement localisé"
   - "Bureaux et salles"
   - "Locaux techniques"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

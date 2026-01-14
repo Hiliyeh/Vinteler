@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Démolition Murs Porteurs & Ouverture Trémie Schaerbeek"
-description: "Démolition Murs Porteurs à Schaerbeek (Bruxelles-Capitale). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Démolition Murs Porteurs à Schaerbeek (Bruxelles). Ouvertures structurelles sécurisées Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "demolition-murs-porteurs Schaerbeek"
   - "entreprise demolition-murs-porteurs Schaerbeek"
-  - "demolition-murs-porteurs Bruxelles-Capitale"
+  - "demolition-murs-porteurs Bruxelles"
   - "prix demolition-murs-porteurs Schaerbeek"
   - "démolition mur porteur Schaerbeek"
   - "ouverture mur porteur Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Démolition & Curage"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Pose IPN/IPE"
   - "Renforcement structure"
   - "Étude préalable"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:

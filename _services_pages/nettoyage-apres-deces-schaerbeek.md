@@ -1,13 +1,13 @@
 ---
 layout: service-city
 title: "Nettoyage Après Décès & Désinfection Schaerbeek"
-description: "Nettoyage Après Décès à Schaerbeek (Bruxelles-Capitale). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
+description: "Nettoyage Après Décès à Schaerbeek (Bruxelles). Désinfection et remise en état Entreprise certifiée VINTELER - Devis gratuit, intervention rapide. ☎ 0490 48 92 42"
 
 # SEO Keywords
 keywords:
   - "nettoyage-apres-deces Schaerbeek"
   - "entreprise nettoyage-apres-deces Schaerbeek"
-  - "nettoyage-apres-deces Bruxelles-Capitale"
+  - "nettoyage-apres-deces Bruxelles"
   - "prix nettoyage-apres-deces Schaerbeek"
   - "nettoyage après décès Schaerbeek"
   - "nettoyage décès Schaerbeek"
@@ -34,9 +34,14 @@ category_name: "Nettoyage Professionnel"
 # Ville Info
 city_name: "Schaerbeek"
 city_id: "schaerbeek"
-region: "Bruxelles-Capitale"
+region: "Bruxelles"
 postal_codes: ["1030"]
 
+
+# Geo Data (Local SEO)
+lat: 50.8676
+lng: 4.3792
+geo_region: "BE-BRU"
 
 # Features
 features:
@@ -46,6 +51,9 @@ features:
   - "Syndrome de Diogène"
   - "Logement insalubre"
   - "Évacuation déchets"
+
+# FAQ (pour SEO et schema FAQPage)
+
 
 # Maillage interne - Services liés
 related_services:
