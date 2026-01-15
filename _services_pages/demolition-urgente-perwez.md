@@ -52,8 +52,22 @@ features:
   - "Coordination pompiers"
   - "Déblaiement urgent"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quand faut-il faire appel à une démolition urgente ?"
+    answer: "Une démolition urgente est nécessaire quand un bâtiment présente un danger immédiat après un sinistre : structure instable après incendie, mur menaçant de s'effondrer après tempête, toiture effondrée. VINTELER intervient 24/7 pour sécuriser et démolir les parties dangereuses."
+  - question: "Qui paie la démolition urgente après un sinistre ?"
+    answer: "La démolition urgente après sinistre est généralement couverte par votre assurance habitation ou professionnelle. VINTELER fournit un rapport détaillé et peut coordonner directement avec votre assureur pour faciliter le remboursement."
+  - question: "Faut-il un permis pour une démolition d'urgence ?"
+    answer: "En cas de danger immédiat, la démolition urgente peut être réalisée sans permis préalable sur base du rapport des pompiers ou d'un expert. VINTELER se charge des formalités administratives a posteriori et fournit tous les documents nécessaires."
+  - question: "Intervenez-vous aussi pour les particuliers ?"
+    answer: "Oui, VINTELER intervient pour les particuliers et les professionnels. Maison après incendie, garage effondré, mur de clôture dangereux : nous intervenons 24/7 partout en Belgique. Un seul numéro : 0490 48 92 42."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

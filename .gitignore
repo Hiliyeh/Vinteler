@@ -1,3 +1,9 @@
+# Jekyll build output (généré automatiquement)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
 # Documentation interne (ne pas commiter)
 /doc/
 /docs/

@@ -52,8 +52,22 @@ features:
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une peinture intumescente sur acier?"
+    answer: "Le prix de la peinture intumescente dépend du niveau de résistance requis (R30 à R120) et de la surface à traiter. VINTELER réalise un métré précis pour un devis détaillé. Application par équipe certifiée."
+  - question: "Quelle est la différence entre peinture et habillage coupe-feu?"
+    answer: "La peinture intumescente préserve l'esthétique de l'acier apparent. L'habillage (plaques, caissons) offre des résistances supérieures mais masque la structure. VINTELER vous conseille la solution adaptée à votre projet."
+  - question: "La peinture intumescente est-elle visible?"
+    answer: "Non, la peinture intumescente ressemble à une peinture classique. Elle gonfle uniquement en cas d'incendie pour former une couche isolante. Finition lisse ou texturée selon votre choix."
+  - question: "Peut-on peindre par-dessus une peinture intumescente?"
+    answer: "Oui, sous conditions. Seules certaines peintures de finition sont compatibles. VINTELER applique si nécessaire une finition décorative certifiée compatible avec la protection intumescente."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

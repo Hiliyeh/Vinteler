@@ -52,8 +52,22 @@ features:
   - "Suivi hygrométrique"
   - "Rapport technique assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien de temps pour sécher un mur après inondation ?"
+    answer: "Le temps de séchage varie de 5 à 15 jours selon l'épaisseur du mur et le taux d'humidité initial. Avec des déshumidificateurs professionnels, le séchage est 3 à 5 fois plus rapide qu'un séchage naturel."
+  - question: "Pourquoi faire appel à un assèchement professionnel ?"
+    answer: "Un séchage naturel peut prendre plusieurs mois et favorise le développement de moisissures. L'assèchement technique accélère le processus, prévient les dégâts secondaires et fournit un rapport pour votre assurance."
+  - question: "L'assurance prend-elle en charge l'assèchement ?"
+    answer: "Oui, l'assèchement technique est généralement couvert par l'assurance dégât des eaux. VINTELER fournit un rapport technique détaillé avec les mesures d'humidité qui facilite votre indemnisation."
+  - question: "Peut-on habiter pendant l'assèchement ?"
+    answer: "Oui, dans la plupart des cas vous pouvez rester dans le logement. Les déshumidificateurs sont bruyants mais peuvent être installés dans les pièces inoccupées. Nous adaptons le dispositif à votre situation."
+  - question: "Intervenez-vous sur la côte belge ?"
+    answer: "Oui, nous intervenons sur toute la côte belge : Ostende, Bruges, Blankenberge, Knokke-Heist, De Panne, Nieuport. Nous connaissons les problématiques spécifiques liées à l'environnement maritime."
+  - question: "Quelles villes de Flandre occidentale couvrez-vous ?"
+    answer: "Nous couvrons toute la Flandre occidentale : Bruges, Ostende, Courtrai, Roulers, Ypres, Waregem, Poperinge, Diksmuide, Torhout, Izegem et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des bâtiments côtiers ?"
+    answer: "Oui, nous avons une expertise spécifique pour les bâtiments exposés au sel marin et à l'humidité côtière. Nous utilisons des techniques adaptées à ces conditions particulières."
 
 # Maillage interne - Services liés
 related_services:

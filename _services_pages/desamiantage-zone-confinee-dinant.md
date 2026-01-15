@@ -52,8 +52,22 @@ features:
   - "Équipe spécialisée"
   - "Analyses laboratoire"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle est la différence entre désamiantage simple et confiné ?"
+    answer: "Le désamiantage simple concerne l'amiante non friable (toitures, dalles). Le désamiantage confiné traite l'amiante friable (flocage, calorifuge) qui libère des fibres : il nécessite une zone étanche sous dépression, des contrôles atmosphériques et des équipements spécialisés."
+  - question: "Comment savoir si mon amiante nécessite un confinement ?"
+    answer: "L'amiante friable (qui s'effrite facilement) nécessite un confinement : flocages, calorifuges de tuyaux, certains faux-plafonds. VINTELER réalise un diagnostic gratuit pour déterminer le type de traitement adapté à votre situation."
+  - question: "Combien de temps dure un désamiantage en zone confinée ?"
+    answer: "Un désamiantage confiné dure généralement 3 à 10 jours selon la surface et la complexité. Ce délai inclut l'installation du confinement, le retrait, les contrôles atmosphériques et les analyses de libération de zone."
+  - question: "Le bâtiment peut-il être occupé pendant le désamiantage ?"
+    answer: "Non, la zone de travaux doit être évacuée et isolée pendant toute la durée du désamiantage confiné. VINTELER définit un périmètre de sécurité et coordonne les travaux pour minimiser l'impact sur l'activité du bâtiment."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

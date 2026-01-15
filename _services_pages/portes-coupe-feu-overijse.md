@@ -52,8 +52,22 @@ features:
   - "Attestation de pose"
   - "Tous types de bâtiments"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle différence entre EI30, EI60 et EI90 ?"
+    answer: "EI30, EI60 et EI90 indiquent la durée de résistance au feu : 30, 60 ou 90 minutes. Le choix dépend de la réglementation applicable à votre bâtiment et de l'emplacement de la porte. VINTELER vous conseille sur le niveau requis."
+  - question: "Combien coûte une porte coupe-feu ?"
+    answer: "Le prix d'une porte coupe-feu dépend du niveau de résistance (EI30/EI60/EI90), des dimensions et des accessoires (ferme-porte, serrure). VINTELER fournit un devis détaillé gratuit."
+  - question: "Fournissez-vous une attestation de pose ?"
+    answer: "Oui, VINTELER délivre systématiquement une attestation de pose certifiant la conformité de l'installation. Ce document est indispensable pour les contrôles des pompiers et la validation de votre assurance incendie."
+  - question: "Remplacez-vous les anciennes portes coupe-feu ?"
+    answer: "Oui, nous remplaçons les portes coupe-feu vétustes ou non conformes. Dépose de l'ancienne porte, adaptation du cadre si nécessaire, pose de la nouvelle porte certifiée et attestation de conformité. Intervention propre et rapide."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

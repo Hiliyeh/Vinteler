@@ -52,8 +52,22 @@ features:
   - "Renforcement structure"
   - "Étude préalable"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Faut-il un permis pour ouvrir un mur porteur ?"
+    answer: "En général, non pour une ouverture intérieure. Cependant, une note de calcul d'un ingénieur stabilité peut être exigée par votre assurance ou la commune. VINTELER peut coordonner cette étude et fournir tous les documents nécessaires."
+  - question: "Comment savoir si un mur est porteur ?"
+    answer: "Un mur porteur est généralement plus épais (20cm+), situé au centre du bâtiment ou sous une poutre. En cas de doute, VINTELER effectue un diagnostic gratuit sur site pour identifier les murs porteurs de votre habitation."
+  - question: "Quel est le prix d'une ouverture dans un mur porteur ?"
+    answer: "Le prix dépend de la largeur de l'ouverture, de l'épaisseur du mur et du type de poutrelle nécessaire (IPN/IPE). VINTELER réalise un devis gratuit après étude technique de votre projet."
+  - question: "Combien de temps durent les travaux ?"
+    answer: "Une ouverture dans un mur porteur prend généralement 2 à 5 jours : 1 jour pour l'étaiement, 1-2 jours pour la découpe et pose IPN, 1-2 jours pour les finitions. Le chantier reste propre et sécurisé."
+  - question: "VINTELER intervient-il dans toutes les communes de Bruxelles ?"
+    answer: "Oui, nous intervenons dans les 19 communes de la Région de Bruxelles-Capitale : Bruxelles-Ville, Ixelles, Uccle, Schaerbeek, Anderlecht, Molenbeek, Etterbeek, Forest, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Jette, Ganshoren, Koekelberg, Berchem-Sainte-Agathe, Saint-Gilles et Saint-Josse-ten-Noode."
+  - question: "Quels sont vos délais d'intervention à Bruxelles ?"
+    answer: "À Bruxelles, notre équipe intervient généralement sous 2 heures en cas d'urgence grâce à notre position centrale. Pour les interventions planifiées, nous proposons des rendez-vous sous 48 à 72 heures."
+  - question: "Respectez-vous les réglementations bruxelloises en matière d'environnement ?"
+    answer: "Absolument. Nous respectons scrupuleusement la législation régionale bruxelloise, notamment en matière de gestion des déchets (Bruxelles-Environnement) et de protection du patrimoine pour les bâtiments classés."
 
 # Maillage interne - Services liés
 related_services:

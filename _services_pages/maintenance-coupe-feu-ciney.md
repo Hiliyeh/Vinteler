@@ -52,8 +52,22 @@ features:
   - "Carnet d'entretien"
   - "Contrats maintenance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "La maintenance coupe-feu est-elle obligatoire?"
+    answer: "Oui, la réglementation impose un contrôle annuel des équipements coupe-feu. Le carnet d'entretien doit être présenté aux pompiers lors de leurs visites. VINTELER assure cette maintenance avec remise du carnet à jour."
+  - question: "Combien coûte un contrat de maintenance coupe-feu?"
+    answer: "Le prix d'un contrat de maintenance coupe-feu dépend du nombre d'équipements à entretenir. VINTELER propose des forfaits adaptés à chaque bâtiment. Pièces de remplacement incluses ou en supplément selon formule."
+  - question: "Que comprend la maintenance d'une porte coupe-feu?"
+    answer: "La maintenance d'une porte RF comprend : test de fermeture automatique, contrôle joints intumescents, vérification serrure et paumelles, graissage, réglage ferme-porte. VINTELER remplace immédiatement les pièces défectueuses."
+  - question: "Maintenez-vous tous types d'équipements coupe-feu?"
+    answer: "Oui, VINTELER assure la maintenance de tous les équipements : portes RF, clapets, exutoires, volets, rideaux métalliques coupe-feu. Un seul contrat pour l'ensemble de vos équipements."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

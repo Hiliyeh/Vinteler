@@ -52,8 +52,22 @@ features:
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une peinture intumescente sur acier?"
+    answer: "Le prix de la peinture intumescente dépend du niveau de résistance requis (R30 à R120) et de la surface à traiter. VINTELER réalise un métré précis pour un devis détaillé. Application par équipe certifiée."
+  - question: "Quelle est la différence entre peinture et habillage coupe-feu?"
+    answer: "La peinture intumescente préserve l'esthétique de l'acier apparent. L'habillage (plaques, caissons) offre des résistances supérieures mais masque la structure. VINTELER vous conseille la solution adaptée à votre projet."
+  - question: "La peinture intumescente est-elle visible?"
+    answer: "Non, la peinture intumescente ressemble à une peinture classique. Elle gonfle uniquement en cas d'incendie pour former une couche isolante. Finition lisse ou texturée selon votre choix."
+  - question: "Peut-on peindre par-dessus une peinture intumescente?"
+    answer: "Oui, sous conditions. Seules certaines peintures de finition sont compatibles. VINTELER applique si nécessaire une finition décorative certifiée compatible avec la protection intumescente."
+  - question: "VINTELER intervient-il dans toutes les communes de Bruxelles ?"
+    answer: "Oui, nous intervenons dans les 19 communes de la Région de Bruxelles-Capitale : Bruxelles-Ville, Ixelles, Uccle, Schaerbeek, Anderlecht, Molenbeek, Etterbeek, Forest, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Jette, Ganshoren, Koekelberg, Berchem-Sainte-Agathe, Saint-Gilles et Saint-Josse-ten-Noode."
+  - question: "Quels sont vos délais d'intervention à Bruxelles ?"
+    answer: "À Bruxelles, notre équipe intervient généralement sous 2 heures en cas d'urgence grâce à notre position centrale. Pour les interventions planifiées, nous proposons des rendez-vous sous 48 à 72 heures."
+  - question: "Respectez-vous les réglementations bruxelloises en matière d'environnement ?"
+    answer: "Absolument. Nous respectons scrupuleusement la législation régionale bruxelloise, notamment en matière de gestion des déchets (Bruxelles-Environnement) et de protection du patrimoine pour les bâtiments classés."
 
 # Maillage interne - Services liés
 related_services:

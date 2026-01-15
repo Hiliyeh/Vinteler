@@ -52,8 +52,22 @@ features:
   - "Toits plats"
   - "Traitement hydrofuge"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "À quelle fréquence faut-il nettoyer sa toiture ?"
+    answer: "En Belgique, un nettoyage tous les 5 à 10 ans est recommandé selon l'exposition (arbres, humidité, orientation nord). Avec un traitement anti-mousse, vous prolongez l'intervalle entre deux nettoyages."
+  - question: "Le nettoyage haute pression abîme-t-il les tuiles ?"
+    answer: "Une pression trop forte peut effectivement dégrader les tuiles. VINTELER utilise une technique basse pression adaptée au matériau. Pour les toitures fragiles (ardoises, tuiles anciennes), nous privilégions le traitement chimique doux."
+  - question: "Combien coûte un démoussage de toiture ?"
+    answer: "Le prix dépend du type de toiture (tuiles, ardoises), de la surface et du niveau d'encrassement. Traitement anti-mousse inclus dans nos prestations. VINTELER propose un devis gratuit après inspection sur site."
+  - question: "Nettoyez-vous aussi les gouttières ?"
+    answer: "Oui, le nettoyage des gouttières est inclus dans nos prestations de nettoyage toiture. Nous retirons les feuilles et débris, vérifions l'écoulement et signalons les réparations éventuelles à prévoir."
+  - question: "VINTELER couvre-t-il le Limbourg ?"
+    answer: "Oui, nous intervenons dans tout le Limbourg : Hasselt, Genk, Tongres, Beringen, Sint-Truiden, Lommel, Maasmechelen, Leopoldsburg, Bilzen et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des sites miniers limbourgeois ?"
+    answer: "Oui, nous avons une expertise particulière pour les anciens sites miniers du Limbourg et les bâtiments industriels liés à cette histoire. Nous connaissons les problématiques spécifiques de ces constructions."
+  - question: "Proposez-vous des devis en néerlandais pour le Limbourg ?"
+    answer: "Oui, tous nos documents (devis, rapports, factures) peuvent être rédigés en néerlandais. Notre équipe est parfaitement bilingue."
 
 # Maillage interne - Services liés
 related_services:

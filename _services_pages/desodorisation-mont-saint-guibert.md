@@ -52,8 +52,22 @@ features:
   - "Odeurs décès"
   - "Odeurs moisissures"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une désodorisation professionnelle?"
+    answer: "Le prix de la désodorisation dépend de la surface et de l'intensité des odeurs. VINTELER propose un diagnostic gratuit pour établir un devis précis. Appelez le 0490 48 92 42."
+  - question: "Le traitement ozone est-il efficace contre les odeurs d'incendie?"
+    answer: "Oui, l'ozone est très efficace contre les odeurs d'incendie. Il oxyde les molécules de suie et de fumée en profondeur. VINTELER combine ozone et neutralisants pour un résultat 100% garanti."
+  - question: "Combien de temps dure une désodorisation complète?"
+    answer: "Une désodorisation complète dure 1 à 3 jours selon l'imprégnation. Le traitement ozone nécessite une évacuation temporaire du local. Résultat visible dès le premier traitement."
+  - question: "Peut-on éliminer les odeurs après un décès?"
+    answer: "Oui, VINTELER intervient avec discrétion et professionnalisme après un décès. Notre protocole combine nettoyage spécialisé, traitement ozone et neutralisants enzymatiques. Odeurs complètement éliminées."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

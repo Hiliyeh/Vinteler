@@ -52,8 +52,22 @@ features:
   - "Logement insalubre"
   - "Évacuation déchets"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment se passe un nettoyage après décès ?"
+    answer: "VINTELER intervient avec discrétion et respect. Nous retirons les éléments souillés, désinfectons toutes les surfaces avec des produits biocides professionnels, puis traitons les odeurs par ozone. Le logement est rendu propre et sain, prêt pour la succession."
+  - question: "Intervenez-vous pour le syndrome de Diogène ?"
+    answer: "Oui, VINTELER est spécialisé dans le nettoyage de logements touchés par le syndrome de Diogène : accumulation de déchets, insalubrité, odeurs. Nous évacuons, désinfectons et remettons le logement en état habitable ou vendable."
+  - question: "L'intervention est-elle discrète ?"
+    answer: "Absolument. Nos équipes interviennent en véhicules banalisés, sans uniforme identifiable. Nous respectons la confidentialité de la situation et la dignité des personnes concernées. Aucune information n'est partagée."
+  - question: "Qui paie le nettoyage après décès ?"
+    answer: "Les frais sont généralement à la charge de la succession ou des héritiers. Dans certains cas, l'assurance habitation du défunt peut couvrir une partie des frais. Nous fournissons une facture détaillée pour le notaire."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

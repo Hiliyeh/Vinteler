@@ -52,8 +52,22 @@ features:
   - "Mise hors d'eau rapide"
   - "Rapport pour assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un bâchage d'urgence après tempête?"
+    answer: "Le prix du bâchage d'urgence dépend de la surface à protéger. VINTELER inclut déplacement 24/7, bâches professionnelles et fixations. Rapport assurance fourni. Appelez le 0490 48 92 42."
+  - question: "Combien de temps tient un bâchage temporaire?"
+    answer: "Nos bâchages résistent plusieurs semaines aux intempéries. Nous utilisons des bâches professionnelles renforcées avec fixations mécaniques. Solution efficace le temps des réparations définitives."
+  - question: "Intervenez-vous la nuit et le weekend pour le bâchage?"
+    answer: "Oui, VINTELER dispose d'une équipe d'astreinte 24/7, 365 jours par an. Nous intervenons de nuit, les weekends et jours fériés sans surcoût excessif. Votre bâtiment ne peut pas attendre."
+  - question: "Le bâchage est-il pris en charge par l'assurance?"
+    answer: "Oui, le bâchage d'urgence est une mesure conservatoire couverte par les assurances. VINTELER fournit un rapport détaillé avec photos pour votre déclaration de sinistre. Remboursement facilité."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

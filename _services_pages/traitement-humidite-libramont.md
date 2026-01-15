@@ -53,8 +53,22 @@ features:
   - "Ventilation complémentaire"
   - "Traitement fissures"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment fonctionne le traitement par injection ?"
+    answer: "Des trous sont percés à la base du mur tous les 10-15 cm. Une résine hydrophobe est injectée sous pression, créant une barrière étanche qui bloque les remontées capillaires. Le mur sèche naturellement en 3 à 6 mois. Technique éprouvée et garantie 10 ans."
+  - question: "Combien coûte un traitement contre l'humidité ?"
+    answer: "Le prix du traitement par injection dépend de l'épaisseur du mur et de l'accessibilité. VINTELER réalise un diagnostic gratuit avec mesures d'humidité pour établir un devis précis adapté à votre situation."
+  - question: "Combien de temps pour voir les résultats ?"
+    answer: "Après injection, le mur doit sécher naturellement. Comptez 3 à 6 mois pour un assèchement complet, selon l'épaisseur du mur et le taux d'humidité initial. Les taches de salpêtre disparaissent progressivement pendant cette période."
+  - question: "Le traitement est-il garanti ?"
+    answer: "Oui, VINTELER garantit ses traitements d'humidité pendant 10 ans. Si des remontées capillaires réapparaissent dans la zone traitée, nous intervenons gratuitement. Un certificat de garantie vous est remis après travaux."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

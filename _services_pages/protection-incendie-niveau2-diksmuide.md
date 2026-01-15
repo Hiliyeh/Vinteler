@@ -52,8 +52,22 @@ features:
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une peinture intumescente sur acier?"
+    answer: "Le prix de la peinture intumescente dépend du niveau de résistance requis (R30 à R120) et de la surface à traiter. VINTELER réalise un métré précis pour un devis détaillé. Application par équipe certifiée."
+  - question: "Quelle est la différence entre peinture et habillage coupe-feu?"
+    answer: "La peinture intumescente préserve l'esthétique de l'acier apparent. L'habillage (plaques, caissons) offre des résistances supérieures mais masque la structure. VINTELER vous conseille la solution adaptée à votre projet."
+  - question: "La peinture intumescente est-elle visible?"
+    answer: "Non, la peinture intumescente ressemble à une peinture classique. Elle gonfle uniquement en cas d'incendie pour former une couche isolante. Finition lisse ou texturée selon votre choix."
+  - question: "Peut-on peindre par-dessus une peinture intumescente?"
+    answer: "Oui, sous conditions. Seules certaines peintures de finition sont compatibles. VINTELER applique si nécessaire une finition décorative certifiée compatible avec la protection intumescente."
+  - question: "Intervenez-vous sur la côte belge ?"
+    answer: "Oui, nous intervenons sur toute la côte belge : Ostende, Bruges, Blankenberge, Knokke-Heist, De Panne, Nieuport. Nous connaissons les problématiques spécifiques liées à l'environnement maritime."
+  - question: "Quelles villes de Flandre occidentale couvrez-vous ?"
+    answer: "Nous couvrons toute la Flandre occidentale : Bruges, Ostende, Courtrai, Roulers, Ypres, Waregem, Poperinge, Diksmuide, Torhout, Izegem et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des bâtiments côtiers ?"
+    answer: "Oui, nous avons une expertise spécifique pour les bâtiments exposés au sel marin et à l'humidité côtière. Nous utilisons des techniques adaptées à ces conditions particulières."
 
 # Maillage interne - Services liés
 related_services:

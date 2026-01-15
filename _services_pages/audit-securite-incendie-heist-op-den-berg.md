@@ -52,8 +52,22 @@ features:
   - "Estimation travaux"
   - "Accompagnement pompiers"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un audit sécurité incendie?"
+    answer: "Le prix d'un audit sécurité incendie dépend de la taille du bâtiment. VINTELER offre le premier audit pour les projets de mise en conformité. Rapport détaillé avec photos et estimations."
+  - question: "Quand faut-il réaliser un audit incendie?"
+    answer: "Un audit est recommandé avant un contrôle des pompiers, après un avis défavorable, avant l'achat d'un bâtiment, ou en préparation de travaux. VINTELER peut intervenir sous 48h pour les urgences."
+  - question: "L'audit est-il accepté par les pompiers?"
+    answer: "L'audit VINTELER est un document technique interne pour préparer votre mise en conformité. Le contrôle officiel reste réalisé par les services de prévention incendie. Notre audit vous permet d'anticiper leurs observations."
+  - question: "Proposez-vous les travaux après l'audit?"
+    answer: "Oui, VINTELER réalise tous les travaux de mise en conformité identifiés lors de l'audit : portes RF, clapets, calfeutrement, cloisons, signalétique. Un seul interlocuteur du diagnostic à la réception."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

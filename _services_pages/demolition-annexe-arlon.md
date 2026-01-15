@@ -52,8 +52,22 @@ features:
   - "Remise en état terrain"
   - "Intervention rapide"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Faut-il un permis pour démolir un garage ou une véranda ?"
+    answer: "En général, non. La démolition d'annexes de moins de 30m² ne nécessite pas de permis en Belgique. Pour les structures plus grandes ou en zone protégée, une déclaration peut être requise. VINTELER vous conseille selon votre situation."
+  - question: "Combien coûte la démolition d'un garage ?"
+    answer: "Le prix d'une démolition de garage dépend du type de construction (bois, métal, béton), de l'accessibilité et du volume de débris. VINTELER propose un devis gratuit sous 24h pour une estimation précise adaptée à votre projet."
+  - question: "Que devient l'emplacement après démolition ?"
+    answer: "VINTELER nivelle le terrain après démolition. Vous pouvez ensuite construire une nouvelle annexe, créer un espace de stationnement ou aménager un jardin. Nous pouvons aussi poser des pavés ou dalles sur demande."
+  - question: "Démolissez-vous aussi les fondations ?"
+    answer: "Oui, sur demande nous retirons les fondations et dalles béton. Cette option est recommandée si vous souhaitez planter ou construire à un autre emplacement. Le prix est ajusté en fonction du volume de béton à évacuer."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

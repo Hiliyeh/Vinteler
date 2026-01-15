@@ -52,8 +52,22 @@ features:
   - "Évacuation gravats"
   - "Préparation rénovation"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un curage intérieur en Belgique ?"
+    answer: "Le prix d'un curage intérieur dépend de la complexité des travaux, de l'accessibilité, du volume de déchets et de la présence éventuelle d'amiante. VINTELER propose un devis gratuit sous 24h pour une estimation précise."
+  - question: "Quelle est la durée d'un curage intérieur ?"
+    answer: "Un curage intérieur standard dure entre 1 et 5 jours selon la surface à traiter. L'équipe VINTELER évacue les déchets simultanément pour optimiser les délais. Contactez-nous au 0490 48 92 42 pour une estimation précise."
+  - question: "Comment se déroule un curage intérieur ?"
+    answer: "Le curage comprend 4 étapes : 1) Diagnostic gratuit sur site, 2) Devis détaillé, 3) Démontage et évacuation méthodique, 4) Tri sélectif des déchets et nettoyage final. VINTELER gère tout de A à Z."
+  - question: "Faut-il un permis pour un curage intérieur ?"
+    answer: "Non, le curage intérieur ne nécessite pas de permis d'urbanisme en Belgique car il ne modifie pas la structure du bâtiment. Seule l'évacuation des déchets doit respecter les normes environnementales. VINTELER gère toutes les formalités."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

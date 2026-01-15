@@ -52,8 +52,22 @@ features:
   - "Équipements lourds"
   - "Récupération métaux"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage d'usine complet?"
+    answer: "Le prix du démontage industriel dépend de la taille de l'installation. VINTELER réalise un audit gratuit pour chiffrer précisément. La valorisation des métaux réduit significativement le coût final."
+  - question: "Quelle est la durée d'un démontage industriel?"
+    answer: "Un démontage industriel dure 1 à 4 semaines selon la complexité. VINTELER peut accélérer les délais avec des équipes renforcées. Planning détaillé fourni avant démarrage."
+  - question: "Gérez-vous les déchets dangereux industriels?"
+    answer: "Oui, VINTELER est agréé pour la gestion des déchets industriels dangereux : huiles, solvants, batteries, etc. Bordereau de suivi déchets (BSD) fourni pour votre traçabilité environnementale."
+  - question: "Pouvez-vous démonter une usine en activité partielle?"
+    answer: "Oui, nous intervenons fréquemment sur sites partiellement actifs. Démontage par zones, travail en horaires décalés, coordination avec votre production. VINTELER minimise l'impact sur votre activité."
+  - question: "VINTELER intervient-il dans la province de Liège ?"
+    answer: "Oui, nous couvrons toute la province de Liège : la ville de Liège, Verviers, Seraing, Herstal, Ans, Grâce-Hollogne, Visé, Huy, Waremme, Eupen, Malmedy, Spa, Stavelot et l'ensemble des communes."
+  - question: "Intervenez-vous dans les Cantons de l'Est ?"
+    answer: "Oui, nous intervenons dans les Cantons de l'Est (Eupen, Malmedy, Saint-Vith). Notre équipe peut communiquer en allemand pour faciliter les échanges."
+  - question: "Avez-vous l'expérience des bâtiments liégeois anciens ?"
+    answer: "Oui, nous avons une expertise particulière pour les bâtiments anciens de la région liégeoise, notamment les maisons à colombages, les anciennes demeures bourgeoises et les bâtiments industriels historiques."
 
 # Maillage interne - Services liés
 related_services:

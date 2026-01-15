@@ -52,8 +52,22 @@ features:
   - "Conformité normes"
   - "Rapport installation"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte l'installation d'un clapet coupe-feu?"
+    answer: "Le prix d'un clapet coupe-feu installé dépend de la dimension et de l'accessibilité. VINTELER réalise un inventaire complet pour un devis précis. Prix dégressif sur quantité."
+  - question: "Comment savoir si mes clapets sont conformes?"
+    answer: "Les clapets doivent être certifiés, correctement dimensionnés et installés selon les prescriptions. Un clapet ancien ou rouillé peut être bloqué. VINTELER audite vos installations et propose le remplacement si nécessaire."
+  - question: "Les clapets coupe-feu nécessitent-ils un entretien?"
+    answer: "Oui, les clapets doivent être contrôlés annuellement : test de fermeture, vérification état. VINTELER propose des contrats de maintenance incluant le contrôle de tous vos équipements coupe-feu."
+  - question: "Peut-on installer un clapet sur une gaine existante?"
+    answer: "Oui, VINTELER installe des clapets sur gaines existantes. L'intervention nécessite une découpe de la gaine, l'insertion du clapet et le calfeutrement. Intervention rapide et propre."
+  - question: "VINTELER intervient-il dans toutes les communes de Bruxelles ?"
+    answer: "Oui, nous intervenons dans les 19 communes de la Région de Bruxelles-Capitale : Bruxelles-Ville, Ixelles, Uccle, Schaerbeek, Anderlecht, Molenbeek, Etterbeek, Forest, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Jette, Ganshoren, Koekelberg, Berchem-Sainte-Agathe, Saint-Gilles et Saint-Josse-ten-Noode."
+  - question: "Quels sont vos délais d'intervention à Bruxelles ?"
+    answer: "À Bruxelles, notre équipe intervient généralement sous 2 heures en cas d'urgence grâce à notre position centrale. Pour les interventions planifiées, nous proposons des rendez-vous sous 48 à 72 heures."
+  - question: "Respectez-vous les réglementations bruxelloises en matière d'environnement ?"
+    answer: "Absolument. Nous respectons scrupuleusement la législation régionale bruxelloise, notamment en matière de gestion des déchets (Bruxelles-Environnement) et de protection du patrimoine pour les bâtiments classés."
 
 # Maillage interne - Services liés
 related_services:

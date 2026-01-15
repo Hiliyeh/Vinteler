@@ -52,8 +52,22 @@ features:
   - "Toits plats"
   - "Traitement hydrofuge"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "À quelle fréquence faut-il nettoyer sa toiture ?"
+    answer: "En Belgique, un nettoyage tous les 5 à 10 ans est recommandé selon l'exposition (arbres, humidité, orientation nord). Avec un traitement anti-mousse, vous prolongez l'intervalle entre deux nettoyages."
+  - question: "Le nettoyage haute pression abîme-t-il les tuiles ?"
+    answer: "Une pression trop forte peut effectivement dégrader les tuiles. VINTELER utilise une technique basse pression adaptée au matériau. Pour les toitures fragiles (ardoises, tuiles anciennes), nous privilégions le traitement chimique doux."
+  - question: "Combien coûte un démoussage de toiture ?"
+    answer: "Le prix dépend du type de toiture (tuiles, ardoises), de la surface et du niveau d'encrassement. Traitement anti-mousse inclus dans nos prestations. VINTELER propose un devis gratuit après inspection sur site."
+  - question: "Nettoyez-vous aussi les gouttières ?"
+    answer: "Oui, le nettoyage des gouttières est inclus dans nos prestations de nettoyage toiture. Nous retirons les feuilles et débris, vérifions l'écoulement et signalons les réparations éventuelles à prévoir."
+  - question: "VINTELER intervient-il dans la province de Liège ?"
+    answer: "Oui, nous couvrons toute la province de Liège : la ville de Liège, Verviers, Seraing, Herstal, Ans, Grâce-Hollogne, Visé, Huy, Waremme, Eupen, Malmedy, Spa, Stavelot et l'ensemble des communes."
+  - question: "Intervenez-vous dans les Cantons de l'Est ?"
+    answer: "Oui, nous intervenons dans les Cantons de l'Est (Eupen, Malmedy, Saint-Vith). Notre équipe peut communiquer en allemand pour faciliter les échanges."
+  - question: "Avez-vous l'expérience des bâtiments liégeois anciens ?"
+    answer: "Oui, nous avons une expertise particulière pour les bâtiments anciens de la région liégeoise, notamment les maisons à colombages, les anciennes demeures bourgeoises et les bâtiments industriels historiques."
 
 # Maillage interne - Services liés
 related_services:

@@ -10,13 +10,117 @@ Sitemap: https://vinteler.be/sitemap.xml
 # Block access to documentation folders
 Disallow: /doc/
 Disallow: /docs/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_data/
 
-# Allow all search engines
+# ══════════════════════════════════════════════════════════════
+# SEARCH ENGINES
+# ══════════════════════════════════════════════════════════════
+
+# Google
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing / Microsoft
 User-agent: Bingbot
 Allow: /
 
+User-agent: MSNBot
+Allow: /
+
+# DuckDuckGo
 User-agent: DuckDuckBot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# ══════════════════════════════════════════════════════════════
+# AI SEARCH ENGINES & LLMs
+# ══════════════════════════════════════════════════════════════
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Gemini / Bard
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Apple (Siri, Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Common Crawl (used by many AI)
+User-agent: CCBot
+Allow: /
+
+# ══════════════════════════════════════════════════════════════
+# SOCIAL MEDIA CRAWLERS
+# ══════════════════════════════════════════════════════════════
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+# ══════════════════════════════════════════════════════════════
+# SEO TOOLS (allow for analysis)
+# ══════════════════════════════════════════════════════════════
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: DotBot
 Allow: /

@@ -52,8 +52,22 @@ features:
   - "Toits plats"
   - "Traitement hydrofuge"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "À quelle fréquence faut-il nettoyer sa toiture ?"
+    answer: "En Belgique, un nettoyage tous les 5 à 10 ans est recommandé selon l'exposition (arbres, humidité, orientation nord). Avec un traitement anti-mousse, vous prolongez l'intervalle entre deux nettoyages."
+  - question: "Le nettoyage haute pression abîme-t-il les tuiles ?"
+    answer: "Une pression trop forte peut effectivement dégrader les tuiles. VINTELER utilise une technique basse pression adaptée au matériau. Pour les toitures fragiles (ardoises, tuiles anciennes), nous privilégions le traitement chimique doux."
+  - question: "Combien coûte un démoussage de toiture ?"
+    answer: "Le prix dépend du type de toiture (tuiles, ardoises), de la surface et du niveau d'encrassement. Traitement anti-mousse inclus dans nos prestations. VINTELER propose un devis gratuit après inspection sur site."
+  - question: "Nettoyez-vous aussi les gouttières ?"
+    answer: "Oui, le nettoyage des gouttières est inclus dans nos prestations de nettoyage toiture. Nous retirons les feuilles et débris, vérifions l'écoulement et signalons les réparations éventuelles à prévoir."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

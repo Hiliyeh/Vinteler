@@ -1,6 +1,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
+<!-- Search Engine Verification -->
+<!-- TODO: Remplacer par vos codes de vérification -->
+<!-- Google: https://search.google.com/search-console → Paramètres → Validation de propriété -->
+<!-- Bing: https://www.bing.com/webmasters → Ajouter un site → Vérifier -->
+{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+{% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{ site.bing_site_verification }}">{% endif %}
+{% if site.yandex_verification %}<meta name="yandex-verification" content="{{ site.yandex_verification }}">{% endif %}
+{% if site.pinterest_verification %}<meta name="p:domain_verify" content="{{ site.pinterest_verification }}">{% endif %}
+
 <!-- SEO Primary Meta Tags -->
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.tagline }}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">

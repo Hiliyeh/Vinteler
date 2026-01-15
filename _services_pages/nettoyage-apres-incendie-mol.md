@@ -52,8 +52,22 @@ features:
   - "Élimination odeurs fumée"
   - "Rapport pour assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quand peut-on nettoyer après un incendie ?"
+    answer: "Le nettoyage peut commencer dès que les pompiers ont donné leur autorisation et que le bâtiment est sécurisé. VINTELER peut intervenir dans les 24h suivant le sinistre pour limiter les dégâts secondaires."
+  - question: "La suie est-elle dangereuse pour la santé ?"
+    answer: "Oui, la suie contient des particules toxiques et des résidus de combustion nocifs. Il est important de ne pas nettoyer soi-même et de faire appel à des professionnels équipés. VINTELER utilise des EPI adaptés et des techniques sécurisées."
+  - question: "L'assurance couvre-t-elle le nettoyage après incendie ?"
+    answer: "Oui, le nettoyage après incendie est généralement couvert par votre assurance habitation au titre des frais de remise en état. VINTELER fournit un rapport détaillé avec photos pour faciliter votre indemnisation."
+  - question: "Peut-on éliminer les odeurs de fumée ?"
+    answer: "Oui, VINTELER utilise des générateurs d'ozone professionnels qui éliminent définitivement les odeurs de fumée, même imprégnées dans les murs et textiles. Le traitement dure 24-48h et est très efficace."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

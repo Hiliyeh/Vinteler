@@ -52,8 +52,22 @@ features:
   - "Traitement bois"
   - "Prévention récidive"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un traitement mérule?"
+    answer: "Le prix du traitement de la mérule dépend de l'étendue de l'infestation. VINTELER réalise un diagnostic gratuit pour évaluer les travaux nécessaires. Devis détaillé sous 48h."
+  - question: "Comment reconnaître la mérule?"
+    answer: "La mérule se manifeste par des filaments blancs cotonneux, une odeur de champignon, du bois qui s'effrite et des taches brunes sur les murs. En cas de doute, faites appel à VINTELER pour un diagnostic expert."
+  - question: "La mérule peut-elle revenir après traitement?"
+    answer: "Un traitement professionnel avec élimination de la cause (humidité) garantit l'absence de récidive. VINTELER traite la source du problème et pas seulement les symptômes. Garantie sur nos traitements."
+  - question: "L'assurance couvre-t-elle le traitement mérule?"
+    answer: "Rarement. La mérule est généralement exclue des garanties standard. Certaines assurances habitation couvrent les dégâts si l'humidité provient d'un sinistre couvert. VINTELER fournit un rapport pour votre assurance."
+  - question: "VINTELER couvre-t-il le Limbourg ?"
+    answer: "Oui, nous intervenons dans tout le Limbourg : Hasselt, Genk, Tongres, Beringen, Sint-Truiden, Lommel, Maasmechelen, Leopoldsburg, Bilzen et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des sites miniers limbourgeois ?"
+    answer: "Oui, nous avons une expertise particulière pour les anciens sites miniers du Limbourg et les bâtiments industriels liés à cette histoire. Nous connaissons les problématiques spécifiques de ces constructions."
+  - question: "Proposez-vous des devis en néerlandais pour le Limbourg ?"
+    answer: "Oui, tous nos documents (devis, rapports, factures) peuvent être rédigés en néerlandais. Notre équipe est parfaitement bilingue."
 
 # Maillage interne - Services liés
 related_services:

@@ -52,8 +52,22 @@ features:
   - "Protection temporaire"
   - "Intervention rapide"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment protéger un bâtiment vacant contre les squatteurs ?"
+    answer: "La meilleure protection combine panneaux métalliques anti-effraction sur toutes les ouvertures, grillages périmètriques et signalétique dissuasive. VINTELER installe ces dispositifs rapidement, souvent dans la journée, pour sécuriser votre bien."
+  - question: "Combien coûte la sécurisation d'un bâtiment ?"
+    answer: "Le prix dépend du nombre d'ouvertures à protéger et du type de protection choisi (panneaux métalliques, grillages). VINTELER propose un devis gratuit sur site pour une estimation adaptée à votre bâtiment."
+  - question: "Intervenez-vous en urgence après un sinistre ?"
+    answer: "Oui, VINTELER intervient 24/7 pour sécuriser un bâtiment après incendie, tempête ou effondrement. Nous pouvons être sur place en 2h pour protéger votre bien en attendant les travaux de réparation ou démolition."
+  - question: "Proposez-vous la location de panneaux de sécurisation ?"
+    answer: "Oui, nous proposons la location mensuelle de panneaux anti-effraction pour les chantiers de longue durée. Option intéressante pour les promoteurs ou syndics avec plusieurs bâtiments à sécuriser temporairement."
+  - question: "VINTELER intervient-il dans toutes les communes de Bruxelles ?"
+    answer: "Oui, nous intervenons dans les 19 communes de la Région de Bruxelles-Capitale : Bruxelles-Ville, Ixelles, Uccle, Schaerbeek, Anderlecht, Molenbeek, Etterbeek, Forest, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Jette, Ganshoren, Koekelberg, Berchem-Sainte-Agathe, Saint-Gilles et Saint-Josse-ten-Noode."
+  - question: "Quels sont vos délais d'intervention à Bruxelles ?"
+    answer: "À Bruxelles, notre équipe intervient généralement sous 2 heures en cas d'urgence grâce à notre position centrale. Pour les interventions planifiées, nous proposons des rendez-vous sous 48 à 72 heures."
+  - question: "Respectez-vous les réglementations bruxelloises en matière d'environnement ?"
+    answer: "Absolument. Nous respectons scrupuleusement la législation régionale bruxelloise, notamment en matière de gestion des déchets (Bruxelles-Environnement) et de protection du patrimoine pour les bâtiments classés."
 
 # Maillage interne - Services liés
 related_services:

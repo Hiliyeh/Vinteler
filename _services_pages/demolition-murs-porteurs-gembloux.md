@@ -52,8 +52,22 @@ features:
   - "Renforcement structure"
   - "Étude préalable"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Faut-il un permis pour ouvrir un mur porteur ?"
+    answer: "En général, non pour une ouverture intérieure. Cependant, une note de calcul d'un ingénieur stabilité peut être exigée par votre assurance ou la commune. VINTELER peut coordonner cette étude et fournir tous les documents nécessaires."
+  - question: "Comment savoir si un mur est porteur ?"
+    answer: "Un mur porteur est généralement plus épais (20cm+), situé au centre du bâtiment ou sous une poutre. En cas de doute, VINTELER effectue un diagnostic gratuit sur site pour identifier les murs porteurs de votre habitation."
+  - question: "Quel est le prix d'une ouverture dans un mur porteur ?"
+    answer: "Le prix dépend de la largeur de l'ouverture, de l'épaisseur du mur et du type de poutrelle nécessaire (IPN/IPE). VINTELER réalise un devis gratuit après étude technique de votre projet."
+  - question: "Combien de temps durent les travaux ?"
+    answer: "Une ouverture dans un mur porteur prend généralement 2 à 5 jours : 1 jour pour l'étaiement, 1-2 jours pour la découpe et pose IPN, 1-2 jours pour les finitions. Le chantier reste propre et sécurisé."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

@@ -53,8 +53,22 @@ features:
   - "Tempête & effondrement"
   - "Rapport pour assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "En combien de temps intervenez-vous en cas d'urgence ?"
+    answer: "VINTELER garantit une intervention en 2 heures maximum partout en Belgique, 24h/24 et 7j/7. Appelez le 0490 48 92 42 pour une intervention immédiate après sinistre (incendie, inondation, tempête, accident)."
+  - question: "Que faire immédiatement après un sinistre ?"
+    answer: "1) Assurez votre sécurité et celle des occupants. 2) Appelez les pompiers si nécessaire. 3) Contactez VINTELER au 0490 48 92 42 pour sécuriser le site. 4) Prévenez votre assurance. 5) Ne touchez à rien avant notre intervention et les constats."
+  - question: "Fournissez-vous un rapport pour l'assurance ?"
+    answer: "Oui, VINTELER fournit systématiquement un rapport détaillé avec photos, description des dommages et des travaux réalisés. Ce document est accepté par toutes les compagnies d'assurance belges pour le traitement de votre dossier."
+  - question: "Intervenez-vous la nuit et le week-end ?"
+    answer: "Oui, VINTELER est disponible 24h/24 et 7j/7, y compris les nuits, week-ends et jours fériés. Les sinistres n'attendent pas : notre équipe d'astreinte intervient en 2h maximum partout en Belgique."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

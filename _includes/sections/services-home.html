@@ -31,12 +31,12 @@
 
     <!-- More Services Accordion -->
     <div class="services-more" id="servicesMore">
-        <button class="services-more-header" aria-expanded="false">
+        <button class="services-more-header" aria-expanded="false" aria-controls="services-more-content">
             <h4>Autres services spécialisés</h4>
             <span class="services-more-count">{{ site.data.homepage.other_services | size }} services</span>
             <svg class="services-more-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="services-more-content">
+        <div class="services-more-content" id="services-more-content">
             <div class="services-tags-v2">
                 {% for svc in site.data.homepage.other_services %}
                 <a href="/services/{{ svc.slug }}/" class="service-tag-link">

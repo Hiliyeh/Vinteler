@@ -52,8 +52,22 @@ features:
   - "Conformité normes"
   - "Rapport installation"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte l'installation d'un clapet coupe-feu?"
+    answer: "Le prix d'un clapet coupe-feu installé dépend de la dimension et de l'accessibilité. VINTELER réalise un inventaire complet pour un devis précis. Prix dégressif sur quantité."
+  - question: "Comment savoir si mes clapets sont conformes?"
+    answer: "Les clapets doivent être certifiés, correctement dimensionnés et installés selon les prescriptions. Un clapet ancien ou rouillé peut être bloqué. VINTELER audite vos installations et propose le remplacement si nécessaire."
+  - question: "Les clapets coupe-feu nécessitent-ils un entretien?"
+    answer: "Oui, les clapets doivent être contrôlés annuellement : test de fermeture, vérification état. VINTELER propose des contrats de maintenance incluant le contrôle de tous vos équipements coupe-feu."
+  - question: "Peut-on installer un clapet sur une gaine existante?"
+    answer: "Oui, VINTELER installe des clapets sur gaines existantes. L'intervention nécessite une découpe de la gaine, l'insertion du clapet et le calfeutrement. Intervention rapide et propre."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

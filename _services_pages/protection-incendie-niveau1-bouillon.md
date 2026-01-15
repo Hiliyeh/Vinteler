@@ -52,8 +52,22 @@ features:
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un calfeutrement coupe-feu?"
+    answer: "Le prix du calfeutrement coupe-feu dépend du nombre de passages à traiter. VINTELER réalise un devis gratuit sur site avec inventaire précis. Produits certifiés et attestation fournie."
+  - question: "Quand faut-il réaliser un calfeutrement coupe-feu?"
+    answer: "Le calfeutrement est obligatoire après tout percement de paroi coupe-feu : passage câbles, tuyaux, gaines. Également après curage ou rénovation. VINTELER peut auditer votre bâtiment gratuitement."
+  - question: "Quelle est la durée de vie d'un calfeutrement RF?"
+    answer: "Un calfeutrement correctement réalisé dure toute la vie du bâtiment s'il n'est pas modifié. Les produits VINTELER sont certifiés pour des durées de résistance EI30 à EI120 selon les besoins."
+  - question: "Le calfeutrement est-il vérifié par les pompiers?"
+    answer: "Oui, les pompiers contrôlent le compartimentage lors de leurs visites. Un calfeutrement non conforme peut entraîner un avis défavorable. VINTELER fournit une attestation recevable par les services de prévention incendie."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

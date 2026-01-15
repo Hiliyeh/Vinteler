@@ -52,8 +52,22 @@ features:
   - "Hydrocurage"
   - "Décontamination"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quels types d'équipements nettoyez-vous ?"
+    answer: "VINTELER nettoie tous types d'équipements industriels : cuves de stockage, silos à grains ou poudres, réservoirs, machines-outils, lignes de production, sols d'atelier, parkings souterrains. Nous intervenons dans tous les secteurs industriels."
+  - question: "Intervenez-vous en espace confiné ?"
+    answer: "Oui, notre personnel est certifié pour l'intervention en espace confiné (cuves, silos, réservoirs). Nous disposons des équipements de sécurité requis : détecteurs de gaz, ventilation, harnais, et procédures strictes selon la réglementation belge."
+  - question: "Quel est le délai d'intervention pour un nettoyage industriel ?"
+    answer: "Le délai dépend de la taille et de la complexité de l'équipement. Comptez 1 à 5 jours pour un nettoyage complet. VINTELER peut intervenir en urgence si nécessaire. Contactez-nous pour un planning adapté à votre production."
+  - question: "Proposez-vous des contrats de maintenance ?"
+    answer: "Oui, VINTELER propose des contrats de nettoyage périodique adaptés à vos besoins : mensuel, trimestriel ou annuel. Avantages : tarifs préférentiels, interventions planifiées, suivi technique régulier de vos équipements."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

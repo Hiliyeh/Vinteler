@@ -52,8 +52,22 @@ features:
   - "Protection gaines"
   - "Cloisons coupe-feu certifiées"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une peinture intumescente sur acier?"
+    answer: "Le prix de la peinture intumescente dépend du niveau de résistance requis (R30 à R120) et de la surface à traiter. VINTELER réalise un métré précis pour un devis détaillé. Application par équipe certifiée."
+  - question: "Quelle est la différence entre peinture et habillage coupe-feu?"
+    answer: "La peinture intumescente préserve l'esthétique de l'acier apparent. L'habillage (plaques, caissons) offre des résistances supérieures mais masque la structure. VINTELER vous conseille la solution adaptée à votre projet."
+  - question: "La peinture intumescente est-elle visible?"
+    answer: "Non, la peinture intumescente ressemble à une peinture classique. Elle gonfle uniquement en cas d'incendie pour former une couche isolante. Finition lisse ou texturée selon votre choix."
+  - question: "Peut-on peindre par-dessus une peinture intumescente?"
+    answer: "Oui, sous conditions. Seules certaines peintures de finition sont compatibles. VINTELER applique si nécessaire une finition décorative certifiée compatible avec la protection intumescente."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

@@ -52,8 +52,22 @@ features:
   - "Charpentes acier"
   - "Cuves et réservoirs"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une découpe métallique industrielle?"
+    answer: "Le prix de la découpe métallique dépend du tonnage et de la complexité. VINTELER propose un devis gratuit sur site incluant découpe, évacuation et valorisation ferrailles. Appelez le 0490 48 92 42."
+  - question: "Quelle technique de découpe pour l'acier épais?"
+    answer: "Pour l'acier épais (>20mm), nous utilisons l'oxycoupage qui permet des coupes propres jusqu'à 300mm d'épaisseur. Pour les aciers inox ou alu, la découpe plasma est privilégiée. VINTELER dispose des deux technologies."
+  - question: "Récupérez-vous la valeur des métaux découpés?"
+    answer: "Oui, VINTELER valorise tous les métaux ferreux et non-ferreux. La valeur de récupération est déduite de votre facture. Sur gros chantiers, cela peut représenter une économie significative."
+  - question: "Pouvez-vous découper une structure occupée?"
+    answer: "Oui, nous intervenons sur bâtiments en activité avec des protocoles de sécurité renforcés. Découpe par phases, travail de nuit possible, coordination avec votre exploitation. VINTELER s'adapte à vos contraintes."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

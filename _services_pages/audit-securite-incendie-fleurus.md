@@ -52,8 +52,22 @@ features:
   - "Estimation travaux"
   - "Accompagnement pompiers"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un audit sécurité incendie?"
+    answer: "Le prix d'un audit sécurité incendie dépend de la taille du bâtiment. VINTELER offre le premier audit pour les projets de mise en conformité. Rapport détaillé avec photos et estimations."
+  - question: "Quand faut-il réaliser un audit incendie?"
+    answer: "Un audit est recommandé avant un contrôle des pompiers, après un avis défavorable, avant l'achat d'un bâtiment, ou en préparation de travaux. VINTELER peut intervenir sous 48h pour les urgences."
+  - question: "L'audit est-il accepté par les pompiers?"
+    answer: "L'audit VINTELER est un document technique interne pour préparer votre mise en conformité. Le contrôle officiel reste réalisé par les services de prévention incendie. Notre audit vous permet d'anticiper leurs observations."
+  - question: "Proposez-vous les travaux après l'audit?"
+    answer: "Oui, VINTELER réalise tous les travaux de mise en conformité identifiés lors de l'audit : portes RF, clapets, calfeutrement, cloisons, signalétique. Un seul interlocuteur du diagnostic à la réception."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

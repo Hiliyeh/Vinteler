@@ -52,8 +52,22 @@ features:
   - "Plafonds techniques"
   - "Certification EI"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment améliorer la résistance au feu d'un plancher bois?"
+    answer: "Un plancher bois ancien peut être renforcé par habillage sous-face en plaques coupe-feu ou flocage. VINTELER évalue votre plancher et propose la solution la plus adaptée pour atteindre EI30, EI60 ou EI90."
+  - question: "Combien coûte un renforcement de plafond coupe-feu?"
+    answer: "Le prix du renforcement de plafond coupe-feu dépend de la résistance visée et de la configuration. VINTELER réalise un devis gratuit après visite technique. Solution souvent plus économique qu'une reconstruction."
+  - question: "Peut-on renforcer un plafond sans le démonter?"
+    answer: "Oui, dans la plupart des cas. L'habillage coupe-feu se pose sous le plafond existant, ajoutant quelques centimètres d'épaisseur. VINTELER minimise l'impact sur la hauteur sous plafond."
+  - question: "Le renforcement est-il certifié pour les pompiers?"
+    answer: "Oui, VINTELER utilise uniquement des systèmes certifiés avec PV d'essai feu. Nous fournissons une attestation de conformité recevable par les services de prévention incendie."
+  - question: "VINTELER couvre-t-il le Limbourg ?"
+    answer: "Oui, nous intervenons dans tout le Limbourg : Hasselt, Genk, Tongres, Beringen, Sint-Truiden, Lommel, Maasmechelen, Leopoldsburg, Bilzen et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des sites miniers limbourgeois ?"
+    answer: "Oui, nous avons une expertise particulière pour les anciens sites miniers du Limbourg et les bâtiments industriels liés à cette histoire. Nous connaissons les problématiques spécifiques de ces constructions."
+  - question: "Proposez-vous des devis en néerlandais pour le Limbourg ?"
+    answer: "Oui, tous nos documents (devis, rapports, factures) peuvent être rédigés en néerlandais. Notre équipe est parfaitement bilingue."
 
 # Maillage interne - Services liés
 related_services:

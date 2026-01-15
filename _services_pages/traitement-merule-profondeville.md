@@ -52,8 +52,22 @@ features:
   - "Traitement bois"
   - "Prévention récidive"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un traitement mérule?"
+    answer: "Le prix du traitement de la mérule dépend de l'étendue de l'infestation. VINTELER réalise un diagnostic gratuit pour évaluer les travaux nécessaires. Devis détaillé sous 48h."
+  - question: "Comment reconnaître la mérule?"
+    answer: "La mérule se manifeste par des filaments blancs cotonneux, une odeur de champignon, du bois qui s'effrite et des taches brunes sur les murs. En cas de doute, faites appel à VINTELER pour un diagnostic expert."
+  - question: "La mérule peut-elle revenir après traitement?"
+    answer: "Un traitement professionnel avec élimination de la cause (humidité) garantit l'absence de récidive. VINTELER traite la source du problème et pas seulement les symptômes. Garantie sur nos traitements."
+  - question: "L'assurance couvre-t-elle le traitement mérule?"
+    answer: "Rarement. La mérule est généralement exclue des garanties standard. Certaines assurances habitation couvrent les dégâts si l'humidité provient d'un sinistre couvert. VINTELER fournit un rapport pour votre assurance."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

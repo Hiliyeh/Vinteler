@@ -52,8 +52,22 @@ features:
   - "Carnet d'entretien"
   - "Contrats maintenance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "La maintenance coupe-feu est-elle obligatoire?"
+    answer: "Oui, la réglementation impose un contrôle annuel des équipements coupe-feu. Le carnet d'entretien doit être présenté aux pompiers lors de leurs visites. VINTELER assure cette maintenance avec remise du carnet à jour."
+  - question: "Combien coûte un contrat de maintenance coupe-feu?"
+    answer: "Le prix d'un contrat de maintenance coupe-feu dépend du nombre d'équipements à entretenir. VINTELER propose des forfaits adaptés à chaque bâtiment. Pièces de remplacement incluses ou en supplément selon formule."
+  - question: "Que comprend la maintenance d'une porte coupe-feu?"
+    answer: "La maintenance d'une porte RF comprend : test de fermeture automatique, contrôle joints intumescents, vérification serrure et paumelles, graissage, réglage ferme-porte. VINTELER remplace immédiatement les pièces défectueuses."
+  - question: "Maintenez-vous tous types d'équipements coupe-feu?"
+    answer: "Oui, VINTELER assure la maintenance de tous les équipements : portes RF, clapets, exutoires, volets, rideaux métalliques coupe-feu. Un seul contrat pour l'ensemble de vos équipements."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

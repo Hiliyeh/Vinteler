@@ -52,8 +52,22 @@ features:
   - "Certification"
   - "Plans techniques"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une cloison coupe-feu au m²?"
+    answer: "Le prix d'une cloison coupe-feu dépend du niveau de résistance (EI60 à EI120) et des finitions. VINTELER réalise un devis précis après relevé des surfaces. Portes RF en supplément."
+  - question: "Quelle épaisseur pour une cloison EI60?"
+    answer: "Une cloison EI60 standard fait environ 100mm d'épaisseur (ossature + double parement). VINTELER optimise l'épaisseur selon vos contraintes d'espace tout en garantissant la certification."
+  - question: "Peut-on créer un compartimentage dans un bâtiment existant?"
+    answer: "Oui, VINTELER intervient régulièrement pour créer des compartiments coupe-feu dans des bâtiments existants. Jonction étanche avec les parois existantes, intégration des réseaux, respect de l'exploitation."
+  - question: "Les cloisons coupe-feu sont-elles aussi acoustiques?"
+    answer: "Oui, les cloisons coupe-feu offrent généralement une bonne isolation acoustique (40 à 55 dB). VINTELER peut renforcer la performance acoustique si nécessaire avec des solutions combinées RF + acoustique."
+  - question: "VINTELER intervient-il dans toutes les communes de Bruxelles ?"
+    answer: "Oui, nous intervenons dans les 19 communes de la Région de Bruxelles-Capitale : Bruxelles-Ville, Ixelles, Uccle, Schaerbeek, Anderlecht, Molenbeek, Etterbeek, Forest, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Jette, Ganshoren, Koekelberg, Berchem-Sainte-Agathe, Saint-Gilles et Saint-Josse-ten-Noode."
+  - question: "Quels sont vos délais d'intervention à Bruxelles ?"
+    answer: "À Bruxelles, notre équipe intervient généralement sous 2 heures en cas d'urgence grâce à notre position centrale. Pour les interventions planifiées, nous proposons des rendez-vous sous 48 à 72 heures."
+  - question: "Respectez-vous les réglementations bruxelloises en matière d'environnement ?"
+    answer: "Absolument. Nous respectons scrupuleusement la législation régionale bruxelloise, notamment en matière de gestion des déchets (Bruxelles-Environnement) et de protection du patrimoine pour les bâtiments classés."
 
 # Maillage interne - Services liés
 related_services:

@@ -52,8 +52,22 @@ features:
   - "Attestation de pose"
   - "Tous types de bâtiments"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle différence entre EI30, EI60 et EI90 ?"
+    answer: "EI30, EI60 et EI90 indiquent la durée de résistance au feu : 30, 60 ou 90 minutes. Le choix dépend de la réglementation applicable à votre bâtiment et de l'emplacement de la porte. VINTELER vous conseille sur le niveau requis."
+  - question: "Combien coûte une porte coupe-feu ?"
+    answer: "Le prix d'une porte coupe-feu dépend du niveau de résistance (EI30/EI60/EI90), des dimensions et des accessoires (ferme-porte, serrure). VINTELER fournit un devis détaillé gratuit."
+  - question: "Fournissez-vous une attestation de pose ?"
+    answer: "Oui, VINTELER délivre systématiquement une attestation de pose certifiant la conformité de l'installation. Ce document est indispensable pour les contrôles des pompiers et la validation de votre assurance incendie."
+  - question: "Remplacez-vous les anciennes portes coupe-feu ?"
+    answer: "Oui, nous remplaçons les portes coupe-feu vétustes ou non conformes. Dépose de l'ancienne porte, adaptation du cadre si nécessaire, pose de la nouvelle porte certifiée et attestation de conformité. Intervention propre et rapide."
+  - question: "Intervenez-vous sur la côte belge ?"
+    answer: "Oui, nous intervenons sur toute la côte belge : Ostende, Bruges, Blankenberge, Knokke-Heist, De Panne, Nieuport. Nous connaissons les problématiques spécifiques liées à l'environnement maritime."
+  - question: "Quelles villes de Flandre occidentale couvrez-vous ?"
+    answer: "Nous couvrons toute la Flandre occidentale : Bruges, Ostende, Courtrai, Roulers, Ypres, Waregem, Poperinge, Diksmuide, Torhout, Izegem et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des bâtiments côtiers ?"
+    answer: "Oui, nous avons une expertise spécifique pour les bâtiments exposés au sel marin et à l'humidité côtière. Nous utilisons des techniques adaptées à ces conditions particulières."
 
 # Maillage interne - Services liés
 related_services:

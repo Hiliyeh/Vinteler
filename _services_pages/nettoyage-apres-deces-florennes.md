@@ -52,8 +52,22 @@ features:
   - "Logement insalubre"
   - "Évacuation déchets"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment se passe un nettoyage après décès ?"
+    answer: "VINTELER intervient avec discrétion et respect. Nous retirons les éléments souillés, désinfectons toutes les surfaces avec des produits biocides professionnels, puis traitons les odeurs par ozone. Le logement est rendu propre et sain, prêt pour la succession."
+  - question: "Intervenez-vous pour le syndrome de Diogène ?"
+    answer: "Oui, VINTELER est spécialisé dans le nettoyage de logements touchés par le syndrome de Diogène : accumulation de déchets, insalubrité, odeurs. Nous évacuons, désinfectons et remettons le logement en état habitable ou vendable."
+  - question: "L'intervention est-elle discrète ?"
+    answer: "Absolument. Nos équipes interviennent en véhicules banalisés, sans uniforme identifiable. Nous respectons la confidentialité de la situation et la dignité des personnes concernées. Aucune information n'est partagée."
+  - question: "Qui paie le nettoyage après décès ?"
+    answer: "Les frais sont généralement à la charge de la succession ou des héritiers. Dans certains cas, l'assurance habitation du défunt peut couvrir une partie des frais. Nous fournissons une facture détaillée pour le notaire."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

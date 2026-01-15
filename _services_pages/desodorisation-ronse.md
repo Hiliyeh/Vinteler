@@ -52,8 +52,22 @@ features:
   - "Odeurs décès"
   - "Odeurs moisissures"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une désodorisation professionnelle?"
+    answer: "Le prix de la désodorisation dépend de la surface et de l'intensité des odeurs. VINTELER propose un diagnostic gratuit pour établir un devis précis. Appelez le 0490 48 92 42."
+  - question: "Le traitement ozone est-il efficace contre les odeurs d'incendie?"
+    answer: "Oui, l'ozone est très efficace contre les odeurs d'incendie. Il oxyde les molécules de suie et de fumée en profondeur. VINTELER combine ozone et neutralisants pour un résultat 100% garanti."
+  - question: "Combien de temps dure une désodorisation complète?"
+    answer: "Une désodorisation complète dure 1 à 3 jours selon l'imprégnation. Le traitement ozone nécessite une évacuation temporaire du local. Résultat visible dès le premier traitement."
+  - question: "Peut-on éliminer les odeurs après un décès?"
+    answer: "Oui, VINTELER intervient avec discrétion et professionnalisme après un décès. Notre protocole combine nettoyage spécialisé, traitement ozone et neutralisants enzymatiques. Odeurs complètement éliminées."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

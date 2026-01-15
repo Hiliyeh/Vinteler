@@ -52,8 +52,22 @@ features:
   - "Suivi hygrométrique"
   - "Rapport technique assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien de temps pour sécher un mur après inondation ?"
+    answer: "Le temps de séchage varie de 5 à 15 jours selon l'épaisseur du mur et le taux d'humidité initial. Avec des déshumidificateurs professionnels, le séchage est 3 à 5 fois plus rapide qu'un séchage naturel."
+  - question: "Pourquoi faire appel à un assèchement professionnel ?"
+    answer: "Un séchage naturel peut prendre plusieurs mois et favorise le développement de moisissures. L'assèchement technique accélère le processus, prévient les dégâts secondaires et fournit un rapport pour votre assurance."
+  - question: "L'assurance prend-elle en charge l'assèchement ?"
+    answer: "Oui, l'assèchement technique est généralement couvert par l'assurance dégât des eaux. VINTELER fournit un rapport technique détaillé avec les mesures d'humidité qui facilite votre indemnisation."
+  - question: "Peut-on habiter pendant l'assèchement ?"
+    answer: "Oui, dans la plupart des cas vous pouvez rester dans le logement. Les déshumidificateurs sont bruyants mais peuvent être installés dans les pièces inoccupées. Nous adaptons le dispositif à votre situation."
+  - question: "VINTELER intervient-il dans toutes les communes de Bruxelles ?"
+    answer: "Oui, nous intervenons dans les 19 communes de la Région de Bruxelles-Capitale : Bruxelles-Ville, Ixelles, Uccle, Schaerbeek, Anderlecht, Molenbeek, Etterbeek, Forest, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Jette, Ganshoren, Koekelberg, Berchem-Sainte-Agathe, Saint-Gilles et Saint-Josse-ten-Noode."
+  - question: "Quels sont vos délais d'intervention à Bruxelles ?"
+    answer: "À Bruxelles, notre équipe intervient généralement sous 2 heures en cas d'urgence grâce à notre position centrale. Pour les interventions planifiées, nous proposons des rendez-vous sous 48 à 72 heures."
+  - question: "Respectez-vous les réglementations bruxelloises en matière d'environnement ?"
+    answer: "Absolument. Nous respectons scrupuleusement la législation régionale bruxelloise, notamment en matière de gestion des déchets (Bruxelles-Environnement) et de protection du patrimoine pour les bâtiments classés."
 
 # Maillage interne - Services liés
 related_services:

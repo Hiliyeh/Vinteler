@@ -52,8 +52,22 @@ features:
   - "Logement insalubre"
   - "Évacuation déchets"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment se passe un nettoyage après décès ?"
+    answer: "VINTELER intervient avec discrétion et respect. Nous retirons les éléments souillés, désinfectons toutes les surfaces avec des produits biocides professionnels, puis traitons les odeurs par ozone. Le logement est rendu propre et sain, prêt pour la succession."
+  - question: "Intervenez-vous pour le syndrome de Diogène ?"
+    answer: "Oui, VINTELER est spécialisé dans le nettoyage de logements touchés par le syndrome de Diogène : accumulation de déchets, insalubrité, odeurs. Nous évacuons, désinfectons et remettons le logement en état habitable ou vendable."
+  - question: "L'intervention est-elle discrète ?"
+    answer: "Absolument. Nos équipes interviennent en véhicules banalisés, sans uniforme identifiable. Nous respectons la confidentialité de la situation et la dignité des personnes concernées. Aucune information n'est partagée."
+  - question: "Qui paie le nettoyage après décès ?"
+    answer: "Les frais sont généralement à la charge de la succession ou des héritiers. Dans certains cas, l'assurance habitation du défunt peut couvrir une partie des frais. Nous fournissons une facture détaillée pour le notaire."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

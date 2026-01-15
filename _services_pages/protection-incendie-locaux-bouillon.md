@@ -52,8 +52,22 @@ features:
   - "Parkings souterrains"
   - "Caves communes"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelles sont les normes pour un local poubelles?"
+    answer: "Un local poubelles doit avoir des parois EI60, une porte EI30 avec ferme-porte, une ventilation haute/basse et un sol lavable. VINTELER réalise la mise en conformité complète de votre local poubelles."
+  - question: "Comment mettre aux normes une chaufferie?"
+    answer: "Une chaufferie nécessite des parois EI120 ou EI60 selon puissance, une porte EI30/EI60, une ventilation réglementaire et des coupures de sécurité. VINTELER audite et met aux normes vos chaufferies."
+  - question: "Le parking souterrain doit-il être coupe-feu?"
+    answer: "Oui, un parking souterrain doit être compartimenté avec des parois et portes coupe-feu, des clapets sur les gaines, un désenfumage. VINTELER réalise les travaux de mise en conformité des parkings."
+  - question: "Combien coûte la mise aux normes d'un local technique?"
+    answer: "Le prix de la mise aux normes d'un local à risque dépend de l'ampleur des travaux nécessaires. VINTELER propose un audit gratuit avec devis détaillé poste par poste."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

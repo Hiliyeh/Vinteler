@@ -53,8 +53,22 @@ features:
   - "Tempête & effondrement"
   - "Rapport pour assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "En combien de temps intervenez-vous en cas d'urgence ?"
+    answer: "VINTELER garantit une intervention en 2 heures maximum partout en Belgique, 24h/24 et 7j/7. Appelez le 0490 48 92 42 pour une intervention immédiate après sinistre (incendie, inondation, tempête, accident)."
+  - question: "Que faire immédiatement après un sinistre ?"
+    answer: "1) Assurez votre sécurité et celle des occupants. 2) Appelez les pompiers si nécessaire. 3) Contactez VINTELER au 0490 48 92 42 pour sécuriser le site. 4) Prévenez votre assurance. 5) Ne touchez à rien avant notre intervention et les constats."
+  - question: "Fournissez-vous un rapport pour l'assurance ?"
+    answer: "Oui, VINTELER fournit systématiquement un rapport détaillé avec photos, description des dommages et des travaux réalisés. Ce document est accepté par toutes les compagnies d'assurance belges pour le traitement de votre dossier."
+  - question: "Intervenez-vous la nuit et le week-end ?"
+    answer: "Oui, VINTELER est disponible 24h/24 et 7j/7, y compris les nuits, week-ends et jours fériés. Les sinistres n'attendent pas : notre équipe d'astreinte intervient en 2h maximum partout en Belgique."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

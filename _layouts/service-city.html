@@ -7,7 +7,7 @@ layout: default
 <section class="service-hero">
     {% if service.image %}
     <div class="service-hero-bg">
-        <img src="{{ service.image }}" alt="{{ page.service_name }} {{ page.city_name }}" loading="eager">
+        <img src="{{ service.image }}" alt="{{ page.service_name }} {{ page.city_name }}" loading="eager" width="1200" height="900" fetchpriority="high" decoding="async">
     </div>
     <div class="service-hero-overlay"></div>
     {% endif %}

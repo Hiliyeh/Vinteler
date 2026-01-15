@@ -52,8 +52,22 @@ features:
   - "Charpentes acier"
   - "Cuves et réservoirs"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une découpe métallique industrielle?"
+    answer: "Le prix de la découpe métallique dépend du tonnage et de la complexité. VINTELER propose un devis gratuit sur site incluant découpe, évacuation et valorisation ferrailles. Appelez le 0490 48 92 42."
+  - question: "Quelle technique de découpe pour l'acier épais?"
+    answer: "Pour l'acier épais (>20mm), nous utilisons l'oxycoupage qui permet des coupes propres jusqu'à 300mm d'épaisseur. Pour les aciers inox ou alu, la découpe plasma est privilégiée. VINTELER dispose des deux technologies."
+  - question: "Récupérez-vous la valeur des métaux découpés?"
+    answer: "Oui, VINTELER valorise tous les métaux ferreux et non-ferreux. La valeur de récupération est déduite de votre facture. Sur gros chantiers, cela peut représenter une économie significative."
+  - question: "Pouvez-vous découper une structure occupée?"
+    answer: "Oui, nous intervenons sur bâtiments en activité avec des protocoles de sécurité renforcés. Découpe par phases, travail de nuit possible, coordination avec votre exploitation. VINTELER s'adapte à vos contraintes."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

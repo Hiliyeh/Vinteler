@@ -52,8 +52,22 @@ features:
   - "Équipements lourds"
   - "Récupération métaux"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage d'usine complet?"
+    answer: "Le prix du démontage industriel dépend de la taille de l'installation. VINTELER réalise un audit gratuit pour chiffrer précisément. La valorisation des métaux réduit significativement le coût final."
+  - question: "Quelle est la durée d'un démontage industriel?"
+    answer: "Un démontage industriel dure 1 à 4 semaines selon la complexité. VINTELER peut accélérer les délais avec des équipes renforcées. Planning détaillé fourni avant démarrage."
+  - question: "Gérez-vous les déchets dangereux industriels?"
+    answer: "Oui, VINTELER est agréé pour la gestion des déchets industriels dangereux : huiles, solvants, batteries, etc. Bordereau de suivi déchets (BSD) fourni pour votre traçabilité environnementale."
+  - question: "Pouvez-vous démonter une usine en activité partielle?"
+    answer: "Oui, nous intervenons fréquemment sur sites partiellement actifs. Démontage par zones, travail en horaires décalés, coordination avec votre production. VINTELER minimise l'impact sur votre activité."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

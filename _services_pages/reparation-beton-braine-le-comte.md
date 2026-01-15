@@ -52,8 +52,22 @@ features:
   - "Protection anticorrosion"
   - "Étanchéité béton"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une réparation de béton?"
+    answer: "Le prix de la réparation de béton dépend de l'étendue des dégâts et de l'accessibilité. VINTELER réalise un diagnostic gratuit avec métré précis. Intervention sur balcons, parkings, structures."
+  - question: "Pourquoi le béton se dégrade-t-il?"
+    answer: "Le béton se dégrade par carbonatation (perte d'alcalinité), infiltration d'eau, gel/dégel ou corrosion des armatures. VINTELER identifie la cause pour traiter le problème à la source et pas seulement les symptômes."
+  - question: "La réparation est-elle durable?"
+    answer: "Oui, une réparation professionnelle avec produits certifiés dure plusieurs décennies. VINTELER applique des mortiers de réparation structurels et des protections anticorrosion garantissant la pérennité."
+  - question: "Réparez-vous les balcons en béton?"
+    answer: "Oui, les balcons sont notre spécialité. Réparation du béton éclaté, traitement des armatures corrodées, étanchéité et finition. VINTELER intervient avec nacelle si nécessaire pour les étages élevés."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

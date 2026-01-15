@@ -52,8 +52,22 @@ features:
   - "Équipe spécialisée"
   - "Analyses laboratoire"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle est la différence entre désamiantage simple et confiné ?"
+    answer: "Le désamiantage simple concerne l'amiante non friable (toitures, dalles). Le désamiantage confiné traite l'amiante friable (flocage, calorifuge) qui libère des fibres : il nécessite une zone étanche sous dépression, des contrôles atmosphériques et des équipements spécialisés."
+  - question: "Comment savoir si mon amiante nécessite un confinement ?"
+    answer: "L'amiante friable (qui s'effrite facilement) nécessite un confinement : flocages, calorifuges de tuyaux, certains faux-plafonds. VINTELER réalise un diagnostic gratuit pour déterminer le type de traitement adapté à votre situation."
+  - question: "Combien de temps dure un désamiantage en zone confinée ?"
+    answer: "Un désamiantage confiné dure généralement 3 à 10 jours selon la surface et la complexité. Ce délai inclut l'installation du confinement, le retrait, les contrôles atmosphériques et les analyses de libération de zone."
+  - question: "Le bâtiment peut-il être occupé pendant le désamiantage ?"
+    answer: "Non, la zone de travaux doit être évacuée et isolée pendant toute la durée du désamiantage confiné. VINTELER définit un périmètre de sécurité et coordonne les travaux pour minimiser l'impact sur l'activité du bâtiment."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

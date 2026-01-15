@@ -10,6 +10,6 @@
      stroke-width="{{ include.stroke_width | default: 2 }}"
      stroke-linecap="round"
      stroke-linejoin="round"
-     {% if include.class %} class="{{ include.class }}"{% endif %}>
+     {% if include.class %} class="{{ include.class }}"{% endif %} aria-hidden="true" focusable="false">
     <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
 </svg>

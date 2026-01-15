@@ -2,6 +2,6 @@
   Check Icon - Reusable SVG component
   Usage: {% include svg/icon-check.html width="20" height="20" %}
 {% endcomment %}
-<svg viewBox="0 0 24 24" width="{{ include.width | default: 24 }}" height="{{ include.height | default: 24 }}" fill="none" stroke="currentColor" stroke-width="{{ include.stroke_width | default: 2 }}"{% if include.class %} class="{{ include.class }}"{% endif %}>
+<svg viewBox="0 0 24 24" width="{{ include.width | default: 24 }}" height="{{ include.height | default: 24 }}" fill="none" stroke="currentColor" stroke-width="{{ include.stroke_width | default: 2 }}"{% if include.class %} class="{{ include.class }}"{% endif %} aria-hidden="true" focusable="false">
     <polyline points="20 6 9 17 4 12"/>
 </svg>

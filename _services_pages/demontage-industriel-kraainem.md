@@ -52,8 +52,22 @@ features:
   - "Équipements lourds"
   - "Récupération métaux"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage d'usine complet?"
+    answer: "Le prix du démontage industriel dépend de la taille de l'installation. VINTELER réalise un audit gratuit pour chiffrer précisément. La valorisation des métaux réduit significativement le coût final."
+  - question: "Quelle est la durée d'un démontage industriel?"
+    answer: "Un démontage industriel dure 1 à 4 semaines selon la complexité. VINTELER peut accélérer les délais avec des équipes renforcées. Planning détaillé fourni avant démarrage."
+  - question: "Gérez-vous les déchets dangereux industriels?"
+    answer: "Oui, VINTELER est agréé pour la gestion des déchets industriels dangereux : huiles, solvants, batteries, etc. Bordereau de suivi déchets (BSD) fourni pour votre traçabilité environnementale."
+  - question: "Pouvez-vous démonter une usine en activité partielle?"
+    answer: "Oui, nous intervenons fréquemment sur sites partiellement actifs. Démontage par zones, travail en horaires décalés, coordination avec votre production. VINTELER minimise l'impact sur votre activité."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

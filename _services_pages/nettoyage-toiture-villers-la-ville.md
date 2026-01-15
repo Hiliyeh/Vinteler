@@ -52,8 +52,22 @@ features:
   - "Toits plats"
   - "Traitement hydrofuge"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "À quelle fréquence faut-il nettoyer sa toiture ?"
+    answer: "En Belgique, un nettoyage tous les 5 à 10 ans est recommandé selon l'exposition (arbres, humidité, orientation nord). Avec un traitement anti-mousse, vous prolongez l'intervalle entre deux nettoyages."
+  - question: "Le nettoyage haute pression abîme-t-il les tuiles ?"
+    answer: "Une pression trop forte peut effectivement dégrader les tuiles. VINTELER utilise une technique basse pression adaptée au matériau. Pour les toitures fragiles (ardoises, tuiles anciennes), nous privilégions le traitement chimique doux."
+  - question: "Combien coûte un démoussage de toiture ?"
+    answer: "Le prix dépend du type de toiture (tuiles, ardoises), de la surface et du niveau d'encrassement. Traitement anti-mousse inclus dans nos prestations. VINTELER propose un devis gratuit après inspection sur site."
+  - question: "Nettoyez-vous aussi les gouttières ?"
+    answer: "Oui, le nettoyage des gouttières est inclus dans nos prestations de nettoyage toiture. Nous retirons les feuilles et débris, vérifions l'écoulement et signalons les réparations éventuelles à prévoir."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

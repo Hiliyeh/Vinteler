@@ -52,8 +52,22 @@ features:
   - "Équipe spécialisée"
   - "Analyses laboratoire"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle est la différence entre désamiantage simple et confiné ?"
+    answer: "Le désamiantage simple concerne l'amiante non friable (toitures, dalles). Le désamiantage confiné traite l'amiante friable (flocage, calorifuge) qui libère des fibres : il nécessite une zone étanche sous dépression, des contrôles atmosphériques et des équipements spécialisés."
+  - question: "Comment savoir si mon amiante nécessite un confinement ?"
+    answer: "L'amiante friable (qui s'effrite facilement) nécessite un confinement : flocages, calorifuges de tuyaux, certains faux-plafonds. VINTELER réalise un diagnostic gratuit pour déterminer le type de traitement adapté à votre situation."
+  - question: "Combien de temps dure un désamiantage en zone confinée ?"
+    answer: "Un désamiantage confiné dure généralement 3 à 10 jours selon la surface et la complexité. Ce délai inclut l'installation du confinement, le retrait, les contrôles atmosphériques et les analyses de libération de zone."
+  - question: "Le bâtiment peut-il être occupé pendant le désamiantage ?"
+    answer: "Non, la zone de travaux doit être évacuée et isolée pendant toute la durée du désamiantage confiné. VINTELER définit un périmètre de sécurité et coordonne les travaux pour minimiser l'impact sur l'activité du bâtiment."
+  - question: "VINTELER couvre-t-il le Limbourg ?"
+    answer: "Oui, nous intervenons dans tout le Limbourg : Hasselt, Genk, Tongres, Beringen, Sint-Truiden, Lommel, Maasmechelen, Leopoldsburg, Bilzen et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des sites miniers limbourgeois ?"
+    answer: "Oui, nous avons une expertise particulière pour les anciens sites miniers du Limbourg et les bâtiments industriels liés à cette histoire. Nous connaissons les problématiques spécifiques de ces constructions."
+  - question: "Proposez-vous des devis en néerlandais pour le Limbourg ?"
+    answer: "Oui, tous nos documents (devis, rapports, factures) peuvent être rédigés en néerlandais. Notre équipe est parfaitement bilingue."
 
 # Maillage interne - Services liés
 related_services:

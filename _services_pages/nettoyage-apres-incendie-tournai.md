@@ -52,8 +52,22 @@ features:
   - "Élimination odeurs fumée"
   - "Rapport pour assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quand peut-on nettoyer après un incendie ?"
+    answer: "Le nettoyage peut commencer dès que les pompiers ont donné leur autorisation et que le bâtiment est sécurisé. VINTELER peut intervenir dans les 24h suivant le sinistre pour limiter les dégâts secondaires."
+  - question: "La suie est-elle dangereuse pour la santé ?"
+    answer: "Oui, la suie contient des particules toxiques et des résidus de combustion nocifs. Il est important de ne pas nettoyer soi-même et de faire appel à des professionnels équipés. VINTELER utilise des EPI adaptés et des techniques sécurisées."
+  - question: "L'assurance couvre-t-elle le nettoyage après incendie ?"
+    answer: "Oui, le nettoyage après incendie est généralement couvert par votre assurance habitation au titre des frais de remise en état. VINTELER fournit un rapport détaillé avec photos pour faciliter votre indemnisation."
+  - question: "Peut-on éliminer les odeurs de fumée ?"
+    answer: "Oui, VINTELER utilise des générateurs d'ozone professionnels qui éliminent définitivement les odeurs de fumée, même imprégnées dans les murs et textiles. Le traitement dure 24-48h et est très efficace."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

@@ -52,8 +52,22 @@ features:
   - "Équipements lourds"
   - "Récupération métaux"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage d'usine complet?"
+    answer: "Le prix du démontage industriel dépend de la taille de l'installation. VINTELER réalise un audit gratuit pour chiffrer précisément. La valorisation des métaux réduit significativement le coût final."
+  - question: "Quelle est la durée d'un démontage industriel?"
+    answer: "Un démontage industriel dure 1 à 4 semaines selon la complexité. VINTELER peut accélérer les délais avec des équipes renforcées. Planning détaillé fourni avant démarrage."
+  - question: "Gérez-vous les déchets dangereux industriels?"
+    answer: "Oui, VINTELER est agréé pour la gestion des déchets industriels dangereux : huiles, solvants, batteries, etc. Bordereau de suivi déchets (BSD) fourni pour votre traçabilité environnementale."
+  - question: "Pouvez-vous démonter une usine en activité partielle?"
+    answer: "Oui, nous intervenons fréquemment sur sites partiellement actifs. Démontage par zones, travail en horaires décalés, coordination avec votre production. VINTELER minimise l'impact sur votre activité."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

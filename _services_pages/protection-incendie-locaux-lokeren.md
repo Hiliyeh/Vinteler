@@ -52,8 +52,22 @@ features:
   - "Parkings souterrains"
   - "Caves communes"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelles sont les normes pour un local poubelles?"
+    answer: "Un local poubelles doit avoir des parois EI60, une porte EI30 avec ferme-porte, une ventilation haute/basse et un sol lavable. VINTELER réalise la mise en conformité complète de votre local poubelles."
+  - question: "Comment mettre aux normes une chaufferie?"
+    answer: "Une chaufferie nécessite des parois EI120 ou EI60 selon puissance, une porte EI30/EI60, une ventilation réglementaire et des coupures de sécurité. VINTELER audite et met aux normes vos chaufferies."
+  - question: "Le parking souterrain doit-il être coupe-feu?"
+    answer: "Oui, un parking souterrain doit être compartimenté avec des parois et portes coupe-feu, des clapets sur les gaines, un désenfumage. VINTELER réalise les travaux de mise en conformité des parkings."
+  - question: "Combien coûte la mise aux normes d'un local technique?"
+    answer: "Le prix de la mise aux normes d'un local à risque dépend de l'ampleur des travaux nécessaires. VINTELER propose un audit gratuit avec devis détaillé poste par poste."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

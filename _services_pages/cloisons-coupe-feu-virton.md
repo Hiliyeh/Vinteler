@@ -52,8 +52,22 @@ features:
   - "Certification"
   - "Plans techniques"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une cloison coupe-feu au m²?"
+    answer: "Le prix d'une cloison coupe-feu dépend du niveau de résistance (EI60 à EI120) et des finitions. VINTELER réalise un devis précis après relevé des surfaces. Portes RF en supplément."
+  - question: "Quelle épaisseur pour une cloison EI60?"
+    answer: "Une cloison EI60 standard fait environ 100mm d'épaisseur (ossature + double parement). VINTELER optimise l'épaisseur selon vos contraintes d'espace tout en garantissant la certification."
+  - question: "Peut-on créer un compartimentage dans un bâtiment existant?"
+    answer: "Oui, VINTELER intervient régulièrement pour créer des compartiments coupe-feu dans des bâtiments existants. Jonction étanche avec les parois existantes, intégration des réseaux, respect de l'exploitation."
+  - question: "Les cloisons coupe-feu sont-elles aussi acoustiques?"
+    answer: "Oui, les cloisons coupe-feu offrent généralement une bonne isolation acoustique (40 à 55 dB). VINTELER peut renforcer la performance acoustique si nécessaire avec des solutions combinées RF + acoustique."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

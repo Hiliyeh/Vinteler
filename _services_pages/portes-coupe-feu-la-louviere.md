@@ -52,8 +52,22 @@ features:
   - "Attestation de pose"
   - "Tous types de bâtiments"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle différence entre EI30, EI60 et EI90 ?"
+    answer: "EI30, EI60 et EI90 indiquent la durée de résistance au feu : 30, 60 ou 90 minutes. Le choix dépend de la réglementation applicable à votre bâtiment et de l'emplacement de la porte. VINTELER vous conseille sur le niveau requis."
+  - question: "Combien coûte une porte coupe-feu ?"
+    answer: "Le prix d'une porte coupe-feu dépend du niveau de résistance (EI30/EI60/EI90), des dimensions et des accessoires (ferme-porte, serrure). VINTELER fournit un devis détaillé gratuit."
+  - question: "Fournissez-vous une attestation de pose ?"
+    answer: "Oui, VINTELER délivre systématiquement une attestation de pose certifiant la conformité de l'installation. Ce document est indispensable pour les contrôles des pompiers et la validation de votre assurance incendie."
+  - question: "Remplacez-vous les anciennes portes coupe-feu ?"
+    answer: "Oui, nous remplaçons les portes coupe-feu vétustes ou non conformes. Dépose de l'ancienne porte, adaptation du cadre si nécessaire, pose de la nouvelle porte certifiée et attestation de conformité. Intervention propre et rapide."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

@@ -52,8 +52,22 @@ features:
   - "Logement insalubre"
   - "Évacuation déchets"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment se passe un nettoyage après décès ?"
+    answer: "VINTELER intervient avec discrétion et respect. Nous retirons les éléments souillés, désinfectons toutes les surfaces avec des produits biocides professionnels, puis traitons les odeurs par ozone. Le logement est rendu propre et sain, prêt pour la succession."
+  - question: "Intervenez-vous pour le syndrome de Diogène ?"
+    answer: "Oui, VINTELER est spécialisé dans le nettoyage de logements touchés par le syndrome de Diogène : accumulation de déchets, insalubrité, odeurs. Nous évacuons, désinfectons et remettons le logement en état habitable ou vendable."
+  - question: "L'intervention est-elle discrète ?"
+    answer: "Absolument. Nos équipes interviennent en véhicules banalisés, sans uniforme identifiable. Nous respectons la confidentialité de la situation et la dignité des personnes concernées. Aucune information n'est partagée."
+  - question: "Qui paie le nettoyage après décès ?"
+    answer: "Les frais sont généralement à la charge de la succession ou des héritiers. Dans certains cas, l'assurance habitation du défunt peut couvrir une partie des frais. Nous fournissons une facture détaillée pour le notaire."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

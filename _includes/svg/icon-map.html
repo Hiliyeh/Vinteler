@@ -2,7 +2,7 @@
   Map Pin Icon - Reusable SVG component
   Usage: {% include svg/icon-map.html width="20" height="20" %}
 {% endcomment %}
-<svg viewBox="0 0 24 24" width="{{ include.width | default: 24 }}" height="{{ include.height | default: 24 }}" fill="none" stroke="currentColor" stroke-width="{{ include.stroke_width | default: 2 }}"{% if include.class %} class="{{ include.class }}"{% endif %}>
+<svg viewBox="0 0 24 24" width="{{ include.width | default: 24 }}" height="{{ include.height | default: 24 }}" fill="none" stroke="currentColor" stroke-width="{{ include.stroke_width | default: 2 }}"{% if include.class %} class="{{ include.class }}"{% endif %} aria-hidden="true" focusable="false">
     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
     <circle cx="12" cy="10" r="3"/>
 </svg>

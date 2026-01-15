@@ -52,8 +52,22 @@ features:
   - "Eaux usées/pluviales"
   - "Intervention sous 2h"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un pompage d'urgence après inondation?"
+    answer: "Le prix du pompage d'urgence dépend du volume d'eau et de l'accessibilité. VINTELER propose un forfait incluant déplacement 24/7, pompage et rapport pour assurance. Appelez le 0490 48 92 42."
+  - question: "En combien de temps intervenez-vous pour un pompage urgent?"
+    answer: "VINTELER intervient sous 2 heures maximum en Belgique. Notre équipe d'astreinte est disponible 24/7, weekends et jours fériés compris. Appelez immédiatement pour mobiliser une équipe."
+  - question: "Quel volume d'eau pouvez-vous pomper?"
+    answer: "Nos pompes haute capacité évacuent jusqu'à 500m³/heure. Nous intervenons sur caves inondées, parkings souterrains, sous-sols commerciaux et industriels. Aucune limite de volume."
+  - question: "Le pompage est-il couvert par l'assurance?"
+    answer: "Oui, le pompage d'urgence est généralement couvert par votre assurance habitation ou RC professionnelle. VINTELER fournit un rapport détaillé avec photos pour faciliter votre déclaration de sinistre."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

@@ -53,8 +53,22 @@ features:
   - "Terrasses"
   - "Parkings"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un pavage au m²?"
+    answer: "Le prix du pavage dépend du type de pavé choisi (béton, klinkers, pierre naturelle) et de la préparation nécessaire. VINTELER réalise un devis gratuit sur site avec plan d'aménagement."
+  - question: "Quelle est la durée de vie d'un pavage?"
+    answer: "Un pavage bien réalisé dure 30 à 50 ans. La qualité de la fondation et du drainage est déterminante. VINTELER garantit ses pavages 10 ans et utilise des pavés certifiés pour trafic piéton ou véhicules."
+  - question: "Peut-on paver une allée carrossable?"
+    answer: "Oui, avec des pavés adaptés au trafic véhicules (épaisseur 6-8cm) et une fondation renforcée. VINTELER dimensionne votre pavage selon l'usage : piéton, véhicules légers ou poids lourds."
+  - question: "Le pavage nécessite-t-il un entretien?"
+    answer: "Minimal : un nettoyage annuel au nettoyeur haute pression suffit. VINTELER pose des joints polymères qui limitent la pousse des mauvaises herbes. Pas de resurfaçage nécessaire comme pour l'asphalte."
+  - question: "VINTELER intervient-il dans la province de Liège ?"
+    answer: "Oui, nous couvrons toute la province de Liège : la ville de Liège, Verviers, Seraing, Herstal, Ans, Grâce-Hollogne, Visé, Huy, Waremme, Eupen, Malmedy, Spa, Stavelot et l'ensemble des communes."
+  - question: "Intervenez-vous dans les Cantons de l'Est ?"
+    answer: "Oui, nous intervenons dans les Cantons de l'Est (Eupen, Malmedy, Saint-Vith). Notre équipe peut communiquer en allemand pour faciliter les échanges."
+  - question: "Avez-vous l'expérience des bâtiments liégeois anciens ?"
+    answer: "Oui, nous avons une expertise particulière pour les bâtiments anciens de la région liégeoise, notamment les maisons à colombages, les anciennes demeures bourgeoises et les bâtiments industriels historiques."
 
 # Maillage interne - Services liés
 related_services:

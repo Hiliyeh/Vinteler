@@ -52,8 +52,22 @@ features:
   - "Renforcement structure"
   - "Étude préalable"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Faut-il un permis pour ouvrir un mur porteur ?"
+    answer: "En général, non pour une ouverture intérieure. Cependant, une note de calcul d'un ingénieur stabilité peut être exigée par votre assurance ou la commune. VINTELER peut coordonner cette étude et fournir tous les documents nécessaires."
+  - question: "Comment savoir si un mur est porteur ?"
+    answer: "Un mur porteur est généralement plus épais (20cm+), situé au centre du bâtiment ou sous une poutre. En cas de doute, VINTELER effectue un diagnostic gratuit sur site pour identifier les murs porteurs de votre habitation."
+  - question: "Quel est le prix d'une ouverture dans un mur porteur ?"
+    answer: "Le prix dépend de la largeur de l'ouverture, de l'épaisseur du mur et du type de poutrelle nécessaire (IPN/IPE). VINTELER réalise un devis gratuit après étude technique de votre projet."
+  - question: "Combien de temps durent les travaux ?"
+    answer: "Une ouverture dans un mur porteur prend généralement 2 à 5 jours : 1 jour pour l'étaiement, 1-2 jours pour la découpe et pose IPN, 1-2 jours pour les finitions. Le chantier reste propre et sécurisé."
+  - question: "VINTELER couvre-t-il le Limbourg ?"
+    answer: "Oui, nous intervenons dans tout le Limbourg : Hasselt, Genk, Tongres, Beringen, Sint-Truiden, Lommel, Maasmechelen, Leopoldsburg, Bilzen et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des sites miniers limbourgeois ?"
+    answer: "Oui, nous avons une expertise particulière pour les anciens sites miniers du Limbourg et les bâtiments industriels liés à cette histoire. Nous connaissons les problématiques spécifiques de ces constructions."
+  - question: "Proposez-vous des devis en néerlandais pour le Limbourg ?"
+    answer: "Oui, tous nos documents (devis, rapports, factures) peuvent être rédigés en néerlandais. Notre équipe est parfaitement bilingue."
 
 # Maillage interne - Services liés
 related_services:

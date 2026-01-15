@@ -52,8 +52,22 @@ features:
   - "Équipe spécialisée"
   - "Analyses laboratoire"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelle est la différence entre désamiantage simple et confiné ?"
+    answer: "Le désamiantage simple concerne l'amiante non friable (toitures, dalles). Le désamiantage confiné traite l'amiante friable (flocage, calorifuge) qui libère des fibres : il nécessite une zone étanche sous dépression, des contrôles atmosphériques et des équipements spécialisés."
+  - question: "Comment savoir si mon amiante nécessite un confinement ?"
+    answer: "L'amiante friable (qui s'effrite facilement) nécessite un confinement : flocages, calorifuges de tuyaux, certains faux-plafonds. VINTELER réalise un diagnostic gratuit pour déterminer le type de traitement adapté à votre situation."
+  - question: "Combien de temps dure un désamiantage en zone confinée ?"
+    answer: "Un désamiantage confiné dure généralement 3 à 10 jours selon la surface et la complexité. Ce délai inclut l'installation du confinement, le retrait, les contrôles atmosphériques et les analyses de libération de zone."
+  - question: "Le bâtiment peut-il être occupé pendant le désamiantage ?"
+    answer: "Non, la zone de travaux doit être évacuée et isolée pendant toute la durée du désamiantage confiné. VINTELER définit un périmètre de sécurité et coordonne les travaux pour minimiser l'impact sur l'activité du bâtiment."
+  - question: "Intervenez-vous sur la côte belge ?"
+    answer: "Oui, nous intervenons sur toute la côte belge : Ostende, Bruges, Blankenberge, Knokke-Heist, De Panne, Nieuport. Nous connaissons les problématiques spécifiques liées à l'environnement maritime."
+  - question: "Quelles villes de Flandre occidentale couvrez-vous ?"
+    answer: "Nous couvrons toute la Flandre occidentale : Bruges, Ostende, Courtrai, Roulers, Ypres, Waregem, Poperinge, Diksmuide, Torhout, Izegem et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des bâtiments côtiers ?"
+    answer: "Oui, nous avons une expertise spécifique pour les bâtiments exposés au sel marin et à l'humidité côtière. Nous utilisons des techniques adaptées à ces conditions particulières."
 
 # Maillage interne - Services liés
 related_services:

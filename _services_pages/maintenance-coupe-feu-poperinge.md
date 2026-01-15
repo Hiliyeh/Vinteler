@@ -52,8 +52,22 @@ features:
   - "Carnet d'entretien"
   - "Contrats maintenance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "La maintenance coupe-feu est-elle obligatoire?"
+    answer: "Oui, la réglementation impose un contrôle annuel des équipements coupe-feu. Le carnet d'entretien doit être présenté aux pompiers lors de leurs visites. VINTELER assure cette maintenance avec remise du carnet à jour."
+  - question: "Combien coûte un contrat de maintenance coupe-feu?"
+    answer: "Le prix d'un contrat de maintenance coupe-feu dépend du nombre d'équipements à entretenir. VINTELER propose des forfaits adaptés à chaque bâtiment. Pièces de remplacement incluses ou en supplément selon formule."
+  - question: "Que comprend la maintenance d'une porte coupe-feu?"
+    answer: "La maintenance d'une porte RF comprend : test de fermeture automatique, contrôle joints intumescents, vérification serrure et paumelles, graissage, réglage ferme-porte. VINTELER remplace immédiatement les pièces défectueuses."
+  - question: "Maintenez-vous tous types d'équipements coupe-feu?"
+    answer: "Oui, VINTELER assure la maintenance de tous les équipements : portes RF, clapets, exutoires, volets, rideaux métalliques coupe-feu. Un seul contrat pour l'ensemble de vos équipements."
+  - question: "Intervenez-vous sur la côte belge ?"
+    answer: "Oui, nous intervenons sur toute la côte belge : Ostende, Bruges, Blankenberge, Knokke-Heist, De Panne, Nieuport. Nous connaissons les problématiques spécifiques liées à l'environnement maritime."
+  - question: "Quelles villes de Flandre occidentale couvrez-vous ?"
+    answer: "Nous couvrons toute la Flandre occidentale : Bruges, Ostende, Courtrai, Roulers, Ypres, Waregem, Poperinge, Diksmuide, Torhout, Izegem et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des bâtiments côtiers ?"
+    answer: "Oui, nous avons une expertise spécifique pour les bâtiments exposés au sel marin et à l'humidité côtière. Nous utilisons des techniques adaptées à ces conditions particulières."
 
 # Maillage interne - Services liés
 related_services:

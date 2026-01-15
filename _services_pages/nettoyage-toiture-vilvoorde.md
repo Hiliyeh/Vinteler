@@ -52,8 +52,22 @@ features:
   - "Toits plats"
   - "Traitement hydrofuge"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "À quelle fréquence faut-il nettoyer sa toiture ?"
+    answer: "En Belgique, un nettoyage tous les 5 à 10 ans est recommandé selon l'exposition (arbres, humidité, orientation nord). Avec un traitement anti-mousse, vous prolongez l'intervalle entre deux nettoyages."
+  - question: "Le nettoyage haute pression abîme-t-il les tuiles ?"
+    answer: "Une pression trop forte peut effectivement dégrader les tuiles. VINTELER utilise une technique basse pression adaptée au matériau. Pour les toitures fragiles (ardoises, tuiles anciennes), nous privilégions le traitement chimique doux."
+  - question: "Combien coûte un démoussage de toiture ?"
+    answer: "Le prix dépend du type de toiture (tuiles, ardoises), de la surface et du niveau d'encrassement. Traitement anti-mousse inclus dans nos prestations. VINTELER propose un devis gratuit après inspection sur site."
+  - question: "Nettoyez-vous aussi les gouttières ?"
+    answer: "Oui, le nettoyage des gouttières est inclus dans nos prestations de nettoyage toiture. Nous retirons les feuilles et débris, vérifions l'écoulement et signalons les réparations éventuelles à prévoir."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

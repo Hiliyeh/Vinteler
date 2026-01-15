@@ -52,8 +52,22 @@ features:
   - "Évacuation gravats"
   - "Préparation rénovation"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un curage intérieur en Belgique ?"
+    answer: "Le prix d'un curage intérieur dépend de la complexité des travaux, de l'accessibilité, du volume de déchets et de la présence éventuelle d'amiante. VINTELER propose un devis gratuit sous 24h pour une estimation précise."
+  - question: "Quelle est la durée d'un curage intérieur ?"
+    answer: "Un curage intérieur standard dure entre 1 et 5 jours selon la surface à traiter. L'équipe VINTELER évacue les déchets simultanément pour optimiser les délais. Contactez-nous au 0490 48 92 42 pour une estimation précise."
+  - question: "Comment se déroule un curage intérieur ?"
+    answer: "Le curage comprend 4 étapes : 1) Diagnostic gratuit sur site, 2) Devis détaillé, 3) Démontage et évacuation méthodique, 4) Tri sélectif des déchets et nettoyage final. VINTELER gère tout de A à Z."
+  - question: "Faut-il un permis pour un curage intérieur ?"
+    answer: "Non, le curage intérieur ne nécessite pas de permis d'urbanisme en Belgique car il ne modifie pas la structure du bâtiment. Seule l'évacuation des déchets doit respecter les normes environnementales. VINTELER gère toutes les formalités."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

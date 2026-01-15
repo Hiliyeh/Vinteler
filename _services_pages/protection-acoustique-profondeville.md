@@ -52,8 +52,22 @@ features:
   - "Bureaux et salles"
   - "Locaux techniques"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte une isolation acoustique de bureau?"
+    answer: "Le prix de l'isolation acoustique d'un bureau dépend de la surface et de la performance visée. VINTELER propose un diagnostic gratuit pour identifier la solution optimale. Panneaux muraux, dalles plafond, cloisons."
+  - question: "Quelle différence entre absorption et isolation?"
+    answer: "L'absorption réduit la réverbération dans un local (écho). L'isolation empêche le bruit de passer entre deux locaux. VINTELER analyse vos besoins pour proposer la solution adaptée, souvent une combinaison des deux."
+  - question: "Les panneaux acoustiques sont-ils esthétiques?"
+    answer: "Oui, les panneaux acoustiques modernes existent en nombreux coloris et textures. Ils peuvent devenir un élément décoratif. VINTELER propose des solutions design adaptées à votre intérieur professionnel."
+  - question: "Peut-on isoler un local sans gros travaux?"
+    answer: "Oui, les panneaux acoustiques se posent en applique sur murs et plafonds existants. Installation rapide et propre, sans démolition. VINTELER minimise l'impact sur votre activité."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

@@ -53,8 +53,22 @@ features:
   - "Tempête & effondrement"
   - "Rapport pour assurance"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "En combien de temps intervenez-vous en cas d'urgence ?"
+    answer: "VINTELER garantit une intervention en 2 heures maximum partout en Belgique, 24h/24 et 7j/7. Appelez le 0490 48 92 42 pour une intervention immédiate après sinistre (incendie, inondation, tempête, accident)."
+  - question: "Que faire immédiatement après un sinistre ?"
+    answer: "1) Assurez votre sécurité et celle des occupants. 2) Appelez les pompiers si nécessaire. 3) Contactez VINTELER au 0490 48 92 42 pour sécuriser le site. 4) Prévenez votre assurance. 5) Ne touchez à rien avant notre intervention et les constats."
+  - question: "Fournissez-vous un rapport pour l'assurance ?"
+    answer: "Oui, VINTELER fournit systématiquement un rapport détaillé avec photos, description des dommages et des travaux réalisés. Ce document est accepté par toutes les compagnies d'assurance belges pour le traitement de votre dossier."
+  - question: "Intervenez-vous la nuit et le week-end ?"
+    answer: "Oui, VINTELER est disponible 24h/24 et 7j/7, y compris les nuits, week-ends et jours fériés. Les sinistres n'attendent pas : notre équipe d'astreinte intervient en 2h maximum partout en Belgique."
+  - question: "Couvrez-vous la région gantoise ?"
+    answer: "Oui, nous intervenons dans tout le Gantois : Gand-Ville, Lochristi, Merelbeke, Melle, Zwijnaarde, Deinze et les communes environnantes. Notre équipe connaît bien le tissu urbain et industriel de la région."
+  - question: "Quelles sont vos zones d'intervention en Flandre orientale ?"
+    answer: "Nous couvrons toute la Flandre orientale : Gand, Alost, Sint-Niklaas, Dendermonde, Lokeren, Wetteren, Zele, Ninove, Ronse, Geraardsbergen et l'ensemble de la province."
+  - question: "Intervenez-vous dans le port de Gand ?"
+    answer: "Oui, nous avons l'expérience des interventions dans les zones portuaires et industrielles de Gand. Nous disposons des certifications nécessaires pour ces environnements."
 
 # Maillage interne - Services liés
 related_services:

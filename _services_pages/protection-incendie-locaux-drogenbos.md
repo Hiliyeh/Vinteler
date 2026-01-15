@@ -52,8 +52,22 @@ features:
   - "Parkings souterrains"
   - "Caves communes"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelles sont les normes pour un local poubelles?"
+    answer: "Un local poubelles doit avoir des parois EI60, une porte EI30 avec ferme-porte, une ventilation haute/basse et un sol lavable. VINTELER réalise la mise en conformité complète de votre local poubelles."
+  - question: "Comment mettre aux normes une chaufferie?"
+    answer: "Une chaufferie nécessite des parois EI120 ou EI60 selon puissance, une porte EI30/EI60, une ventilation réglementaire et des coupures de sécurité. VINTELER audite et met aux normes vos chaufferies."
+  - question: "Le parking souterrain doit-il être coupe-feu?"
+    answer: "Oui, un parking souterrain doit être compartimenté avec des parois et portes coupe-feu, des clapets sur les gaines, un désenfumage. VINTELER réalise les travaux de mise en conformité des parkings."
+  - question: "Combien coûte la mise aux normes d'un local technique?"
+    answer: "Le prix de la mise aux normes d'un local à risque dépend de l'ampleur des travaux nécessaires. VINTELER propose un audit gratuit avec devis détaillé poste par poste."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

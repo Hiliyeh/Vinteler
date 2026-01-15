@@ -52,8 +52,22 @@ features:
   - "Logement insalubre"
   - "Évacuation déchets"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment se passe un nettoyage après décès ?"
+    answer: "VINTELER intervient avec discrétion et respect. Nous retirons les éléments souillés, désinfectons toutes les surfaces avec des produits biocides professionnels, puis traitons les odeurs par ozone. Le logement est rendu propre et sain, prêt pour la succession."
+  - question: "Intervenez-vous pour le syndrome de Diogène ?"
+    answer: "Oui, VINTELER est spécialisé dans le nettoyage de logements touchés par le syndrome de Diogène : accumulation de déchets, insalubrité, odeurs. Nous évacuons, désinfectons et remettons le logement en état habitable ou vendable."
+  - question: "L'intervention est-elle discrète ?"
+    answer: "Absolument. Nos équipes interviennent en véhicules banalisés, sans uniforme identifiable. Nous respectons la confidentialité de la situation et la dignité des personnes concernées. Aucune information n'est partagée."
+  - question: "Qui paie le nettoyage après décès ?"
+    answer: "Les frais sont généralement à la charge de la succession ou des héritiers. Dans certains cas, l'assurance habitation du défunt peut couvrir une partie des frais. Nous fournissons une facture détaillée pour le notaire."
+  - question: "VINTELER intervient-il dans la province de Liège ?"
+    answer: "Oui, nous couvrons toute la province de Liège : la ville de Liège, Verviers, Seraing, Herstal, Ans, Grâce-Hollogne, Visé, Huy, Waremme, Eupen, Malmedy, Spa, Stavelot et l'ensemble des communes."
+  - question: "Intervenez-vous dans les Cantons de l'Est ?"
+    answer: "Oui, nous intervenons dans les Cantons de l'Est (Eupen, Malmedy, Saint-Vith). Notre équipe peut communiquer en allemand pour faciliter les échanges."
+  - question: "Avez-vous l'expérience des bâtiments liégeois anciens ?"
+    answer: "Oui, nous avons une expertise particulière pour les bâtiments anciens de la région liégeoise, notamment les maisons à colombages, les anciennes demeures bourgeoises et les bâtiments industriels historiques."
 
 # Maillage interne - Services liés
 related_services:

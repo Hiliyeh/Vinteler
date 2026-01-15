@@ -52,8 +52,22 @@ features:
   - "Plafonds techniques"
   - "Certification EI"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment améliorer la résistance au feu d'un plancher bois?"
+    answer: "Un plancher bois ancien peut être renforcé par habillage sous-face en plaques coupe-feu ou flocage. VINTELER évalue votre plancher et propose la solution la plus adaptée pour atteindre EI30, EI60 ou EI90."
+  - question: "Combien coûte un renforcement de plafond coupe-feu?"
+    answer: "Le prix du renforcement de plafond coupe-feu dépend de la résistance visée et de la configuration. VINTELER réalise un devis gratuit après visite technique. Solution souvent plus économique qu'une reconstruction."
+  - question: "Peut-on renforcer un plafond sans le démonter?"
+    answer: "Oui, dans la plupart des cas. L'habillage coupe-feu se pose sous le plafond existant, ajoutant quelques centimètres d'épaisseur. VINTELER minimise l'impact sur la hauteur sous plafond."
+  - question: "Le renforcement est-il certifié pour les pompiers?"
+    answer: "Oui, VINTELER utilise uniquement des systèmes certifiés avec PV d'essai feu. Nous fournissons une attestation de conformité recevable par les services de prévention incendie."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

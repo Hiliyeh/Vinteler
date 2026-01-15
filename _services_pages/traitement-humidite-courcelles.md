@@ -53,8 +53,22 @@ features:
   - "Ventilation complémentaire"
   - "Traitement fissures"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment fonctionne le traitement par injection ?"
+    answer: "Des trous sont percés à la base du mur tous les 10-15 cm. Une résine hydrophobe est injectée sous pression, créant une barrière étanche qui bloque les remontées capillaires. Le mur sèche naturellement en 3 à 6 mois. Technique éprouvée et garantie 10 ans."
+  - question: "Combien coûte un traitement contre l'humidité ?"
+    answer: "Le prix du traitement par injection dépend de l'épaisseur du mur et de l'accessibilité. VINTELER réalise un diagnostic gratuit avec mesures d'humidité pour établir un devis précis adapté à votre situation."
+  - question: "Combien de temps pour voir les résultats ?"
+    answer: "Après injection, le mur doit sécher naturellement. Comptez 3 à 6 mois pour un assèchement complet, selon l'épaisseur du mur et le taux d'humidité initial. Les taches de salpêtre disparaissent progressivement pendant cette période."
+  - question: "Le traitement est-il garanti ?"
+    answer: "Oui, VINTELER garantit ses traitements d'humidité pendant 10 ans. Si des remontées capillaires réapparaissent dans la zone traitée, nous intervenons gratuitement. Un certificat de garantie vous est remis après travaux."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

@@ -53,19 +53,14 @@ function initDynamicYears() {
 
 function initNavigation() {
     const nav = document.getElementById('nav');
-    let lastScroll = 0;
 
     window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-
-        // Add/remove scrolled class
-        if (currentScroll > 50) {
+        // Add/remove scrolled class based on scroll position
+        if (window.pageYOffset > 50) {
             nav.classList.add('scrolled');
         } else {
             nav.classList.remove('scrolled');
         }
-
-        lastScroll = currentScroll;
     });
 
     // Smooth scroll for anchor links

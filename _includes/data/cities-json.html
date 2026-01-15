@@ -1,0 +1,11 @@
+{% comment %}
+  Cities Data JSON - Reusable component for JavaScript city autocomplete
+  Usage: {% include data/cities-json.html id="cities-data" %}
+
+  This consolidates the city data injection that was duplicated in:
+  - zones-finder.html
+  - zones-finder-universal.html
+{% endcomment %}
+<script id="{{ include.id | default: 'cities-data' }}" type="application/json">
+[{% for city in site.data.cities %}{"id":"{{ city.id }}","name":"{{ city.name }}","region":"{{ city.region }}","postalCodes":{{ city.postal_codes | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+</script>

@@ -52,8 +52,22 @@ features:
   - "Eaux usées/pluviales"
   - "Intervention sous 2h"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un pompage d'urgence après inondation?"
+    answer: "Le prix du pompage d'urgence dépend du volume d'eau et de l'accessibilité. VINTELER propose un forfait incluant déplacement 24/7, pompage et rapport pour assurance. Appelez le 0490 48 92 42."
+  - question: "En combien de temps intervenez-vous pour un pompage urgent?"
+    answer: "VINTELER intervient sous 2 heures maximum en Belgique. Notre équipe d'astreinte est disponible 24/7, weekends et jours fériés compris. Appelez immédiatement pour mobiliser une équipe."
+  - question: "Quel volume d'eau pouvez-vous pomper?"
+    answer: "Nos pompes haute capacité évacuent jusqu'à 500m³/heure. Nous intervenons sur caves inondées, parkings souterrains, sous-sols commerciaux et industriels. Aucune limite de volume."
+  - question: "Le pompage est-il couvert par l'assurance?"
+    answer: "Oui, le pompage d'urgence est généralement couvert par votre assurance habitation ou RC professionnelle. VINTELER fournit un rapport détaillé avec photos pour faciliter votre déclaration de sinistre."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

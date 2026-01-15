@@ -15,6 +15,18 @@ puts "═" * 50
 services = YAML.load_file('_data/services.yml')
 cities = YAML.load_file('_data/cities.yml')
 categories = YAML.load_file('_data/categories.yml') rescue nil
+regional_faq = YAML.load_file('_data/regional-faq.yml') rescue {}
+
+# Fonction pour normaliser le nom de région en clé de FAQ
+def normalize_region(region)
+  region.downcase
+        .gsub('é', 'e')
+        .gsub('è', 'e')
+        .gsub('ê', 'e')
+        .gsub('ô', 'o')
+        .gsub(' ', '-')
+        .gsub("'", '-')
+end
 
 # Créer le dossier pour les pages
 FileUtils.mkdir_p('_services_pages')
@@ -65,6 +77,12 @@ services.each do |service|
                           .first(5)
                           .map { |c| { 'id' => c['id'], 'name' => c['name'] } }
 
+    # Fusionner les FAQ du service avec les FAQ régionales
+    region_key = normalize_region(city['region'])
+    service_faq = service['faq'] || []
+    region_faq_items = regional_faq[region_key] || []
+    combined_faq = service_faq + region_faq_items
+
     # Créer le contenu de la page avec frontmatter enrichi
     content = <<~FRONTMATTER
       ---
@@ -108,8 +126,8 @@ services.each do |service|
       features:
       #{(service['features'] || []).map { |f| "  - \"#{f}\"" }.join("\n")}
 
-      # FAQ (pour SEO et schema FAQPage)
-      #{service['faq'] && service['faq'].length > 0 ? "faq:\n" + service['faq'].map { |f| "  - question: \"#{f['question'].gsub('"', '\\"')}\"\n    answer: \"#{f['answer'].gsub('"', '\\"')}\"" }.join("\n") : ""}
+      # FAQ (pour SEO et schema FAQPage) - Service + Région
+      #{combined_faq.length > 0 ? "faq:\n" + combined_faq.map { |f| "  - question: \"#{f['question'].gsub('"', '\\"')}\"\n    answer: \"#{f['answer'].gsub('"', '\\"')}\"" }.join("\n") : ""}
 
       # Maillage interne - Services liés
       related_services:
@@ -146,7 +164,7 @@ puts ""
 puts "SEO Local ameliore:"
 puts "   - Coordonnees GPS (lat/lng) pour chaque ville"
 puts "   - Code region ISO (geo_region) pour le ciblage geographique"
-puts "   - FAQ integree pour le schema FAQPage"
+puts "   - FAQ enrichies: service + region (#{regional_faq.keys.length} regions)"
 puts ""
 puts "Categories:"
 if categories

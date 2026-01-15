@@ -52,8 +52,22 @@ features:
   - "Eaux usées/pluviales"
   - "Intervention sous 2h"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un pompage d'urgence après inondation?"
+    answer: "Le prix du pompage d'urgence dépend du volume d'eau et de l'accessibilité. VINTELER propose un forfait incluant déplacement 24/7, pompage et rapport pour assurance. Appelez le 0490 48 92 42."
+  - question: "En combien de temps intervenez-vous pour un pompage urgent?"
+    answer: "VINTELER intervient sous 2 heures maximum en Belgique. Notre équipe d'astreinte est disponible 24/7, weekends et jours fériés compris. Appelez immédiatement pour mobiliser une équipe."
+  - question: "Quel volume d'eau pouvez-vous pomper?"
+    answer: "Nos pompes haute capacité évacuent jusqu'à 500m³/heure. Nous intervenons sur caves inondées, parkings souterrains, sous-sols commerciaux et industriels. Aucune limite de volume."
+  - question: "Le pompage est-il couvert par l'assurance?"
+    answer: "Oui, le pompage d'urgence est généralement couvert par votre assurance habitation ou RC professionnelle. VINTELER fournit un rapport détaillé avec photos pour faciliter votre déclaration de sinistre."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

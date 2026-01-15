@@ -52,8 +52,22 @@ features:
   - "Estimation travaux"
   - "Accompagnement pompiers"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un audit sécurité incendie?"
+    answer: "Le prix d'un audit sécurité incendie dépend de la taille du bâtiment. VINTELER offre le premier audit pour les projets de mise en conformité. Rapport détaillé avec photos et estimations."
+  - question: "Quand faut-il réaliser un audit incendie?"
+    answer: "Un audit est recommandé avant un contrôle des pompiers, après un avis défavorable, avant l'achat d'un bâtiment, ou en préparation de travaux. VINTELER peut intervenir sous 48h pour les urgences."
+  - question: "L'audit est-il accepté par les pompiers?"
+    answer: "L'audit VINTELER est un document technique interne pour préparer votre mise en conformité. Le contrôle officiel reste réalisé par les services de prévention incendie. Notre audit vous permet d'anticiper leurs observations."
+  - question: "Proposez-vous les travaux après l'audit?"
+    answer: "Oui, VINTELER réalise tous les travaux de mise en conformité identifiés lors de l'audit : portes RF, clapets, calfeutrement, cloisons, signalétique. Un seul interlocuteur du diagnostic à la réception."
+  - question: "Quelles villes du Brabant wallon couvrez-vous ?"
+    answer: "Nous intervenons dans tout le Brabant wallon : Wavre, Nivelles, Ottignies-Louvain-la-Neuve, Braine-l'Alleud, Waterloo, Tubize, Rixensart, Jodoigne, Perwez, Court-Saint-Étienne, Genappe, Lasne, La Hulpe, Chaumont-Gistoux et toutes les autres communes."
+  - question: "Y a-t-il des frais de déplacement pour le Brabant wallon ?"
+    answer: "Non, le déplacement est inclus dans nos devis pour l'ensemble du Brabant wallon. Nos équipes sont basées stratégiquement pour couvrir rapidement toute la province."
+  - question: "Intervenez-vous dans les zones résidentielles du Brabant wallon ?"
+    answer: "Oui, nous intervenons aussi bien dans les zones résidentielles que dans les zones industrielles du Brabant wallon. Nous adaptons nos horaires et équipements pour minimiser les nuisances."
 
 # Maillage interne - Services liés
 related_services:

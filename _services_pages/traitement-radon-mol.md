@@ -52,8 +52,22 @@ features:
   - "Puisard radon"
   - "Conformité SPF"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un traitement radon?"
+    answer: "Le prix du traitement radon dépend des travaux nécessaires (ventilation, puisard, étanchéité). VINTELER propose un devis personnalisé après analyse des mesures de radon."
+  - question: "Ma région est-elle concernée par le radon?"
+    answer: "En Belgique, les régions ardennaises sont les plus touchées : provinces de Luxembourg, Namur, Liège. Mais le radon peut être présent partout. VINTELER recommande une mesure systématique dans les zones à risque."
+  - question: "Quel est le seuil de radon dangereux?"
+    answer: "Le niveau d'action recommandé en Belgique est 300 Bq/m³. Au-delà, des travaux de réduction sont conseillés. VINTELER intervient pour ramener les concentrations sous ce seuil, idéalement sous 100 Bq/m³."
+  - question: "Le traitement radon est-il définitif?"
+    answer: "Oui, si les travaux sont correctement réalisés. La ventilation mécanique sous dalle ou le puisard actif évacuent le radon en continu. VINTELER garantit l'efficacité de ses installations avec mesure de contrôle."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

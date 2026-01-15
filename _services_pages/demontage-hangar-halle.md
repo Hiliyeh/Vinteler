@@ -52,8 +52,22 @@ features:
   - "Démontage bardage"
   - "Valorisation matériaux"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage de hangar?"
+    answer: "Le prix du démontage d'un hangar dépend de la surface et de l'état de la structure. VINTELER valorise les matériaux récupérés ce qui réduit votre facture. Devis gratuit sur site au 0490 48 92 42."
+  - question: "Peut-on récupérer la charpente d'un hangar?"
+    answer: "Oui, une charpente métallique en bon état peut être revendue ou réutilisée. VINTELER démonte soigneusement pour préserver les éléments. La valeur de revente est déduite de votre facture ou versée."
+  - question: "Faut-il un permis pour démonter un hangar?"
+    answer: "Le démontage d'un hangar nécessite généralement une déclaration préalable ou un permis de démolir selon la surface. VINTELER peut vous accompagner dans les démarches administratives."
+  - question: "Démontez-vous aussi les dalles béton?"
+    answer: "Oui, VINTELER peut démolir les fondations et dalles béton après démontage du hangar. Évacuation gravats et remise en état terrain pour un site prêt à être réutilisé."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:

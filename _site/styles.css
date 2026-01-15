@@ -5764,7 +5764,6 @@ body.modal-open {
 .zones-picker-header .section-tag {
     justify-content: center;
     margin-bottom: var(--space-md);
-    background: rgba(255, 255, 255, 0.1);
     color: var(--color-accent);
     font-weight: 700;
 }
@@ -11840,5 +11839,89 @@ body.modal-open {
     .hero-stat--highlight .hero-stat__icon svg {
         animation: none;
     }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   CLS Prevention - Aspect Ratios for Images
+   Prevents Cumulative Layout Shift by reserving space
+═══════════════════════════════════════════════════════════════════ */
+
+/* Service cards images */
+.svc-card__visual img,
+.hub-card-photo img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+/* Hero service images */
+.service-hero-bg img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Belgium map */
+.belgium-map-img {
+    aspect-ratio: 6/7;
+    width: 100%;
+    height: auto;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   Accessibility - Focus Visible States (WCAG 2.4.7)
+   Ensures keyboard users can see focused elements
+═══════════════════════════════════════════════════════════════════ */
+
+/* Skip link - hidden until focused */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0 0 8px 8px;
+    font-weight: 600;
+    z-index: 10000;
+    transition: top 0.2s ease;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Enhanced focus-visible for keyboard users */
+*:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Form inputs - enhanced focus for keyboard */
+.filter-select-wrap select:focus-visible,
+.filter-input-wrap input:focus-visible,
+.city-input-wrap input:focus-visible,
+.zones-input:focus-visible,
+.form-group input:focus-visible,
+.form-group select:focus-visible,
+.form-group textarea:focus-visible,
+.finder-select:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(15, 122, 122, 0.2);
+}
+
+/* Buttons - enhanced focus */
+button:focus-visible,
+.btn:focus-visible,
+a.btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
 }
 

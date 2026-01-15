@@ -41,6 +41,17 @@ indexnow:
   key: "1128b74ef956bacbafd521b09cd071d0"
   endpoint: "https://api.indexnow.org/indexnow"
 
+# Search Engine Verification Codes
+# Obtenir les codes:
+# - Google: https://search.google.com/search-console → Paramètres → Validation
+# - Bing: https://www.bing.com/webmasters → Ajouter site → Balise meta
+# - Yandex: https://webmaster.yandex.com → Ajouter site
+# - Pinterest: https://business.pinterest.com → Revendiquer site
+# google_site_verification: "VOTRE_CODE_GOOGLE"
+# bing_site_verification: "VOTRE_CODE_BING"
+# yandex_verification: "VOTRE_CODE_YANDEX"
+# pinterest_verification: "VOTRE_CODE_PINTEREST"
+
 # Build Settings
 markdown: kramdown
 permalink: pretty

@@ -52,8 +52,22 @@ features:
   - "Plafonds techniques"
   - "Certification EI"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Comment améliorer la résistance au feu d'un plancher bois?"
+    answer: "Un plancher bois ancien peut être renforcé par habillage sous-face en plaques coupe-feu ou flocage. VINTELER évalue votre plancher et propose la solution la plus adaptée pour atteindre EI30, EI60 ou EI90."
+  - question: "Combien coûte un renforcement de plafond coupe-feu?"
+    answer: "Le prix du renforcement de plafond coupe-feu dépend de la résistance visée et de la configuration. VINTELER réalise un devis gratuit après visite technique. Solution souvent plus économique qu'une reconstruction."
+  - question: "Peut-on renforcer un plafond sans le démonter?"
+    answer: "Oui, dans la plupart des cas. L'habillage coupe-feu se pose sous le plafond existant, ajoutant quelques centimètres d'épaisseur. VINTELER minimise l'impact sur la hauteur sous plafond."
+  - question: "Le renforcement est-il certifié pour les pompiers?"
+    answer: "Oui, VINTELER utilise uniquement des systèmes certifiés avec PV d'essai feu. Nous fournissons une attestation de conformité recevable par les services de prévention incendie."
+  - question: "Intervenez-vous dans la métropole anversoise ?"
+    answer: "Oui, nous couvrons toute l'agglomération d'Anvers : Anvers-Ville, Mortsel, Boom, Kontich, Schoten, Brasschaat, Kapellen, Edegem, Berchem et toutes les communes périphériques."
+  - question: "Avez-vous l'expérience du port d'Anvers ?"
+    answer: "Oui, nous intervenons régulièrement dans la zone portuaire d'Anvers, le plus grand port de Belgique. Nous disposons de toutes les certifications requises pour ces interventions."
+  - question: "Couvrez-vous la Campine anversoise ?"
+    answer: "Oui, nous intervenons dans toute la Campine : Turnhout, Herentals, Geel, Mol, Lier, Mechelen et l'ensemble du territoire. Aucun frais de déplacement supplémentaire."
 
 # Maillage interne - Services liés
 related_services:

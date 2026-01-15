@@ -52,8 +52,22 @@ features:
   - "Démontage bardage"
   - "Valorisation matériaux"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage de hangar?"
+    answer: "Le prix du démontage d'un hangar dépend de la surface et de l'état de la structure. VINTELER valorise les matériaux récupérés ce qui réduit votre facture. Devis gratuit sur site au 0490 48 92 42."
+  - question: "Peut-on récupérer la charpente d'un hangar?"
+    answer: "Oui, une charpente métallique en bon état peut être revendue ou réutilisée. VINTELER démonte soigneusement pour préserver les éléments. La valeur de revente est déduite de votre facture ou versée."
+  - question: "Faut-il un permis pour démonter un hangar?"
+    answer: "Le démontage d'un hangar nécessite généralement une déclaration préalable ou un permis de démolir selon la surface. VINTELER peut vous accompagner dans les démarches administratives."
+  - question: "Démontez-vous aussi les dalles béton?"
+    answer: "Oui, VINTELER peut démolir les fondations et dalles béton après démontage du hangar. Évacuation gravats et remise en état terrain pour un site prêt à être réutilisé."
+  - question: "VINTELER intervient-il dans la province de Liège ?"
+    answer: "Oui, nous couvrons toute la province de Liège : la ville de Liège, Verviers, Seraing, Herstal, Ans, Grâce-Hollogne, Visé, Huy, Waremme, Eupen, Malmedy, Spa, Stavelot et l'ensemble des communes."
+  - question: "Intervenez-vous dans les Cantons de l'Est ?"
+    answer: "Oui, nous intervenons dans les Cantons de l'Est (Eupen, Malmedy, Saint-Vith). Notre équipe peut communiquer en allemand pour faciliter les échanges."
+  - question: "Avez-vous l'expérience des bâtiments liégeois anciens ?"
+    answer: "Oui, nous avons une expertise particulière pour les bâtiments anciens de la région liégeoise, notamment les maisons à colombages, les anciennes demeures bourgeoises et les bâtiments industriels historiques."
 
 # Maillage interne - Services liés
 related_services:

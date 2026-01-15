@@ -52,8 +52,22 @@ features:
   - "Remise en état terrain"
   - "Intervention rapide"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Faut-il un permis pour démolir un garage ou une véranda ?"
+    answer: "En général, non. La démolition d'annexes de moins de 30m² ne nécessite pas de permis en Belgique. Pour les structures plus grandes ou en zone protégée, une déclaration peut être requise. VINTELER vous conseille selon votre situation."
+  - question: "Combien coûte la démolition d'un garage ?"
+    answer: "Le prix d'une démolition de garage dépend du type de construction (bois, métal, béton), de l'accessibilité et du volume de débris. VINTELER propose un devis gratuit sous 24h pour une estimation précise adaptée à votre projet."
+  - question: "Que devient l'emplacement après démolition ?"
+    answer: "VINTELER nivelle le terrain après démolition. Vous pouvez ensuite construire une nouvelle annexe, créer un espace de stationnement ou aménager un jardin. Nous pouvons aussi poser des pavés ou dalles sur demande."
+  - question: "Démolissez-vous aussi les fondations ?"
+    answer: "Oui, sur demande nous retirons les fondations et dalles béton. Cette option est recommandée si vous souhaitez planter ou construire à un autre emplacement. Le prix est ajusté en fonction du volume de béton à évacuer."
+  - question: "Intervenez-vous sur la côte belge ?"
+    answer: "Oui, nous intervenons sur toute la côte belge : Ostende, Bruges, Blankenberge, Knokke-Heist, De Panne, Nieuport. Nous connaissons les problématiques spécifiques liées à l'environnement maritime."
+  - question: "Quelles villes de Flandre occidentale couvrez-vous ?"
+    answer: "Nous couvrons toute la Flandre occidentale : Bruges, Ostende, Courtrai, Roulers, Ypres, Waregem, Poperinge, Diksmuide, Torhout, Izegem et toutes les communes de la province."
+  - question: "Avez-vous l'expérience des bâtiments côtiers ?"
+    answer: "Oui, nous avons une expertise spécifique pour les bâtiments exposés au sel marin et à l'humidité côtière. Nous utilisons des techniques adaptées à ces conditions particulières."
 
 # Maillage interne - Services liés
 related_services:

@@ -53,8 +53,22 @@ features:
   - "Terrasses"
   - "Parkings"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un pavage au m²?"
+    answer: "Le prix du pavage dépend du type de pavé choisi (béton, klinkers, pierre naturelle) et de la préparation nécessaire. VINTELER réalise un devis gratuit sur site avec plan d'aménagement."
+  - question: "Quelle est la durée de vie d'un pavage?"
+    answer: "Un pavage bien réalisé dure 30 à 50 ans. La qualité de la fondation et du drainage est déterminante. VINTELER garantit ses pavages 10 ans et utilise des pavés certifiés pour trafic piéton ou véhicules."
+  - question: "Peut-on paver une allée carrossable?"
+    answer: "Oui, avec des pavés adaptés au trafic véhicules (épaisseur 6-8cm) et une fondation renforcée. VINTELER dimensionne votre pavage selon l'usage : piéton, véhicules légers ou poids lourds."
+  - question: "Le pavage nécessite-t-il un entretien?"
+    answer: "Minimal : un nettoyage annuel au nettoyeur haute pression suffit. VINTELER pose des joints polymères qui limitent la pousse des mauvaises herbes. Pas de resurfaçage nécessaire comme pour l'asphalte."
+  - question: "Quelles communes couvrez-vous dans la province de Namur ?"
+    answer: "Nous intervenons dans toute la province de Namur : Namur-Ville, Dinant, Ciney, Rochefort, Gembloux, Sambreville, Jemeppe-sur-Sambre, Andenne, Profondeville, Florennes et toutes les autres communes."
+  - question: "Intervenez-vous dans les zones touristiques namuroises ?"
+    answer: "Oui, nous intervenons dans les zones touristiques comme Dinant, Rochefort et la vallée de la Meuse. Nous planifions nos interventions pour minimiser l'impact sur l'activité touristique."
+  - question: "Proposez-vous des interventions le week-end dans le Namurois ?"
+    answer: "Oui, nous proposons des interventions le week-end sur rendez-vous dans toute la province de Namur, avec le même niveau de qualité qu'en semaine."
 
 # Maillage interne - Services liés
 related_services:

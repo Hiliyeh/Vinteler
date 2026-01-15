@@ -52,8 +52,22 @@ features:
   - "Plaques RF EI30/EI60"
   - "Fermeture passages techniques"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un calfeutrement coupe-feu?"
+    answer: "Le prix du calfeutrement coupe-feu dépend du nombre de passages à traiter. VINTELER réalise un devis gratuit sur site avec inventaire précis. Produits certifiés et attestation fournie."
+  - question: "Quand faut-il réaliser un calfeutrement coupe-feu?"
+    answer: "Le calfeutrement est obligatoire après tout percement de paroi coupe-feu : passage câbles, tuyaux, gaines. Également après curage ou rénovation. VINTELER peut auditer votre bâtiment gratuitement."
+  - question: "Quelle est la durée de vie d'un calfeutrement RF?"
+    answer: "Un calfeutrement correctement réalisé dure toute la vie du bâtiment s'il n'est pas modifié. Les produits VINTELER sont certifiés pour des durées de résistance EI30 à EI120 selon les besoins."
+  - question: "Le calfeutrement est-il vérifié par les pompiers?"
+    answer: "Oui, les pompiers contrôlent le compartimentage lors de leurs visites. Un calfeutrement non conforme peut entraîner un avis défavorable. VINTELER fournit une attestation recevable par les services de prévention incendie."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

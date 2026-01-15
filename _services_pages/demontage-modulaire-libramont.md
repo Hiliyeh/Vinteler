@@ -52,8 +52,22 @@ features:
   - "Algeco et similaires"
   - "Remise en état terrain"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un démontage de maison modulaire?"
+    answer: "Le prix du démontage d'une maison modulaire dépend de la taille et de l'accessibilité. VINTELER propose un forfait incluant démontage, évacuation et remise en état terrain. Devis au 0490 48 92 42."
+  - question: "Peut-on déplacer une maison modulaire plutôt que la démonter?"
+    answer: "Oui, si la structure est en bon état et accessible aux convois exceptionnels. VINTELER évalue la faisabilité et peut organiser le transport vers un nouveau site. Solution économique et écologique."
+  - question: "Démontez-vous les bungalows de chantier Algeco?"
+    answer: "Oui, VINTELER démonte tous types de bungalows de chantier : Algeco, Portakabin, Cougnaud, etc. Location terminée ou fin de chantier, nous évacuons rapidement vos installations provisoires."
+  - question: "Faut-il un permis pour enlever un préfabriqué?"
+    answer: "Le retrait d'une construction modulaire nécessite rarement un permis si elle était temporaire. Pour les installations permanentes, une déclaration peut être requise. VINTELER vous conseille selon votre situation."
+  - question: "Couvrez-vous la province du Luxembourg belge ?"
+    answer: "Oui, nous intervenons dans toute la province du Luxembourg : Arlon, Bastogne, Marche-en-Famenne, Virton, Neufchâteau, Libramont, Bouillon, Durbuy, Habay et l'ensemble du territoire."
+  - question: "Les délais sont-ils plus longs pour le Luxembourg ?"
+    answer: "Non, grâce à notre organisation logistique, nous garantissons des délais similaires aux autres provinces. Pour les urgences, nous intervenons sous 4 heures maximum dans toute la province."
+  - question: "Avez-vous l'expérience des maisons rurales ardennaises ?"
+    answer: "Oui, nous connaissons bien les spécificités des constructions ardennaises : maisons en pierre du pays, fermes traditionnelles, granges. Nous adaptons nos techniques à ces types de bâtiments."
 
 # Maillage interne - Services liés
 related_services:

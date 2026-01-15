@@ -52,8 +52,22 @@ features:
   - "Parkings souterrains"
   - "Caves communes"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Quelles sont les normes pour un local poubelles?"
+    answer: "Un local poubelles doit avoir des parois EI60, une porte EI30 avec ferme-porte, une ventilation haute/basse et un sol lavable. VINTELER réalise la mise en conformité complète de votre local poubelles."
+  - question: "Comment mettre aux normes une chaufferie?"
+    answer: "Une chaufferie nécessite des parois EI120 ou EI60 selon puissance, une porte EI30/EI60, une ventilation réglementaire et des coupures de sécurité. VINTELER audite et met aux normes vos chaufferies."
+  - question: "Le parking souterrain doit-il être coupe-feu?"
+    answer: "Oui, un parking souterrain doit être compartimenté avec des parois et portes coupe-feu, des clapets sur les gaines, un désenfumage. VINTELER réalise les travaux de mise en conformité des parkings."
+  - question: "Combien coûte la mise aux normes d'un local technique?"
+    answer: "Le prix de la mise aux normes d'un local à risque dépend de l'ampleur des travaux nécessaires. VINTELER propose un audit gratuit avec devis détaillé poste par poste."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

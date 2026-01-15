@@ -52,8 +52,22 @@ features:
   - "Remise en état terrain"
   - "Intervention rapide"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Faut-il un permis pour démolir un garage ou une véranda ?"
+    answer: "En général, non. La démolition d'annexes de moins de 30m² ne nécessite pas de permis en Belgique. Pour les structures plus grandes ou en zone protégée, une déclaration peut être requise. VINTELER vous conseille selon votre situation."
+  - question: "Combien coûte la démolition d'un garage ?"
+    answer: "Le prix d'une démolition de garage dépend du type de construction (bois, métal, béton), de l'accessibilité et du volume de débris. VINTELER propose un devis gratuit sous 24h pour une estimation précise adaptée à votre projet."
+  - question: "Que devient l'emplacement après démolition ?"
+    answer: "VINTELER nivelle le terrain après démolition. Vous pouvez ensuite construire une nouvelle annexe, créer un espace de stationnement ou aménager un jardin. Nous pouvons aussi poser des pavés ou dalles sur demande."
+  - question: "Démolissez-vous aussi les fondations ?"
+    answer: "Oui, sur demande nous retirons les fondations et dalles béton. Cette option est recommandée si vous souhaitez planter ou construire à un autre emplacement. Le prix est ajusté en fonction du volume de béton à évacuer."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

@@ -53,7 +53,7 @@ features:
   - "Devis gratuit 24h"
   - "Tri sélectif des matériaux"
 
-# FAQ (pour SEO et schema FAQPage)
+# FAQ (pour SEO et schema FAQPage) - Service + Région
 faq:
   - question: "Combien coûte une démolition complète en Belgique ?"
     answer: "Le prix d'une démolition complète dépend de la taille du bâtiment, des matériaux et de l'accessibilité. VINTELER propose des devis gratuits sous 24h pour une estimation précise."
@@ -61,6 +61,14 @@ faq:
     answer: "Oui, un permis d'urbanisme est généralement requis pour une démolition complète. Notre équipe peut vous accompagner dans les démarches administratives."
   - question: "Que devient les débris après une démolition ?"
     answer: "VINTELER assure le tri sélectif et l'évacuation réglementaire des débris vers des centres agréés. La valorisation des matériaux est privilégiée."
+  - question: "Faut-il un diagnostic amiante avant démolition ?"
+    answer: "Oui, un diagnostic amiante est obligatoire avant toute démolition de bâtiment construit avant 2001. VINTELER peut réaliser ce diagnostic et, si nécessaire, le désamiantage avant la démolition. Tout est géré en un seul chantier."
+  - question: "Couvrez-vous l'ensemble du Hainaut ?"
+    answer: "Oui, nous intervenons dans tout le Hainaut : Charleroi, Mons, Tournai, La Louvière, Mouscron, Binche, Soignies, Ath, Lessines, Enghien, Fleurus, Châtelet, et toutes les communes de la province."
+  - question: "Avez-vous de l'expérience avec les sites industriels du Hainaut ?"
+    answer: "Absolument. Le Hainaut étant historiquement une région industrielle, nous avons une grande expérience des interventions sur sites industriels : anciennes usines, friches, bâtiments de stockage, etc."
+  - question: "Quels délais pour une intervention urgente dans le Hainaut ?"
+    answer: "Pour les urgences dans le Hainaut, nous garantissons une intervention sous 3 heures maximum, 24h/24 et 7j/7. Notre équipe mobile est équipée pour intervenir rapidement sur tout le territoire."
 
 # Maillage interne - Services liés
 related_services:

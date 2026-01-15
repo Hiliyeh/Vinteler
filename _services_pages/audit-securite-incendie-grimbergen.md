@@ -52,8 +52,22 @@ features:
   - "Estimation travaux"
   - "Accompagnement pompiers"
 
-# FAQ (pour SEO et schema FAQPage)
-
+# FAQ (pour SEO et schema FAQPage) - Service + Région
+faq:
+  - question: "Combien coûte un audit sécurité incendie?"
+    answer: "Le prix d'un audit sécurité incendie dépend de la taille du bâtiment. VINTELER offre le premier audit pour les projets de mise en conformité. Rapport détaillé avec photos et estimations."
+  - question: "Quand faut-il réaliser un audit incendie?"
+    answer: "Un audit est recommandé avant un contrôle des pompiers, après un avis défavorable, avant l'achat d'un bâtiment, ou en préparation de travaux. VINTELER peut intervenir sous 48h pour les urgences."
+  - question: "L'audit est-il accepté par les pompiers?"
+    answer: "L'audit VINTELER est un document technique interne pour préparer votre mise en conformité. Le contrôle officiel reste réalisé par les services de prévention incendie. Notre audit vous permet d'anticiper leurs observations."
+  - question: "Proposez-vous les travaux après l'audit?"
+    answer: "Oui, VINTELER réalise tous les travaux de mise en conformité identifiés lors de l'audit : portes RF, clapets, calfeutrement, cloisons, signalétique. Un seul interlocuteur du diagnostic à la réception."
+  - question: "Proposez-vous des services en néerlandais dans le Brabant flamand ?"
+    answer: "Oui, notre équipe est bilingue et peut communiquer en français et en néerlandais. Tous nos devis et rapports peuvent être rédigés dans la langue de votre choix."
+  - question: "Quelles sont les principales villes couvertes en Brabant flamand ?"
+    answer: "Nous couvrons Leuven, Vilvoorde, Halle, Zaventem, Grimbergen, Dilbeek, Tervuren, Overijse, Hoeilaart, Machelen et toutes les autres communes du Brabant flamand."
+  - question: "Travaillez-vous avec les administrations flamandes ?"
+    answer: "Oui, nous collaborons régulièrement avec les administrations communales flamandes et respectons toutes les réglementations régionales flamandes en vigueur."
 
 # Maillage interne - Services liés
 related_services:
