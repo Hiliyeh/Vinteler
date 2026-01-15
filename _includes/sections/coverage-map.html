@@ -35,7 +35,7 @@
 
                 <!-- Map pins overlay - cities with positions -->
                 <div class="map-pins-overlay">
-                    {% assign map_pins = "Bruxelles:42:36,Anvers:52:18,Bruges:20:30,Gand:35:28,Hasselt:72:22,Liège:80:38,Namur:62:54,Charleroi:42:56,Mons:35:58,Arlon:82:82" | split: "," %}
+                    {% assign map_pins = "Bruxelles:45:38,Anvers:52:22,Bruges:24:28,Gand:35:30,Hasselt:72:26,Liège:78:42,Namur:58:52,Charleroi:48:60,Mons:30:62,Arlon:85:85" | split: "," %}
                     {% for pin in map_pins %}
                         {% assign pin_data = pin | split: ":" %}
                         {% assign city = pin_data[0] %}
