@@ -1,10 +1,10 @@
-# VIN TELLER SOLUTIONS - Configuration Jekyll
+# VINTELER - Configuration Jekyll
 # Une seule entreprise. Toutes les solutions.
 
 # Site Settings
 title: "Vinteler"
 tagline: "Une seule entreprise. Toutes les solutions."
-description: "Vin Teller Solutions - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin."
+description: "Vinteler - Votre solution complète pour tous problèmes de bâtiment en Belgique. Sinistres 24/7, désamiantage certifié, rénovation. Un seul interlocuteur du début à la fin."
 url: "https://vinteler.be"
 baseurl: ""
 lang: "fr-BE"
@@ -24,17 +24,17 @@ contact:
 
 # Company Info
 company:
-  name: "Vin Teller Solutions"
+  name: "Vinteler"
   founded: 2014
   experience: "10+"
   type: "Solution complète bâtiment"
 
 # SEO
-author: "Vin Teller Solutions"
-social:
-  facebook: "https://www.facebook.com/vinteler.be"
-  instagram: "https://www.instagram.com/vinteler.be"
-  linkedin: "https://www.linkedin.com/company/vinteler"
+author: "Vinteler"
+# social:
+#   facebook: ""
+#   instagram: ""
+#   linkedin: ""
 
 # IndexNow (Bing, Yandex, ChatGPT Search)
 indexnow:
